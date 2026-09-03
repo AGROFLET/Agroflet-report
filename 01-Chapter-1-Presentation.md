@@ -1,6 +1,6 @@
 # Capítulo I: Introducción
 
-En el presente capítulo se introduce el perfil de la startup **AgroFlet**, detallando su identidad, propósito y visión estratégica dentro del ecosistema tecnológico y agroalimentario peruano.
+En el presente capítulo se introduce el perfil de la startup AgroFlet, detallando su identidad, propósito y visión estratégica dentro del ecosistema tecnológico y agroalimentario peruano.
 
 ## 1.1. Startup Profile
 
