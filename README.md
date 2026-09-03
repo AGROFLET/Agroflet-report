@@ -7,19 +7,19 @@
 
 **Carrera de Ingeniería de Software**
 
-**Período:** 202610
+**Período:** 202620
 
-**Aplicaciones para Dispositivos Móviles**
+**Aplicaciones Web**
 
-**NRC:** 3821
+**NRC:** 16127
 
-**Docente:** Mayta Guillermo, Jorge Luis
+**Docente:** Oscar Ivan Villafuerte Bazan
 
 ### Informe de Trabajo Final
 
-**Nombre del startup:** SANUVI
+**Nombre del startup:** NEXAWEB
 
-**Nombre del producto:** Ferova
+**Nombre del producto:** AGROFLET
 
 #### Relación de integrantes
 
