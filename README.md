@@ -285,6 +285,6 @@ Este segmento agrupa a los actores que reciben los envíos de alimentos agrícol
 **Puntos de dolor (Pain Points):**  
 *   Incertidumbre sobre la hora de llegada de los envíos, lo que obliga a mantener personal de recepción en espera durante periodos prolongados.
 *   Imposibilidad de anticipar retrasos que puedan generar desabastecimiento o pérdida de frescura del producto.
-*   Falta de un canal formal para recibir información sobre incidencias en ruta de parte del transportista [15].
-*   Dificultad para evaluar el desempeño de sus proveedores de transporte al carecer de registros históricos de cumplimiento [15].
-*   En el caso de compradores formales, presión creciente de sus propias cadenas de auditoría interna para documentar la trazabilidad de su cadena de suministro [15].
+*   Falta de un canal formal para recibir información sobre incidencias en ruta de parte del transportista.
+*   Dificultad para evaluar el desempeño de sus proveedores de transporte al carecer de registros históricos de cumplimiento.
+*   En el caso de compradores formales, presión creciente de sus propias cadenas de auditoría interna para documentar la trazabilidad de su cadena de suministro.
