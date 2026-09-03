@@ -1,6 +1,10 @@
 # Capítulo I: Introducción
 
+En el presente capítulo se introduce el perfil de la startup **AgroFlet**, detallando su identidad, propósito y visión estratégica dentro del ecosistema tecnológico y agroalimentario peruano.
+
 ## 1.1. Startup Profile
+
+Esta sección tiene como objetivo presentar de manera estructurada la naturaleza del proyecto, su propuesta de valor, así como los principios que orientan su desarrollo. A continuación, se describe la startup, su misión, visión y el contexto del mercado en el que busca posicionarse como una solución innovadora para la trazabilidad logística de alimentos.
 
 ### 1.1.1. Descripción de la Startup
 AgroFlet es una startup tecnológica peruana que está orientada a transformar la visibilidad, el control y la trazabilidad del transporte terrestre de alimentos a nivel nacional. Su propuesta de valor se centra en el monitoreo digital de productos agrícolas y alimentos perecibles como tubérculos, frutas, hortalizas, granos y otros productos que requieren seguimiento continuo durante su traslado desde las zonas de producción hasta los centros de distribución y comercialización.
