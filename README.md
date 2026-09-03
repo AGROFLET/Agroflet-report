@@ -25,11 +25,11 @@
 
 | Código     | Apellidos y Nombres                  |
 | ---------- | ------------------------------------ |
-| U20231C426 |            |
-| U202322855 |                 |
+| U20241F027 | Alca Morán, César Alejandro |
+| U20241D920 | Centeno León, Adriano Samir |
 | u20241F109 | Rivas Méndez, Bernie Aarón|
-| u202314115 |   |
-| u202312932 |        |
+| U20241D811 | Saavedra Flores, Rodrigo Andree |
+| U202421618 | Tello Lima, Jose Alejandro |
 
 **Junio 2026**
 
