@@ -177,6 +177,114 @@ Perfil demográfico (edad, distrito, nivel educativo, cargo, tipo de negocio); p
 
 ### 2.2.2. Registro de entrevistas
 
+A continuación, se presenta el registro de las entrevistas realizadas a los representantes de cada segmento objetivo.
+
+---
+
+#### Entrevista 1: Segmento 1 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+
+---
+
+#### Entrevista 2: Segmento 1 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+
+---
+
+
+#### Entrevista 2: Segmento 1 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+
+---
+
+#### Entrevista 2: Segmento 1 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+
+---
+
+#### Entrevista 2: Segmento 1 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+
+---
+
+#### Entrevista 2: Segmento 1 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+
+---
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
