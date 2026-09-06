@@ -185,16 +185,20 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Nombres y Apellidos** | Jhoan Darner Garduchi |
+| **Edad** | 26 naños |
+| **Distrito** | El Tambo, Huancayo (Junín) |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM05U5DqbsSKkCNyghqdYKASth7mG2GdVDM912JXWUmII?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dWEYI4 |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 11:22 minutos |
 | **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
-(Pendiente)
 
+El entrevistado es un joven administrador que gestiona la logística y ventas del negocio familiar de acopio y despacho de productos agrícolas (papa y zanahoria) hacia Lima. Es pragmático, nativo digital y actúa como el motor de modernización frente a la "vieja escuela" de su padre. Usa su smartphone (Xiaomi) como herramienta principal para coordinar vía WhatsApp y su laptop para tareas administrativas (Excel, SUNAT).
+
+Su objetivo principal es profesionalizar el negocio, ampliar su red de transportistas de confianza y garantizar la calidad de la carga al llegar a los mercados mayoristas. Su mayor frustración es la incertidumbre total y la falta de control una vez que el camión sale, lo que le ha causado pérdidas económicas directas (hasta 1,500 soles por carga malograda o "sudada" por demoras) y roces con sus compradores por retrasos no reportados a tiempo.
+
+Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea extremadamente simple (casi como usar WhatsApp), que funcione con baja o nula señal en zonas altoandinas, y que envíe alertas automáticas de incidencias directamente a su celular. Muestra alta disposición a pagar, pero prefiere un modelo flexible de pago por viaje (10-15 soles) o una suscripción mensual muy baja (40-50 soles), sugiriendo además que la herramienta debe incentivar al chofer a usarla para asegurar su adopción.
 
 ---
 
