@@ -64,7 +64,7 @@ Los criterios de aceptación de cada User Story están redactados en tiempo pres
 
 En esta sección se presenta el Impact Mapping del modelo de negocio AgroFlet. Esto nos permite visualizar de manera estructurada los objetivos estratégicos del proyecto y cómo estos se relacionan con los actores involucrados y las funcionalidades que se implementarán, asegurándonos de que cada característica del producto tenga un propósito claro y medible.
 
-![Impact Map](../assets/ImpactMapping1.png)
+![Impact Map](assets/images/ImpactMapping1.png)
 
 El Impact Mapping elaborado para AgroFlet ilustra de manera estratégica cómo las funcionalidades de nuestra plataforma tecnológica contribuye a alcanzar nuestros objetivos de negocio. Para esta fase del proyecto, hemos definido un objetivo SMART (Business Goal) enfocados tanto en la adopción empresarial como en la penetración en el usuario final.
 
