@@ -168,6 +168,7 @@ El wireframe establece la estructura de la página de aterrizaje en escala de gr
 
 ![Landing Wireframe Mobile 7](assets/images/Landing_MobileW7.png)
 
+**Link de figma:** [Ver en Figma](https://www.figma.com/design/gKyUHMHD9eKJ3KUjmugVd1/Landing-Page---AgroFlet?node-id=0-1&t=iTO54ThcvYOIGSXQ-1)
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -232,6 +233,8 @@ El Mock-up de alta fidelidad integra el isotipo de AgroFlet, la paleta de colore
 **Landing Mockup Mobile 7**
 
 ![Landing Mockup Mobile 7](assets/images/Landing_MobileM7.png)
+
+**Link de figma:** [Ver en Figma](https://www.figma.com/design/gKyUHMHD9eKJ3KUjmugVd1/Landing-Page---AgroFlet?node-id=0-1&t=iTO54ThcvYOIGSXQ-1)
 
 ## 4.4. Web Applications UX/UI Design
 
