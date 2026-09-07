@@ -10,9 +10,28 @@ La identidad visual de AgroFlet se fundamenta en los elementos conceptuales del 
 
 La identidad visual de AgroFlet se fundamenta en principios de claridad, confianza y eficiencia operativa, alineados con el ecosistema agro-logístico.
 
+**Branding**
 
-* **Tipografía:** Se adopta la familia tipográfica **Inter** (sans-serif) por su alta legibilidad en interfaces densas y tablas de datos. Se establecen jerarquías estrictas: *Headings* (H1-H3) en pesos *SemiBold* y *Body* en peso *Regular*.
-* **Paleta de Colores (Basada en el Isotipo):**
+Para AgroFlet, el branding se diseñó para mostrar confianza corporativa y eficiencia operativa, abarcando el sector de la logística agroalimentaria. Los tres elementos conceptuales del isotipo (el pin de ubicación, la hoja y la carretera en forma de circuito) representan la trazabilidad en tiempo real, el origen agrícola de la carga y la digitalización del transporte terrestre que nuestra plataforma web promete mediante sus funcionalidades principales. En el tema de colores, el color verde representa la frescura de los alimentos perecibles y la sostenibilidad, mientras que el azul marino corporativo representa la seguridad y formalidad B2B, contrastando de buena manera con los detalles naranjas que dinamizan la ruta. El diseño incluye el imagotipo y el nombre del producto dividido cromáticamente ("Agro" y "Flet") para que sea fácil de leer y asociar rápidamente con nuestro modelo de negocio.
+
+<p align="center">
+  <img src="assets/images/LogoOfi.png" alt="Agroflet1" title="Agroflet1" width="600">
+</p>
+
+**Tipografía:**
+Se adopta la familia tipográfica **Inter** (sans-serif) por su alta legibilidad en interfaces densas y tablas de datos. Se establecen jerarquías estrictas: *Headings* (H1-H3) en pesos *SemiBold* y *Body* en peso *Regular*.
+
+<p align="center">
+  <img src="assets/images/Inter sans serif.jpeg" alt="typography" title="typography" width="600">
+</p>
+
+**Paleta de Colores:**
+La paleta de colores de aGROFLET se compone de 5 colores y sus variantes. Los colores, en conjunto, permiten mostrar una claridad en el diseño de las dos aplicaciones.
+
+<p align="center">
+  <img src="assets/images/Agroflet coolors.png" alt="coolors" title="coolors" width="600">
+</p>
+
 * *Primary (Verde AgroFlet):* `#27AE60`. Transmite sostenibilidad, frescura agrícola y acciones de éxito.
 * *Secondary (Azul Marino Corporativo):* `#0B3B60`. Utilizado en tipografía principal, menús de navegación (*Sidebar*) y elementos que requieren transmitir seguridad y formalidad institucional.
 * *Accent (Naranja Ruta):* `#F39C12`. Utilizado para resaltar rutas activas, estados pendientes o alertas de nivel medio.
