@@ -72,7 +72,7 @@ Además, en ciertas secciones se incorporan flujos secuenciales que guían al us
 </p>
 
 <strong>Acceso al diagrama de la Arquitectura de Información (Miro):</strong><br>
-  <a href="https://miro.com/app/board/uXjVHpjtvic=/?focusWidget=3458764644104209191">https://miro.com/app/board/uXjVHpjtvic=/?focusWidget=3458764644104209191</a>
+  <a href=https://miro.com/app/board/uXjVHpjtvic=/?share_link_id=251750996606</a>
 
 ### 4.2.2. Labeling Systems
 
