@@ -64,6 +64,15 @@ Para nuestra plataforma se opta por una organización visual jerárquica con ele
 
 Además, en ciertas secciones se incorporan flujos secuenciales que guían al usuario paso a paso para completar tareas o llegar a páginas específicas (por ejemplo, el registro de una nueva unidad de transporte o el reporte de una incidencia en ruta). Esta estructura facilita aplicar principios de arquitectura de información como claridad, accesibilidad, navegación enfocada y facilidad de uso. Finalmente, gracias a la investigación previa y la definición de los User Personas, se asegura que el contenido de cada categoría sea relevante y útil para el usuario.
 
+<p align="center">
+  <img src="assets/images/arquitectura de landing agroflett.jpeg" title="arquiinfooo" width="600">
+</p>
+<p align="center">
+  Nota: Diagrama de organización de información del landing page.<br>
+</p>
+
+<strong>Acceso al diagrama de la Arquitectura de Información (Miro):</strong><br>
+  <a href="https://miro.com/app/board/uXjVHpjtvic=/?focusWidget=3458764644104209191">https://miro.com/app/board/uXjVHpjtvic=/?focusWidget=3458764644104209191</a>
 
 ### 4.2.2. Labeling Systems
 
