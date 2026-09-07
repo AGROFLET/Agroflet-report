@@ -38,24 +38,32 @@ La paleta de colores de aGROFLET se compone de 5 colores y sus variantes. Los co
 * *Error/Crítico:* `#D32F2F`. Exclusivo para incidencias graves, bloqueos o retrasos críticos.
 * *Neutrales:* Escala de grises desde `#F8F9FA` (fondos) hasta `#212529` (texto base).
 
+**Spacing:**
 
+El diseño de la aplicación web de AgroFlet utiliza un sistema de espaciado estructurado para mantener el orden y la legibilidad entre los distintos componentes de la interfaz. Al ser una herramienta que maneja un alto volumen de información (mapas de rutas, listas de fletes, tablas de datos), cada componente fue posicionado con márgenes consistentes para evitar la sobrecarga visual y no mostrarse abultado. En toda la aplicación, existe un espacio en blanco predefinido que facilita la lectura rápida de métricas logísticas, y los componentes están diseñados de forma responsiva para que el espaciado se ajuste automáticamente según la resolución del dispositivo, ya sea un monitor de oficina o un teléfono móvil en el campo.
+</br><br>
+**Tono de comunicación y Lenguaje aplicado:**
+
+Para AgroFlet, hemos tomado la decisión de tener un tono de comunicación **profesional, resolutivo y claro**. Esto debido a que nuestros usuarios principales (productores, coordinadores logísticos y compradores mayoristas) operan en un entorno de alta presión donde el tiempo de tránsito y el estado de los alimentos perecibles son factores críticos.
+
+Nosotros como desarrolladores tenemos que tomar en cuenta lo siguiente:
+
+* Debemos utilizar un lenguaje que transmita control y eficiencia operativa, empleando la terminología precisa del sector agro-logístico (términos como "flete", "operación en tránsito", "incidencia en ruta", "tiempo estimado de llegada") para que el usuario se sienta en un entorno familiar.
+* Se deben evitar por completo los tecnicismos informáticos o de software que puedan confundir a usuarios con menor alfabetización digital.
+* Las alertas, notificaciones y mensajes de error deben ser directos y orientados a la acción (ej. *"Retraso de 2 horas reportado en ruta. Actualice la hora de recepción"*), permitiendo que los usuarios tomen decisiones rápidas sin ambigüedades ante cualquier emergencia en la carretera.
 
 ### 4.1.2. Web Style Guidelines
 
-El diseño del *Landing Page* y la aplicación web se rige por los lineamientos de **Material Design**, asegurando consistencia e interactividad predecible. La implementación técnica del *frontend* utilizará el *framework* Vue.js junto con la biblioteca de componentes **PrimeVue**.
-
-* **Superficies y Elevación:** Uso de tarjetas (*Cards*) con sombras sutiles para agrupar datos, facilitando la lectura de los detalles del flete o perfiles de conductores.
-* **Interactividad:** Botones primarios con alto contraste para *Call-to-Actions* (ej. "Reportar Incidencia") y botones tipo *Ghost* para acciones secundarias.
-* **Responsividad:** Sistema de grilla fluida de 12 columnas. Diseño *Desktop-First* para el control logístico en oficinas, con adaptabilidad total a dispositivos móviles para consultas rápidas en campo.
+En el diseño visual de AgroFlet se adopta una línea gráfica moderna, profesional y funcional, enfocada en la eficiencia operativa y la claridad de la información logística. La jerarquía visual se construye mediante el uso de tipografías bien definidas (familia Inter), tamaños diferenciados y colores de alto contraste (verde agrícola y azul marino corporativo) que permiten identificar rápidamente los elementos más importantes, como los estados de los fletes. Los botones interactivos y componentes basados en Material Design y PrimeVue presentan estados visuales claros (normal, hover y activo), brindando retroalimentación inmediata al usuario. El uso de tarjetas (cards) con bordes suaves y sombras sutiles contribuye a una interfaz limpia y organizada, evitando distracciones innecesarias durante el monitoreo de rutas. Asimismo, los componentes visuales están diseñados para mantener consistencia en toda la plataforma, facilitando la navegación y reduciendo la curva de aprendizaje del usuario (productores y compradores mayoristas). Finalmente, cada elemento del diseño ha sido pensado para cumplir un propósito funcional dentro de la experiencia de gestión de flotas, asegurando que la interfaz no solo sea atractiva, sino también eficiente en contextos donde la rapidez y la precisión son esenciales. Además, el diseño considera principios de diseño responsive, asegurando que la interfaz mantenga su funcionalidad y claridad en distintos dispositivos y tamaños de pantalla, tanto en la aplicación web como en el Landing Page.
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
-AgroFlet implementa una arquitectura híbrida adaptada a la complejidad logística:
+Para nuestra plataforma se opta por una organización visual jerárquica con elementos secuenciales. Esto permite que el usuario identifique fácilmente los puntos clave, organizando el contenido en categorías principales como "Dashboard", "Flota", "Historial de Operaciones" y "Configuración", y en subcategorías dentro de cada una. Así, la información logística y los datos de rastreo se presentan de forma clara y sin sobrecargar la pantalla.
 
-* **Organización Jerárquica:** Utilizada en el *Dashboard*. La información fluye desde indicadores globales (flota activa, alertas) hacia lo particular (listado de viajes y detalle individual).
-* **Organización Matricial:** Utilizada en el Historial de Operaciones. Los usuarios cruzan dimensiones de datos (fechas, placas, tipos de producto, estados) para auditar despachos.
+Además, en ciertas secciones se incorporan flujos secuenciales que guían al usuario paso a paso para completar tareas o llegar a páginas específicas (por ejemplo, el registro de una nueva unidad de transporte o el reporte de una incidencia en ruta). Esta estructura facilita aplicar principios de arquitectura de información como claridad, accesibilidad, navegación enfocada y facilidad de uso. Finalmente, gracias a la investigación previa y la definición de los User Personas, se asegura que el contenido de cada categoría sea relevante y útil para el usuario.
+
 
 ### 4.2.2. Labeling Systems
 
