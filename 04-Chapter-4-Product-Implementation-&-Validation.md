@@ -108,13 +108,130 @@ Para maximizar la indexación del *Landing Page* en buscadores B2B, se definen l
 
 El wireframe establece la estructura de la página de aterrizaje en escala de grises. Se prioriza la propuesta de valor en la sección *Hero*, seguida de los beneficios, planes de suscripción y un formulario de contacto. Elaborado utilizando Figma.
 
-> `[Insertar captura de imagen del Wireframe del Landing Page elaborado en Figma]`
+### Wireframes Desktop de la Landing Page
+
+**Landing Wireframe Desktop 1**
+
+![Landing Wireframe Desktop 1](assets/images/Landing_Desktop1.png)
+
+**Landing Wireframe Desktop 2**
+
+![Landing Wireframe Desktop 2](assets/images/Landing_Desktop2.png)
+
+**Landing Wireframe Desktop 3**
+
+![Landing Wireframe Desktop 3](assets/images/Landing_Desktop3.png)
+
+**Landing Wireframe Desktop 4**
+
+![Landing Wireframe Desktop 4](assets/images/Landing_Desktop4.png)
+
+**Landing Wireframe Desktop 5**
+
+![Landing Wireframe Desktop 5](assets/images/Landing_Desktop5.png)
+
+**Landing Wireframe Desktop 6**
+
+![Landing Wireframe Desktop 6](assets/images/Landing_Desktop6.png)
+
+**Landing Wireframe Desktop 7**
+
+![Landing Wireframe Desktop 7](assets/images/Landing_Desktop7.png)
+
+### Wireframes Mobile de la Landing Page
+
+**Landing Wireframe Mobile 1**
+
+![Landing Wireframe Mobile 1](assets/images/Landing_MobileW1.png)
+
+**Landing Wireframe Mobile 2**
+
+![Landing Wireframe Mobile 2](assets/images/Landing_MobileW2.png)
+
+**Landing Wireframe Mobile 3**
+
+![Landing Wireframe Mobile 3](assets/images/Landing_MobileW3.png)
+
+**Landing Wireframe Mobile 4**
+
+![Landing Wireframe Mobile 4](assets/images/Landing_MobileW4.png)
+
+**Landing Wireframe Mobile 5**
+
+![Landing Wireframe Mobile 5](assets/images/Landing_MobileW5.png)
+
+**Landing Wireframe Mobile 6**
+
+![Landing Wireframe Mobile 6](assets/images/Landing_MobileW6.png)
+
+**Landing Wireframe Mobile 7**
+
+![Landing Wireframe Mobile 7](assets/images/Landing_MobileW7.png)
+
 
 ### 4.3.2. Landing Page Mock-up
 
 El Mock-up de alta fidelidad integra el isotipo de AgroFlet, la paleta de colores oficial (Azul Marino y Verde AgroFlet) y tipografía Inter. Se evidencia la aplicación de atributos ARIA para accesibilidad (a11y) y selectores de idioma.
 
-> `[Insertar captura de imagen del Mock-up del Landing Page elaborado en Figma]`
+### Mockups Desktop de la Landing Page
+
+**Landing Mockup Desktop 1**
+
+![Landing Mockup Desktop 1](assets/images/Landing_DesktopM1.png)
+
+**Landing Mockup Desktop 2**
+
+![Landing Mockup Desktop 2](assets/images/Landing_DesktopM2.png)
+
+**Landing Mockup Desktop 3**
+
+![Landing Mockup Desktop 3](assets/images/Landing_DesktopM3.png)
+
+**Landing Mockup Desktop 4**
+
+![Landing Mockup Desktop 4](assets/images/Landing_DesktopM4.png)
+
+**Landing Mockup Desktop 5**
+
+![Landing Mockup Desktop 5](assets/images/Landing_DesktopM5.png)
+
+**Landing Mockup Desktop 6**
+
+![Landing Mockup Desktop 6](assets/images/Landing_DesktopM6.png)
+
+**Landing Mockup Desktop 7**
+
+![Landing Mockup Desktop 7](assets/images/Landing_DesktopM7.png)
+
+### Mockups Mobile de la Landing Page
+
+**Landing Mockup Mobile 1**
+
+![Landing Mockup Mobile 1](assets/images/Landing_MobileM1.png)
+
+**Landing Mockup Mobile 2**
+
+![Landing Mockup Mobile 2](assets/images/Landing_MobileM2.png)
+
+**Landing Mockup Mobile 3**
+
+![Landing Mockup Mobile 3](assets/images/Landing_MobileM3.png)
+
+**Landing Mockup Mobile 4**
+
+![Landing Mockup Mobile 4](assets/images/Landing_MobileM4.png)
+
+**Landing Mockup Mobile 5**
+
+![Landing Mockup Mobile 5](assets/images/Landing_MobileM5.png)
+
+**Landing Mockup Mobile 6**
+
+![Landing Mockup Mobile 6](assets/images/Landing_MobileM6.png)
+
+**Landing Mockup Mobile 7**
+
+![Landing Mockup Mobile 7](assets/images/Landing_MobileM7.png)
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -348,61 +465,3 @@ incidents }o--|| shipments
 ```
 
 > `[Reemplazar bloque de código por el diagrama ERD generado en MySQL Workbench o LucidChart]`
-
-
-
-# Capítulo IV: Product Design
-
-## 4.1. Style Guidelines
-
-### 4.1.1. General Style Guidelines
-
-### 4.1.2. Web Style Guidelines
-
-## 4.2. Information Architecture
-
-### 4.2.1. Organization Systems
-
-### 4.2.2. Labeling Systems
-
-### 4.2.3. SEO Tags and Meta Tags
-
-### 4.2.4. Searching Systems
-
-### 4.2.5. Navigation Systems
-
-## 4.3. Landing Page UI Design
-
-### 4.3.1. Landing Page Wireframe
-
-### 4.3.2. Landing Page Mock-up
-
-## 4.4. Web Applications UX/UI Design
-
-### 4.4.1. Web Applications Wireframes
-
-### 4.4.2. Web Applications Wireflow Diagrams
-
-### 4.4.3. Web Applications Mock-ups
-
-### 4.4.4. Web Applications User Flow Diagrams
-
-## 4.5. Web Applications Prototyping
-
-## 4.6. Domain-Driven Software Architecture
-
-### 4.6.1. Design-Level EventStorming
-
-### 4.6.2. Software Architecture Context Level Diagram
-
-### 4.6.3. Software Architecture Container Level Diagrams
-
-### 4.6.4. Software Architecture Component Level Diagrams
-
-## 4.7. Software Object-Oriented Design
-
-### 4.7.1. Class Diagrams
-
-## 4.8. Database Design
-
-### 4.8.1. Database Diagrams
