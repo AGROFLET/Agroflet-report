@@ -254,15 +254,15 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 
 ---
 
-#### Entrevista 2: Segmento 1 
+#### Entrevista 2: Segmento 2 
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Nombres y Apellidos** | Farit Santoyo |
+| **Edad** | 33 |
+| **Distrito** | Surco |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDhnQSF1QX5RYU2qMGs1dKtASBQGOVNTmPlUM6jGrqBbSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dtZB2H|
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 9:03 minutos |
 | **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
