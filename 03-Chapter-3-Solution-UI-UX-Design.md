@@ -5,6 +5,22 @@
 En esta sección se especifican los requisitos del sistema AgroFlet mediante un conjunto de Epics, User Stories y Technical Stories derivadas del proceso de *needfinding*, el análisis competitivo y los segmentos objetivo identificados. Las User Stories representan funcionalidades de valor para los usuarios finales de la plataforma web y del *landing page*, mientras que las Technical Stories describen los requisitos funcionales del RESTful API que soporta el sistema.
 
 Los criterios de aceptación de cada User Story están redactados en tiempo presente, tercera persona y en formato Gherkin (Given-When-Then), sin referencia a detalles de implementación de interfaz. Los Epics agrupan User Stories relacionadas por dominio funcional.
+---
+**Epics**
+ 
+
+| Epic / Story <br> ID | Título | Descripción |
+| :--- | :--- | :--- |
+| **EPIC-01** | Autenticación y Gestión de Cuenta | **Como** visitante de AgroFlet,<br>**quiero** registrarme, iniciar sesión y gestionar mis credenciales,<br>**para** acceder de forma segura a las funcionalidades de la plataforma según mi rol.                     |
+| **EPIC-02** | Gestión de Flotas y Conductores |**Como** coordinador logístico,<br>**quiero** registrar, consultar y administrar las unidades de transporte y conductores,<br>**para** gestionar adecuadamente la flota asignada a las operaciones logísticas.       |
+| **EPIC-03** | Registro y Monitoreo de Operaciones | **Como** coordinador logístico,<br>**quiero** crear y monitorear operaciones de transporte en tiempo casi real,<br>**para** conocer su estado, ubicación e información durante el traslado de la carga.              |
+| **EPIC-04** | Registro y Gestión de Incidencias en Ruta | **Como** coordinador logístico,<br>**quiero** registrar y consultar las incidencias ocurridas durante una operación,<br>**para** documentar retrasos o interrupciones y gestionar oportunamente sus efectos.         |
+| **EPIC-05** | Historial y Consulta de Operaciones | **Como** coordinador logístico,<br>**quiero** consultar, filtrar y buscar operaciones de transporte realizadas,<br>**para** acceder rápidamente al historial de operaciones y revisar su información.                |
+| **EPIC-06** | Visualización Geográfica | **Como** coordinador logístico,<br>**quiero** visualizar las rutas y posiciones de las operaciones activas en un mapa interactivo,<br>**para** conocer geográficamente el estado de los transportes en curso.        |
+| **EPIC-07** | Alertas y Notificaciones | **Como** usuario de AgroFlet,<br>**quiero** recibir notificaciones sobre cambios de estado e incidencias de mis operaciones,<br>**para** mantenerme informado oportunamente sobre eventos relevantes del transporte. |
+| **EPIC-08** | Perfil de Usuario y Configuración | **Como** usuario autenticado,<br>**quiero** gestionar mis datos personales, preferencias de idioma y credenciales de seguridad,<br>**para** mantener actualizada y personalizada mi cuenta.                          |
+| **EPIC-09** | Landing Page | **Como** visitante de AgroFlet,<br>**quiero** consultar la propuesta de valor, funcionalidades, planes y canales de contacto de la plataforma,<br>**para** conocer el servicio antes de registrarme o utilizarlo.    |
+
 
 ---
 
