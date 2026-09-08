@@ -209,10 +209,10 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 | :--- | :--- |
 | **Nombres y Apellidos** | Luciano Mateo Espinoza Vargas |
 | **Edad** | 28 años |
-| **Distrito** | Ate - Lima |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Distrito** | Ate, Lima |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM8Bs99t0lS5V1qwLWtVOpAVWE7M4UWKmcraAW8xFqBuY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=M42ODc |
 | **Timing de inicio y duración** | Inicio: 00:00 - Duración: 10:41 minutos |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+| **Evidencia fotográfica** | <p><img src="assets/images/Imagensegmento1Luciano-crivas.jpeg" width="400" alt="Logo AgroFlet"> |
 
 **Resumen de la entrevista:**
 
