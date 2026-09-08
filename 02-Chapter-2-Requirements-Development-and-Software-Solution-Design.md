@@ -292,15 +292,223 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+Para llevar a cabo el proceso de needfinding en AgroFlet, se realizaron entrevistas en profundidad y sesiones de inmersión operativa con actores representativos de los segmentos objetivo: medianos productores agrícolas, coordinadores de cooperativas de acopio y compradores mayoristas o encargados de abastecimiento de mercados y distribuidoras. Estas conversaciones se enfocaron en identificar sus prácticas cotidianas, flujos de coordinación y principales frustraciones vinculadas al transporte terrestre interprovincial de alimentos agrícolas perecibles en el Perú.
+
+A través de esta exploración se evidenciaron puntos críticos de fricción en la cadena logística, tales como la incertidumbre sobre la posición física de las unidades de carga pesada, la ausencia de alertas tempranas ante contingencias viales (bloqueos, accidentes o fallas mecánicas en rutas críticas como la Carretera Central o la Panamericana) y la total informalidad en la comunicación vía llamadas telefónicas o mensajería instantánea. Asimismo, se constató un impacto económico directo acumulado que supera el 35 % de mermas en alimentos perecibles durante el traslado, así como fricciones comerciales recurrentes ante la dificultad de justificar retrasos frente al cliente en destino. De esta manera, se consolidó la oportunidad para el diseño y desarrollo de AgroFlet: una plataforma web orientada a centralizar el registro de despachos, proveer monitoreo cartográfico en tiempo casi real y transparentar las incidencias en carretera para ambos extremos de la cadena logística.
 
 ### 2.3.1. User Personas
 
+**Segmento Objetivo: Medianos Productores Agrícolas y Acopiadores (Despachadores):**
+![User-Persona-1](assets/images/UserPersona-1.png)
+
+<div style="page-break-after: always"></div>
+
+**Segmento Objetivo: Compradores Mayoristas y Encargados de Abastecimiento:**
+![User-Persona-2](assets/images/UserPersona-2.png)
+
+<div style="page-break-after: always"></div>
+
 ### 2.3.2. User Task Matrix
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; text-align: center; width: 100%;">
+  
+  <tr style="background-color:#f2f2f2;">
+    <th rowspan="2">Task / Tarea</th>
+    <th colspan="2">Carlos Mendoza (Coordinador Logístico / Despachador)</th>
+    <th colspan="2">Mariana Viteri (Jefa de Abastecimiento Mayorista)</th>
+  </tr>
+
+  <tr style="background-color:#f2f2f2;">
+    <th>Frequency</th>
+    <th>Importance</th>
+    <th>Frequency</th>
+    <th>Importance</th>
+  </tr>
+
+  <tr>
+    <td>Registrar y gestionar unidades vehiculares y conductores</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Low</td>
+  </tr>
+
+  <tr>
+    <td>Crear y programar nueva operación de flete terrestre</td>
+    <td>High</td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Medium</td>
+  </tr>
+
+  <tr>
+    <td>Monitorear ubicación geográfica de la carga en tránsito</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Registrar incidencias viales y mecánicas en carretera</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Medium</td>
+  </tr>
+
+  <tr>
+    <td>Recibir alertas automáticas por demoras o contingencias de ruta</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Verificar la hora estimada de llegada (ETA) para recepción</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Confirmar recepción y marcar entrega formal de la carga</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Liberar disponibilidad de unidades de transporte y conductores</td>
+    <td>High</td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Low</td>
+  </tr>
+
+  <tr>
+    <td>Filtrar y consultar historial de operaciones concluidas</td>
+    <td>Medium</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Auditar tiempos de retraso e incidencias frente a reclamos por merma</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Evaluar desempeño y confiabilidad de transportistas/proveedores</td>
+    <td>Low</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+</table>
+
+<div style="page-break-after: always"></div>
 
 ### 2.3.3. User Journey Mapping
 
+**Segmento Objetivo: Medianos Productores Agrícolas y Acopiadores:**
+![User-JourneyMap-1](assets/images/JourneyMap-1.png)
+
+<div style="page-break-after: always"></div>
+
+**Segmento Objetivo: Compradores Mayoristas y Encargados de Abastecimiento:**
+![User-JourneyMap-2](assets/images/JourneyMap-2.png)
+
+<div style="page-break-after: always"></div>
+
 ### 2.3.4. Empathy Mapping
 
+**Segmento Objetivo: Medianos Productores Agrícolas y Acopiadores:**
+![EmpathyMap-1](assets/images/Empathy%20map-1.png)
+
+<div style="page-break-after: always"></div>
+
+**Segmento Objetivo: Compradores Mayoristas y Encargados de Abastecimiento:**
+![EmpathyMap-2](assets/images/Empathy%20map-2.png)
+
+<div style="page-break-after: always"></div>
+
 ## 2.4. Big Picture EventStorming
+En la sesión de Big Picture Event Storming, el equipo de AgroFlet exploró de manera colaborativa y visual el ciclo completo del dominio de transporte terrestre y monitoreo logístico de productos agrícolas perecibles. Se modelaron cronológicamente los eventos de dominio significativos, desde el aprovisionamiento de vehículos y choferes en el centro de acopio hasta la entrega en el mercado mayorista y la posterior auditoría de incidencias. Asimismo, se identificaron los comandos ejecutados por cada tipo de actor, las reglas de negocio vinculadas al recálculo dinámico del tiempo estimado de llegada (ETA), las integraciones con servicios satelitales y de mensajería, y los puntos de visibilidad demandados por los compradores. Esta dinámica permitió unificar el entendimiento entre los requerimientos de los usuarios y las capacidades técnicas del backend.
+
+**Primera fase: Eventos**
+![Big picture event storming](assets/images/EventStorming.png)
+
+**Mapa general:**
+https://canva.link/w4ou6zjf9z7ja7l
+
+<div style="page-break-after: always"></div>
 
 ## 2.5. Ubiquitous Language
+
+- **Shipment / Operation (Operación de Transporte / Flete):** Registro centralizado que documenta el traslado de un lote de carga agrícola desde un punto de origen hacia un destino, abarcando fechas, unidad, conductor y estado operativo.
+
+- **Shipper / Dispatcher (Despachador / Acopiador):** Usuario responsable de consolidar la carga agrícola en las zonas de producción, programar el flete en la plataforma y asignar los recursos de transporte.
+
+- **Wholesale Buyer (Comprador Mayorista / Receptor):** Usuario que recibe la mercadería agrícola en almacenes, mercados de abastos o plataformas de retail, requiriendo visibilidad anticipada para coordinar cuadrillas de descarga.
+
+- **Carrier / Driver (Conductor / Transportista):** Operador técnico asignado al volante de una unidad de transporte, registrado formalmente en la plataforma con DNI y categoría de licencia de conducir.
+
+- **Vehicle / Fleet Unit (Unidad de Transporte / Flota):** Camión o vehículo de carga pesada identificado por su placa de rodaje, capacidad en toneladas y tipo de carrocería, registrado para la asignación de fletes.
+
+- **Cargo Type (Tipo de Alimento / Carga Perecible):** Clasificación del producto agrícola transportado (ej. papa, zanahoria, frutas frescas), determinante para la sensibilidad térmica y el tiempo de tolerancia a retrasos.
+
+- **Payload Capacity (Capacidad de Carga):** Límite máximo en toneladas métricas que puede transportar una unidad vehicular según su ficha técnica de registro.
+
+- **Origin (Punto de Origen):** Región geográfica o centro de acopio agrícola donde la unidad de transporte es cargada y desde donde inicia formalmente el despacho.
+
+- **Destination (Punto de Destino):** Mercado mayorista, centro de acopio central o muelle de descarga donde se entrega la carga perecible.
+
+- **Estimated Time of Arrival - ETA (Hora Estimada de Llegada):** Cálculo de fecha y hora proyectada para el arribo de la unidad al destino, sujeto a recálculos dinámicos ante incidencias registradas en carretera.
+
+- **Departure Datetime (Fecha y Hora de Salida):** Marca temporal exacta en la que el despacho inicia su trayecto físico e ingresa al estado en tránsito.
+
+- **In-Transit (En Tránsito):** Estado del flete que indica que la unidad vehicular se encuentra actualmente en desplazamiento sobre la red vial nacional.
+
+- **Delivered (Entregada):** Estado final exitoso de la operación en el que se confirma la descarga de la mercadería, registrando la marca de tiempo de arribo y liberando los recursos asociados.
+
+- **Cancelled (Cancelada):** Estado de terminación anticipada de una operación debido a causas de fuerza mayor debidamente documentadas.
+
+- **Incident (Incidencia en Ruta):** Acontecimiento adverso suscitado durante el trayecto (ej. bloqueo vial, huaico, falla mecánica, accidente o congestión severa) que introduce un tiempo de retraso estimado en la operación.
+
+- **Estimated Delay Hours (Impacto de Retraso):** Cantidad de horas proyectadas que una incidencia suma a la fecha estimada de llegada original de la carga.
+
+- **Shrinkage / Spoilage (Merma de Alimentos):** Pérdida cuantitativa y cualitativa de producto perecible provocada por demoras excesivas o exposición a condiciones desfavorables durante el flete.
+
+- **Cold Chain (Cadena de Frío):** Mantenimiento continuo de temperatura controlada exigido por compradores formales para preservar la inocuidad y vida útil del producto agrícola.
+
+- **Tracking / Telemetry (Monitoreo Satelital / Geolocalización):** Adquisición y reporte periódico de coordenadas geográficas (latitud y longitud) del vehículo en desplazamiento.
+
+- **Interactive Map (Mapa Interactivo):** Interfaz cartográfica que representa visualmente las posiciones estimadas y las rutas activas de las unidades en trayecto.
+
+- **Alert / Notification (Alerta / Notificación):** Mensaje generado automáticamente por el sistema ante eventos críticos (registro de incidencias, variaciones en el ETA o cambios de estado de entrega).
+
+- **Available (Disponible):** Estado operativo de una unidad vehicular o conductor que indica que no cuenta con asignaciones vigentes y puede programarse en un nuevo despacho.
+
+- **Assigned / In Route (Asignado / En Ruta):** Estado operativo que inhabilita a un vehículo o chofer para nuevas operaciones mientras se encuentra vinculado a un viaje en curso.
+
+- **Under Maintenance (En Mantenimiento):** Estado de una unidad vehicular que indica su inoperatividad técnica por reparaciones mecánicas programadas o imprevistas.
+
+- **Waybill / Remission Guide (Guía de Remisión):** Documento formal tributario y de transporte que sustenta el traslado legal de la mercadería agrícola a nivel nacional.
+
+- **Dock / Loading Bay (Andén / Muelle de Carga):** Espacio físico del almacén o mercado de destino destinado al acople de camiones y descarga de alimentos perecibles.
+
+- **Unloading Crew (Cuadrilla de Estiba):** Personal operativo encargado de la descarga y pesaje de sacos o jabas de alimentos perecibles en el punto de destino.
+
+- **Status Timeline (Línea de Tiempo de Estados):** Historial cronológico inmutable que audita cada transición de estado experimentada por la operación desde su creación hasta su entrega.
+
+- **Audit Trail (Pista de Auditoría):** Registro histórico de eventos, usuarios, fechas e incidencias que permite contrastar responsabilidades ante reclamos contractuales por mermas.
+
+- **RESTful API:** Capa de servicios backend de AgroFlet encargada de autenticar usuarios, procesar peticiones HTTP y sincronizar los datos de operaciones, flota e incidencias entre las interfaces.
