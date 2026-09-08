@@ -181,16 +181,17 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 
 ---
 
-#### Entrevista 1: Segmento 1 
+#### Entrevista 1: Segmento 1 - Medianos Productores Agrícolas y Acopiadores
+ 
 
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombres y Apellidos** | Jhoan Darner Garduchi |
-| **Edad** | 26 naños |
+| **Edad** | 25 años |
 | **Distrito** | El Tambo, Huancayo (Junín) |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM05U5DqbsSKkCNyghqdYKASth7mG2GdVDM912JXWUmII?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dWEYI4 |
 | **Timing de inicio y duración** | Inicio: 00:00 - Duración: 11:22 minutos |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+| **Evidencia fotográfica** | <p><img src="assets/images/Imagensegmento1-crivas.jpeg" width="400" alt="Logo AgroFlet"> |
 
 **Resumen de la entrevista:**
 
@@ -202,19 +203,24 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 
 ---
 
-#### Entrevista 2: Segmento 1 
+#### Entrevista 2: Segmento 1 - Medianos Productores Agrícolas y Acopiadores
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
+| **Nombres y Apellidos** | Luciano Mateo Espinoza Vargas |
+| **Edad** | 28 años |
+| **Distrito** | Ate - Lima |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 10:41 minutos |
 | **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
-(Pendiente)
+
+El entrevistado es Ingeniero Industrial de 26 años, Jefe de Abastecimiento de una distribuidora mayorista familiar en el Mercado de Santa Anita. Es analítico, está enfocado en optimizar procesos y sufre diariamente la incertidumbre logística. Usa su smartphone y Excel para gestionar la recepción de 15-20 camiones semanales de frutas y hortalizas.
+
+Su mayor frustración (pain point) es la imposibilidad de planificar la recepción: la falta de una Hora Estimada de Llegada (ETA) real lo obliga a pagar horas extras a descargadores que esperan en vano, o a recibir carga de madrugada sin personal, lo que ha generado pérdidas económicas directas por fruta malograda al perder ventanas de subasta.
+
+Para adoptar una plataforma como AgroFlet, valora enormemente las alertas de incidencias y el ETA en tiempo real. No está dispuesto a pagar una suscripción mensual fija, pero sí pagaría una tarifa por viaje (2-3 soles) si le evita pérdidas. Además, destaca su poder de negociación: está dispuesto a exigir a sus proveedores el uso de la plataforma como condición para mantener los contratos de compra, actuando como el principal motor de adopción del lado de la demanda.
 
 
 ---
@@ -263,7 +269,7 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 | **Distrito** | Surco |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDhnQSF1QX5RYU2qMGs1dKtASBQGOVNTmPlUM6jGrqBbSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dtZB2H|
 | **Timing de inicio y duración** | Inicio: 00:00 - Duración: 9:03 minutos |
-| **Evidencia fotográfica** | <p align="center"><img src="assets/images/segmento2-entrevista2.PNG" width="150" alt="Logo AgroFlet"> |
+| **Evidencia fotográfica** | <p><img src="assets/images/segmento2-entrevista2.PNG" width="400" alt="Logo AgroFlet"> |
 
 **Resumen de la entrevista:**
 (Pendiente)
