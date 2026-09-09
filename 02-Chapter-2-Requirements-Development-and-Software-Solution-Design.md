@@ -61,9 +61,7 @@ A partir del análisis competitivo y del SWOT realizado, el equipo de AgroFlet h
 
 ## 2.2. Entrevistas
 
-El proceso de investigación cualitativa de AgroFlet se estructura en torno a entrevistas semiestructuradas con representantes reales de los dos segmentos objetivo identificados. El objetivo de estas entrevistas es recolectar información primaria sobre los flujos de trabajo actuales, los puntos de dolor experimentados, las herramientas utilizadas y las expectativas frente a una solución digital de monitoreo logístico.
-
-Las entrevistas se realizaron de manera individual, en formato presencial o videollamada, con una duración aproximada de entre 30 y 45 minutos por sesión. Cada entrevista fue grabada en video (con el consentimiento explícito del entrevistado) y posteriormente editada para conformar el video de evidencia de entrevistas de *needfinding*.
+Se diseñó una investigación mediante entrevistas semiestructuradas a representantes de ambos segmentos. En el material recibido se registran dos entrevistas por segmento y existen tres resúmenes desarrollados en total. Para cumplir el enunciado deben completarse entre tres y cinco entrevistas por segmento, sus resúmenes y el video consolidado. La existencia de una ficha con enlace no acredita que su contenido haya sido revisado en esta corrección.
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -187,6 +185,7 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombres y Apellidos** | Jhoan Darner Garduchi |
+| **ID**   | E-S1-01 |
 | **Edad** | 25 años |
 | **Distrito** | El Tambo, Huancayo (Junín) |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM05U5DqbsSKkCNyghqdYKASth7mG2GdVDM912JXWUmII?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dWEYI4 |
@@ -208,6 +207,7 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombres y Apellidos** | Eduardo Framis |
+| **ID**   | E-S1-02 |
 | **Edad** | 26 años |
 | **Distrito** | Huaral, Lima Norte |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQBmZeJ6tFGXTYzaHeMyX7fEAbvfu-XXf7MQvjFAd0pzP14?e=ofqJfI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
@@ -230,6 +230,7 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombres y Apellidos** | (Pendiente) |
+| **ID**   | E-S1-03 |
 | **Edad** | (Pendiente) |
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
@@ -247,6 +248,7 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombres y Apellidos** | César León Aylas |
+| **ID**   | E-S2-01 |
 | **Edad** | 59 |
 | **Distrito** | Santa Anita, Lima |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQCX7rbTiWDPT6wQ78TC0lEfAY_Xf8fbuq2oQ_0Lde9bb4M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ogx321 |
@@ -268,6 +270,7 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la herramienta d
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombres y Apellidos** | Farit Santoyo |
+| **ID**   | E-S2-02 |
 | **Edad** | 33 |
 | **Distrito** | Surco, Lima |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDhnQSF1QX5RYU2qMGs1dKtASBQGOVNTmPlUM6jGrqBbSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dtZB2H|
@@ -285,6 +288,7 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la herramienta d
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombres y Apellidos** | Luciano Mateo Espinoza Vargas |
+| **ID**   | E-S2-03 |
 | **Edad** | 28 años |
 | **Distrito** | Ate, Lima |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM8Bs99t0lS5V1qwLWtVOpAVWE7M4UWKmcraAW8xFqBuY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=M42ODc |
