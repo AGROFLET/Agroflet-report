@@ -212,7 +212,8 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 | **Distrito** | Huaral, Lima Norte |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQBmZeJ6tFGXTYzaHeMyX7fEAbvfu-XXf7MQvjFAd0pzP14?e=ofqJfI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Timing de inicio y duración** | Inicio: 00:00 - Duración: 05:20 minutos |
-| **Evidencia fotográfica** | <p><img src="assets/images/"></p> |
+| **Evidencia fotográfica** | <p><img src="assets/images/segmento1-entrevista2.PNG" width="400" alt="Logo AgroFlet"></p> |
+
 
 **Resumen de la entrevista:**
 El entrevistado de 26 años se dedica al acopio y despacho en el negocio agrícola de su familia en Huaral, gestionando principalmente la logística de paltas Hass y mandarinas hacia el mercado mayorista de Santa Anita. Está enfocado en coordinar los tiempos de cosecha y transporte, enfrentando a diario la incertidumbre de la ruta. Utiliza su smartphone (llamadas, WhatsApp, Google Maps) y un registro básico en Excel para gestionar los envíos a cargo de transportistas terceros.
