@@ -203,7 +203,7 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 
 ---
 
-#### Entrevista 2: Segmento 1 
+#### Entrevista 2: Segmento 1
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -225,7 +225,7 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 ---
 
 
-#### Entrevista 2: Segmento 1 
+#### Entrevista 3: Segmento 1 
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -242,7 +242,7 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 
 ---
 
-#### Entrevista 2: Segmento 1 
+#### Entrevista 1: Segmento 2 - Compradores Mayoristas y Encargados de Abastecimiento
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -276,7 +276,7 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 
 ---
 
-#### Entrevista 2: Segmento 2 
+#### Entrevista 3: Segmento 2 
 
 | Campo | Detalle |
 | :--- | :--- |
