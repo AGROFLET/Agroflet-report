@@ -212,7 +212,7 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 | **Distrito** | Huaral, Lima Norte |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQBmZeJ6tFGXTYzaHeMyX7fEAbvfu-XXf7MQvjFAd0pzP14?e=ofqJfI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Timing de inicio y duración** | Inicio: 00:00 - Duración: 05:20 minutos |
-| **Evidencia fotográfica** | <p><img src="assets/images/segmento1-entrevista2.PNG" width="400" alt="Logo AgroFlet"></p> |
+| **Evidencia fotográfica** | <p><img src="assets/images/segmento1-entrevista2.png" width="400" alt="Logo AgroFlet"> |
 
 
 **Resumen de la entrevista:**
