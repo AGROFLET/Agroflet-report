@@ -203,25 +203,19 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 
 ---
 
-#### Entrevista 2: Segmento 1 - Medianos Productores Agrícolas y Acopiadores
+#### Entrevista 2: Segmento 1 
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | Luciano Mateo Espinoza Vargas |
-| **Edad** | 28 años |
-| **Distrito** | Ate, Lima |
-| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM8Bs99t0lS5V1qwLWtVOpAVWE7M4UWKmcraAW8xFqBuY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=M42ODc |
-| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 10:41 minutos |
-| **Evidencia fotográfica** | <p><img src="assets/images/Imagensegmento1Luciano-crivas.jpeg" width="400" alt="Logo AgroFlet"> |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
-
-El entrevistado es Ingeniero Industrial de 26 años, Jefe de Abastecimiento de una distribuidora mayorista familiar en el Mercado de Santa Anita. Es analítico, está enfocado en optimizar procesos y sufre diariamente la incertidumbre logística. Usa su smartphone y Excel para gestionar la recepción de 15-20 camiones semanales de frutas y hortalizas.
-
-Su mayor frustración (pain point) es la imposibilidad de planificar la recepción: la falta de una Hora Estimada de Llegada (ETA) real lo obliga a pagar horas extras a descargadores que esperan en vano, o a recibir carga de madrugada sin personal, lo que ha generado pérdidas económicas directas por fruta malograda al perder ventanas de subasta.
-
-Para adoptar una plataforma como AgroFlet, valora enormemente las alertas de incidencias y el ETA en tiempo real. No está dispuesto a pagar una suscripción mensual fija, pero sí pagaría una tarifa por viaje (2-3 soles) si le evita pérdidas. Además, destaca su poder de negociación: está dispuesto a exigir a sus proveedores el uso de la plataforma como condición para mantener los contratos de compra, actuando como el principal motor de adopción del lado de la demanda.
-
+(Pendiente)
 
 ---
 
@@ -277,20 +271,24 @@ Para adoptar una plataforma como AgroFlet, valora enormemente las alertas de inc
 
 ---
 
-#### Entrevista 2: Segmento 1 
+#### Entrevista 2: Segmento 2 
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+| **Nombres y Apellidos** | Luciano Mateo Espinoza Vargas |
+| **Edad** | 28 años |
+| **Distrito** | Ate, Lima |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM8Bs99t0lS5V1qwLWtVOpAVWE7M4UWKmcraAW8xFqBuY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=M42ODc |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 10:41 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/Imagensegmento1Luciano-crivas.jpeg" width="400" alt="Logo AgroFlet"> |
 
 **Resumen de la entrevista:**
-(Pendiente)
 
+El entrevistado es Ingeniero Industrial de 26 años, Jefe de Abastecimiento de una distribuidora mayorista familiar en el Mercado de Santa Anita. Es analítico, está enfocado en optimizar procesos y sufre diariamente la incertidumbre logística. Usa su smartphone y Excel para gestionar la recepción de 15-20 camiones semanales de frutas y hortalizas.
+
+Su mayor frustración (pain point) es la imposibilidad de planificar la recepción: la falta de una Hora Estimada de Llegada (ETA) real lo obliga a pagar horas extras a descargadores que esperan en vano, o a recibir carga de madrugada sin personal, lo que ha generado pérdidas económicas directas por fruta malograda al perder ventanas de subasta.
+
+Para adoptar una plataforma como AgroFlet, valora enormemente las alertas de incidencias y el ETA en tiempo real. No está dispuesto a pagar una suscripción mensual fija, pero sí pagaría una tarifa por viaje (2-3 soles) si le evita pérdidas. Además, destaca su poder de negociación: está dispuesto a exigir a sus proveedores el uso de la plataforma como condición para mantener los contratos de compra, actuando como el principal motor de adopción del lado de la demanda.
 
 ---
 
