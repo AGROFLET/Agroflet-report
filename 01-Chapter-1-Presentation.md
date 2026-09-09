@@ -17,9 +17,10 @@ La propuesta de AgroFlet tiene coherencia con las tendencias globales en *agri-t
 
 AgroFlet se posiciona inicialmente en el mercado peruano con foco en las principales rutas agrícolas del país —Sierra-Costa y Costa-Lima Metropolitana—, con potencial de escalamiento a nivel regional en el mediano plazo. La plataforma está diseñada para ser accesible desde dispositivos de escritorio y móvil, con una interfaz adaptable que prioriza la simplicidad operativa para usuarios con distintos niveles de alfabetización digital.
 
-**Misión:** Digitalizar y transparentar la cadena logística del transporte de alimentos en el Perú, reduciendo pérdidas, mejorando la eficiencia operativa y contribuyendo a la seguridad alimentaria nacional.
+**Misión:** Facilitar la coordinación entre quienes despachan y reciben alimentos mediante información logística compartida y registros de las operaciones.
 
-**Visión:** Ser la plataforma de referencia en trazabilidad logística agroalimentaria en América Latina para el año 2030.
+**Visión:** Consolidarse como una alternativa de gestión y trazabilidad del transporte agroalimentario en el Perú, con posibilidades de expansión regional sujetas a la validación del modelo de negocio.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 A continuación, se presenta al equipo de desarrollo responsable de la concepción y ejecución del proyecto AgroFlet:
@@ -99,7 +100,9 @@ A continuación, se presenta al equipo de desarrollo responsable de la concepci�
 
 ## 1.2. Solution Profile
 
-En esta sección se describen las características principales de la solución propuesta, así como su propuesta de valor y modelo de monetización.
+AgroFlet es una solución web distribuida compuesta por una landing page informativa, una aplicación frontend responsive y un RESTful API de elaboración interna. El producto propuesto permitirá registrar operaciones de transporte, identificar al despachador y comprador asociado, asignar recursos, consultar el avance e informar incidencias.
+
+La visualización cartográfica distinguirá la ruta planificada de la última ubicación reportada. La plataforma mostrará la fecha de actualización y el origen del dato; la existencia de un mapa no implica rastreo GPS continuo. En TB1 se requiere una nueva versión de la landing page y la primera versión desplegada del frontend. Los servicios y las integraciones que aún no estén implementados se identificarán como pendientes.
 
 **Product Description**
 
@@ -160,15 +163,16 @@ El ciclo de vida de desarrollo de AgroFlet está sujeto a un conjunto de limitac
 
 El equipo aplicó la versión *Brand new initiative* del template de Lean UX Problem Statement:
 
-**The current state of** agricultural food transportation logistics in Peru *has focused mainly on** informal operators who manage freight transport without digital tools, relying on verbal agreements, phone calls, and paper records, unable to provide real-time visibility on shipment location or status to producers, buyers, and logistics coordinators.
+**The current state of** agricultural shipment coordination in the context explored by the team **has focused mainly on** producers, aggregators and wholesale buyers exchanging shipment information through phone calls, messaging and separate records.
 
-**What existing products/services fail to address is** an affordable, accessible, and sector-specific digital monitoring platform that consolidates fleet tracking, incident reporting, and shipment management in a single interface adapted to the operational reality of Peruvian agricultural transport actors.
+**What existing products/services fail to address is** a gap we still need to validate: a shared, accessible workflow for these participants to record shipments, communicate incidents and consult delivery estimates in their operating context.
 
-**Our product/service will address this gap by** developing AgroFlet, a responsive web platform for near real-time monitoring and management of agricultural food transport operations, enabling users to track shipment location, consult delivery estimates, register and visualize route incidents, and access historical operation data — all from a single, intuitive dashboard.
+**Our product/service will address this gap by** providing AgroFlet, a responsive web solution that connects shipment records, reported locations, incidents and delivery estimates for authorized participants.
 
-**Our initial focus will be** logistics coordinators and fleet managers of medium-sized agricultural transport companies operating on high-volume routes between Peru's producing regions and Lima Metropolitana, as well as wholesale buyers seeking visibility over incoming shipments.
+**Our initial focus will be** medium-sized producers and aggregators coordinating dispatches, and wholesale buyers receiving agricultural products in Peru.
 
-**We’ll know we are successful when we see** at least 200 active users within the first 8 months, a monthly user retention rate above 70% starting from month 3, a 20% reduction in incident management times, and a Net Promoter Score (NPS) exceeding 40 points after 3 months of platform usage.
+**We will know we are successful when we see** 200 monthly active users within eight months of launch, monthly retention above 70% from month three, a 20% reduction in incident response time during a pilot, and an NPS above 40 after three months of use. These are business hypotheses, not achieved results.
+
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -282,7 +286,7 @@ El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del
   <i>Nota. Elaboración propia.</i>
 </p>
 
-<p align="center"> Enlace público del Lean UX Canvas elaborado por el equipo: https://miro.com/app/board/uXjVHpGUvnc=/?share_link_id=173737059179 </p>
+<p align="center"> Enlace público del Lean UX Canvas: https://miro.com/app/board/uXjVHpGUvnc=/?share_link_id=173737059179 </p>
 
 ## 1.3. Segmentos objetivo
 
