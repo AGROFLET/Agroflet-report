@@ -207,15 +207,19 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+| **Nombres y Apellidos** | Eduardo Framis |
+| **Edad** | 26 años |
+| **Distrito** | Huaral, Lima Norte |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQBmZeJ6tFGXTYzaHeMyX7fEAbvfu-XXf7MQvjFAd0pzP14?e=ofqJfI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 05:20 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/"></p> |
 
 **Resumen de la entrevista:**
-(Pendiente)
+El entrevistado de 26 años se dedica al acopio y despacho en el negocio agrícola de su familia en Huaral, gestionando principalmente la logística de paltas Hass y mandarinas hacia el mercado mayorista de Santa Anita. Está enfocado en coordinar los tiempos de cosecha y transporte, enfrentando a diario la incertidumbre de la ruta. Utiliza su smartphone (llamadas, WhatsApp, Google Maps) y un registro básico en Excel para gestionar los envíos a cargo de transportistas terceros.
+
+Su mayor frustración  es la nula visibilidad de la carga en tránsito. Los retrasos comunes por el tráfico de madrugada, llantas bajas o retenes causan que la mercadería llegue fuera de hora. Esto provoca que el comprador pierda su ventana principal de ventas, lo que se traduce directamente en castigos sobre el precio pactado o reducción del volumen de compra, generando fuertes pérdidas económicas.
+
+Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensable la visualización del camión en el mapa y recibir alertas instantáneas ante detenciones inusuales. Está muy dispuesto a pagar una suscripción mensual de 30 a 50 soles por la tranquilidad de evitar pérdidas. Asimismo, destaca que la aplicación debe ser sumamente intuitiva y fácil de usar, ya que los choferes suelen ser personas mayores con poca familiaridad tecnológica.
 
 ---
 
