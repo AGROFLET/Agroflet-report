@@ -57,6 +57,7 @@ Agroflet/
 ├── package-lock.json
 ├── .gitignore
 └── README.md
+```
 ### 5.1.3. Source Code Style Guide & Conventions
 
 ### 5.1.4. Software Deployment Configuration
