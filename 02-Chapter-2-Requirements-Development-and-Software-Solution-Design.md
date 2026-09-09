@@ -246,16 +246,20 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+| **Nombres y Apellidos** | César León Aylas |
+| **Edad** | 59 |
+| **Distrito** | Santa Anita, Lima |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQCX7rbTiWDPT6wQ78TC0lEfAY_Xf8fbuq2oQ_0Lde9bb4M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ogx321 |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 9:22 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/Entrevista_Cesar_Segmento2.png" width="400" alt="Entrevista 1 Segmento 2"> |
 
 **Resumen de la entrevista:**
-(Pendiente)
 
+El entrevistado es un comerciante de 59 años llamado César León Aylas, con 28 años de experiencia manejando un negocio de verdulería y abarrotes. Se dedica a la venta de productos agrícolas como papas, zanahorias, camotes y verduras en general, además de comercializar abarrotes básicos (arroz, azúcar, fideos) y bebidas como gaseosas y cervezas.
+
+Su objetivo principal es mantener el flujo constante de su inventario priorizando los mejores precios, la frescura y la variedad, razón por la cual él mismo busca y transporta sus productos agrícolas usando su propio vehículo. Para el resto de los productos, busca minimizar el impacto de los retrasos logísticos (por tráfico o incidencias) apoyándose permanentemente en una reserva de mercadería en su negocio.
+
+Para adoptar una nueva plataforma digital (AgroFlet), exige que la herramienta demuestre una utilidad real en casos de estricta emergencia, puesto que actualmente no percibe un gran valor en las alertas de ubicación o en el rastreo en tiempo real debido a que su inventario de respaldo evita que las demoras le afecten económicamente. Si bien ya utiliza WhatsApp y las aplicaciones de grandes empresas para hacer pedidos, AgroFlet tendría que ofrecerle un valor diferencial significativo en su operación diaria, considerando que sus proveedores actuales ya le reconocen y cambian la mercadería sin problemas cuando esta llega en mal estado.
 
 ---
 
@@ -265,7 +269,7 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 | :--- | :--- |
 | **Nombres y Apellidos** | Farit Santoyo |
 | **Edad** | 33 |
-| **Distrito** | Surco |
+| **Distrito** | Surco, Lima |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDhnQSF1QX5RYU2qMGs1dKtASBQGOVNTmPlUM6jGrqBbSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dtZB2H|
 | **Timing de inicio y duración** | Inicio: 00:00 - Duración: 9:03 minutos |
 | **Evidencia fotográfica** | <p><img src="assets/images/segmento2-entrevista2.PNG" width="400" alt="Logo AgroFlet"> |
