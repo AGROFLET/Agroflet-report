@@ -10,47 +10,169 @@ La identidad visual de AgroFlet se fundamenta en los elementos conceptuales del 
 
 La identidad visual de AgroFlet se fundamenta en principios de claridad, confianza y eficiencia operativa, alineados con el ecosistema agro-logístico.
 
-**Branding**
+**4.1.1.1. Branding**
 
 Para AgroFlet, el branding se diseñó para mostrar confianza corporativa y eficiencia operativa, abarcando el sector de la logística agroalimentaria. Los tres elementos conceptuales del isotipo (el pin de ubicación, la hoja y la carretera en forma de circuito) representan la trazabilidad en tiempo real, el origen agrícola de la carga y la digitalización del transporte terrestre que nuestra plataforma web promete mediante sus funcionalidades principales. En el tema de colores, el color verde representa la frescura de los alimentos perecibles y la sostenibilidad, mientras que el azul marino corporativo representa la seguridad y formalidad B2B, contrastando de buena manera con los detalles naranjas que dinamizan la ruta. El diseño incluye el imagotipo y el nombre del producto dividido cromáticamente ("Agro" y "Flet") para que sea fácil de leer y asociar rápidamente con nuestro modelo de negocio.
 
-<p align="center">
-  <img src="assets/images/LogoOfi.png" alt="Agroflet1" title="Agroflet1" width="600">
-</p>
-
-**Tipografía:**
-Se adopta la familia tipográfica **Inter** (sans-serif) por su alta legibilidad en interfaces densas y tablas de datos. Se establecen jerarquías estrictas: *Headings* (H1-H3) en pesos *SemiBold* y *Body* en peso *Regular*.
+<br>
 
 <p align="center">
-  <img src="assets/images/Inter sans serif.jpeg" alt="typography" title="typography" width="600">
+  <img src="assets/images/LogoOfi.png" alt="Agroflet1" alt="logo" title="logo-Agroflet1" width="600">
 </p>
 
-**Paleta de Colores:**
-La paleta de colores de aGROFLET se compone de 5 colores y sus variantes. Los colores, en conjunto, permiten mostrar una claridad en el diseño de las dos aplicaciones.
+
+
+**4.1.1.1. Typography:**
+
+La tipografía de AgroFlet ha sido definida con el objetivo de mantener una interfaz clara, profesional y legible en contextos donde los usuarios necesitan consultar y gestionar información relacionada con el transporte agrícola de manera rápida. Esto incluye el registro de envíos, consulta del estado de las operaciones, revisión de incidencias, posiciones reportadas, rutas planificadas, notificaciones y gestión de recursos de transporte. La familia tipográfica principal de la plataforma es Inter, seleccionada por su alta legibilidad en interfaces digitales y su versatilidad para establecer distintos niveles de jerarquía visual. Su uso se mantiene de manera consistente tanto en la aplicación web como en los componentes informativos asociados a AgroFlet.
+Se emplean diferentes pesos de Inter según la importancia del contenido, permitiendo diferenciar títulos, encabezados, textos principales, información auxiliar y etiquetas sin recurrir a una cantidad excesiva de estilos tipográficos.
+
+La jerarquía tipográfica de AgroFlet se organiza de la siguiente manera:
+
+* **Page Title / H1:** Inter Bold, 32 px
+* **Section Heading / H2:** Inter SemiBold, 24 px
+* **Subheading / H3:** Inter SemiBold, 20 px
+* **Body Text:** Inter Regular, 16 px
+* **Small / Auxiliary Text:** Inter Regular, 14 px
+* **Labels / Caption:** Inter Regular, 12 px
+
+El interlineado se establece aproximadamente entre 1.3 y 1.5 veces el tamaño de la fuente, favoreciendo la lectura tanto en bloques de contenido como en interfaces que presentan información operativa. Esta configuración permite mantener una separación visual adecuada entre títulos, datos de los envíos, estados, formularios y mensajes del sistema. La consistencia tipográfica contribuye a que el usuario pueda identificar rápidamente la importancia de cada elemento. Por ejemplo, el título de una operación utiliza una jerarquía mayor, mientras que información complementaria como “Última actualización: 09:30” utiliza un tamaño menor para evitar competir visualmente con los datos principales.
+
+<br>
 
 <p align="center">
-  <img src="assets/images/Agroflet coolors.png" alt="coolors" title="coolors" width="600">
+  <img src="assets/images/Thypografía-Agroflet.jpeg" alt="typography" title="typography" width="1500">
+  <em>Nota. Sistema tipográfico utilizado en la identidad visual de Agroflet.</em>
 </p>
 
-* *Primary (Verde AgroFlet):* `#27AE60`. Transmite sostenibilidad, frescura agrícola y acciones de éxito.
-* *Secondary (Azul Marino Corporativo):* `#0B3B60`. Utilizado en tipografía principal, menús de navegación (*Sidebar*) y elementos que requieren transmitir seguridad y formalidad institucional.
-* *Accent (Naranja Ruta):* `#F39C12`. Utilizado para resaltar rutas activas, estados pendientes o alertas de nivel medio.
-* *Error/Crítico:* `#D32F2F`. Exclusivo para incidencias graves, bloqueos o retrasos críticos.
-* *Neutrales:* Escala de grises desde `#F8F9FA` (fondos) hasta `#212529` (texto base).
 
-**Spacing:**
+**4.1.1.2. Paleta de Colores:**
 
-El diseño de la aplicación web de AgroFlet utiliza un sistema de espaciado estructurado para mantener el orden y la legibilidad entre los distintos componentes de la interfaz. Al ser una herramienta que maneja un alto volumen de información (mapas de rutas, listas de fletes, tablas de datos), cada componente fue posicionado con márgenes consistentes para evitar la sobrecarga visual y no mostrarse abultado. En toda la aplicación, existe un espacio en blanco predefinido que facilita la lectura rápida de métricas logísticas, y los componentes están diseñados de forma responsiva para que el espaciado se ajuste automáticamente según la resolución del dispositivo, ya sea un monitor de oficina o un teléfono móvil en el campo.
-</br><br>
-**Tono de comunicación y Lenguaje aplicado:**
+La paleta de colores de AgroFlet ha sido definida con el propósito de transmitir una identidad visual moderna, confiable y relacionada con el entorno agrícola y logístico. El sistema combina colores propios de la marca con tonos estructurales, fondos neutros y colores semánticos que permiten diferenciar acciones, estados e información dentro de la plataforma.
 
-Para AgroFlet, hemos tomado la decisión de tener un tono de comunicación **profesional, resolutivo y claro**. Esto debido a que nuestros usuarios principales (productores, coordinadores logísticos y compradores mayoristas) operan en un entorno de alta presión donde el tiempo de tránsito y el estado de los alimentos perecibles son factores críticos.
+El **Primary Green (`#27AE60`)** constituye uno de los principales colores de identidad de AgroFlet. El verde representa la relación de la plataforma con el sector agrícola, la sostenibilidad y el entorno productivo. Se utiliza principalmente en elementos de identidad, iconografía destacada y determinados componentes visuales.
 
-Nosotros como desarrolladores tenemos que tomar en cuenta lo siguiente:
+Para las acciones principales se utiliza el **Action Green (`#176B3A`)**, un tono de mayor contraste pensado para elementos interactivos como botones principales, confirmaciones y acciones relevantes dentro de la aplicación. Su utilización permite distinguir las acciones disponibles sin depender únicamente del color para comunicar su función.
 
-* Debemos utilizar un lenguaje que transmita control y eficiencia operativa, empleando la terminología precisa del sector agro-logístico (términos como "flete", "operación en tránsito", "incidencia en ruta", "tiempo estimado de llegada") para que el usuario se sienta en un entorno familiar.
-* Se deben evitar por completo los tecnicismos informáticos o de software que puedan confundir a usuarios con menor alfabetización digital.
-* Las alertas, notificaciones y mensajes de error deben ser directos y orientados a la acción (ej. *"Retraso de 2 horas reportado en ruta. Actualice la hora de recepción"*), permitiendo que los usuarios tomen decisiones rápidas sin ambigüedades ante cualquier emergencia en la carretera.
+El **Navy (`#0B3B60`)** se emplea principalmente en títulos, navegación y elementos estructurales. Este tono aporta contraste al verde principal y busca transmitir confianza, estabilidad y profesionalismo dentro del contexto logístico.
+
+Como color complementario se utiliza el **Accent Orange (`#F39C12`)**, reservado para elementos de énfasis, indicadores y determinadas acciones que requieren atención sin representar necesariamente una situación de error.
+
+Los colores principales de AgroFlet son:
+
+* **Primary Green:** `#27AE60` — identidad de marca y elementos destacados.
+* **Action Green:** `#176B3A` — botones y acciones principales.
+* **Navy:** `#0B3B60` — navegación, encabezados y elementos estructurales.
+* **Accent Orange:** `#F39C12` — elementos de énfasis e indicadores.
+
+Para fondos y superficies se utilizan principalmente tonos claros que facilitan la organización de la información:
+
+* **White:** `#FFFFFF` — fondo principal.
+* **Background Light:** `#F8F9FA` — superficies, tarjetas y formularios.
+* **Blue Tint:** `#EAF4FF` — secciones informativas o áreas destacadas.
+
+AgroFlet también incorpora colores semánticos para comunicar los resultados de determinadas operaciones. El **Success Green (`#059669`)** representa procesos completados correctamente; el **Warning Orange (`#F59E0B`)** se utiliza para advertencias o situaciones que requieren atención; y el **Error Red (`#D32F2F`)** identifica errores, cancelaciones o incidencias críticas.
+
+El color no se utiliza como único mecanismo para comunicar un estado. Los indicadores se complementan con texto, iconografía y etiquetas, permitiendo que el significado pueda ser interpretado incluso cuando el usuario no diferencia correctamente determinados colores.
+
+Por ejemplo, un envío no se identifica únicamente mediante un indicador verde, sino mediante una combinación como icono + “En tránsito”. De la misma manera, una incidencia crítica utiliza un icono, una descripción y el color correspondiente.
+
+El uso consistente de esta paleta permite establecer una jerarquía visual clara, diferenciar acciones y estados y, al mismo tiempo, reforzar la identidad gráfica de AgroFlet.
+
+<br>
+
+<p align="center">
+  <img src="assets/images/cOLORS-Agroflet.jpeg" alt="color palette" title="color palette" width="2000">
+   <em>Nota. Sistema cromático utilizado en la identidad visual de AgroFlet.</em>
+</p>
+
+
+**4.1.1.3. Spacing:**
+
+El sistema de espaciado de AgroFlet se basa en una cuadrícula de 4 píxeles, permitiendo mantener consistencia entre los diferentes componentes de la interfaz. A partir de esta unidad base se utilizan principalmente valores de 4, 8, 12, 16, 24 y 32 píxeles, dependiendo de la relación existente entre los elementos y del nivel de separación requerido.
+
+Los espacios de **4 px** se emplean entre elementos estrechamente relacionados, como un icono y su etiqueta. Los **8 px** permiten separar controles o elementos pertenecientes al mismo grupo, mientras que los **12 px** se utilizan en componentes pequeños o separaciones internas frecuentes.
+
+Los **16 px** se emplean principalmente como espaciado interno de tarjetas, formularios y grupos de información. Los **24 px** permiten establecer una separación visual más clara entre componentes o subsecciones, mientras que los **32 px** se utilizan para dividir bloques principales dentro de una vista.
+
+La escala de espaciado utilizada en AgroFlet es:
+
+* **4 px:** separación mínima.
+* **8 px:** elementos relacionados.
+* **12 px:** componentes pequeños.
+* **16 px:** separación interna de componentes.
+* **24 px:** tarjetas y secciones.
+* **32 px:** bloques principales.
+
+Este sistema facilita la organización visual de información relacionada con operaciones logísticas, como tarjetas de envíos, formularios de registro, información del vehículo, conductor, incidencias y estados de transporte.
+
+Asimismo, permite evitar la saturación visual y mantener una experiencia predecible entre las distintas vistas de la plataforma, especialmente cuando el usuario necesita revisar una cantidad considerable de información operativa.
+
+<br>
+
+<p align="center">
+  <img src="assets/images/spacing-Agroflet.jpeg" alt="spacing system" title="spacing system" width="1500">
+  <em>Nota. Sistema de espaciado utilizado en la interfaz de AgroFlet.</em>
+</p>
+
+
+**4.1.1.4. Iconography:**
+
+La iconografía de AgroFlet sigue un estilo simple, lineal, reconocible y consistente, orientado a facilitar la identificación rápida de las principales funciones de la plataforma. Los iconos funcionan como apoyo visual para elementos de navegación, acciones, formularios, estados y diferentes procesos relacionados con la coordinación del transporte agrícola.
+
+Se priorizan iconos de apariencia limpia, evitando ilustraciones excesivamente complejas que puedan aumentar la carga visual de la interfaz. Los iconos mantienen proporciones y estilos similares dentro de cada contexto de uso, contribuyendo a generar una experiencia visual uniforme.
+
+Entre los principales elementos representados mediante iconografía se encuentran:
+
+* **Inicio / Dashboard**
+* **Envíos**
+* **Vehículos**
+* **Conductores**
+* **Notificaciones**
+* **Buscar**
+* **Registrar envío**
+* **Rutas**
+* **Configuración**
+* **Perfil**
+
+Los iconos asociados a acciones principales pueden utilizar los tonos verdes de AgroFlet, mientras que los elementos secundarios emplean colores neutros o el **Navy (`#0B3B60`)**. Los estados críticos pueden utilizar el **Error Red (`#D32F2F`)** y las advertencias el **Accent Orange (`#F39C12`)**.
+
+Los iconos no reemplazan por completo al contenido textual en las operaciones importantes. Cuando una acción puede resultar ambigua, se acompaña de una etiqueta descriptiva, por ejemplo “Registrar envío”, “Notificaciones”, “Configuración” o “Ver detalles”.
+
+Este enfoque reduce la carga cognitiva del usuario y permite reconocer más rápidamente las acciones disponibles, especialmente en vistas que contienen múltiples operaciones, vehículos, conductores o notificaciones.
+
+<br>
+
+<p align="center">
+  <img src="assets/images/Iconografía-Agroflet.jpeg" alt="iconography system" title="iconography system" width="1500">
+  <em>Nota. Sistema de iconografía utilizado en la interfaz de AgroFlet.</em>
+</p>
+
+
+**4.1.1.5. Tone of Communication and Applied Language:**
+
+El tono de comunicación de AgroFlet es claro, profesional, respetuoso, sereno y orientado a la acción, priorizando la precisión sobre la certeza absoluta. Dado que la plataforma gestiona operaciones agrícolas, se evitan tecnicismos innecesarios y expresiones absolutas cuando solo se cuenta con datos estimados o reportados previamente.
+
+* Se utilizan términos precisos como “Ruta planificada”, “Posición reportada” o “Llegada estimada”.
+* Los mensajes de error describen primero el problema y luego la solución (por ejemplo, *"Ubicación no disponible. Última actualización: 09:30"*).
+* La interfaz prioriza instrucciones breves y se encuentra disponible tanto en español latinoamericano como en inglés, manteniendo la misma claridad en ambos idiomas.
+
+Algunos ejemplos clave del lenguaje empleado en la plataforma son:
+
+* **Acciones:** “Registrar envío”, “Iniciar traslado”, “Registrar incidencia”, “Ver detalles”.
+* **Estados y datos:** “Posición reportada”, “Ruta planificada”, “Ubicación no disponible”, “Operación entregada”.
+
+Este enfoque reduce la ambigüedad y genera confianza tanto en los despachadores como en los compradores que consultan el estado de las operaciones.
+
+<br>
+
+<p align="center">
+  <img src="assets/images/Tono-Comunicacion-Agroflet.jpeg" alt="tone of communication" title="tone of communication" width="1500">
+</p>
+
+<p align="center">
+  <em>Nota. Tono de comunicación y lenguaje aplicado en la interfaz de AgroFlet.</em>
+</p>
 
 ### 4.1.2. Web Style Guidelines
 
