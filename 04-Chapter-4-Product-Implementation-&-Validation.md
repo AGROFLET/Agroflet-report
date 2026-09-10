@@ -144,7 +144,7 @@ Este enfoque reduce la carga cognitiva del usuario y permite reconocer más ráp
 <br>
 
 <p align="center">
-  <img src="assets/images/Iconografía-Agroflet.jpeg" alt="iconography system" title="iconography system" width="1500">
+  <img src="assets/images/Iconografíaaa-Agroflet.jpeg" alt="iconography system" title="iconography system" width="1200">
   <em>Nota. Sistema de iconografía utilizado en la interfaz de AgroFlet.</em>
 </p>
 
@@ -198,32 +198,158 @@ https://miro.com/app/board/uXjVHpjtvic=/?share_link_id=251750996606
 
 ### 4.2.2. Labeling Systems
 
-Para cumplir con los estándares de internacionalización (i18n) y garantizar una curva de aprendizaje mínima, se emplea el *Ubiquitous Language* del dominio agro-logístico.
+El sistema de internacionalización (i18n) de AgroFlet soporta los idiomas inglés (`en_US` como predeterminado) y español latinoamericano (`es_419`), asegurando que la terminología operativa se mantenga uniforme y clara en ambas configuraciones regionales.
 
-* **Etiquetas de Navegación:** "Dashboard", "Flota", "Historial", "Configuración".
-* **Etiquetas de Acción:** Verbos en infinitivo precisos. Ej. "Registrar Unidad", "Asignar Conductor", "Registrar Incidencia".
-* **Etiquetas de Estado:** Representan la máquina de estados. Ej. "En Tránsito", "Entregado", "Retrasado", "Cancelado".
+| Inglés (`en_US`) | Español Latinoamericano (`es_419`) |
+| :---: | :---: |
+| **Inicio / Home** | Presenta una visión general de AgroFlet, destacando la gestión logística, el transporte agrícola y el seguimiento de envíos en tiempo real. |
+| **Nosotros / About Us** | Describe al equipo detrás de AgroFlet, su misión, visión y el impacto que busca generar en el sector agrologístico peruano. |
+| **Servicios / Services** | Explica los beneficios principales de la plataforma: coordinación de transportes, asignación de flotas y monitoreo de entregas. |
+| **Envíos / Shipments** | Permite explorar y registrar los envíos de productos agrícolas, incluyendo el estado actual, rutas y detalles del transporte. |
+| **Flota / Fleet** | Muestra el estado de los vehículos disponibles, capacidad de carga, asignación de conductores y disponibilidad operativa. |
+| **Conductores / Drivers** | Gestiona la información del personal de transporte, licencias, contacto y asignación a rutas específicas. |
+| **Planes / Plans** | Presenta los planes y opciones de la plataforma con sus características y diferencias, permitiendo elegir el modelo ideal para cada empresa o productor. |
+| **Despachador / Dispatcher** | Sección dirigida a los encargados de coordinar la logística, con herramientas para crear envíos, asignar flotas y supervisar rutas. |
+| **Comprador / Buyer** | Sección dirigida a los clientes o compradores, con información sobre el seguimiento de sus pedidos y recepción de mercancía. |
+| **Contacto / Contact Us** | Proporciona los medios de comunicación disponibles: correo electrónico, WhatsApp y canales de soporte del equipo. |
+| **Registro / Sign Up** | Permite crear una cuenta en la plataforma eligiendo el rol correspondiente para personalizar la experiencia operativa desde el inicio. |
+| **Iniciar sesión / Log In** | Permite a los usuarios registrados acceder a su cuenta y retomar su actividad en la plataforma de gestión. |
 
-### 4.2.3. SEO Tags and Meta Tags
 
-Para maximizar la indexación del *Landing Page* en buscadores B2B, se definen las siguientes etiquetas:
+## 4.2.3. SEO Tags and Meta Tags
 
-* **Title:** `AgroFlet | Monitoreo y Trazabilidad de Transporte Agrícola en Perú`
-* **Meta Description:** `Plataforma web para monitorear en tiempo casi real el transporte terrestre de alimentos perecibles. Reduce mermas y gestiona tu flota logística eficientemente.`
-* **Meta Keywords:** `logística agrícola, transporte de alimentos, monitoreo GPS camiones, trazabilidad agroalimentaria, AgroFlet, gestión de flotas Perú`
-* **Meta Author:** `AgroFlet Team`
+Los SEO Tags y Meta Tags de AgroFlet se definen con el objetivo de describir correctamente el contenido de las principales páginas públicas de la plataforma y proporcionar información clara al navegador y a los motores de búsqueda.
 
-### 4.2.4. Searching Systems
+En la Landing Page se priorizan términos relacionados con logística agrícola, transporte de productos agrícolas, coordinación de envíos y seguimiento de operaciones. En las vistas internas de la Web Application, los metadatos permiten identificar claramente la función de cada página, aunque estas vistas requieren autenticación y no están orientadas al posicionamiento público.
 
-* **Búsqueda Global:** Barra persistente superior para localizar operaciones por ID, placa de la unidad o DNI del conductor.
-* **Filtrado Facetado:** En el módulo de historial, filtros combinados (fecha, origen, destino, estado) con actualización en tiempo real en la *Data Table* de PrimeVue.
+| Página | Title | Description | Keywords | Author |
+| :---: | :---: | :---: | :---: | :---: |
+| **Landing Page** | AgroFlet \| Coordinación de transporte agrícola | Coordina envíos agrícolas, consulta incidencias y revisa información actualizada de tus operaciones logísticas mediante AgroFlet. | logística agrícola, transporte agrícola, envíos, AgroFlet, coordinación logística | AgroFlet Development Team |
+| **Login / Registro** | Accede a AgroFlet \| Iniciar sesión o registrarse | Inicia sesión o crea una cuenta en AgroFlet para gestionar y consultar operaciones de transporte agrícola según tu rol. | AgroFlet, iniciar sesión, registro, despachador, comprador | AgroFlet Development Team |
+| **Dashboard** | Dashboard \| AgroFlet | Consulta tus operaciones activas, estados, incidencias y últimas actualizaciones desde el panel principal de AgroFlet. | dashboard, envíos, logística agrícola, operaciones, seguimiento | AgroFlet Development Team |
+| **Envíos** | Envíos \| AgroFlet | Consulta y administra las operaciones de transporte agrícola asociadas a tu cuenta. | envíos agrícolas, operaciones, transporte, logística | AgroFlet Development Team |
+| **Historial** | Historial de envíos \| AgroFlet | Busca y consulta operaciones anteriores utilizando filtros de fecha, estado, producto y destino. | historial de envíos, incidencias, logística, operaciones | AgroFlet Development Team |
+| **Configuración** | Configuración \| AgroFlet | Administra la información de tu perfil, contraseña y preferencias de idioma en AgroFlet. | perfil, configuración, preferencias, AgroFlet | AgroFlet Development Team |
 
-### 4.2.5. Navigation Systems
+Las páginas públicas utilizan el atributo `lang` de acuerdo con el idioma seleccionado y el Meta Tag `viewport` para mantener una presentación adaptable a diferentes tamaños de pantalla. AgroFlet contempla inglés y español latinoamericano, por lo que los títulos y descripciones pueden adaptarse al idioma seleccionado por el usuario.
 
-* **Global Navigation:** Menú lateral (*Sidebar*) colapsable.
-* **Contextual Navigation:** *Breadcrumbs* (migas de pan) para orientar al usuario (ej. `Dashboard > Historial de Operaciones > Viaje #1024`).
-* **Local Navigation:** Pestañas (*Tabs*) en vistas detalladas para separar "Información General", "Mapa de Ruta" e "Incidencias".
+Las vistas privadas, como Dashboard, Envíos, Historial o Configuración, requieren autenticación y deben configurarse para evitar su indexación pública. Los Meta Tags permiten identificar correctamente cada vista dentro del navegador, pero no sustituyen los mecanismos de autenticación y autorización.
 
+> **Nota.** La tabla muestra los principales SEO Tags y Meta Tags definidos para las páginas de AgroFlet.
+
+---
+
+## 4.2.4. Searching Systems
+
+AgroFlet incorpora mecanismos de búsqueda y filtrado con el propósito de facilitar la localización de operaciones sin que los usuarios tengan que recorrer manualmente grandes cantidades de registros. Los criterios disponibles dependen del contexto de uso y del rol del usuario. Las búsquedas siempre se realizan únicamente sobre aquellas operaciones a las que el usuario tiene autorización de acceso.
+
+### Searching System para operaciones
+La sección de operaciones dispone de una barra de búsqueda que permite localizar rápidamente un envío mediante información identificable de la operación.
+
+| Criterio | Descripción |
+| :---: | :--- |
+| **Código de envío** | Permite localizar directamente una operación utilizando su identificador o número de envío. |
+| **Placa del vehículo** | Permite encontrar operaciones relacionadas con una unidad de transporte determinada. |
+| **Destino** | Permite localizar operaciones cuyo destino coincide con la ubicación ingresada. |
+
+Los resultados muestran únicamente las operaciones vinculadas al usuario autenticado y presentan información como código de envío, producto o carga, origen, destino, estado, fecha estimada de llegada y última actualización. Cuando no existen coincidencias, la aplicación muestra un mensaje indicando que no se encontraron operaciones para el criterio ingresado.
+
+> **Nota.** La tabla muestra los principales criterios de búsqueda disponibles para las operaciones de AgroFlet.
+
+### Searching System mediante filtros
+Además de la búsqueda directa, AgroFlet permite combinar diferentes filtros para reducir el número de resultados y facilitar la consulta del historial de operaciones.
+
+| Filtro | Descripción |
+| :---: | :--- |
+| **Fecha** | Permite limitar las operaciones según una fecha inicial y final determinadas por el usuario. |
+| **Estado** | Filtra las operaciones según su estado: Programado, En tránsito, Entregado o Cancelado. |
+| **Producto / Tipo de carga** | Permite mostrar únicamente operaciones relacionadas con un producto o tipo de carga determinado. |
+| **Destino** | Permite visualizar operaciones relacionadas con una ubicación o destino específico. |
+
+Los filtros pueden aplicarse simultáneamente. Cuando el usuario utiliza más de un criterio, el sistema muestra únicamente aquellas operaciones que cumplen con todas las condiciones seleccionadas. La interfaz presenta los filtros activos y proporciona una opción para limpiar filtros y regresar al listado completo permitido para el usuario.
+
+El sistema no incluye búsquedas globales mediante información sensible como DNI para compradores. La búsqueda se limita a información relacionada directamente con las operaciones autorizadas.
+
+> **Nota.** La tabla muestra los filtros disponibles para consultar y organizar las operaciones de AgroFlet.
+
+### Searching System para el Despachador
+El Despachador puede utilizar la búsqueda y los filtros para localizar rápidamente operaciones creadas dentro de su ámbito de gestión. Esto facilita tareas como revisar una operación específica, consultar viajes anteriores, comprobar el estado de un despacho o encontrar las operaciones asociadas a determinado vehículo.
+
+### Searching System para el Comprador
+El Comprador dispone de los mismos mecanismos básicos de búsqueda y filtrado, pero únicamente sobre los envíos en los que se encuentra asociado como participante. De esta manera, el sistema evita mostrar operaciones pertenecientes a otros compradores o despachadores y mantiene la búsqueda dentro del conjunto autorizado.
+
+---
+
+## 4.2.5. Navigation Systems
+
+El sistema de navegación de AgroFlet ha sido diseñado para permitir que los usuarios recorran las principales funcionalidades de manera clara, predecible y coherente con su rol dentro de la plataforma. La navegación se divide entre la Landing Page y la Web Application. Dentro de la aplicación, las opciones disponibles cambian según si el usuario corresponde al perfil de Despachador o Comprador.
+
+### Navigation System de la Landing Page
+La Landing Page utiliza una navegación horizontal en escritorio y un menú adaptable en dispositivos móviles. Su finalidad es presentar la propuesta de valor de AgroFlet y permitir que el visitante conozca las principales características de la solución antes de ingresar a la aplicación.
+
+| Nombre | Descripción |
+| :---: | :--- |
+| **Inicio / Home** | Presenta la propuesta principal de AgroFlet y una introducción a la solución de coordinación logística agrícola. |
+| **Funcionalidades / Features** | Describe las principales capacidades de la plataforma, como gestión de operaciones, incidencias, mapas, historial y notificaciones. |
+| **Planes / Plans** | Presenta las modalidades de uso o propuestas comerciales disponibles para los usuarios. |
+| **Contacto / Contact** | Permite enviar una consulta al equipo de AgroFlet mediante un formulario. |
+| **Términos / Terms** | Permite consultar las condiciones generales y el alcance del servicio. |
+| **Iniciar sesión** | Permite acceder a una cuenta previamente registrada. |
+| **Registrarse** | Permite iniciar el proceso de creación de una cuenta en AgroFlet. |
+
+La Landing Page incorpora además llamados a la acción diferenciados para los dos segmentos de la plataforma:
+* **Despachador** $\rightarrow$ dirige al flujo relacionado con la administración y coordinación de operaciones.
+* **Comprador** $\rightarrow$ dirige al flujo orientado a consultar los envíos que espera recibir.
+
+La selección realizada en la Landing Page únicamente orienta la navegación inicial y no concede privilegios ni reemplaza la autenticación del usuario.
+
+> **Nota.** La tabla muestra los principales apartados del sistema de navegación de la Landing Page de AgroFlet.
+
+### Navigation System para el Despachador
+La Web Application destinada al Despachador organiza la navegación en función de las principales tareas relacionadas con la coordinación del transporte agrícola.
+
+| Nombre | Descripción |
+| :---: | :--- |
+| **Dashboard** | Presenta un resumen de las operaciones activas y la información principal que requiere atención. |
+| **Envíos / Shipments** | Permite registrar, consultar y gestionar las operaciones de transporte. |
+| **Vehículos / Vehicles** | Permite registrar, consultar y actualizar las unidades de transporte disponibles. |
+| **Conductores / Drivers** | Permite registrar conductores y consultar su disponibilidad para nuevas operaciones. |
+| **Notificaciones / Notifications** | Presenta avisos relacionados con incidencias y cambios relevantes en las operaciones. |
+| **Configuración / Settings** | Permite gestionar los datos de perfil, contraseña y preferencias de idioma del usuario. |
+
+Dentro de cada operación se presentan acciones contextuales como *Iniciar traslado*, *Registrar incidencia*, *Registrar posición*, *Marcar como entregada*, *Cancelar operación* o *Ver detalles*. Estas acciones no se colocan como opciones permanentes en la navegación principal, sino que aparecen únicamente cuando corresponden al estado actual de la operación.
+
+> **Nota.** La tabla muestra los apartados principales del sistema de navegación para el Despachador de AgroFlet.
+
+### Navigation System para el Comprador
+La interfaz correspondiente al Comprador presenta una navegación enfocada principalmente en la consulta y seguimiento de los envíos que tiene asociados.
+
+| Nombre | Descripción |
+| :---: | :--- |
+| **Envíos por recibir / Incoming Shipments** | Presenta las operaciones activas asociadas al comprador. |
+| **Detalle del envío / Shipment Details** | Permite consultar información completa de una operación determinada. |
+| **Historial / History** | Permite consultar operaciones anteriores y aplicar filtros de búsqueda. |
+| **Notificaciones / Notifications** | Presenta avisos relacionados con incidencias y cambios de estado de los envíos. |
+| **Configuración / Settings** | Permite administrar datos del perfil, contraseña y preferencias de idioma. |
+
+El comprador puede acceder al detalle de una operación para consultar información como estado actual, origen, destino, llegada estimada, ruta planificada, posiciones reportadas, incidencias e historial de estados. A diferencia del Despachador, el Comprador no dispone de opciones para registrar vehículos, conductores o crear operaciones de transporte.
+
+> **Nota.** La tabla muestra los apartados principales del sistema de navegación para el Comprador de AgroFlet.
+
+### Navigation System del detalle de una operación
+Dentro del detalle de cada envío se utiliza una navegación contextual que organiza la información de la operación en diferentes apartados.
+
+| Nombre | Descripción |
+| :---: | :--- |
+| **Resumen / Summary** | Presenta los principales datos de la operación, estado, carga, origen, destino y fechas relevantes. |
+| **Ruta planificada / Planned Route** | Permite visualizar el recorrido previsto entre el punto de origen y el destino. |
+| **Posiciones reportadas / Reported Positions** | Presenta las ubicaciones registradas para la operación junto con la fecha y fuente correspondiente. |
+| **Incidencias / Incidents** | Permite revisar los eventos registrados durante el traslado y su impacto sobre la operación. |
+| **Historial de estados / Status History** | Presenta cronológicamente los cambios de estado realizados sobre la operación. |
+
+La información geográfica se comunica indicando explícitamente si corresponde a una ruta planificada o una posición reportada, evitando presentar una ubicación estimada como si correspondiera a seguimiento GPS continuo. Asimismo, al regresar desde el detalle hacia el historial o listado de operaciones, se busca conservar los filtros utilizados previamente para evitar que el usuario tenga que repetir su búsqueda.
+
+> **Nota.** La tabla muestra la navegación contextual disponible dentro del detalle de una operación de AgroFlet.
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
