@@ -521,198 +521,73 @@ El prototipo interactivo permite validar heurísticas de usabilidad antes del de
 
 ### 4.6.1. Design-Level EventStorming
 
-Aplicando *Domain-Driven Design*, se identificaron los siguientes sub-dominios (Bounded Contexts):
-
-* **Fleet Management:** Gestión de `Vehicle` y `Driver`.
-* **Shipment Tracking:** Control del ciclo de vida de `Shipment` y registro de `Incident`.
-* **Identity and Access Management:** Autenticación y perfiles de `User`.
-
-> `[Insertar captura de imagen del EventStorming (Miro / FigJam)]`
+faltaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ### 4.6.2. Software Architecture Context Level Diagram
 
-El Nivel 1 del Modelo C4 describe las interacciones globales. Elaborado utilizando Structurizr.
+En esta sección se presenta el diagrama de contexto correspondiente al Nivel 1 del Modelo C4. El propósito de este nivel es ilustrar el sistema AgroFlet como una caja negra en el centro de su ecosistema, identificando a los usuarios principales que interactúan con la plataforma y los sistemas externos de los cuales depende para cumplir con sus procesos logísticos y de comunicación.  El ecosistema está compuesto por dos actores clave: el Despachador (quien registra flotas, coordina y emite el envío) y el Comprador Mayorista (quien consume la información de llegada). Asimismo, AgroFlet se integra con un Servicio Externo de Mapas para la renderización de coordenadas y un Servicio de Correos para notificaciones transaccionales.
 
-```plantuml
-@startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
-Person(producer, "Despachador", "Coordina envíos de carga agrícola.")
-Person(buyer, "Comprador Mayorista", "Supervisa la recepción de envíos.")
-
-System(agroflet, "AgroFlet System", "Plataforma de trazabilidad logística y monitoreo.")
-
-System_Ext(mapsApi, "Servicio Externo de Mapas", "Provee geolocalización y trazado de rutas (ej. Google Maps).")
-System_Ext(emailApi, "Servicio de Correos", "Envía notificaciones transaccionales y alertas.")
-
-Rel(producer, agroflet, "Registra y monitorea operaciones", "HTTPS")
-Rel(buyer, agroflet, "Consulta ETA y ubicación", "HTTPS")
-Rel(agroflet, mapsApi, "Obtiene geolocalización", "REST API")
-Rel(agroflet, emailApi, "Envía alertas de incidencias", "REST API")
-@enduml
-
-```
-
-> `[Reemplazar bloque de código por la exportación visual de Structurizr o PlantUML]`
+<p align="center">
+  <img src="assets/images/Software-Architecture-Context-Level-Diagram1.png" title="diagramcontext" width="1000">
+</p>
+<p align="center">
+  Nota: Diagrama de Contexto elaborado en planttext aplicando el Modelo C4.<br>
+</p>
 
 ### 4.6.3. Software Architecture Container Level Diagrams
 
-El Nivel 2 del Modelo C4 desglosa los contenedores desplegables.
+A continuación, se detalla el diagrama de contenedores (Nivel 2 del Modelo C4), el cual expone la arquitectura de alto nivel de AgroFlet, mostrando las unidades de despliegue independientes y las decisiones tecnológicas adoptadas.  La arquitectura se divide en tres contenedores principales: una Single-Page Application (SPA) desarrollada en Vue.js que provee la interfaz responsiva; un RESTful API en ASP.NET Core (C#) que centraliza la lógica de negocio, validaciones y autenticación JWT; y una Base de Datos Relacional en MySQL que garantiza la integridad transaccional (ACID) de los registros logísticos
 
-```plantuml
-@startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-Person(user, "Usuario (Despachador/Comprador)")
+<p align="center">
+  <img src="assets/images/Software-Architecture-Container-Level-Diagrams2.png" title="diagramointeiner" width="1000">
+</p>
+<p align="center">
+  Nota: Diagrama de Contenedores elaborado en planttext aplicando el Modelo C4.<br>
+</p>
 
-System_Boundary(c1, "AgroFlet") {
-    Container(web_app, "Single-Page Application", "Vue.js, PrimeVue", "Provee la interfaz cliente responsive.")
-    Container(api, "RESTful API", "ASP.NET Core, C#", "Provee la lógica de negocio y endpoints mediante Swagger.")
-    ContainerDb(db, "Relational Database", "MySQL", "Almacena usuarios, flotas, viajes e incidencias.")
-}
-
-System_Ext(mapsApi, "Servicio de Mapas", "Map API")
-
-Rel(user, web_app, "Navega y visualiza datos", "HTTPS")
-Rel(web_app, api, "Consume Endpoints RESTful", "JSON/HTTPS")
-Rel(api, db, "Lee y escribe registros", "Entity Framework Core / TCP")
-Rel(web_app, mapsApi, "Carga capa geoespacial", "HTTPS")
-@enduml
-
-```
-
-> `[Reemplazar bloque de código por la exportación visual]`
 
 ### 4.6.4. Software Architecture Component Level Diagrams
 
-El Nivel 3 del Modelo C4 detalla la estructura interna del contenedor RESTful API utilizando ASP.NET Core.
+Este diagrama de componentes (Nivel 3 del Modelo C4) descompone el contenedor del RESTful API. Refleja la separación de responsabilidades arquitectónicas (Clean Architecture/N-Capas) mediante el uso de Controladores (Controllers), Servicios de Negocio (Business Services) y Componentes de Acceso a Datos (Repositories).  Se ilustra cómo las peticiones HTTP son interceptadas por los Controladores correspondientes a cada Bounded Context (Identidad, Recursos, Operaciones), delegando las reglas de negocio a los servicios y orquestando la persistencia mediante Entity Framework Core. 
 
-> `[Insertar diagrama de Componentes evidenciando Controllers (ej. ShipmentsController), Services (ILogisticsService) y Repositories (UnitOfWork)]`
+<p align="center">
+  <img src="assets/images/Software-Architecture-Component-Level-Diagrams3.png" title="diagramcomponent" width="1000">
+</p>
+<p align="center">
+  Nota: Diagrama de Componentes del API elaborado en planttext.<br>
+</p>
+
 
 ## 4.7. Software Object-Oriented Design
 
+El diseño orientado a objetos encapsula el dominio logístico de AgroFlet, protegiendo las reglas de negocio mediante modificadores de acceso (private, public) y comportamientos ricos en lugar de modelos anémicos.
+
 ### 4.7.1. Class Diagrams
 
-Diseño orientado a objetos en C#, aplicando encapsulamiento para proteger la integridad de las reglas de negocio financieras y logísticas. Elaborado utilizando UML.
+Este diagrama de clases UML modela las entidades extraídas del análisis de las Historias de Usuario (US) y Technical Stories (TS). Se incluyen las propiedades completas (ej. CargoType, EstimatedDelayMinutes, PreferredLanguage) y los métodos que controlan la máquina de estados de las operaciones (StartTransit(), Cancel(), MarkAsDelivered()).  
 
-```plantuml
-@startuml
-package "AgroFlet.Domain.Entities" {
-    class User {
-        + Id : Guid
-        + FirstName : string
-        + LastName : string
-        + Email : string
-        + Role : RoleType
-    }
 
-    class Vehicle {
-        + Id : Guid
-        + LicensePlate : string
-        + CapacityTons : decimal
-        + Status : VehicleStatus
-    }
+<p align="center">
+  <img src="assets/images/Diagram-clases-uml.png" title="classuml" width="1000">
+</p>
+<p align="center">
+  Nota: Diagrama de Clases UML modelando los Bounded Contexts principales en planttext.<br>
+</p>
 
-    class Driver {
-        + Id : Guid
-        + FullName : string
-        + Dni : string
-        + LicenseNumber : string
-    }
-
-    class Shipment {
-        + Id : Guid
-        + CargoDescription : string
-        + Origin : string
-        + Destination : string
-        + Status : ShipmentStatus
-        + DepartureTime : DateTime
-        + ETA : DateTime
-        + StartTransit() : void
-        + ReportIncident(Incident) : void
-        + MarkAsDelivered() : void
-    }
-
-    class Incident {
-        + Id : Guid
-        + Description : string
-        + Severity : IncidentSeverity
-        + ImpactHours : int
-        + ReportedAt : DateTime
-    }
-
-    Shipment "1" *-- "0..*" Incident : Registra >
-    Shipment "1" -- "1" Vehicle : Utiliza >
-    Shipment "1" -- "1" Driver : Conducido por >
-    User "1" -- "0..*" Shipment : Monitorea >
-}
-@enduml
-
-```
-
-> `[Reemplazar bloque de código por la exportación visual del Diagrama de Clases]`
 
 ## 4.8. Database Design
 
+El diseño de la base de datos asegura la persistencia estructural de AgroFlet mediante un modelo relacional en MySQL.  
+
 ### 4.8.1. Database Diagrams
 
-El diagrama Entidad-Relación (ERD) modela la persistencia en el motor relacional MySQL. Se aseguran las llaves foráneas (FK) y la integridad de los datos logísticos.
+El siguiente Diagrama Entidad-Relación (ERD) documenta las tablas, columnas, tipos de datos, llaves primarias (PK) en formato UUID (CHAR 36) y restricciones de llave foránea (FK) que garantizan la integridad referencial del sistema logístico. Se evidencia la trazabilidad histórica de ubicaciones e incidencias hacia su envío matriz.  
 
-```plantuml
-@startuml
-entity "Users" as users {
-  * Id : CHAR(36) <<PK>>
-  --
-  FirstName : VARCHAR(100)
-  LastName : VARCHAR(100)
-  Email : VARCHAR(150) <<UK>>
-  PasswordHash : VARCHAR(255)
-  Role : VARCHAR(50)
-}
-
-entity "Vehicles" as vehicles {
-  * Id : CHAR(36) <<PK>>
-  --
-  LicensePlate : VARCHAR(15) <<UK>>
-  CapacityTons : DECIMAL(10,2)
-  Status : VARCHAR(50)
-}
-
-entity "Drivers" as drivers {
-  * Id : CHAR(36) <<PK>>
-  --
-  FullName : VARCHAR(150)
-  Dni : VARCHAR(8) <<UK>>
-  LicenseNumber : VARCHAR(20)
-}
-
-entity "Shipments" as shipments {
-  * Id : CHAR(36) <<PK>>
-  --
-  VehicleId : CHAR(36) <<FK>>
-  DriverId : CHAR(36) <<FK>>
-  CargoDescription : VARCHAR(255)
-  Origin : VARCHAR(150)
-  Destination : VARCHAR(150)
-  DepartureTime : DATETIME
-  ETA : DATETIME
-  Status : VARCHAR(50)
-}
-
-entity "Incidents" as incidents {
-  * Id : CHAR(36) <<PK>>
-  --
-  ShipmentId : CHAR(36) <<FK>>
-  Description : TEXT
-  Severity : VARCHAR(50)
-  ReportedAt : DATETIME
-}
-
-shipments }o--|| vehicles
-shipments }o--|| drivers
-incidents }o--|| shipments
-@enduml
-
-```
-
-> `[Reemplazar bloque de código por el diagrama ERD generado en MySQL Workbench o LucidChart]`
+<p align="center">
+  <img src="assets/images/Diagrama Entidad-Relación5.png" title="classuml" width="1000">
+</p>
+<p align="center">
+  Nota: Diagrama Entidad-Relación (ERD) hecho en planttext.<br>
+</p>
