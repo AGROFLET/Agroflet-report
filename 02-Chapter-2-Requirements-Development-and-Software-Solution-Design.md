@@ -278,8 +278,10 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la herramienta d
 | **Evidencia fotográfica** | <p><img src="assets/images/segmento2-entrevista2.PNG" width="400" alt="Logo AgroFlet"> |
 
 **Resumen de la entrevista:**
-(Pendiente)
 
+En esta entrevista, Farit Alejandro Santoyo Espejo, de 33 años, explica que administra su propio puesto mayorista en el mercado desde hace aproximadamente 15 años, comercializando principalmente papas, cebollas y ajos. Sus herramientas cotidianas de trabajo son el teléfono celular para coordinar envíos por WhatsApp y llamadas, y una laptop donde utiliza hojas de cálculo de Excel para llevar cuentas rápidas de sus productos. Su proceso logístico actual se basa en recibir la confirmación de salida del chofer, estimar la hora de llegada sumando el tiempo de viaje a la hora de despacho y llamar al conductor dos o tres veces durante el trayecto, por lo que reconoce operar prácticamente a ciegas.
+
+Esta falta de visibilidad le genera constantes problemas operativos, ya que tres de cada cinco envíos sufren retrasos por tráfico pesado, fallas mecánicas o bloqueos en las carreteras. Dichas demoras provocan horas muertas pagadas a sus estivadores, cuellos de botella al juntarse varios camiones y la pérdida de clientes madrugadores que terminan comprando en la competencia. En un caso específico, un retraso de 14 horas hizo que un camión de papa amarilla llegara sudado y maltrecho, obligándolo a desechar parte de la carga y vender el resto a pérdida. Para solucionar esto, necesita una plataforma digital que le brinde la ubicación del camión en tiempo real, alertas automáticas de bloqueos y una hora estimada de llegada actualizada cada pocos minutos. Aunque considera que el costo debería ser asumido principalmente por el transportista como un valor agregado, estaría dispuesto a pagar una tarifa pequeña por viaje, señalando que en este negocio el tiempo es dinero y la frescura se pierde rápido.
 
 ---
 
