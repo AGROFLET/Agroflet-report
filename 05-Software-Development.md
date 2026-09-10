@@ -28,7 +28,7 @@ El entorno seleccionado permite mantener coherencia entre el diseño elaborado e
 Para la gestión del código fuente de Agroflet se utiliza Git como sistema de control de versiones y GitHub como plataforma de alojamiento remoto del repositorio. Esta configuración permite mantener trazabilidad sobre los cambios realizados en la Landing Page, organizar el trabajo colaborativo del equipo y conservar un historial verificable de la evolución del producto.
 
 El repositorio principal del proyecto es el siguiente:
-* **Repositorio del Landing Page y pruebas de aceptación:** https://github.com/-------------
+* **Repositorio del Landing Page y pruebas de aceptación:** https://github.com/AGROFLET
 
 En este mismo repositorio se almacenará tanto el código fuente de la Landing Page como los archivos de pruebas de aceptación en formato .feature. Para ello, se utilizará una carpeta específica denominada `features/`, ubicada en la raíz del proyecto. Esta decisión permite mantener en un mismo espacio la implementación web y los escenarios de aceptación asociados a las User Stories del producto.
 
