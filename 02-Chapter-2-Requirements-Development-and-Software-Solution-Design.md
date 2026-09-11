@@ -229,16 +229,20 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
+| **Nombres y Apellidos** | Andrea Villanueva |
 | **ID**   | E-S1-03 |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+| **Edad** | 28 años |
+| **Distrito** | Barranca, Lima Norte |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f027_upc_edu_pe/IQDRYdPtf-0tS6ZoPBaZn2PuAfc8OFEIlS_v4zy_1CuaIes?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jUoasK |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 9:07 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/interview-Andrea.png" width="400" alt="Logo AgroFlet"> |
 
 **Resumen de la entrevista:**
-(Pendiente)
+La entrevistada es una coordinadora logística de 28 años llamada Andrea Villanueva, con 5 años de experiencia gestionando despachos en una cooperativa agraria en Barranca, Lima. Se dedica a la consolidación y envío de productos altamente perecibles como hortalizas (lechuga, brócoli, apio) y papa hacia los mercados mayoristas y distribuidores de Lima Metropolitana.
+
+Su objetivo principal es asegurar la frescura de la carga y el cumplimiento estricto de los horarios de entrega para evitar penalizaciones y mermas económicas. Actualmente, coordina los fletes de manera informal mediante llamadas y WhatsApp con transportistas independientes, lo que le genera constante incertidumbre ante la pérdida de señal en carretera, bloqueos viales y la falta de alertas tempranas sobre demoras.
+
+Para adoptar AgroFlet, exige que la plataforma ofrezca monitoreo en mapa con recálculo dinámico de la hora estimada de llegada (ETA) y un registro formal de incidencias que justifique los retrasos ante sus compradores. Andrea muestra total disposición a usar la herramienta e incluso a pagar una suscripción mensual de S/ 100 a S/ 200, considerando que la visibilidad y el respaldo digital evitarán las costosas pérdidas por merma que hoy asume su cooperativa.
 
 
 ---
