@@ -486,8 +486,9 @@ El Mock-up de alta fidelidad integra el isotipo de AgroFlet, la paleta de colore
 
 ## 4.4. Web Applications UX/UI Design
 
-... encargado de coordinar las operaciones, y Comprador, orientado a consultar los envíos asociados a su recepción.
-El trabajo registrado en Figma comprende wireframes, mockups y representaciones de flujos. Su relación con las historias de usuario permite revisar que las interfaces respondan a las tareas del negocio y que las acciones ofrecidas sean coherentes con el rol y el estado de cada operación.
+El diseño de la aplicacion web de   Agroflet oorganiza las experiencias de los dos roles principales: Desapachador, encargado de coordinar las operaciones, y Comprador, orientado a consultar los envios asociados a su recepción.
+
+El trabajo registrado en Figma comprende wireframes, mockups y represtaciones de flujos. Su relacion con las ohistoprias de usuario permite revusar que las interfaves respondan a las tareas del negocio u que las acciones ofrecidas sean cogerentes con el rol t el estado de cada operacion.
 
 ### 4.4.1. Web Applications Wireframes
 
