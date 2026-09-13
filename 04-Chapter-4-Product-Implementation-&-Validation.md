@@ -486,33 +486,88 @@ El Mock-up de alta fidelidad integra el isotipo de AgroFlet, la paleta de colore
 
 ## 4.4. Web Applications UX/UI Design
 
+... encargado de coordinar las operaciones, y Comprador, orientado a consultar los envíos asociados a su recepción.
+El trabajo registrado en Figma comprende wireframes, mockups y representaciones de flujos. Su relación con las historias de usuario permite revisar que las interfaces respondan a las tareas del negocio y que las acciones ofrecidas sean coherentes con el rol y el estado de cada operación.
+
 ### 4.4.1. Web Applications Wireframes
 
-Los wireframes de la aplicación web estructuran las vistas protegidas, distribuyendo espacialmente los componentes del *Dashboard* (área de mapa al 70%, lista de operaciones al 30%). Elaborado utilizando Figma.
+Los wireframes elaborados establecen la distribución de los contenidos y controles de la aplicación. En el dashboard se trabajó una composición con aproximadamente 70 % del espacio destinado al mapa y 30 % al listado de operaciones, como referencia de la vista amplia. Esta distribución debe adaptarse al navegador móvil, conservando la información esencial y evitando reducir excesivamente los elementos.
 
-> `[Insertar capturas de imagen de los Wireframes de la App elaborados en Figma]`
+Las familias de vistas utilizadas para organizar y revisar el diseño se relacionan con las historias de la siguiente manera:
+
+<div align="center">
+  
+| Familia de vistas | Propósito | Historias relacionadas |
+| :--- | :--- | :--- |
+| Acceso y cuenta | Registro, inicio, cierre de sesión y recuperación de contraseña. | US01–US04 |
+| Dashboard | Consulta de operaciones, estados y últimas actualizaciones. | US10 |
+| Nueva operación | Selección de recursos y registro de un envío programado. | US08, US09 |
+| Detalle de operación | Consulta del envío, inicio efectivo y cierre. | US11, US12, US31 |
+| Incidencias | Registro y consulta de eventos del traslado. | US13, US14 |
+| Recursos de transporte | Registro de vehículos y conductores, y actualización de vehículos. | US05–US07 |
+| Historial y búsqueda | Consulta mediante filtros, código de envío o placa. | US15, US16 |
+| Información geográfica | Ruta planificada y posiciones reportadas. | US17, US18, US32 |
+| Notificaciones | Avisos sobre incidencias y cambios de estado. | US19, US20 |
+| Perfil y preferencias | Actualización de datos, contraseña e idioma. | US21–US23 |
+| Condiciones de uso | Consulta de los términos del servicio. | US33 |
+
+</div>
+
+Esta relación establece la trazabilidad para revisar los frames; no sustituye las capturas de los wireframes ni acredita por sí sola la cobertura de todos los escenarios.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-Diagrama que ilustra la progresión lineal de pantallas (User Goal). Muestra el flujo desde la selección de una operación activa en el *Dashboard* hasta la apertura del modal para reportar una incidencia. Elaborado utilizando FigJam / LucidChart.
+Los wireflows organizan la secuencia de pantallas que recorre el usuario para alcanzar un objetivo. El registro de elaboración incluye estos artefactos, cuya revisión permite relacionar las acciones del usuario con los cambios representados en las interfaces.
+Entre los recorridos centrales de AgroFlet se consideran:
 
-> `[Insertar captura de imagen del Wireflow]`
+<div align="center"> 
+  
+| Usuario y objetivo | Secuencia funcional de referencia |
+| :--- | :--- |
+| Despachador: preparar un envío | Consultar operaciones → completar datos → seleccionar recursos → revisar → confirmar operación programada. |
+| Despachador: comunicar una incidencia | Consultar envío en tránsito → registrar evento e impacto → confirmar → consultar incidencia y estimación actualizada. |
+| Comprador: organizar la recepción | Acceder a sus envíos → consultar detalle → revisar llegada estimada, incidencias e información geográfica. |
+| Participante autorizado: revisar antecedentes | Acceder al historial → buscar o filtrar → consultar resultados → abrir detalle. |
+
+</div>
+
+Para su presentación académica, cada wireflow debe mostrar los wireframes correspondientes, las acciones que conectan sus pasos y las variantes relevantes. La revisión pendiente debe confirmar que un cambio de estado se representa mediante una pantalla diferenciada y que también se cubren los objetivos complementarios de cuenta, recursos y preferencias.
 
 ### 4.4.3. Web Applications Mock-ups
 
-Interfaces de alta fidelidad construidas aplicando los componentes de la biblioteca PrimeVue (Material Design). Se visualizan las *Data Tables*, tarjetas de resumen, marcadores del mapa y modales de registro con jerarquía de color.
+Los mockups desarrollan las interfaces de AgroFlet con mayor detalle visual, incorporando la organización de contenidos, los controles, los estados de las operaciones y los elementos de navegación. El trabajo registrado incluye el dashboard con mapa y listado, así como modales conectados para explorar interacciones.
 
-> `[Insertar capturas de imagen de los Mock-ups de la App elaborados en Figma]`
+La propuesta toma como referencia un diseño basado en Material Design, compatible con la posterior implementación en Vue y PrimeVue. Los mockups representan decisiones visuales; no implican que los componentes de PrimeVue estén ejecutándose dentro de Figma.
+
+La diferenciación entre roles constituye un criterio central de revisión: el despachador dispone de acciones de gestión, mientras que el comprador consulta la información de sus envíos. Asimismo, la información geográfica debe distinguir entre ruta planificada y posición reportada, indicando la fuente y la fecha del dato.
+
+La versión registrada conserva pendientes de traducción, iconografía y coherencia de algunos recorridos. Por ello, todavía no corresponde declarar concluida la revisión visual y funcional de todos los mockups.
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-Diagrama que mapea las decisiones algorítmicas del usuario (Happy Path y Unhappy Paths). Incluye validaciones lógicas, como el intento de asignar un conductor que ya se encuentra "En Tránsito". Elaborado utilizando FigJam / LucidChart.
+Las representaciones de decisiones desarrolladas complementan la secuencia de pantallas al incorporar las condiciones que determinan cómo continúa una interacción. Para su presentación como User Flow Diagrams, deben relacionarse con los mockups y mostrar tanto el recorrido esperado como las alternativas.
 
-> `[Insertar captura de imagen del User Flow]`
+El flujo de operaciones utiliza como referencia las siguientes reglas:
 
-## 4.5. Web Applications Prototyping
+* La selección provisional de recursos no realiza una reserva.
+* La creación válida registra una operación `planned`.
+* El inicio efectivo cambia la operación a `in transit`.
+* La entrega permite pasar de `in_transit` a `delivered`.
+* La cancelación se permite desde `planned` o `in transit`, con motivo registrado.
+* Las operaciones entregadas o canceladas no se reabren mediante estos recorridos.
 
-El prototipo interactivo permite validar heurísticas de usabilidad antes del desarrollo de la aplicación web. Se configuran transiciones, apertura de modales (ej. "Registrar Incidencia") y navegación en el *Sidebar*.
+Las alternativas incluyen datos inválidos, recursos no disponibles, errores de guardado, ausencia de posición y restricciones de acceso. La revisión final debe comprobar que las ramas permiten corregir, cancelar o regresar, y que no existen conexiones incompatibles con las historias de usuario.
+
+### 4.5. Web Applications Prototyping
+
+El prototipo de AgroFlet reúne las interfaces y conexiones de navegación para explorar la experiencia antes de su implementación. El registro de trabajo incluye modales conectados y transiciones visuales, que permiten representar cambios de pantalla y acciones dentro del diseño.
+
+Los recorridos se orientan a la preparación y consulta de envíos, el registro de incidencias y la revisión de información logística por parte de despachadores y compradores. Su evaluación debe comprobar la continuidad de las interacciones en escritorio y navegador móvil, incluyendo acciones de retorno, cancelación y recuperación ante errores.
+
+El prototipo constituye una simulación de la experiencia de uso. No demuestra autenticación real, persistencia de datos, transacciones, envío de correos ni integración operativa con servicios geográficos.
+
+Antes de cerrar esta sección deben completarse la revisión de recorridos, las traducciones y la iconografía. Asimismo, el informe debe incorporar las capturas seleccionadas y el video de navegación exigido por el curso.
+
 
 > `[Insertar screenshot del prototipo en Figma]`
 > **Enlace al Video Demostrativo:** `[Insertar URL de Microsoft Stream del recorrido del prototipo]`
