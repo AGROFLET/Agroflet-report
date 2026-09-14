@@ -439,6 +439,8 @@ A través de esta exploración se evidenciaron puntos críticos de fricción en 
 
 <div style="page-break-after: always"></div>
 
+La matriz de tareas de usuario clasifica las actividades operativas de AgroFlet evaluando la frecuencia e importancia para cada segmento objetivo. Esto evidencia una marcada complementariedad funcional: Carlos Mendoza prioriza tareas de gestión de flota, creación de despachos y reporte de contingencias viales, mientras que Mariana Viteri enfoca su actividad en el seguimiento de la hora estimada de llegada (ETA), recepción de alertas tempranas y auditoría de tiempos en el historial. Ambas partes convergen en la alta relevancia del monitoreo cartográfico en tránsito y la confirmación formal de entrega de la carga agrícola.
+
 ### 2.3.3. User Journey Mapping
 
 **Segmento Objetivo: Medianos Productores Agrícolas y Acopiadores:**
