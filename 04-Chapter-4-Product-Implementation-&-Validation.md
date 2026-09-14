@@ -592,9 +592,12 @@ El prototipo constituye una simulación de la experiencia de uso. No demuestra a
 
 Antes de cerrar esta sección deben completarse la revisión de recorridos, las traducciones y la iconografía. Asimismo, el informe debe incorporar las capturas seleccionadas y el video de navegación exigido por el curso.
 
+<p align="center">
+  <img src="assets/images/Prototypeeee.png" title="Wireframes" width="1500">
+</p>
 
-> `[Insertar screenshot del prototipo en Figma]`
-> **Enlace al Video Demostrativo:** `[Insertar URL de Microsoft Stream del recorrido del prototipo]`
+
+> **Enlace al Video Demostrativo:** LINKKKKKKKKKKKKKKKK-VIDEO-FIGMAAAAAA
 
 ## 4.6. Domain-Driven Software Architecture
 
