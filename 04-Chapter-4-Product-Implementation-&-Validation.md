@@ -514,7 +514,13 @@ Las familias de vistas utilizadas para organizar y revisar el diseño se relacio
 
 </div>
 
-Esta relación establece la trazabilidad para revisar los frames; no sustituye las capturas de los wireframes ni acredita por sí sola la cobertura de todos los escenarios.
+</br>
+
+<p align="center">
+  <img src="assets/images/Wireframes.png" alt="Wireframes" title="Wireframes" width="1500">
+  <em>Esta relación establece la trazabilidad para revisar los frames; no sustituye las capturas de los wireframes ni acredita por sí sola la cobertura de todos los escenarios.</em>
+</p>
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
