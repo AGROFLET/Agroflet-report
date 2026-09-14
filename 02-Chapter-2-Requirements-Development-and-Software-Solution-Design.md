@@ -169,14 +169,9 @@ Perfil demográfico (edad, distrito, nivel educativo, cargo, tipo de negocio); p
 
 ---
 
-> **Nota sobre la aplicación de las entrevistas:**
-> El registro completo de las entrevistas realizadas —incluyendo nombre, apellidos, edad, distrito, screenshot del video y URL de cada sesión en Microsoft Stream con el timing correspondiente— se presentará en la sección **2.2.2. Registro de Entrevistas**, una vez concluida la fase de campo del *needfinding*. Asimismo, el análisis estadístico de los hallazgos principales de ambos segmentos se desarrollará en la sección **2.2.3. Análisis de Entrevistas**.
-
 ### 2.2.2. Registro de entrevistas
 
 A continuación, se presenta el registro de las entrevistas realizadas a los representantes de cada segmento objetivo.
-
----
 
 #### Entrevista 1: Segmento 1 - Medianos Productores Agrícolas y Acopiadores
  
@@ -325,7 +320,7 @@ En tercer lugar, se identifica una brecha operativa condicionada por la edad y f
 
 En cuarto lugar, respecto a la monetización y viabilidad, existe una disposición unánime a pagar para mitigar el riesgo de merma. Sin embargo, el 66.7% (2 de 3) prefiere esquemas flexibles y económicos, ya sea mediante microtarifas por viaje (S/ 10 - S/ 15) o suscripciones mensuales accesibles de S/ 30 a S/ 50, mientras que el 33.3% restante (en el ámbito de cooperativas agrarias con mayor volumen) está dispuesto a asumir entre S/ 100 y S/ 200 al mes. En síntesis, este segmento necesita una herramienta ágil que convierta la incertidumbre del camino en tranquilidad financiera mediante alertas tempranas y respaldo documental de incidentes.
 
-![Chart 1](../Agroflet-report/assets/images/Img_Segmento1.png)
+![Chart 1](assets/images/Img_Segmento1.png)
 
 **Análisis Segundo Segmento: Compradores Mayoristas y Distribuidores:** En primer lugar, se identifica un problema crítico de asimetría informativa y falta de predictibilidad en la recepción de la carga. Los comerciantes y jefes de abastecimiento reconocen que operan prácticamente «a ciegas» al depender de transportistas externos, experimentando que hasta tres de cada cinco despachos sufren demoras por fallas mecánicas o congestión vehicular. La ausencia de una hora estimada de llegada confiable desorganiza la rutina de abastecimiento y deja al comprador sin margen de maniobra operativa.
 
@@ -335,7 +330,7 @@ En tercer lugar, se evidencia una fuerte exigencia técnica centrada en el monit
 
 En cuarto lugar, en términos de adopción y modelo comercial, se observa un marcado rechazo hacia los pagos de suscripciones mensuales fijas (66.7%, 2 de 3), considerando que el costo del monitoreo debe recaer en el transportista o manejarse como una tarifa mínima por viaje recibido (S/ 2 a S/ 5). Pese a ello, un hallazgo estratégico clave radica en el poder de tracción de los compradores: el 33.3% (1 de 3) está dispuesto a exigir el uso de AgroFlet a sus proveedores como requisito indispensable para mantener sus contratos de compra. Esto demuestra que el segmento mayorista no solo es receptor de valor, sino el catalizador decisivo para forzar la adopción digital en el transporte agrícola desde el lado de la demanda.
 
-![Chart 2](../Agroflet-report/assets/images/Img_segmento2.png)
+![Chart 2](assets/images/Img_segmento2.png)
 
 ## 2.3. Needfinding
 Para llevar a cabo el proceso de needfinding en AgroFlet, se realizaron entrevistas en profundidad y sesiones de inmersión operativa con actores representativos de los segmentos objetivo: medianos productores agrícolas, coordinadores de cooperativas de acopio y compradores mayoristas o encargados de abastecimiento de mercados y distribuidoras. Estas conversaciones se enfocaron en identificar sus prácticas cotidianas, flujos de coordinación y principales frustraciones vinculadas al transporte terrestre interprovincial de alimentos agrícolas perecibles en el Perú.
