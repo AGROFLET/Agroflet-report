@@ -17,9 +17,8 @@ Buscamos entender en qué medida las soluciones existentes en el mercado peruano
 
 ---
 
-| Categoría | Atributo | AgroFlet | Agrofy | Transvision | Trimble Transportation |
+|  | Nombre | AgroFlet | Agrofy | Transvision | Trimble Transportation |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| | **Nombre** | **AgroFlet** | **Agrofy** | **Transvision** | **Trimble Transportation** |
 | | **Logotipo** | <p align="center"><img src="assets/images/AGROFLET.png" width="150" alt="Logo AgroFlet"></p> | <p align="center"><img src="./assets/images/logo-agrofy.png" width="150" alt="Logo Agrofy"></p> | <p align="center"><img src="./assets/images/logo-transvision.png" width="150" alt="Logo Transvision"></p> | <p align="center"><img src="./assets/images/logo-trimble.png" width="150" alt="Logo Trimble"></p> |
 | **Perfil** | **Overview** | Startup peruana de monitoreo logístico especializada en el transporte terrestre de alimentos agrícolas perecibles a nivel nacional. Plataforma web con dashboard en tiempo casi real, registro de incidencias y gestión de historial de operaciones. | Plataforma argentina de marketplace agroindustrial que incorpora módulos de logística y trazabilidad de carga agrícola para el mercado sudamericano. | Empresa peruana de rastreo satelital GPS que ofrece soluciones de monitoreo de flotas terrestres para empresas de transporte general, con presencia en el mercado local. | Empresa estadounidense con soluciones enterprise de gestión de flotas y visibilidad de la cadena de suministro, con cobertura en América Latina a través de distribuidores. |
 | | **Ventaja competitiva** | Plataforma web sectorial diseñada específicamente para el transporte de alimentos en el Perú. Combina monitoreo de flotas, registro de incidencias con impacto en tiempo de entrega, y gestión de historial de operaciones en una sola interfaz accesible. | Ecosistema de marketplace agroindustrial que integra la logística como un módulo adicional, facilitando la conexión entre productores, compradores y transportistas dentro de una misma plataforma transaccional. | Rastreo GPS en tiempo real de unidades de transporte con alertas configurables y reportes de recorrido para empresas con flotas medianas a grandes. | Gestión integral de flotas (TMS), visibilidad de la cadena de suministro, optimización de rutas y análisis avanzado de datos logísticos para grandes corporaciones. |
@@ -216,6 +215,7 @@ Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea 
 
 
 **Resumen de la entrevista:**
+
 El entrevistado de 26 años se dedica al acopio y despacho en el negocio agrícola de su familia en Huaral, gestionando principalmente la logística de paltas Hass y mandarinas hacia el mercado mayorista de Santa Anita. Está enfocado en coordinar los tiempos de cosecha y transporte, enfrentando a diario la incertidumbre de la ruta. Utiliza su smartphone (llamadas, WhatsApp, Google Maps) y un registro básico en Excel para gestionar los envíos a cargo de transportistas terceros.
 
 Su mayor frustración  es la nula visibilidad de la carga en tránsito. Los retrasos comunes por el tráfico de madrugada, llantas bajas o retenes causan que la mercadería llegue fuera de hora. Esto provoca que el comprador pierda su ventana principal de ventas, lo que se traduce directamente en castigos sobre el precio pactado o reducción del volumen de compra, generando fuertes pérdidas económicas.
@@ -238,6 +238,7 @@ Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensa
 | **Evidencia fotográfica** | <p><img src="assets/images/interview-Andrea.png" width="400" alt="Logo AgroFlet"> |
 
 **Resumen de la entrevista:**
+
 La entrevistada es una coordinadora logística de 28 años llamada Andrea Villanueva, con 5 años de experiencia gestionando despachos en una cooperativa agraria en Barranca, Lima. Se dedica a la consolidación y envío de productos altamente perecibles como hortalizas (lechuga, brócoli, apio) y papa hacia los mercados mayoristas y distribuidores de Lima Metropolitana.
 
 Su objetivo principal es asegurar la frescura de la carga y el cumplimiento estricto de los horarios de entrega para evitar penalizaciones y mermas económicas. Actualmente, coordina los fletes de manera informal mediante llamadas y WhatsApp con transportistas independientes, lo que le genera constante incertidumbre ante la pérdida de señal en carretera, bloqueos viales y la falta de alertas tempranas sobre demoras.
@@ -313,6 +314,28 @@ Para adoptar una plataforma como AgroFlet, valora enormemente las alertas de inc
 
 
 ### 2.2.3. Análisis de entrevistas
+
+El presente análisis sintetiza la información recopilada a partir de las entrevistas realizadas a los representantes de los segmentos objetivos de AgroFlet.
+
+**Análisis Primer Segmento: Medianos Productores y Acopiadores Agrícolas:** En primer lugar, existe una desconexión y pérdida total de control sobre el cargamento una vez que el vehículo inicia el recorrido. En base a las entrevistas realizadas, los coordinadores y administradores operan bajo una constante incertidumbre logística, pues dependen únicamente de llamadas telefónicas y mensajes de WhatsApp con transportistas independientes. Esta falta de visibilidad en ruta se agrava debido a la pérdida de señal en zonas rurales y carreteras altoandinas, impidiendo conocer a tiempo paradas no programadas, problemas mecánicos o bloqueos viales.
+
+En segundo lugar, se evidencia un impacto financiero directo ocasionado por los retrasos no reportados. La totalidad de los entrevistados del segmento manifestó sufrir pérdidas económicas severas: mercadería perecible que llega malograda o «sudada» por demoras en tránsito, reportando pérdidas de hasta S/ 1,500 por viaje, castigos inmediatos sobre el precio pactado al no alcanzar las ventanas clave de venta matutina, y roces comerciales constantes con los compradores en destino.
+
+En tercer lugar, se identifica una brecha operativa condicionada por la edad y familiaridad tecnológica de los transportistas. Aunque los entrevistados corresponden a un perfil joven (entre 26 y 28 años) y actúan como el sector moderno en sus negocios, señalan que los choferes suelen ser personas mayores con baja afinidad digital. Por ello, exigen que cualquier solución como AgroFlet cuente con una interfaz sumamente simple, que envíe alertas automáticas ante demoras inusuales y que calcule dinámicamente la hora estimada de llegada (ETA) para justificar los retrasos ante los clientes sin complejidades de uso.
+
+En cuarto lugar, respecto a la monetización y viabilidad, existe una disposición unánime a pagar para mitigar el riesgo de merma. Sin embargo, el 66.7% (2 de 3) prefiere esquemas flexibles y económicos, ya sea mediante microtarifas por viaje (S/ 10 - S/ 15) o suscripciones mensuales accesibles de S/ 30 a S/ 50, mientras que el 33.3% restante (en el ámbito de cooperativas agrarias con mayor volumen) está dispuesto a asumir entre S/ 100 y S/ 200 al mes. En síntesis, este segmento necesita una herramienta ágil que convierta la incertidumbre del camino en tranquilidad financiera mediante alertas tempranas y respaldo documental de incidentes.
+
+![Chart 1](../Agroflet-report/assets/images/Img_Segmento1.png)
+
+**Análisis Segundo Segmento: Compradores Mayoristas y Distribuidores:** En primer lugar, se identifica un problema crítico de asimetría informativa y falta de predictibilidad en la recepción de la carga. Los comerciantes y jefes de abastecimiento reconocen que operan prácticamente «a ciegas» al depender de transportistas externos, experimentando que hasta tres de cada cinco despachos sufren demoras por fallas mecánicas o congestión vehicular. La ausencia de una hora estimada de llegada confiable desorganiza la rutina de abastecimiento y deja al comprador sin margen de maniobra operativa.
+
+En segundo lugar, la falta de puntualidad desencadena sobrecostos operativos directos y mermas comerciales para el negocio mayorista. El 66.7% de los entrevistados (2 de 3) señala que los retrasos imprevistos obligan a pagar horas muertas o extras a cuadrillas de estibadores que esperan sin laborar, generan cuellos de botella en muelle y provocan la pérdida de clientes madrugadores que optan por comprar a la competencia. En situaciones extremas de demoras prolongadas (como retrasos de hasta 14 horas), la fruta o tubérculos llegan deteriorados, obligándolos a rematar la carga a pérdida o desecharla. Por otro lado, un 33.3% (1 de 3) mitiga este impacto manteniendo un inventario de reserva en bodega y acuerdos donde los proveedores asumen el costo de la mercadería dañada.
+
+En tercer lugar, se evidencia una fuerte exigencia técnica centrada en el monitoreo dinámico y la gestión proactiva de emergencias. El 66.7% (2 de 3) valora como indispensable contar con un mapa en tiempo real, alertas automatizadas de bloqueos o desvíos y una actualización continua del ETA para coordinar con precisión la recepción. Para este grupo, la plataforma no solo debe informar dónde está el camión, sino prevenir los impactos logísticos que arriesgan la frescura de los alimentos.
+
+En cuarto lugar, en términos de adopción y modelo comercial, se observa un marcado rechazo hacia los pagos de suscripciones mensuales fijas (66.7%, 2 de 3), considerando que el costo del monitoreo debe recaer en el transportista o manejarse como una tarifa mínima por viaje recibido (S/ 2 a S/ 5). Pese a ello, un hallazgo estratégico clave radica en el poder de tracción de los compradores: el 33.3% (1 de 3) está dispuesto a exigir el uso de AgroFlet a sus proveedores como requisito indispensable para mantener sus contratos de compra. Esto demuestra que el segmento mayorista no solo es receptor de valor, sino el catalizador decisivo para forzar la adopción digital en el transporte agrícola desde el lado de la demanda.
+
+![Chart 2](../Agroflet-report/assets/images/Img_segmento2.png)
 
 ## 2.3. Needfinding
 Para llevar a cabo el proceso de needfinding en AgroFlet, se realizaron entrevistas en profundidad y sesiones de inmersión operativa con actores representativos de los segmentos objetivo: medianos productores agrícolas, coordinadores de cooperativas de acopio y compradores mayoristas o encargados de abastecimiento de mercados y distribuidoras. Estas conversaciones se enfocaron en identificar sus prácticas cotidianas, flujos de coordinación y principales frustraciones vinculadas al transporte terrestre interprovincial de alimentos agrícolas perecibles en el Perú.
