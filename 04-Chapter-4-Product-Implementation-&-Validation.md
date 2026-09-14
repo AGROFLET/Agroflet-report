@@ -607,40 +607,57 @@ faltaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ### 4.6.2. Software Architecture Context Level Diagram
 
-En esta sección se presenta el diagrama de contexto correspondiente al Nivel 1 del Modelo C4. El propósito de este nivel es ilustrar el sistema AgroFlet como una caja negra en el centro de su ecosistema, identificando a los usuarios principales que interactúan con la plataforma y los sistemas externos de los cuales depende para cumplir con sus procesos logísticos y de comunicación.  El ecosistema está compuesto por dos actores clave: el Despachador (quien registra flotas, coordina y emite el envío) y el Comprador Mayorista (quien consume la información de llegada). Asimismo, AgroFlet se integra con un Servicio Externo de Mapas para la renderización de coordenadas y un Servicio de Correos para notificaciones transaccionales.
+En esta sección se presenta el diagrama de contexto correspondiente al Nivel 1 del Modelo C4 para AgroFlet. El propósito de este nivel es ilustrar el sistema central en el centro de su ecosistema operativo, delimitando las fronteras del software e identificando claramente a los actores humanos y los sistemas externos con los cuales interactúa a través de protocolos seguros sobre la red.
 
+El ecosistema está liderado por dos perfiles de usuario fundamentales: el Coordinador Logístico / Despachador (quien administra la flota de unidades, conductores y programa los fletes agrícolas desde el centro de acopio) y el Comprador Mayorista (quien monitorea el estado de tránsito, las horas estimadas de llegada y la ocurrencia de incidencias en ruta). Para garantizar una trazabilidad integral y una experiencia en tiempo casi real, AgroFlet se integra con cuatro plataformas externas clave: Mapbox API para la provisión de capas cartográficas y servicios geoespaciales de rutas; Firebase Cloud Messaging (FCM) para la transmisión inmediata de alertas push ante contingencias en carretera; SendGrid para el despacho de correos transaccionales y de seguridad de cuentas; y una Pasarela de Pagos (Payment Gateway) para la gestión y cobro recurrente de los planes de suscripción de la plataforma.
 
 <p align="center">
-  <img src="assets/images/Software-Architecture-Context-Level-Diagram1.png" title="diagramcontext" width="1000">
+  <img src="assets/images/SystemContext-Agroflet.png" title="System Context Diagram - AgroFlet" width="1000">
 </p>
 <p align="center">
-  Nota: Diagrama de Contexto elaborado en planttext aplicando el Modelo C4.<br>
+  <em>Nota.</em> Diagrama de Contexto del Sistema elaborado con Structurizr aplicando el Modelo C4.
 </p>
+
+---
 
 ### 4.6.3. Software Architecture Container Level Diagrams
 
-A continuación, se detalla el diagrama de contenedores (Nivel 2 del Modelo C4), el cual expone la arquitectura de alto nivel de AgroFlet, mostrando las unidades de despliegue independientes y las decisiones tecnológicas adoptadas.  La arquitectura se divide en tres contenedores principales: una Single-Page Application (SPA) desarrollada en Vue.js que provee la interfaz responsiva; un RESTful API en ASP.NET Core (C#) que centraliza la lógica de negocio, validaciones y autenticación JWT; y una Base de Datos Relacional en MySQL que garantiza la integridad transaccional (ACID) de los registros logísticos
+A continuación, se detalla el diagrama de contenedores (Nivel 2 del Modelo C4), el cual realiza un acercamiento a la frontera del sistema AgroFlet para exponer sus unidades de ejecución y despliegue independientes, sus responsabilidades primarias y las decisiones tecnológicas seleccionadas para cada componente de software.
 
+La arquitectura de ejecución se descompone en contenedores especializados:
+1. **Web Application (Static Web Hosting / Web Server):** Responsable de servir el Landing Page corporativo y entregar los paquetes optimizados de la aplicación cliente hacia los navegadores web.
+2. **Single-Page Application (SPA):** Desarrollada con Vue.js 3, Vite y PrimeVue, proveyendo una interfaz de usuario reactiva para dashboards de monitoreo, mapas interactivos y formularios operativos en entornos de escritorio y muelle.
+3. **Mobile Web App:** Versión adaptada en formato PWA para terminales móviles, optimizada para coordinadores en campo y transportistas en carretera que requieren registrar incidencias o verificar estatus bajo conectividad variable.
+4. **Backend API:** Núcleo desarrollado en ASP.NET Core 8 (C#) bajo un diseño modular alineado a Domain-Driven Design (DDD), encargado de procesar peticiones RESTful autenticadas mediante tokens JWT, ejecutar reglas de negocio y orquestar eventos de dominio.
+5. **Database:** Base de datos relacional sobre MySQL 8.0, encargada de persistir de forma estructurada los registros de usuarios, flota, conductores, operaciones de flete e historial de incidencias bajo garantías de integridad transaccional (ACID).
 
 <p align="center">
-  <img src="assets/images/Software-Architecture-Container-Level-Diagrams2.png" title="diagramointeiner" width="1000">
+  <img src="assets/images/Containers-Agroflet.png" title="Container Diagram - AgroFlet" width="1000">
 </p>
 <p align="center">
-  Nota: Diagrama de Contenedores elaborado en planttext aplicando el Modelo C4.<br>
+  <em>Nota.</em> Diagrama de Contenedores elaborado con Structurizr aplicando el Modelo C4.
 </p>
 
+---
 
 ### 4.6.4. Software Architecture Component Level Diagrams
 
-Este diagrama de componentes (Nivel 3 del Modelo C4) descompone el contenedor del RESTful API. Refleja la separación de responsabilidades arquitectónicas (Clean Architecture/N-Capas) mediante el uso de Controladores (Controllers), Servicios de Negocio (Business Services) y Componentes de Acceso a Datos (Repositories).  Se ilustra cómo las peticiones HTTP son interceptadas por los Controladores correspondientes a cada Bounded Context (Identidad, Recursos, Operaciones), delegando las reglas de negocio a los servicios y orquestando la persistencia mediante Entity Framework Core. 
+Este diagrama de componentes (Nivel 3 del Modelo C4) descompone internamente el contenedor del Backend API, reflejando cómo se estructura la lógica del servidor a través de una arquitectura modular basada en los Bounded Contexts identificados durante las fases de needfinding y Event Storming.
+
+El diseño interno organiza la solución en módulos de dominio cohesivos y desacoplados:
+* **IAM Module (Identity & Access Management):** Procesa el registro de cuentas, validación de unicidad de correos, autenticación con firma de tokens JWT y gestión del perfil de usuario y preferencias de idioma.
+* **Fleet & Resource Module:** Administra el catálogo de unidades de transporte y de conductores, controlando su disponibilidad operativa.
+* **Shipment Module:** Gestiona el ciclo de vida completo de cada operación de flete.
+* **Tracking & Telemetry Module:** Ingesta coordenadas satelitales, filtra telemetría geoespacial y proyecta los marcadores de posición sobre la red vial nacional para su consumo desde el cliente web.
+* **Incident & Alert Module:** Captura y audita contingencias en carretera (bloqueos, fallas mecánicas), ejecuta el recálculo dinámico de la fecha y hora estimada de llegada (ETA) e interactúa con Firebase Cloud Messaging para la difusión de alertas.
+* **Shared Module:** Provee abstracciones transversales, interfaces comunes de mensajería interna, manejo global de excepciones y la infraestructura de acceso a datos implementada a través de Entity Framework Core hacia MySQL.
 
 <p align="center">
-  <img src="assets/images/Software-Architecture-Component-Level-Diagrams3.png" title="diagramcomponent" width="1000">
+  <img src="assets/images/Components-Agroflet.png" title="Component Diagram - AgroFlet Backend API" width="1000">
 </p>
 <p align="center">
-  Nota: Diagrama de Componentes del API elaborado en planttext.<br>
+  <em>Nota.</em> Diagrama de Componentes del Backend API elaborado con Structurizr aplicando el Modelo C4 y Domain-Driven Design.
 </p>
-
 
 ## 4.7. Software Object-Oriented Design
 
