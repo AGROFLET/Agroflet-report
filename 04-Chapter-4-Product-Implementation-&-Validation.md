@@ -601,9 +601,93 @@ Antes de cerrar esta sección deben completarse la revisión de recorridos, las 
 
 ## 4.6. Domain-Driven Software Architecture
 
-### 4.6.1. Design-Level EventStorming
+AgroFlet adopta el enfoque de Domain-Driven Design (DDD) con el objetivo de estrechar la colaboración entre el equipo de desarrollo de software y los actores clave del sector agrologístico (productores, acopiadores y distribuidores mayoristas). El sistema se estructura sobre una arquitectura modular distribuida en 5 Bounded Contexts principales (junto con el soporte transversal del Shared Kernel), lo que permite aislar responsabilidades operativas, encapsular la lógica de negocio y garantizar una alta mantenibilidad y escalabilidad para soportar el monitoreo concurrente de operaciones de carga pesada en carretera.
 
-faltaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+A continuación, se describen los Bounded Contexts que componen la solución de AgroFlet:
+
+| Bounded Context | Descripción |
+| :--- | :--- |
+| **IAM (Identity & Access Management)** | Gestión de autenticación, control de accesos basado en roles (Despachador y Comprador), seguridad de credenciales y perfiles de usuario. |
+| **Fleet & Resource Management** | Administración de activos vehiculares de carga pesada, registro de conductores y control de disponibilidad operativa. |
+| **Shipment & Dispatch Operations** | Núcleo (Core Domain) de gestión del ciclo de vida del flete agrícola: programación de despachos, control de estados de tránsito y liquidación de entrega. |
+| **Real-Time Tracking & Telemetry** | Ingestión de coordenadas de geolocalización, control de puestos de paso carreteros y proyección cartográfica de rutas planificadas vs. posiciones reportadas. |
+| **Incident, Alert & Audit Management** | Registro de contingencias viales y mecánicas en carretera, recálculo dinámico del ETA, difusión de alertas y bitácora histórica para auditoría de mermas. |
+
+---
+
+### 4.6.1. Design-Level EventStorming
+A través de la dinámica de Event Storming a nivel de diseño, se identificaron los comandos, agregados, políticas de negocio y eventos de dominio que componen cada Bounded Context, modelando con precisión las interacciones necesarias para resolver la pérdida de visibilidad y el riesgo de merma en el transporte de carga perecible.
+
+A continuación, se detalla la matriz de interdependencias e integración entre los módulos del sistema:
+
+| Origen (Evento) | Destino (Comando) | Descripción |
+| :--- | :--- | :--- |
+| **Fleet & Resource:** Driver & Vehicle Allocated | **Shipment Operations:** Create Shipment Operation | La confirmación de recursos habilitados permite inicializar una nueva orden de despacho de carga perecible. |
+| **Shipment Operations:** Shipment Dispatched | **Fleet & Resource:** Lock Vehicle & Driver | El paso del flete a estado en tránsito bloquea los recursos asignados para evitar asignaciones duplicadas. |
+| **Shipment Operations:** Shipment Dispatched | **Real-Time Tracking:** Ingest Vehicle Location Data | La salida física del camión activa el flujo de ingestión de coordenadas y seguimiento cartográfico. |
+| **Incident & Alert:** Route Incident Logged | **Incident & Alert:** Recalculate Arrival Time | El reporte de una contingencia en carretera dispara la política de recálculo dinámico de la fecha y hora estimada de llegada. |
+| **Incident & Alert:** ETA Recalculated | **Shipment Operations:** Update Estimated Arrival | Propaga la nueva hora estimada de entrega al agregado principal del despacho para actualizar la vista del comprador. |
+| **Incident & Alert:** Incident Notification Broadcasted | **Incident & Alert:** Mark Notification as Read | Emite una alerta inmediata hacia el centro de notificaciones para conocimiento del comprador mayorista. |
+| **Shipment Operations:** Shipment Marked Delivered | **Fleet & Resource:** Release Resources to Available | La confirmación de descarga en destino libera el camión y al conductor a estado disponible para nuevas operaciones. |
+
+---
+
+#### Diagrama General — Event Storming Design Level
+
+El siguiente diagrama presenta la visión integral de los Bounded Contexts del sistema AgroFlet, ilustrando el flujo cronológico de comandos, agregados, políticas y eventos de dominio, así como las flechas conectoras de integración que orquestan la comunicación desacoplada entre el despacho agrícola, la telemetría satelital y la recepción mayorista.
+
+![Event Storming General](assets/images/00-general-event-storming.png)
+
+---
+
+#### BC1 — IAM (Identity & Access Management)
+
+Este Bounded Context gestiona el ciclo de vida de las credenciales y perfiles de los usuarios de AgroFlet. Los agregados UserAccount, AuthSession y UserProfile procesan comandos como `RegisterUser`y `ValidCredentials`, emitiendo eventos como `UserRegistered`, `UserAuthenticated` y `ProfileUpdated`. Incluye políticas de validación de unicidad de correo y de formato telefónico peruano de 9 dígitos.
+
+![Event Storming IAM](assets/images/01-iam-event-storming.png)
+
+---
+
+#### BC2 — Fleet & Resource Management
+
+Fleet & Resource Management administra las unidades de transporte y el personal de conducción. Los agregados Vehicle, Driver y FleetAllocation gestionan comandos como `RegisterVehicleUnit`, `RegisterDriverProfile`, `AllocateDriverToVehicle` y `ToggleMaintenanceState`. Garantiza mediante políticas la unicidad de placa y DNI, así como la no asignación de camiones en mantenimiento. Emite el evento `Driver & Vehicle Allocated`, el cual habilita la apertura de operaciones en el módulo de despachos.
+
+![Event Storming Fleet Management](assets/images/02-fleet-management-event-storming.png)
+
+---
+
+#### BC3 — Shipment & Dispatch Operations
+
+Representa el Core Domain de AgroFlet, encargado de centralizar la trazabilidad del transporte desde el centro de acopio hasta el mercado de abastos. El agregado **Shipment** procesa los comandos `CreateShipmentOperation`, `InitiateTransit`, `AcknowledgeDelivery` y `CancelActiveOperation`. Emite eventos críticos como `ShipmentDispatched`, `ShipmentMarkedDelivered` y `FleetResourcesReleased`, coordinando de forma directa el bloqueo y posterior liberación de los camiones y choferes en el contexto de flotas.
+
+![Event Storming Shipment Operations](assets/images/03-shipment-operations-event-storming.png)
+
+---
+
+#### BC4 — Real-Time Tracking & Route Telemetry
+
+Este contexto maneja el procesamiento geoespacial continuo y la visualización cartográfica. Los agregados RouteTracking y GeospatialMarker procesan comandos como `IngestVehicleLocationData` e `InspectShipmentPlannedRoute`. Transforma las coordenadas GPS en eventos de dominio como `ReportedPositionRecorded` y `RouteMarkersRendered`, permitiendo diferenciar claramente sobre el mapa interactivo la ruta terrestre planificada frente a los puntos de paso reales reportados.
+
+![Event Storming Tracking Telemetry](assets/images/04-tracking-telemetry-event-storming.png)
+
+##### Detalle de Procesamiento: Telemetría, Evaluación de Ruta y Salud de Enlace
+A continuación se detalla la arquitectura de ingestión paralela del contexto, donde se evalúan concurrentemente los puntos de control en carretera (checkpoints), el índice de frescura/tolerancia térmica de la carga perecible y la estabilidad del enlace de datos:
+
+![Event Storming Monitoring and Telemetry](assets/images/04-1-monitoring-telemetry-detail.png)
+
+---
+
+#### BC5 — Incident, Alert & Audit Management
+
+Este Bounded Context permite documentar formalmente las interrupciones del transporte (derrumbes, averías, bloqueos) y auditar el desempeño de la cadena de suministro. Los agregados Incident, ArrivalSchedule, Notification y AuditReport procesan comandos como `ReportRouteIncident`, `MarkNotificationAsRead` y `FilterHistoryByCriteria`. Al registrar una incidencia, emite `IncidentLogged`, lo que desencadena de forma reactiva la política de recálculo de ETA (`ETARecalculated`) y la emisión de notificaciones hacia el comprador mayorista.
+
+![Event Storming Incident Alert](assets/images/05-incident-alert-event-storming.png)
+
+---
+
+Para visualizar el Event Storming original de mejor manera recomendamos ingresar al siguiente link:
+[Visualizar EventStorming en Miro](https://miro.com/app/board/uXjVHnj8GNg=/?share_link_id=526706011723)
+
 
 ### 4.6.2. Software Architecture Context Level Diagram
 
