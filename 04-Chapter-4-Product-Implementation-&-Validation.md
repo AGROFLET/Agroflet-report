@@ -538,6 +538,15 @@ Entre los recorridos centrales de AgroFlet se consideran:
 
 </div>
 
+</br>
+
+<p align="center">
+  <img src="assets/images/Wireflows.png" title="Wireframes" width="1500">
+   <img src="assets/images/Wireflows 2.png" title="Wireframes" width="1500">
+   <img src="assets/images/Wireflows 3.png" title="Wireframes" width="1500">
+  <em>Cada wireflow debe mostrar los wireframes correspondientes, las acciones que conectan sus pasos y las variantes relevantes. La revisión pendiente debe confirmar que un cambio de estado se representa mediante una pantalla diferenciada y que también se cubren los objetivos complementarios de cuenta, recursos y preferencias.</em>
+</p>
+
 Para su presentación académica, cada wireflow debe mostrar los wireframes correspondientes, las acciones que conectan sus pasos y las variantes relevantes. La revisión pendiente debe confirmar que un cambio de estado se representa mediante una pantalla diferenciada y que también se cubren los objetivos complementarios de cuenta, recursos y preferencias.
 
 ### 4.4.3. Web Applications Mock-ups
@@ -548,7 +557,7 @@ La propuesta toma como referencia un diseño basado en Material Design, compatib
 
 La diferenciación entre roles constituye un criterio central de revisión: el despachador dispone de acciones de gestión, mientras que el comprador consulta la información de sus envíos. Asimismo, la información geográfica debe distinguir entre ruta planificada y posición reportada, indicando la fuente y la fecha del dato.
 
-La versión registrada conserva pendientes de traducción, iconografía y coherencia de algunos recorridos. Por ello, todavía no corresponde declarar concluida la revisión visual y funcional de todos los mockups.
+
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
