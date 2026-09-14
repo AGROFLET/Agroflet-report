@@ -560,6 +560,7 @@ La diferenciación entre roles constituye un criterio central de revisión: el d
 <p align="center">
   <img src="assets/images/Mockups.png" title="Wireframes" width="1500">
   <em>La versión registrada conserva pendientes de traducción, iconografía y coherencia de algunos recorridos. Por ello, todavía no corresponde declarar concluida la revisión visual y funcional de todos los mockups.</em>
+</p>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -575,6 +576,11 @@ El flujo de operaciones utiliza como referencia las siguientes reglas:
 * Las operaciones entregadas o canceladas no se reabren mediante estos recorridos.
 
 Las alternativas incluyen datos inválidos, recursos no disponibles, errores de guardado, ausencia de posición y restricciones de acceso. La revisión final debe comprobar que las ramas permiten corregir, cancelar o regresar, y que no existen conexiones incompatibles con las historias de usuario.
+
+<p align="center">
+  <img src="assets/images/Userflows.png" title="Wireframes" width="1500">
+  <img src="assets/images/USER-WIREFLOWS.png" title="Wireframes" width="1500">
+</p>
 
 ### 4.5. Web Applications Prototyping
 
