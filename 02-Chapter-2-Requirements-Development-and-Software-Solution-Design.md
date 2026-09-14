@@ -470,7 +470,7 @@ En la sesión de Big Picture Event Storming, el equipo de AgroFlet exploró de m
 ![Big picture event storming](assets/images/EventStorming.png)
 
 **Mapa general:**
-https://canva.link/w4ou6zjf9z7ja7l
+https://miro.com/app/board/uXjVHnj8GNg=/?share_link_id=481765922112
 
 <div style="page-break-after: always"></div>
 
