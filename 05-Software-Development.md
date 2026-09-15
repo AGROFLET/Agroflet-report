@@ -81,14 +81,14 @@ Los mensajes de commit siguen la convención de Conventional Commits (ej. `feat:
 ### 5.1.3. Source Code Style Guide
 
 **Convenciones HTML**
-*   Elementos estructurales basados en HTML5 semántico (`<header>`, `<nav>`, `<main>`, `<section>`)[cite: 4].
-*   Identificadores y clases redactados estrictamente en inglés[cite: 4].
-*   Atributos `alt` obligatorios en imágenes informativas[cite: 4].
-*   Uso de atributos de accesibilidad como `aria-label`[cite: 4].
+*   Elementos estructurales basados en HTML5 semántico (`<header>`, `<nav>`, `<main>`, `<section>`).
+*   Identificadores y clases redactados estrictamente en inglés.
+*   Atributos `alt` obligatorios en imágenes informativas.
+*   Uso de atributos de accesibilidad como `aria-label`.
 *   Indentación consistente de dos espacios[cite: 2].
 
 **Convenciones CSS**
-Se utiliza una nomenclatura inspirada en BEM (Block, Element, Modifier)[cite: 4]:
+Se utiliza una nomenclatura inspirada en BEM (Block, Element, Modifier):
 ```css
 .hero {}
 .hero__title {}
@@ -97,7 +97,7 @@ Se utiliza una nomenclatura inspirada en BEM (Block, Element, Modifier)[cite: 4]
 .plan-card--featured {}
 ```
 
-Las variables globales se centralizan utilizando Custom Properties en la raíz[cite: 4]:
+Las variables globales se centralizan utilizando Custom Properties en la raíz:
 ```css
 :root {
   --color-primary: #27AE60;
@@ -111,7 +111,7 @@ Las variables globales se centralizan utilizando Custom Properties en la raíz[c
 *   `const` como declaración predeterminada; `let` únicamente para variables reasignables.
 *   Nombres de funciones y variables en inglés.
 *   Separación de funcionalidades mediante bloques lógicos (ej. inicialización de i18n, carrusel).
-*   Manejo de eventos con `addEventListener`[cite: 4].
+*   Manejo de eventos con `addEventListener`.
 
 **Convenciones C# (.NET Core) para futuros Sprints**
 *   Indentación de 4 espacios (estilo Allman para llaves).
@@ -182,7 +182,7 @@ La primera versión de la Landing Page de AgroFlet se despliega utilizando GitHu
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1 se implementó la primera versión funcional de la Landing Page de AgroFlet. Las principales funcionalidades desarrolladas incluyen: navegación responsive mediante anchors, menú hamburguesa para móviles, Hero principal con efectos visuales, sección de planes (`plan-card`), carrusel interactivo de testimonios, internacionalización dinámica mediante archivos JSON (`en.json`, `es.json`), y un modal de autenticación demostrativo[cite: 4].
+Durante el Sprint 1 se implementó la primera versión funcional de la Landing Page de AgroFlet. Las principales funcionalidades desarrolladas incluyen: navegación responsive mediante anchors, menú hamburguesa para móviles, Hero principal con efectos visuales, sección de planes (`plan-card`), carrusel interactivo de testimonios, internacionalización dinámica mediante archivos JSON (`en.json`, `es.json`), y un modal de autenticación demostrativo.
 
 > *Nota: La autenticación incluida en esta versión es exclusivamente demostrativa (ejecutada en el cliente) y no se encuentra integrada con el RESTful API.*
 
