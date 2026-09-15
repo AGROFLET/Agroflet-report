@@ -13,7 +13,7 @@ A continuación se listan los productos de software utilizados por el equipo, or
 | Actividad | Herramienta | Uso en AgroFlet |
 | :--- | :--- | :--- |
 | **Project Management** | Jira | Organización del Sprint Backlog, asignación de responsables y seguimiento de tareas ágiles. |
-| **Communication** |   Google Meet | Coordinación asincrónica, reuniones diarias (Daily Scrum) y revisiones de Sprint. |
+| **Communication** | Google Meet | Coordinación asincrónica, reuniones diarias (Daily Scrum) y revisiones de Sprint. |
 | **Requirements & UX** | UXPressia / Miro | Elaboración de User Personas, Journey Maps y diagramas de EventStorming. |
 | **UX/UI Design** | Figma | Desarrollo de wireframes, mockups y prototipos de la Landing Page y Web Application. |
 | **Software Development** | Visual Studio Code | Editor principal para la implementación de HTML5, CSS3 y JavaScript. |
