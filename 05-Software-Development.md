@@ -16,15 +16,6 @@ A continuación se listan los productos de software utilizados por el equipo, or
 
 La gestión del proyecto permite organizar las actividades necesarias para alcanzar los objetivos del Sprint, asignar responsables, dar seguimiento al avance y mantener la comunicación entre los integrantes del equipo.
 
-**Trello:**
-
-Trello es una plataforma de gestión de tareas basada en tableros Kanban. En AgroFlet se utiliza para organizar el Product Backlog y el Sprint Backlog, asignar responsables por User Story, mover las tarjetas entre los estados *To Do*, *In Process* y *Done*, y evidenciar la gestión iterativa del proyecto.
-
-https://trello.com/
-
-<p align="center">
-  <img src="assets/images/Cap5_Logo_Trello.png" alt="Trello" title="Trello" width="250">
-</p>
 
 **Google Meet:**
 
@@ -109,7 +100,7 @@ Visual Studio Code es el editor principal del equipo. Se utiliza para desarrolla
 https://code.visualstudio.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_VSCode.png" alt="Visual Studio Code" title="Visual Studio Code" width="250">
+  <img src="assets/images/Cap5_Logo_VSCode.jpg" alt="Visual Studio Code" title="Visual Studio Code" width="250">
 </p>
 
 **HTML5 / CSS3 / JavaScript (ES6+):**
@@ -177,7 +168,7 @@ MySQL es el sistema de gestión de base de datos relacional (RDBMS) definido en 
 https://www.mysql.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_MySQL.png" alt="MySQL Server" title="MySQL Server" width="250">
+  <img src="assets/images/Cap5_Logo_MySQL.jpg" alt="MySQL Server" title="MySQL Server" width="250">
 </p>
 
 **Git:**
@@ -197,7 +188,7 @@ GitHub es la plataforma de colaboración donde se alojan los repositorios del pr
 https://github.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_GitHub.png" alt="GitHub" title="GitHub" width="250">
+  <img src="assets/images/Cap5_Logo_GitHub.jpg" alt="GitHub" title="GitHub" width="250">
 </p>
 
 **5. Software Deployment**
@@ -209,7 +200,7 @@ GitHub Pages es el servicio de hosting estático utilizado para publicar la vers
 https://pages.github.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_GitHubPages.png" alt="GitHub Pages" title="GitHub Pages" width="250">
+  <img src="assets/images/Cap5_Logo_GitHubPages.jpg" alt="GitHub Pages" title="GitHub Pages" width="250">
 </p>
 
 **Proveedor de hosting en la nube para ASP.NET Core:**
@@ -237,7 +228,7 @@ Swagger se utilizará para documentar los endpoints del RESTful API mediante la 
 https://swagger.io/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_Swagger.png" alt="Swagger / OpenAPI" title="Swagger / OpenAPI" width="250">
+  <img src="assets/images/Cap5_Logo_Swagger.jpg" alt="Swagger / OpenAPI" title="Swagger / OpenAPI" width="250">
 </p>
 
 El entorno seleccionado permite mantener coherencia entre el diseño elaborado en Figma y la implementación web desarrollada por el equipo: Visual Studio Code, Live Server y Chrome DevTools facilitan la construcción y validación local del producto; Git y GitHub aseguran la trazabilidad de los cambios; GitHub Pages permite publicar la solución; y la combinación de Gherkin y Cucumber documenta y ejecuta las pruebas de aceptación asociadas a los requerimientos funcionales.
