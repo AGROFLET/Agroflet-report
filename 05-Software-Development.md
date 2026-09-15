@@ -2,31 +2,31 @@
 
 ## 5.1. Software Configuration Management
 
-La Gestión de Configuración de Software (SCM) establece las herramientas, convenciones y mecanismos de versionamiento utilizados por el equipo de AgroFlet para mantener la trazabilidad y consistencia de los artefactos desarrollados a lo largo del ciclo de vida del proyecto[cite: 1].
+La Gestión de Configuración de Software (SCM) establece las herramientas, convenciones y mecanismos de versionamiento utilizados por el equipo de AgroFlet para mantener la trazabilidad y consistencia de los artefactos desarrollados a lo largo del ciclo de vida del proyecto.
 
-Durante el Sprint 1 se priorizó la implementación y despliegue de la primera versión de la Landing Page de AgroFlet, desarrollada mediante HTML5, CSS3 y JavaScript[cite: 1].
+Durante el Sprint 1 se priorizó la implementación y despliegue de la primera versión de la Landing Page de AgroFlet, desarrollada mediante HTML5, CSS3 y JavaScript.
 
 ### 5.1.1. Software Development Environment Configuration
 
-A continuación se listan los productos de software utilizados por el equipo, organizados por tipo de actividad, incluyendo las herramientas de arquitectura y gestión solicitadas[cite: 1].
+A continuación se listan los productos de software utilizados por el equipo, organizados por tipo de actividad, incluyendo las herramientas de arquitectura y gestión solicitadas.
 
 | Actividad | Herramienta | Uso en AgroFlet |
 | :--- | :--- | :--- |
 | **Project Management** | Jira | Organización del Sprint Backlog, asignación de responsables y seguimiento de tareas ágiles. |
-| **Communication** | Google Meet | Coordinación asincrónica, reuniones diarias (Daily Scrum) y revisiones de Sprint. |
+| **Communication** | Discord / Google Meet | Coordinación asincrónica, reuniones diarias (Daily Scrum) y revisiones de Sprint. |
 | **Requirements & UX** | UXPressia / Miro | Elaboración de User Personas, Journey Maps y diagramas de EventStorming. |
-| **UX/UI Design** | Figma | Desarrollo de wireframes, mockups y prototipos de la Landing Page y Web Application[cite: 1]. |
-| **Software Development** | Visual Studio Code | Editor principal para la implementación de HTML5, CSS3 y JavaScript[cite: 1]. |
-| **Frontend Framework** | Vue.js / PrimeVue | Desarrollo de la aplicación web del lado del cliente[cite: 1]. |
-| **Backend & DB** | ASP.NET Core / MySQL | Desarrollo de servicios RESTful API con C# y Entity Framework Core, y persistencia de datos[cite: 1]. |
-| **Software Architecture** | Structurizr | Elaboración de diagramas de arquitectura de software bajo el modelo C4[cite: 1]. |
-| **Version Control** | Git / GitHub | Gestión local de versiones y repositorio remoto para colaboración (Pull Requests, GitFlow)[cite: 1]. |
-| **Deployment** | GitHub Pages | Publicación y alojamiento estático de la primera versión de la Landing Page[cite: 1]. |
-| **Documentation** | Swagger / Markdown | Documentación de API mediante OpenAPI y redacción del Project Report en GitHub[cite: 1]. |
+| **UX/UI Design** | Figma | Desarrollo de wireframes, mockups y prototipos de la Landing Page y Web Application. |
+| **Software Development** | Visual Studio Code | Editor principal para la implementación de HTML5, CSS3 y JavaScript. |
+| **Frontend Framework** | Vue.js / PrimeVue | Desarrollo de la aplicación web del lado del cliente. |
+| **Backend & DB** | ASP.NET Core / MySQL | Desarrollo de servicios RESTful API con C# y Entity Framework Core, y persistencia de datos. |
+| **Software Architecture** | Structurizr | Elaboración de diagramas de arquitectura de software bajo el modelo C4. |
+| **Version Control** | Git / GitHub | Gestión local de versiones y repositorio remoto para colaboración (Pull Requests, GitFlow). |
+| **Deployment** | GitHub Pages | Publicación y alojamiento estático de la primera versión de la Landing Page. |
+| **Documentation** | Swagger / Markdown | Documentación de API mediante OpenAPI y redacción del Project Report en GitHub. |
 
 ### 5.1.2. Source Code Management
 
-Para la gestión del código fuente de AgroFlet se utiliza Git como sistema de control de versiones distribuido y GitHub como plataforma de colaboración[cite: 1].
+Para la gestión del código fuente de AgroFlet se utiliza Git como sistema de control de versiones distribuido y GitHub como plataforma de colaboración.
 
 Durante el Sprint 1, el producto implementado corresponde a la Landing Page de AgroFlet.
 
@@ -75,8 +75,8 @@ El equipo adopta GitFlow como estrategia de administración de ramas.
 *   `hotfix/*`: correcciones urgentes sobre una versión publicada.
 
 **Semantic Versioning y Conventional Commits**
-AgroFlet adopta Semantic Versioning 2.0.0 (`MAJOR.MINOR.PATCH`). La primera versión desplegada de la Landing Page se identifica como `v1.0.0`[cite: 1].
-Los mensajes de commit siguen la convención de Conventional Commits (ej. `feat: implement responsive hero section`, `docs: update landing page documentation`)[cite: 1].
+AgroFlet adopta Semantic Versioning 2.0.0 (`MAJOR.MINOR.PATCH`). La primera versión desplegada de la Landing Page se identifica como `v1.0.0`.
+Los mensajes de commit siguen la convención de Conventional Commits (ej. `feat: implement responsive hero section`, `docs: update landing page documentation`).
 
 ### 5.1.3. Source Code Style Guide
 
@@ -117,7 +117,7 @@ Las variables globales se centralizan utilizando Custom Properties en la raíz[c
 *   Indentación de 4 espacios (estilo Allman para llaves).
 *   `PascalCase` para clases, métodos y propiedades públicas.
 *   Prefijo `I` seguido de `PascalCase` para interfaces (ej. `IShipmentService`).
-*   `camelCase` para parámetros y variables locales[cite: 1].
+*   `camelCase` para parámetros y variables locales.
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -152,21 +152,21 @@ La primera versión de la Landing Page de AgroFlet se despliega utilizando GitHu
 | **Time** | 10:00 AM |
 | **Location** | Google Meet |
 | **Prepared By** | Jose Alejandro Tello Lima |
-| **Attendees** | César Alca, Adriano Centeno, Bernie Rivas, Christoper Rivas, Jose Tello[cite: 1] |
-| **Sprint Goal** | Implementar y desplegar la primera versión funcional y responsive de la Landing Page de AgroFlet, comunicando la propuesta de valor del producto, sus funcionalidades proyectadas, planes, equipo y contenido institucional, incorporando navegación responsive, internacionalización (ES/EN) y elementos interactivos demostrativos[cite: 1]. |
+| **Attendees** | César Alca, Adriano Centeno, Bernie Rivas, Christoper Rivas, Jose Tello |
+| **Sprint Goal** | Implementar y desplegar la primera versión funcional y responsive de la Landing Page de AgroFlet, comunicando la propuesta de valor del producto, sus funcionalidades proyectadas, planes, equipo y contenido institucional, incorporando navegación responsive, internacionalización (ES/EN) y elementos interactivos demostrativos. |
 | **Sprint Velocity** | 24 Story Points |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 | Aspecto | Líder | Colaboradores |
 | :--- | :--- | :--- |
-| **Landing Page UX/UI** | Bernie Rivas | Christoper Rivas, Jose Tello[cite: 1] |
-| **HTML Structure** | César Alca | Adriano Centeno[cite: 1] |
-| **CSS & Responsive Design** | Jose Tello | César Alca, Bernie Rivas[cite: 1] |
-| **JavaScript Interactions** | Adriano Centeno | Christoper Rivas[cite: 1] |
-| **Internationalization (i18n)** | Christoper Rivas | Jose Tello[cite: 1] |
-| **Documentation** | César Alca | Todo el equipo[cite: 1] |
-| **Deployment & SCM** | Jose Tello | Adriano Centeno[cite: 1] |
+| **Landing Page UX/UI** | Bernie Rivas | Christoper Rivas, Jose Tello |
+| **HTML Structure** | César Alca | Adriano Centeno |
+| **CSS & Responsive Design** | Jose Tello | César Alca, Bernie Rivas |
+| **JavaScript Interactions** | Adriano Centeno | Christoper Rivas |
+| **Internationalization (i18n)** | Christoper Rivas | Jose Tello |
+| **Documentation** | César Alca | Todo el equipo |
+| **Deployment & SCM** | Jose Tello | Adriano Centeno |
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -234,7 +234,7 @@ Se verificó la correcta ejecución de la Landing Page en navegadores de escrito
 
 Durante el Sprint 1 la Landing Page no consume todavía el RESTful API de AgroFlet ni servicios externos. Las funcionalidades interactivas (como el modal de autenticación o el cambio de idioma) corresponden a una demostración ejecutada en el cliente mediante JavaScript.
 
-La integración con los servicios RESTful internos y la provisión de la documentación OpenAPI (Swagger) se incorporará en los siguientes Sprints una vez se inicie el desarrollo del Backend con ASP.NET Core[cite: 1].
+La integración con los servicios RESTful internos y la provisión de la documentación OpenAPI (Swagger) se incorporará en los siguientes Sprints una vez se inicie el desarrollo del Backend con ASP.NET Core.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
