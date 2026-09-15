@@ -34,7 +34,7 @@ Se emplean como canales de comunicación asincrónica para coordinar avances dia
 https://whatsapp.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_whatsapp.pnj" alt="whatsapp" title="Whatsapp" width="250">
+  <img src="assets/images/Cap5_Logo_whatsapp.jpg" alt="whatsapp" title="Whatsapp" width="250">
 </p>
 
 **2. Requirements Management**
