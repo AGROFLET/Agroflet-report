@@ -1,41 +1,62 @@
-<div class="cover">
+<p align="center">
+  <img src="assets/images/presentation/UPC_logo_transparente.png" alt="Logo-UPC" alt="Logo de la Universidad" width="300">
+</p>
 
 <div align="center">
-<img src="assets/images/presentation/UPC_logo_transparente.png" alt="Logo-UPC" width="150">
 
-## Universidad Peruana de Ciencias Aplicadas
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
-**Carrera de Ingeniería de Software**
+### Facultad de Ingeniería
 
-**Período:** 202620
+### Carrera de Ingeniería de Software
 
-**Aplicaciones Web**
+<br>
 
-**NRC:** 16127
+### **1ASI0730**
 
-**Docente:** Oscar Ivan Villafuerte Bazan
+### **Aplicaciones Web**
 
-### Informe de Trabajo Final
+NRC
 
-**Nombre del startup:** NEXAWEB
+### **16127**
 
-**Nombre del producto:** AGROFLET
+<br>
 
-#### Relación de integrantes
+# **Informe del Trabajo Final**
 
-| Código     | Apellidos y Nombres                  |
-| ---------- | ------------------------------------ |
+Docente
+
+### **Villafuerte Bazán, Óscar Iván**
+
+<br>
+
+Equipo
+
+### **NexaWeb**
+
+Proyecto
+
+### **AgroFlet**
+
+<br>
+
+## **INTEGRANTES**
+
+| Código | Apellidos y Nombres |
+| :---: | :--- |
 | U20241F027 | Alca Morán, César Alejandro |
 | U20241D920 | Centeno León, Adriano Samir |
-| u20241F109 | Rivas Méndez, Bernie Aarón|
-| U20241D811 | Saavedra Flores, Rodrigo Andree |
+| U20241F109 | Rivas Méndez, Bernie Aarón |
+| U202323551 | Rivas Castillo, Christoper Steven |
 | U202421618 | Tello Lima, Jose Alejandro |
 
-**Junio 2026**
+<br>
 
-<br>
-<br>
-<br>
+### **Período 202620**
+
+### **Septiembre 2026**
+
+</div>
 
 ## Registro de Versiones del Informe
 
