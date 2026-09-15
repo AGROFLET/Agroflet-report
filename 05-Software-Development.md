@@ -24,7 +24,7 @@ Google Meet es la herramienta de videoconferencia empleada para las ceremonias f
 https://meet.google.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_GoogleMeet.png" alt="Google Meet" title="Google Meet" width="250">
+  <img src="assets/images/Cap5_Logo_GoogleMeet.jpg" alt="Google Meet" title="Google Meet" width="250">
 </p>
 
 **WhatsApp:**
