@@ -120,16 +120,6 @@ Constituyen las tecnologías base de la Landing Page desplegada en el Sprint 1. 
   <img src="assets/images/Cap5_Logo_HTML_CSS_JS.png" alt="HTML5 CSS3 JavaScript" title="HTML5 / CSS3 / JavaScript" width="250">
 </p>
 
-**Live Server (extensión de VS Code):**
-
-Live Server se emplea para ejecutar localmente la Landing Page durante el desarrollo y validar cambios en tiempo real sin necesidad de recargar manualmente el navegador.
-
-https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
-
-<p align="center">
-  <img src="assets/images/Cap5_Logo_LiveServer.png" alt="Live Server" title="Live Server" width="250">
-</p>
-
 **Vue.js:**
 
 Vue.js es el framework de JavaScript seleccionado para el desarrollo de la Frontend Web Application (dashboard de monitoreo). Su implementación está planificada para los siguientes Sprints.
@@ -188,26 +178,6 @@ https://www.mysql.com/
 
 <p align="center">
   <img src="assets/images/Cap5_Logo_MySQL.png" alt="MySQL Server" title="MySQL Server" width="250">
-</p>
-
-**Node.js / npm:**
-
-Node.js y npm se utilizan para gestionar la instalación y ejecución de dependencias de desarrollo, en particular Cucumber y los scripts asociados a las pruebas de aceptación.
-
-https://nodejs.org/
-
-<p align="center">
-  <img src="assets/images/Cap5_Logo_NodeJS.png" alt="Node.js" title="Node.js / npm" width="250">
-</p>
-
-**Gherkin y Cucumber:**
-
-Los archivos `.feature` escritos en lenguaje Gherkin documentan los criterios de aceptación de las User Stories en formato *Given-When-Then*, mientras que Cucumber interpreta y ejecuta dichos escenarios para validar el comportamiento esperado del producto.
-
-https://cucumber.io/
-
-<p align="center">
-  <img src="assets/images/Cap5_Logo_Cucumber.png" alt="Cucumber" title="Gherkin / Cucumber" width="250">
 </p>
 
 **Git:**
