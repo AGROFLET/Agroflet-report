@@ -290,11 +290,7 @@ agroflet-landing-page/
 └── README.md                       # Documentación técnica del repositorio
 ```
 
-**Evidencia de la estructura del repositorio:**
 
-<p align="center">
-  <img src="assets/images/Cap5_Repo_Estructura.png" alt="Estructura del repositorio AgroFlet" title="Estructura del repositorio de la Landing Page" width="400">
-</p>
 
 **3. Workflow de control de versiones (GitFlow)**
 
@@ -337,11 +333,12 @@ AgroFlet adopta el estándar **Semantic Versioning 2.0.0** bajo el formato `MAJO
 
 Ejemplos de aplicación en el proyecto:
 
-* `v1.0.0`: primera versión desplegada de la Landing Page (Sprint 1).
+* `v1.0.0`: primera versión desplegada de la Landing Page (Spr![Uploading image.png…]()
+int 1).
 * `v1.1.0`: incorporación del formulario de contacto y nuevas secciones informativas.
 * `v1.0.1`: corrección de comportamiento del menú responsive en dispositivos móviles.
 
-**5. Convenciones de mensajes de commit (Conventional Commits)**
+**5. ![Uploading image.png…]()es de mensajes de commit (Conventional Commits)**
 
 Todos los mensajes de commit siguen la especificación **Conventional Commits**, redactados en inglés e iniciados con un prefijo que indica la naturaleza del cambio:
 
@@ -572,7 +569,7 @@ Durante el Sprint 1 el equipo se concentró en la implementación y despliegue d
 | **Sprint 1 Review Summary** | Durante este primer ciclo el equipo consolidó los artefactos de UX definidos en los capítulos anteriores (User Personas, Journey Maps, Arquitectura de la Información, wireframes y mockups) y los tradujo en una implementación web funcional. Se desarrolló y desplegó la primera versión de la Landing Page de AgroFlet, la cual comunica la propuesta de valor orientada a la trazabilidad del transporte agrícola, presenta las funcionalidades proyectadas de la plataforma, los planes de suscripción, los testimonios de los segmentos objetivo, el equipo fundador y el contenido institucional. Se incorporaron navegación responsive, internacionalización español/inglés, carrusel interactivo de testimonios y modales demostrativos de registro e inicio de sesión. |
 | **Sprint 1 Retrospective Summary** | El equipo evaluó positivamente la distribución del trabajo mediante ramas `feature/*`, que permitió desarrollar secciones de forma aislada y redujo los conflictos de integración sobre `index.html` y `styles.css`. Se identificó como principal aprendizaje la necesidad de mantener coherencia entre las funcionalidades descritas en el Project Report y aquellas efectivamente implementadas en el producto: la User Story UH28 (formulario de contacto) fue reprogramada para el Sprint 2 al no haberse implementado un `<form>` de contacto en esta versión, manteniéndose únicamente los canales de contacto en el footer. Como oportunidad de mejora se acordó unificar la carga de los diccionarios de internacionalización desde `assets/i18n/` y afinar la estimación de los puntos de historia. |
 | **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | Implementar y desplegar la primera versión funcional y responsive de la Landing Page de AgroFlet, comunicando la propuesta de valor del producto, sus funcionalidades proyectadas, planes de suscripción, equipo y contenido institucional, incorporando navegación responsive, internacionalización español/inglés y elementos interactivos. El logro del objetivo se valida con la publicación de la versión `v1.0.0` en GitHub Pages y con la verificación de los criterios de aceptación de las User Stories asociadas al EPIC-09. |
+| **Sprint 1 Goal** | *Our focus is on* publicar la primera versión funcional y responsive de la Landing Page de AgroFlet, que comunica la propuesta de valor del producto, sus funcionalidades proyectadas, los planes de suscripción, el equipo y el contenido institucional, con navegación responsive e internacionalización español/inglés.<br>*We believe it delivers* a los productores agrícolas, transportistas fletistas y compradores mayoristas una comprensión clara y accesible de la solución y del plan de suscripción que les corresponde, sin necesidad de contacto previo con el equipo comercial.<br>*This will be confirmed when* un visitante puede, desde la URL pública de producción y en cualquiera de los dos idiomas, recorrer las secciones mediante el menú, comparar los tres planes y llegar al llamado a la acción de su segmento en no más de tres interacciones, tanto en navegador de escritorio como en dispositivo móvil. |
 | **Sprint 1 Velocity** | 24 |
 | **Sum of Story Points** | 24 |
 
