@@ -73,9 +73,16 @@ Proyecto
 ## Project Report Collaboration Insights
 
 **Primera versión de trabajo:**
-En está versión del trabajo se realizaron los capítulos I a IV en su totalidad, a la vez que se avanzo el capítulo V hasta el punto 5.4 como dispone la rúbrica para el primer entregable, semana 4.
+En está versión del trabajo se realizaron los capítulos I a IV en su totalidad, a la vez que se avanzo el capítulo V hasta el punto 5.2 como dispone la rúbrica para el primer entregable, semana 4.
+Debido a que se realizaron dos repositorios, principalmente para realizar el gitflow de forma correcta, por lo cuan contamos actividades ambas. Se presentarán ambos en está entrega.
 
-Repositorio de GitHub: [Proyecto](https://github.com/upc-pre-202620-1asi0729-7747-refrio/refrio-report.git)
+Collaboration Insight (First repository):
+<br> <br>
+Collaboration Insight (Second repository):
+<br> <br>
+---
+
+Repositorio de GitHub: [Proyecto]([https://github.com/upc-pre-202620-1asi0729-7747-refrio/refrio-report.git](https://github.com/AGROFLET/Agroflet-report.git))
 
 <div style="page-break-after: always;"></div>
 
