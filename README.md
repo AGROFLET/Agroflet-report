@@ -228,6 +228,21 @@ Repositorio de GitHub: [Proyecto]([https://github.com/upc-pre-202620-1asi0729-77
     - [Conclusiones y recomendaciones](report/16-conclusions.md#conclusiones-y-recomendaciones)
 
 
+# ABET - EAC - Student Outcome 5
+
+**Criterio:** _La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos._
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+<div align="center">
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Alca Morán, César Alejandro**<br>AV1: Lideró la organización de las entrevistas y el análisis competitivo, guiando al equipo en la identificación de la problemática y oportunidades de mercado para AgroFlet.<br>TB1:<br>AV2:<br>TB2:<br><br>**Centeno León, Adriano Samir**<br>AV1: Tomó la iniciativa en la definición de los segmentos objetivo (Despachador y Comprador) y dirigió las sesiones colaborativas de Needfinding.<br>TB1:<br>AV2:<br>TB2:<br><br>**Rivas Méndez, Bernie Aarón**<br>AV1: Proporcionó liderazgo técnico al estructurar los requerimientos funcionales y establecer los cimientos de la Arquitectura de Software mediante Domain-Driven Design (DDD).<br>TB1:<br>AV2:<br>TB2:<br><br>**Rivas Castillo, Christoper Steven**<br>AV1: Asumió el liderazgo en la gestión del repositorio y despliegue del Landing Page, guiando al equipo en el uso de flujos de Git y centralizando la diagramación técnica (C4, ERD).<br>TB1:<br>AV2:<br>TB2:<br><br>**Tello Lima, Jose Alejandro**<br>AV1: Lideró la configuración del entorno de desarrollo (Software Configuration Management) y moderó las ceremonias iniciales, como el Sprint 1 Planning.<br>TB1:<br>AV2:<br>TB2: | Durante el AV1, el equipo demostró un liderazgo distribuido donde cada integrante asumió la dirección de un área específica del proyecto (investigación, requerimientos, arquitectura técnica, gestión de repositorios y metodologías). Esta sinergia permitió cumplir con todos los entregables de la primera fase de AgroFlet de manera equilibrada y eficiente.<br><br>*(Por definir para TB1)*<br><br>*(Por definir para AV2)*<br><br>*(Por definir para TB2)* |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Alca Morán, César Alejandro**<br>AV1: Fomentó la participación activa en las discusiones de diseño de dominio y cumplió puntualmente con sus tareas asignadas en el Capítulo I y II.<br>TB1:<br>AV2:<br>TB2:<br><br>**Centeno León, Adriano Samir**<br>AV1: Colaboró en la priorización de User Stories, asegurando que las metas del Sprint Backlog 1 reflejaran equitativamente las necesidades de todos los actores del sistema.<br>TB1:<br>AV2:<br>TB2:<br><br>**Rivas Méndez, Bernie Aarón**<br>AV1: Planificó la división de los Bounded Contexts, creando un entorno de desarrollo claro donde cada miembro del equipo conocía los límites técnicos de su módulo a implementar.<br>TB1:<br>AV2:<br>TB2:<br><br>**Rivas Castillo, Christoper Steven**<br>AV1: Apoyó activamente a sus compañeros en la resolución de conflictos de código en GitHub y facilitó un entorno inclusivo durante la sesión de Big Picture Event Storming en FigJam.<br>TB1:<br>AV2:<br>TB2:<br><br>**Tello Lima, Jose Alejandro**<br>AV1: Estableció los objetivos medibles del Sprint 1, organizó las tareas del equipo y documentó rigurosamente las evidencias de colaboración y despliegue para asegurar el cumplimiento de metas.<br>TB1:<br>AV2:<br>TB2: | En el AV1, se estableció un entorno de trabajo colaborativo apoyado en herramientas asíncronas (GitHub, repositorios) y sincrónicas (FigJam, reuniones). Se lograron los objetivos del Sprint 1 cumpliendo estrictamente con la planificación inicial y resolviendo de forma conjunta los bloqueos técnicos, garantizando la inclusión de todas las perspectivas en el diseño del producto.<br><br>*(Por definir para TB1)*<br><br>*(Por definir para AV2)*<br><br>*(Por definir para TB2)* |
+
+</div>
+
 </div>
 
 <div class="page"></div>
