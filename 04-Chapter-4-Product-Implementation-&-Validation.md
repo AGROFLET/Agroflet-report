@@ -590,8 +590,6 @@ Los recorridos se orientan a la preparación y consulta de envíos, el registro 
 
 El prototipo constituye una simulación de la experiencia de uso. No demuestra autenticación real, persistencia de datos, transacciones, envío de correos ni integración operativa con servicios geográficos.
 
-Antes de cerrar esta sección deben completarse la revisión de recorridos, las traducciones y la iconografía. Asimismo, el informe debe incorporar las capturas seleccionadas y el video de navegación exigido por el curso.
-
 <p align="center">
   <img src="assets/images/Prototypeeee.png" title="Wireframes" width="1500">
 </p>
