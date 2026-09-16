@@ -77,9 +77,9 @@ En está versión del trabajo se realizaron los capítulos I a IV en su totalida
 Debido a que se realizaron dos repositorios, principalmente para realizar el gitflow de forma correcta, por lo cuan contamos actividades ambas. Se presentarán ambos en está entrega.
 
 Collaboration Insight (First repository):
-<br> <br>
+<br> <img src="assets/images/presentation/commits-1-first.jpeg" alt="First-Commit" width="300"> <br>
 Collaboration Insight (Second repository):
-<br> <br>
+<br> <img src="assets/images/presentation/commits-1-second.jpeg" alt="Second-Commit" width="300"> <br>
 ---
 
 Repositorio de GitHub: [Proyecto]([https://github.com/upc-pre-202620-1asi0729-7747-refrio/refrio-report.git](https://github.com/AGROFLET/Agroflet-report.git))
