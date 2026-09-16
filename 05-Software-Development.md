@@ -333,12 +333,11 @@ AgroFlet adopta el estándar **Semantic Versioning 2.0.0** bajo el formato `MAJO
 
 Ejemplos de aplicación en el proyecto:
 
-* `v1.0.0`: primera versión desplegada de la Landing Page (Spr![Uploading image.png…]()
-int 1).
+* `v1.0.0`: primera versión desplegada de la Landing Page (Sprint 1).
 * `v1.1.0`: incorporación del formulario de contacto y nuevas secciones informativas.
 * `v1.0.1`: corrección de comportamiento del menú responsive en dispositivos móviles.
 
-**5. ![Uploading image.png…]()es de mensajes de commit (Conventional Commits)**
+**5. Convenciones de mensajes de commit (Conventional Commits)**
 
 Todos los mensajes de commit siguen la especificación **Conventional Commits**, redactados en inglés e iniciados con un prefijo que indica la naturaleza del cambio:
 
