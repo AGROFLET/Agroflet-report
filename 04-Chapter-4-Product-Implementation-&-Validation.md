@@ -22,7 +22,7 @@ Para AgroFlet, el branding se diseñó para mostrar confianza corporativa y efic
 
 
 
-**4.1.1.1. Typography:**
+**4.1.1.2. Typography:**
 
 La tipografía de AgroFlet ha sido definida con el objetivo de mantener una interfaz clara, profesional y legible en contextos donde los usuarios necesitan consultar y gestionar información relacionada con el transporte agrícola de manera rápida. Esto incluye el registro de envíos, consulta del estado de las operaciones, revisión de incidencias, posiciones reportadas, rutas planificadas, notificaciones y gestión de recursos de transporte. La familia tipográfica principal de la plataforma es Inter, seleccionada por su alta legibilidad en interfaces digitales y su versatilidad para establecer distintos niveles de jerarquía visual. Su uso se mantiene de manera consistente tanto en la aplicación web como en los componentes informativos asociados a AgroFlet.
 Se emplean diferentes pesos de Inter según la importancia del contenido, permitiendo diferenciar títulos, encabezados, textos principales, información auxiliar y etiquetas sin recurrir a una cantidad excesiva de estilos tipográficos.
@@ -46,7 +46,7 @@ El interlineado se establece aproximadamente entre 1.3 y 1.5 veces el tamaño de
 </p>
 
 
-**4.1.1.2. Paleta de Colores:**
+**4.1.1.3. Paleta de Colores:**
 
 La paleta de colores de AgroFlet ha sido definida con el propósito de transmitir una identidad visual moderna, confiable y relacionada con el entorno agrícola y logístico. El sistema combina colores propios de la marca con tonos estructurales, fondos neutros y colores semánticos que permiten diferenciar acciones, estados e información dentro de la plataforma.
 
@@ -87,7 +87,7 @@ El uso consistente de esta paleta permite establecer una jerarquía visual clara
 </p>
 
 
-**4.1.1.3. Spacing:**
+**4.1.1.4. Spacing:**
 
 El sistema de espaciado de AgroFlet se basa en una cuadrícula de 4 píxeles, permitiendo mantener consistencia entre los diferentes componentes de la interfaz. A partir de esta unidad base se utilizan principalmente valores de 4, 8, 12, 16, 24 y 32 píxeles, dependiendo de la relación existente entre los elementos y del nivel de separación requerido.
 
@@ -116,7 +116,7 @@ Asimismo, permite evitar la saturación visual y mantener una experiencia predec
 </p>
 
 
-**4.1.1.4. Iconography:**
+**4.1.1.5. Iconography:**
 
 La iconografía de AgroFlet sigue un estilo simple, lineal, reconocible y consistente, orientado a facilitar la identificación rápida de las principales funciones de la plataforma. Los iconos funcionan como apoyo visual para elementos de navegación, acciones, formularios, estados y diferentes procesos relacionados con la coordinación del transporte agrícola.
 
@@ -149,7 +149,7 @@ Este enfoque reduce la carga cognitiva del usuario y permite reconocer más ráp
 </p>
 
 
-**4.1.1.5. Tone of Communication and Applied Language:**
+**4.1.1.6. Tone of Communication and Applied Language:**
 
 El tono de comunicación de AgroFlet es claro, profesional, respetuoso, sereno y orientado a la acción, priorizando la precisión sobre la certeza absoluta. Dado que la plataforma gestiona operaciones agrícolas, se evitan tecnicismos innecesarios y expresiones absolutas cuando solo se cuenta con datos estimados o reportados previamente.
 
@@ -486,9 +486,9 @@ El Mock-up de alta fidelidad integra el isotipo de AgroFlet, la paleta de colore
 
 ## 4.4. Web Applications UX/UI Design
 
-El diseño de la aplicacion web de   Agroflet oorganiza las experiencias de los dos roles principales: Desapachador, encargado de coordinar las operaciones, y Comprador, orientado a consultar los envios asociados a su recepción.
+El diseño de la aplicacion web de Agroflet organiza las experiencias de los dos roles principales: Desapachador, encargado de coordinar las operaciones, y Comprador, orientado a consultar los envios asociados a su recepción.
 
-El trabajo registrado en Figma comprende wireframes, mockups y represtaciones de flujos. Su relacion con las ohistoprias de usuario permite revusar que las interfaves respondan a las tareas del negocio u que las acciones ofrecidas sean cogerentes con el rol t el estado de cada operacion.
+El trabajo registrado en Figma comprende wireframes, mockups y represtaciones de flujos. Su relacion con las histoorias de usuario permite revisar que las interfaces respondan a las tareas del negocio y que las acciones ofrecidas sean coherentes con el rol y el estado de cada operacion.
 
 ### 4.4.1. Web Applications Wireframes
 
