@@ -97,6 +97,32 @@ Proyecto
 </div>
 </div>
 
+# Project Report Collaboration Insights
+
+En está versión del trabajo se realizaron los capítulos I a IV en su totalidad, a la vez que se avanzo el capítulo V hasta el punto 5.2 como dispone la rúbrica para el primer entregable, semana 4.
+Debido a que se realizaron dos repositorios, principalmente para realizar el gitflow de forma correcta, por lo cuan contamos actividades ambas. Se presentarán ambos en está entrega.
+
+Link de la organización: https://github.com/AGROFLET
+
+
+Collaboration Insight (First repository):
+<br> <img src="assets/images/presentation/commits-1-first.jpeg" alt="First-Commit" width="300"> <br>
+
+## **AV1:**
+
+Durante este avance del trabajo, se desarrollaron los siguientes puntos del reporte para AgroFlet:
+
+- Carátula e información esencial
+- Registro de versiones y Project Report Collaboration Insights
+- **Capítulo I: Introducción**
+- **Capítulo II: Requirements Elicitation & Analysis**
+- **Capítulo III: Requirements Specification**
+- **Capítulo IV: Product Design**
+- **Capítulo V: Product Implementation, Validation & Deployment (Sprint 1)**
+- Conclusiones y Anexos
+
+Collaboration Insight (Second repository):
+<br> <img src="assets/images/presentation/commits-1-second.jpeg" alt="Second-Commit" width="300"> <br>
 
 ---
 
