@@ -755,7 +755,7 @@ Se verificó la ejecución de la Landing Page de AgroFlet en navegador de escrit
 *Desarrollado por: Centeno León, Adriano Samir*
 
 <p align="center">
-  <img src="assets/images/Cap5_Exec_Footer_Desktop.png" alt="Footer institucional" title="Footer - Desktop" width="700">
+  <img src="assets/images/Cap5_Exec_Terminos.png" alt="Footer institucional" title="Footer - Desktop" width="700">
 </p>
 
 <p align="center">
