@@ -1,5 +1,4 @@
 # Conclusiones y recomendaciones
----
 ## **Conclusiones**
 
 1. **Atención a la brecha y reducción de mermas**: La falta de trazabilidad en más del 70 % del transporte agrícola terrestre en el Perú genera pérdidas postcosecha que superan los S/ 2,000 millones anuales. La propuesta de AgroFlet aborda directamente esta problemática estructural mediante la centralización en tiempo casi real de la información de los fletes, permitiendo reducir las pérdidas físicas y económicas en los principales corredores viales del país.
