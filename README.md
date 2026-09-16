@@ -124,6 +124,17 @@ Durante este avance del trabajo, se desarrollaron los siguientes puntos del repo
 Collaboration Insight (Second repository):
 <br> <img src="assets/images/presentation/commits-1-second.jpeg" alt="Second-Commit" width="300"> <br>
 
+## Commits por integrante
+
+- **Alca Morán, César Alejandro (`USER GITHUB`)**: 14 commits
+- **Centeno León, Adriano Samir (`USER GITHUB`)**: 5 commits
+- **Rivas Méndez, Bernie Aarón (`USER GITHUB`)**: 8 commits
+- **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: 37 commits
+- **Tello Lima, Jose Alejandro (`USER GITHUB`)**: 26 commits
+- **Total de commits en AV1:** 90
+
+La colaboracion del equipo al realizar el primer avance del proyecto fue activa, donde cada quien realizo una parte del reporte.
+
 ---
 
 Repositorio de GitHub: [Proyecto]([https://github.com/upc-pre-202620-1asi0729-7747-refrio/refrio-report.git](https://github.com/AGROFLET/Agroflet-report.git))
