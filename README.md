@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/images/presentation/UPC_logo_transparente.png" alt="Logo-UPC" alt="Logo de la Universidad" width="300">
-</p>
-
 <div align="center">
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
@@ -245,9 +241,5 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </div>
 
 </div>
-
-
-
-
 
 <div class="page"></div>
