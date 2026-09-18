@@ -578,11 +578,11 @@ Durante el Sprint 1 el equipo se concentró en la implementación y despliegue d
 
 | Team Member | GitHub Username | Landing Page (código) | Diseño UI/UX | Documentación | Deployment |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Alca Morán, César Alejandro | `CesarAlcaM` | Líder | Colaborador | Colaborador | Colaborador |
-| Centeno León, Adriano Samir | `AdrianoCenteno` | Colaborador | Colaborador | Líder | Colaborador |
-| Rivas Méndez, Bernie Aarón | `BernieRivasM` | Colaborador | Líder | Colaborador | Colaborador |
-| Rivas Castillo, Christoper Steven | `ChristoperRivasC` | Colaborador | Colaborador | Colaborador | Colaborador |
-| Tello Lima, Jose Alejandro | `JoseTelloL` | Colaborador | Colaborador | Colaborador | Líder |
+| Alca Morán, César Alejandro | `almocesar` | Líder | Colaborador | Colaborador | Colaborador |
+| Centeno León, Adriano Samir | `Adri11-dk` | Colaborador | Colaborador | Líder | Colaborador |
+| Rivas Méndez, Bernie Aarón | `ARivas3008` | Colaborador | Líder | Colaborador | Colaborador |
+| Rivas Castillo, Christoper Steven | `C0DERTOPH` | Colaborador | Colaborador | Colaborador | Colaborador |
+| Tello Lima, Jose Alejandro | `j4ndrow` | Colaborador | Colaborador | Colaborador | Líder |
 
 **Distribución por aspecto técnico del Sprint 1:**
 
