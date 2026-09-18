@@ -518,6 +518,7 @@ Las familias de vistas utilizadas para organizar y revisar el diseño se relacio
 
 <p align="center">
   <img src="assets/images/Wireframes.png" alt="Wireframes" title="Wireframes" width="1500">
+   <br><a href="https://www.figma.com/design/frzJ1y07RAQu9Yoaj2m7xy/AGROFLET-crivas?node-id=6-2&p=f&t=U1TOTmi4Vz5HUxHx-0" target="_blank">Ver los Wireframes en FIGMA →</a></br>
   <em>Esta relación establece la trazabilidad para revisar los frames; no sustituye las capturas de los wireframes ni acredita por sí sola la cobertura de todos los escenarios.</em>
 </p>
 
@@ -580,6 +581,7 @@ Las alternativas incluyen datos inválidos, recursos no disponibles, errores de 
 <p align="center">
   <img src="assets/images/Userflows.png" title="Wireframes" width="1500">
   <img src="assets/images/USER-WIREFLOWS.png" title="Wireframes" width="1500">
+  <br><a href="https://www.figma.com/design/frzJ1y07RAQu9Yoaj2m7xy/AGROFLET-crivas?node-id=30-2&p=f&t=U1TOTmi4Vz5HUxHx-0" target="_blank">Ver los UserFlows en FIGMA →</a>
 </p>
 
 ### 4.5. Web Applications Prototyping
@@ -592,10 +594,8 @@ El prototipo constituye una simulación de la experiencia de uso. No demuestra a
 
 <p align="center">
   <img src="assets/images/Prototypeeee.png" title="Wireframes" width="1500">
+  <br><a href="https://www.figma.com/design/frzJ1y07RAQu9Yoaj2m7xy/AGROFLET-crivas?node-id=6-3&p=f&t=U1TOTmi4Vz5HUxHx-0" target="_blank">Ver los prototipos en FIGMA →</a>
 </p>
-
-
-> **Enlace al Video Demostrativo:** LINKKKKKKKKKKKKKKKK-VIDEO-FIGMAAAAAA
 
 ## 4.6. Domain-Driven Software Architecture
 
