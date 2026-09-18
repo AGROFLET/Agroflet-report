@@ -253,10 +253,10 @@ La solución distribuida de AgroFlet se organiza en repositorios independientes,
 
 **Enlaces a los repositorios:**
 
-* Repositorio de Landing Page: `[COMPLETAR: https://github.com/<organizacion>/agroflet-landing-page]`
+* Repositorio de Landing Page: `[https://github.com/<organizacion>/agroflet-landing-page]`
 * Repositorio de Frontend Web Application: Disponible en futuras entregas
 * Repositorio de Web Services: Disponible en futuras entregas
-* Repositorio del Project Report: `[COMPLETAR: https://github.com/<organizacion>/agroflet-project-report]`
+* Repositorio del Project Report: `[https://github.com/<organizacion>/agroflet-project-report]`
 
 **2. Estructura del repositorio de la Landing Page**
 
@@ -521,9 +521,9 @@ En esta sección se detalla el proceso de configuración y despliegue definido p
 10. Guardar la configuración y esperar la ejecución del workflow de publicación.
 11. Validar la URL pública generada, verificando la carga de estilos, scripts, imágenes, el cambio de idioma y el enlace a `docs/Terms-and-conditions.html`.
 
-* **Repositorio:** `[COMPLETAR: URL DEL REPOSITORIO]`
+* **Repositorio:** `[https://github.com/AGROFLET/Agroflet-landing-page]`
 * **Versión desplegada:** `v1.0.0`
-* **URL de producción:** `[COMPLETAR: URL DE GITHUB PAGES]`
+* **URL de producción:** `[https://agroflet.github.io/Agroflet-landing-page/]`
 
 **Evidencia de la configuración:**
 
@@ -641,20 +641,19 @@ Las principales funcionalidades desarrolladas incluyen:
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| agroflet-landing-page | `feature/header-navigation` | `[COMMIT_ID]` | feat: implement responsive header and navigation | Added fixed header, scroll state, active section tracking and mobile burger menu. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/hero-section` | `[COMMIT_ID]` | feat: implement hero section with animated counters | Added value proposition hero, animated statistics counters and particle background. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/plans-section` | `[COMMIT_ID]` | feat: add subscription plans section | Implemented Basic, Standard and Professional plan cards with segmented call to action. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/testimonials-carousel` | `[COMMIT_ID]` | feat: add testimonials carousel | Implemented touch and drag enabled carousel with auto rotation and dot indicators. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/solve-section` | `[COMMIT_ID]` | feat: implement platform features section | Added responsive grid with six key platform features and SVG icons. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/team-section` | `[COMMIT_ID]` | feat: create team and videos presentation | Added founding team profile cards and institutional video modal. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/auth-modal` | `[COMMIT_ID]` | feat: implement demo authentication modal | Added sign up and sign in forms with live validation and password strength indicator. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/i18n` | `[COMMIT_ID]` | feat: implement bilingual landing page | Added ES/EN dictionaries, language toggle and localStorage persistence. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/footer-legal` | `[COMMIT_ID]` | feat: add footer and terms and conditions page | Implemented institutional footer and legal document under docs directory. | `[DD/MM/2026]` |
-| agroflet-landing-page | `feature/responsive-layout` | `[COMMIT_ID]` | style: improve responsive card layout | Adjusted design tokens and media queries for mobile, tablet and desktop breakpoints. | `[DD/MM/2026]` |
-| agroflet-landing-page | `develop` | `[COMMIT_ID]` | docs: update landing page documentation | Updated README with project structure, features and local execution instructions. | `[DD/MM/2026]` |
-| agroflet-landing-page | `main` | `[COMMIT_ID]` | chore: prepare release v1.0.0 and trigger deployment | Merged release branch and triggered GitHub Pages deployment. | `[DD/MM/2026]` |
+| agroflet-landing-page | `feature/header-navigation` | `77a83d2` | feat: implement responsive header and navigation | Added fixed header, scroll state, active section tracking and mobile burger menu. | `17/09/2026` |
+| agroflet-landing-page | `feature/hero-section` | `690c3cc` | feat: implement hero section with animated counters | Added value proposition hero, animated statistics counters and particle background. | `17/09/2026` |
+| agroflet-landing-page | `feature/plans-section` | `3d602c7` | feat: add subscription plans section | Implemented Basic, Standard and Professional plan cards with segmented call to action. | `17/09/2026` |
+| agroflet-landing-page | `feature/testimonials-carousel` | `8a42a8c` | feat: add testimonials carousel | Implemented touch and drag enabled carousel with auto rotation and dot indicators. | `17/09/2026` |
+| agroflet-landing-page | `feature/solve-section` | `487b350` | feat: implement platform features section | Added responsive grid with six key platform features and SVG icons. | `17/09/2026` |
+| agroflet-landing-page | `feature/team-section` | `e1f9f0d` | feat: create team and videos presentation | Added founding team profile cards and institutional video modal. | `17/09/2026` |
+| agroflet-landing-page | `feature/auth-modal` | `3b97e89` | feat: implement demo authentication modal | Added sign up and sign in forms with live validation and password strength indicator. | `17/09/2026` |
+| agroflet-landing-page | `feature/i18n` | `5f2486c` | feat: implement bilingual landing page | Added ES/EN dictionaries, language toggle and localStorage persistence. | `17/09/2026` |
+| agroflet-landing-page | `feature/footer-legal` | `fe83b67` | feat: add footer and terms and conditions page | Implemented institutional footer and legal document under docs directory. | `17/09/2026` |
+| agroflet-landing-page | `feature/responsive-layout` | `c4cc20d` | style: improve responsive card layout | Adjusted design tokens and media queries for mobile, tablet and desktop breakpoints. | `18/09/2026` |
+| agroflet-landing-page | `develop` | `a7677c2` | docs: update landing page documentation | Updated README with project structure, features and local execution instructions. | `18/09/2026` |
+| agroflet-landing-page | `main` | `fc13b72` | chore: prepare release v1.0.0 and trigger deployment | Merged release branch and triggered GitHub Pages deployment. | `18/09/2026` |
 
-**Nota:** Los identificadores de commit y las fechas deben completarse con los valores reales obtenidos desde el historial del repositorio (`git log --oneline` o la pestaña *Commits* de GitHub).
 
 **Evidencia del código HTML:**
 
@@ -801,7 +800,6 @@ Se verificó la ejecución de la Landing Page de AgroFlet en navegador de escrit
   <img src="assets/images/Cap5_Exec_DevTools_Responsive.png" alt="Validación responsive en Chrome DevTools" title="Chrome DevTools - Responsive" width="700">
 </p>
 
-**Video del Sprint Review:** `[COMPLETAR: enlace al video de ejecución del Sprint 1]`
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -829,7 +827,7 @@ La versión `v1.0.0` de la Landing Page de AgroFlet fue publicada exitosamente u
 
 * Se creó un repositorio público dedicado exclusivamente a la Landing Page dentro de la organización del equipo.
 * Se estructuró el control de versiones bajo GitFlow para facilitar la publicación desde la rama `main`.
-* Enlace del repositorio: `[COMPLETAR: URL DEL REPOSITORIO]`
+* Enlace del repositorio: `[https://github.com/AGROFLET/Agroflet-landing-page]`
 
 **2. Habilitación y configuración de GitHub Pages**
 
@@ -856,7 +854,7 @@ La versión `v1.0.0` de la Landing Page de AgroFlet fue publicada exitosamente u
 * Se comprobó el acceso al documento `docs/Terms-and-conditions.html` desde el footer.
 
 * **Versión desplegada:** `v1.0.0`
-* **URL de producción:** `[COMPLETAR: URL DE GITHUB PAGES]`
+* **URL de producción:** `[https://agroflet.github.io/Agroflet-landing-page/]`
 
 <p align="center">
   <img src="assets/images/Cap5_Deploy_Produccion.png" alt="Landing Page de AgroFlet desplegada en producción" title="AgroFlet - Producción" width="700">
