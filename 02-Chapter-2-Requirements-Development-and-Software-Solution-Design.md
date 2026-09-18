@@ -1,0 +1,557 @@
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
+En esta sección se identifican y describen los principales competidores de AgroFlet en el mercado de soluciones digitales para la gestión y el monitoreo logístico del transporte de carga, con especial atención a aquellos que operan en el sector agrícola o en economías emergentes con características similares a la peruana.
+
+Para la identificación de competidores, el equipo definió el criterio de búsqueda en torno a plataformas digitales que ofrezcan, total o parcialmente, alguna de las siguientes capacidades: rastreo de unidades de carga en tiempo real, gestión de flotas terrestres, seguimiento de envíos de carga agrícola o perecible, y/o registro de incidencias durante el trayecto. Se identificaron tres competidores con modelos de negocio digital parcialmente similares:
+
+1. **Agrofy (Argentina/Brasil):** plataforma de marketplace y logística agroindustrial con módulos de trazabilidad de carga.
+2. **Transvision (Perú):** sistema de rastreo satelital y gestión de flotas para empresas de transporte terrestre.
+3. **Trimble Transportation (EE.UU. — presencia en LATAM):** plataforma integral de gestión de flotas y visibilidad de carga, con alcance en el mercado latinoamericano corporativo.
+
+### 2.1.1. Análisis competitivo
+
+**¿Por qué llevar a cabo este análisis?**
+Buscamos entender en qué medida las soluciones existentes en el mercado peruano y latinoamericano resuelven la necesidad de visibilidad y trazabilidad logística en el transporte de alimentos agrícolas, y qué brechas siguen sin cubrir para los segmentos de medianos productores/acopiadores y compradores mayoristas en el Perú.
+
+---
+
+|  | Nombre | AgroFlet | Agrofy | Transvision | Trimble Transportation |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | **Logotipo** | <p align="center"><img src="assets/images/AGROFLET.png" width="150" alt="Logo AgroFlet"></p> | <p align="center"><img src="./assets/images/logo-agrofy.png" width="150" alt="Logo Agrofy"></p> | <p align="center"><img src="./assets/images/logo-transvision.png" width="150" alt="Logo Transvision"></p> | <p align="center"><img src="./assets/images/logo-trimble.png" width="150" alt="Logo Trimble"></p> |
+| **Perfil** | **Overview** | Startup peruana de monitoreo logístico especializada en el transporte terrestre de alimentos agrícolas perecibles a nivel nacional. Plataforma web con dashboard en tiempo casi real, registro de incidencias y gestión de historial de operaciones. | Plataforma argentina de marketplace agroindustrial que incorpora módulos de logística y trazabilidad de carga agrícola para el mercado sudamericano. | Empresa peruana de rastreo satelital GPS que ofrece soluciones de monitoreo de flotas terrestres para empresas de transporte general, con presencia en el mercado local. | Empresa estadounidense con soluciones enterprise de gestión de flotas y visibilidad de la cadena de suministro, con cobertura en América Latina a través de distribuidores. |
+| | **Ventaja competitiva** | Plataforma web sectorial diseñada específicamente para el transporte de alimentos en el Perú. Combina monitoreo de flotas, registro de incidencias con impacto en tiempo de entrega, y gestión de historial de operaciones en una sola interfaz accesible. | Ecosistema de marketplace agroindustrial que integra la logística como un módulo adicional, facilitando la conexión entre productores, compradores y transportistas dentro de una misma plataforma transaccional. | Rastreo GPS en tiempo real de unidades de transporte con alertas configurables y reportes de recorrido para empresas con flotas medianas a grandes. | Gestión integral de flotas (TMS), visibilidad de la cadena de suministro, optimización de rutas y análisis avanzado de datos logísticos para grandes corporaciones. |
+| **Plan de marketing** | **Mercado objetivo** | Medianos productores agrícolas, acopiadores y cooperativas del interior del Perú; compradores mayoristas y encargados de abastecimiento en Lima Metropolitana y capitales de región. | Productores agrícolas, agroindustrias, brokers y transportistas de Argentina, Brasil y otros mercados sudamericanos con enfoque en commodities agrícolas. | Empresas de transporte terrestre de carga general y minería en el Perú, con flotas de 5 a 200 unidades. Mercado corporativo medio-alto. | Grandes empresas de transporte, distribución y cadena de suministro a nivel corporativo en América Latina. No orientado a PyMEs ni al sector agrícola informal. |
+| | **Estrategias de marketing** | Marketing de contenido orientado al sector agro-logístico peruano, alianzas con cooperativas agrarias y asociaciones de transportistas, demostraciones en campo con usuarios de los segmentos objetivo. Modelo *freemium* con suscripción mensual escalonada. | Marketing digital en redes sociales especializadas en agro, participación en ferias agroindustriales internacionales, partnerships con agroindustrias y asociaciones de productores. | Ventas directas B2B, red de distribuidores regionales en el Perú, participación en eventos del sector transporte y logística. | Fuerza de ventas corporativa, eventos internacionales de logística (p.ej. Transexpo LATAM), alianzas con fabricantes de vehículos de carga. |
+| **Plan de producto** | **Productos y servicios** | Dashboard de monitoreo logístico en tiempo casi real; registro y visualización de incidencias en ruta; gestión de historial de operaciones con filtros avanzados; visualización geográfica de viajes activos en mapa interactivo; gestión de flotas y conductores; sistema de alertas y notificaciones. | Marketplace de insumos y commodities agrícolas; módulo de logística para cotización y contratación de fletes; trazabilidad básica de envíos; conexión entre oferta y demanda agroindustrial. | Rastreo GPS satelital en tiempo real; geocercas configurables; alertas de velocidad, paradas y desviaciones; reportes de recorrido y eficiencia de combustible; aplicación móvil para conductores. | TMS (Transportation Management System); visibilidad multimodal de la cadena de suministro; optimización de rutas; gestión de cumplimiento normativo; análisis de datos y Business Intelligence logístico. |
+| | **Precios y costos** | Modelo de suscripción mensual escalonado por número de unidades registradas. Plan básico accesible para pequeñas flotas (1-5 unidades); plan estándar para flotas medianas (6-20 unidades); plan profesional para flotas grandes (21+ unidades). Precios orientados al poder adquisitivo del mercado peruano de medianas empresas. | Registro gratuito en el marketplace; comisiones por transacción logística; módulos premium de trazabilidad con costo adicional. Precios en USD, diseñados para el mercado argentino y brasileño. | Costo de instalación de hardware GPS por unidad + suscripción mensual por unidad. Requiere inversión inicial en dispositivos físicos. Precios en soles, accesibles para empresas medianas peruanas. | Licencias enterprise con costo elevado (cientos a miles de USD/mes). Requiere implementación y consultoría. Poco accesible para PyMEs o mercados informales. |
+| | **Canales de distribución** | Aplicación web responsive (desktop y mobile browser); landing page informativa con call-to-action hacia la plataforma. | Web y aplicación móvil nativa (iOS y Android). | Web y aplicación móvil nativa para conductores. Hardware GPS físico instalado en las unidades. | Web (plataforma enterprise); integración con sistemas ERP existentes del cliente. |
+| **Análisis SWOT** | **Fortalezas** | Diseño sectorial enfocado exclusivamente en el transporte de alimentos agrícolas en el Perú. Propuesta orientada a simplificar la gestión y reducir la complejidad de uso. Modelo de precios accesible. Interfaz inclusiva. Stack tecnológico moderno y escalable (Vue.js + ASP.NET Core + MySQL). | Marca reconocida en el ecosistema agroindustrial latinoamericano. Ecosistema integrado de marketplace + logística que genera red de efectos. Base de usuarios activa en Argentina y Brasil. | Presencia establecida en el mercado peruano de rastreo GPS. Solución probada y confiable para gestión de flotas. Red de soporte técnico local. | Solución enterprise con funcionalidades avanzadas de TMS y BI logístico. Presencia global y respaldo financiero sólido. Integraciones con ERP de grandes corporaciones. |
+| | **Debilidades** | Sin base de usuarios activos al lanzamiento (*cold start problem*). Equipo pequeño con recursos limitados. Dependencia de adopción voluntaria en sector informal. Sin hardware GPS propio. | No está adaptado al contexto logístico peruano (geografía, informalidad). Enfoque en *marketplace* limita la profundidad del módulo logístico. Precios en USD no competitivos. | Solución genérica no especializada en el sector agrícola. Requiere inversión en hardware GPS, aumentando la barrera de entrada. No ofrece gestión de incidencias ni registro de tipo de carga. | Precio y complejidad inaccesibles para PyMEs y operadores informales. Sin adaptación al mercado peruano ni al sector agrícola. |
+| | **Oportunidades** | Creciente demanda de trazabilidad digital en el sector agroalimentario peruano. Escasa competencia directa en el nicho de monitoreo logístico agrícola. Potencial de integración con programas de formalización del MTC y MIDAGRI. | Expansión a mercados andinos. Integración con plataformas de exportación agrícola. | Ampliar hacia el nicho de transporte agrícola con módulos especializados. | Mercado corporativo en crecimiento en logística de exportación en LATAM. |
+| | **Amenazas** | Alta informalidad del sector transportista. Empresas de rastreo GPS establecidas podrían pivotar hacia el nicho agrícola. Resistencia al cambio tecnológico. Volatilidad económica. | Competencia de soluciones locales más adaptadas a contextos nacionales específicos. | Startups especializadas como AgroFlet que ofrecen mayor valor sectorial a menor costo de adopción. | Soluciones de menor costo y mayor especialización sectorial que satisfacen necesidades similares a menor precio. |
+
+<p align="center"> Nota:  Análisis competitivo de AgroFlet en comparación con las principales soluciones del mercado logístico local y regional.</p>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+A partir del análisis competitivo y del SWOT realizado, el equipo de AgroFlet ha identificado las siguientes estrategias y tácticas para afrontar las fortalezas de los competidores y aprovechar sus debilidades, en el contexto de las oportunidades y amenazas identificadas:
+
+**Estrategia 1: Diferenciación por especialización sectorial**
+*Frente a:* Transvision (solución genérica) y Trimble (enfoque corporate).
+*Táctica:* Posicionar AgroFlet como la única plataforma de monitoreo logístico diseñada específicamente para el transporte de alimentos agrícolas en el Perú. Desarrollar contenido de valor (guías, casos de éxito, reportes del sector) que demuestre el conocimiento profundo del dominio agroalimentario y que establezca a AgroFlet como referente técnico en el nicho.
+
+**Estrategia 2: Accesibilidad de precio y adopción sin fricción**
+*Frente a:* Transvision (requiere hardware GPS) y Trimble (licencias enterprise).
+*Táctica:* Ofrecer un modelo de incorporación (*onboarding*) sin inversión en hardware, basado exclusivamente en la plataforma web y la app móvil del conductor para la actualización de ubicación. Diseñar un plan de suscripción básico de bajo costo que permita a pequeños transportistas probar la plataforma con mínimo riesgo económico. Implementar un período de prueba gratuito de 30 días para nuevos registros.
+
+**Estrategia 3: Alianzas estratégicas con gremios y asociaciones del sector**
+*Frente a:* Agrofy (sin red local en Perú) y Transvision (enfoque B2B directo).
+*Táctica:* Establecer acuerdos de colaboración con asociaciones de productores agrícolas (como la Junta Nacional del Café, la Asociación de Productores de Papa del Perú), cooperativas de acopio y gremios de transportistas regionales. Estas alianzas permitirán acceder a bases de usuarios potenciales de forma masiva y con mayor credibilidad que la venta directa.
+
+**Estrategia 4: Aprovechamiento de la brecha en el mercado formal-informal**
+*Frente a:* Todos los competidores que se enfocan en el segmento corporativo formal.
+*Táctica:* Diseñar una experiencia de usuario altamente simplificada, con soporte en español, tutoriales en video cortos y atención al cliente vía WhatsApp, que reduzca la resistencia tecnológica de los segmentos con menor alfabetización digital. Complementar con un módulo de digitalización básica de guías de remisión que genere valor adicional inmediato para el transportista informal en proceso de formalización.
+
+**Estrategia 5: Construcción de red de efectos mediante el comprador como ancla**
+*Frente a:* Soluciones centradas únicamente en el transportista.
+*Táctica:* Ofrecer acceso gratuito a la plataforma para el segmento comprador mayorista (como usuario receptor de envíos), de modo que la presión de sus proveedores de transporte para adoptar AgroFlet crezca orgánicamente. Esta dinámica de *pull* desde el comprador reduce el costo de adquisición de clientes en el segmento transportista y acelera la adopción.
+
+## 2.2. Entrevistas
+
+Se diseñó una investigación mediante entrevistas semiestructuradas a representantes de ambos segmentos. En el material recibido se registran dos entrevistas por segmento y existen tres resúmenes desarrollados en total. Para cumplir el enunciado deben completarse entre tres y cinco entrevistas por segmento, sus resúmenes y el video consolidado. La existencia de una ficha con enlace no acredita que su contenido haya sido revisado en esta corrección.
+
+### 2.2.1. Diseño de entrevistas
+
+El diseño de las guías de entrevista siguió las mejores prácticas para entrevistas de *needfinding* en diseño de experiencia de usuario (Portigal, 2013; Goodman et al., 2012). Las preguntas fueron formuladas en lenguaje abierto para evitar sesgar las respuestas del entrevistado, priorizando la descripción de comportamientos reales (*what people do*) sobre opiniones o intenciones abstractas (*what people say they would do*).
+
+La guía de entrevista fue estructurada en tres bloques: (1) preguntas de apertura y calentamiento para establecer rapport y recolectar el perfil demográfico del entrevistado; (2) preguntas principales orientadas a explorar los flujos de trabajo actuales, los pain points y las herramientas utilizadas; y (3) preguntas de cierre orientadas a explorar la receptividad frente a soluciones digitales y la disposición de pago.
+
+---
+
+#### Guía de Entrevista — Segmento 1: Medianos Productores Agrícolas y Acopiadores (Despachadores)
+
+**Objetivo de la entrevista:**
+Comprender en profundidad cómo los productores agrícolas y acopiadores gestionan actualmente el despacho y el seguimiento de sus envíos de alimentos hacia los mercados de destino, identificar los principales puntos de dolor en ese proceso y evaluar la receptividad frente a una solución digital de monitoreo logístico.
+
+**Perfil del entrevistado objetivo:**
+Agricultor mediano independiente, representante o encargado de logística de una cooperativa agraria, o acopiador local que despacha productos agrícolas perecibles (tubérculos, frutas, verduras, granos) hacia Lima Metropolitana u otros mercados nacionales. Edad entre 25 y 60 años. Opera en zonas de producción agrícola del interior del Perú (Junín, La Libertad, Ica, Huánuco, Ayacucho, Puno, entre otras).
+
+**Información a recolectar:**
+Perfil demográfico (edad, distrito de residencia, nivel educativo, estado civil, número de personas a cargo); perfil profesional (años de experiencia, volumen de despachos, productos que comercializa, destinos habituales); herramientas y tecnología utilizada (dispositivos, aplicaciones, conectividad); flujo actual de despacho y seguimiento de envíos; pain points en la gestión logística; experiencias con incidencias en ruta; expectativas frente a una herramienta digital de monitoreo; disposición de pago y modelo de suscripción preferido.
+
+**Preguntas de apertura (rapport y perfil demográfico):**
+
+1. ¿Podría presentarse brevemente? ¿Cuál es su nombre, cuántos años tiene y en qué zona del Perú está ubicado su negocio o cultivo?
+2. ¿Hace cuántos años se dedica a la producción o el acopio de alimentos agrícolas? ¿Con qué tipo de productos trabaja principalmente?
+3. ¿Cuántas personas forman parte de su equipo o cooperativa actualmente?
+4. ¿Qué dispositivos utiliza habitualmente para comunicarse y gestionar su negocio? ¿Tiene acceso a internet estable en su zona?
+
+**Preguntas principales — Flujo actual de despacho:**
+
+5. ¿Podría contarme cómo es el proceso desde que usted decide despachar un lote de productos hasta que ese lote llega al comprador en destino? ¿Qué pasos sigue habitualmente?
+6. ¿Cómo selecciona al transportista que llevará su carga? ¿Trabaja siempre con los mismos transportistas o varía según el viaje?
+7. Una vez que el camión sale con su carga, ¿cómo hace el seguimiento del envío? ¿Qué herramientas o medios utiliza para saber dónde está la carga?
+8. ¿Con qué frecuencia se comunica con el conductor durante el trayecto? ¿Qué suele motivar esa comunicación?
+9. ¿Cómo sabe usted que la carga llegó a su destino? ¿Cómo se entera si hubo algún problema durante el trayecto?
+
+**Preguntas principales — Pain points e incidencias:**
+
+10. ¿Ha vivido situaciones en las que la carga llegó tarde o no llegó en el estado esperado? ¿Podría contarme algún caso específico? ¿Qué ocurrió y cómo lo resolvió?
+11. ¿Qué tipo de incidencias son las más frecuentes durante el transporte de su carga? (Por ejemplo: averías mecánicas, bloqueos de vía, accidentes, falta de señal del conductor, etc.)
+12. Cuando ocurre un retraso o problema en ruta, ¿cómo afecta eso a su relación con el comprador? ¿Ha perdido ventas o clientes por causa de retrasos en el transporte?
+13. ¿Qué es lo que más le preocupa cuando despacha una carga de alimentos perecibles? ¿Qué situaciones le generan mayor incertidumbre o estrés?
+14. ¿Lleva algún tipo de registro de sus operaciones de despacho? ¿Tiene alguna forma de saber cuántas veces ocurrió un retraso o un problema en una ruta específica?
+
+**Preguntas principales — Herramientas y tecnología:**
+
+15. ¿Utiliza actualmente alguna aplicación o herramienta digital para gestionar sus despachos o comunicarse con transportistas? ¿Cuál y para qué?
+16. ¿Ha escuchado o probado alguna vez alguna solución de rastreo de carga o GPS para sus envíos? ¿Qué le pareció?
+17. ¿Qué aplicaciones o plataformas digitales usa con mayor frecuencia en su trabajo diario? (Por ejemplo: WhatsApp, Google Maps, Excel, alguna aplicación de facturación, etc.)
+
+**Preguntas de cierre — Receptividad y expectativas:**
+
+18. Si existiera una plataforma web donde pudiera ver en tiempo real dónde está el camión con su carga, recibir alertas cuando haya un problema en ruta y consultar el historial de todos sus despachos anteriores, ¿la usaría? ¿Por qué?
+19. ¿Qué funcionalidad o información le parece la más importante que debería tener esa herramienta para ser útil en su trabajo diario?
+20. ¿Estaría dispuesto a pagar una suscripción mensual por acceder a esa plataforma? ¿Cuánto estaría dispuesto a pagar mensualmente, considerando el valor que le generaría?
+21. ¿Hay algo más que quisiera contarnos sobre su experiencia con el transporte de sus productos que considere importante y que no le hayamos preguntado?
+
+---
+
+#### Guía de Entrevista — Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento
+
+**Objetivo de la entrevista:**
+Comprender cómo los compradores mayoristas y encargados de abastecimiento gestionan actualmente la recepción de envíos de alimentos agrícolas, identificar sus principales puntos de dolor relacionados con la incertidumbre en los tiempos de entrega y evaluar su receptividad frente a una herramienta digital que les brinde visibilidad anticipada sobre el estado de sus envíos.
+
+**Perfil del entrevistado objetivo:**
+Jefe de compras, encargado de abastecimiento, gerente de logística de entrada, o propietario de puesto en mercado mayorista que recibe envíos regulares de productos agrícolas frescos o perecibles desde zonas de producción del interior del Perú. Edad entre 30 y 60 años. Opera principalmente en Lima Metropolitana o en capitales de región con mercados de abastos de alta actividad.
+
+**Información a recolectar:**
+Perfil demográfico (edad, distrito, nivel educativo, cargo, tipo de negocio); perfil operativo (volumen de envíos semanales, tipos de productos que recibe, proveedores de transporte habituales); herramientas tecnológicas utilizadas; flujo actual de recepción y coordinación de envíos; pain points vinculados a la incertidumbre en tiempos de llegada; experiencias con retrasos o problemas en la cadena de abastecimiento; expectativas frente a una herramienta de visibilidad logística; disposición de pago.
+
+**Preguntas de apertura (rapport y perfil demográfico):**
+
+1. ¿Podría presentarse? ¿Cuál es su nombre, cuántos años tiene y cuál es su rol en el negocio?
+2. ¿Hace cuántos años trabaja en la compra o el abastecimiento de alimentos agrícolas? ¿Qué tipo de productos maneja con mayor frecuencia?
+3. ¿Cuántos envíos de alimentos recibe aproximadamente por semana? ¿De qué regiones del Perú proviene la mayor parte de esa carga?
+4. ¿Qué dispositivos y aplicaciones utiliza con más frecuencia en su trabajo diario?
+
+**Preguntas principales — Flujo actual de recepción y coordinación:**
+
+5. ¿Podría describirme cómo funciona su proceso de recepción de un envío de alimentos desde que el proveedor le confirma el despacho hasta que la carga llega a su puesto o almacén?
+6. Cuando espera un envío, ¿cómo sabe en qué momento va a llegar? ¿Cómo estima la hora de llegada?
+7. ¿Se comunica con el transportista o con el proveedor durante el trayecto para saber el estado del envío? ¿Con qué frecuencia lo hace?
+8. ¿Cómo organiza a su personal o su espacio de recepción en función de la hora estimada de llegada de los camiones? ¿Eso le genera alguna dificultad?
+9. ¿Qué ocurre cuando un camión llega mucho más tarde de lo esperado? ¿Cómo gestiona esa situación?
+
+**Preguntas principales — Pain points e incidencias:**
+
+10. ¿Ha tenido situaciones en las que un retraso en la llegada de un envío le generó problemas operativos o pérdidas económicas? ¿Podría contarme algún caso específico?
+11. ¿Con qué frecuencia ocurren retrasos significativos en los envíos que recibe? ¿Cuáles son las causas más comunes que le informan?
+12. Cuando hay un problema en ruta (avería, bloqueo, accidente), ¿quién le informa a usted? ¿Lo hace el transportista directamente, el proveedor, o se entera solo cuando el camión no llega?
+13. ¿Le ha pasado que recibió un producto en malas condiciones de frescura a causa de un retraso prolongado en ruta? ¿Cómo manejó esa situación con su proveedor?
+14. ¿Lleva algún registro del desempeño de sus proveedores de transporte? ¿Puede saber fácilmente qué transportistas cumplen con los tiempos y cuáles no?
+
+**Preguntas principales — Herramientas y tecnología:**
+
+15. ¿Utiliza actualmente alguna aplicación o herramienta digital para coordinar o hacer seguimiento de sus envíos? ¿Cuál y para qué la usa?
+16. ¿Sus proveedores de transporte le brindan algún tipo de actualización digital sobre el estado de los envíos, o todo se gestiona por llamadas o WhatsApp?
+17. En su trabajo diario, ¿cuáles son las herramientas digitales que más valora y usa con mayor frecuencia? (Por ejemplo: hojas de cálculo, correo electrónico, plataformas de pedidos, etc.)
+
+**Preguntas de cierre — Receptividad y expectativas:**
+
+18. Si pudiera acceder a una plataforma donde puede ver en tiempo real la ubicación del camión con su carga, recibir una alerta automática cuando ocurre un problema en ruta y consultar el historial de todos sus envíos anteriores, ¿eso cambiaría algo en su forma de trabajar?
+19. ¿Qué información específica sobre un envío en tránsito le sería más útil para planificar mejor la recepción? (Por ejemplo: hora estimada de llegada actualizada, tipo de incidencia reportada, ubicación en el mapa, etc.)
+20. ¿Estaría dispuesto a pagar por acceder a esa funcionalidad como comprador? ¿O esperaría que fuera el transportista quien asuma ese costo? ¿Por qué?
+21. ¿Considera que sus proveedores de transporte estarían dispuestos a usar una herramienta así si usted la solicitara como condición para seguir trabajando con ellos?
+22. ¿Hay algún aspecto de su proceso de recepción de alimentos que no hemos tocado y que considere importante compartir?
+
+---
+
+### 2.2.2. Registro de entrevistas
+
+A continuación, se presenta el registro de las entrevistas realizadas a los representantes de cada segmento objetivo.
+
+#### Entrevista 1: Segmento 1 - Medianos Productores Agrícolas y Acopiadores
+ 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Jhoan Darner Garduchi |
+| **ID**   | E-S1-01 |
+| **Edad** | 25 años |
+| **Distrito** | El Tambo, Huancayo (Junín) |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM05U5DqbsSKkCNyghqdYKASth7mG2GdVDM912JXWUmII?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dWEYI4 |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 11:22 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/Imagensegmento1-crivas.jpeg" width="400" alt="Logo AgroFlet"> |
+
+**Resumen de la entrevista:**
+
+El entrevistado es un joven administrador que gestiona la logística y ventas del negocio familiar de acopio y despacho de productos agrícolas (papa y zanahoria) hacia Lima. Es pragmático, nativo digital y actúa como el motor de modernización frente a la "vieja escuela" de su padre. Usa su smartphone (Xiaomi) como herramienta principal para coordinar vía WhatsApp y su laptop para tareas administrativas (Excel, SUNAT).
+
+Su objetivo principal es profesionalizar el negocio, ampliar su red de transportistas de confianza y garantizar la calidad de la carga al llegar a los mercados mayoristas. Su mayor frustración es la incertidumbre total y la falta de control una vez que el camión sale, lo que le ha causado pérdidas económicas directas (hasta 1,500 soles por carga malograda o "sudada" por demoras) y roces con sus compradores por retrasos no reportados a tiempo.
+
+Para adoptar una nueva plataforma digital (AgroFlet), exige que la interfaz sea extremadamente simple (casi como usar WhatsApp), que funcione con baja o nula señal en zonas altoandinas, y que envíe alertas automáticas de incidencias directamente a su celular. Muestra alta disposición a pagar, pero prefiere un modelo flexible de pago por viaje (10-15 soles) o una suscripción mensual muy baja (40-50 soles), sugiriendo además que la herramienta debe incentivar al chofer a usarla para asegurar su adopción.
+
+---
+
+#### Entrevista 2: Segmento 1
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Eduardo Framis |
+| **ID**   | E-S1-02 |
+| **Edad** | 26 años |
+| **Distrito** | Huaral, Lima Norte |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQBmZeJ6tFGXTYzaHeMyX7fEAbvfu-XXf7MQvjFAd0pzP14?e=ofqJfI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 05:20 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/segmento1-entrevista2.png" width="400" alt="Logo AgroFlet"> |
+
+
+**Resumen de la entrevista:**
+
+El entrevistado de 26 años se dedica al acopio y despacho en el negocio agrícola de su familia en Huaral, gestionando principalmente la logística de paltas Hass y mandarinas hacia el mercado mayorista de Santa Anita. Está enfocado en coordinar los tiempos de cosecha y transporte, enfrentando a diario la incertidumbre de la ruta. Utiliza su smartphone (llamadas, WhatsApp, Google Maps) y un registro básico en Excel para gestionar los envíos a cargo de transportistas terceros.
+
+Su mayor frustración  es la nula visibilidad de la carga en tránsito. Los retrasos comunes por el tráfico de madrugada, llantas bajas o retenes causan que la mercadería llegue fuera de hora. Esto provoca que el comprador pierda su ventana principal de ventas, lo que se traduce directamente en castigos sobre el precio pactado o reducción del volumen de compra, generando fuertes pérdidas económicas.
+
+Para adoptar una plataforma de monitoreo para Monitor-IA, valora como indispensable la visualización del camión en el mapa y recibir alertas instantáneas ante detenciones inusuales. Está muy dispuesto a pagar una suscripción mensual de 30 a 50 soles por la tranquilidad de evitar pérdidas. Asimismo, destaca que la aplicación debe ser sumamente intuitiva y fácil de usar, ya que los choferes suelen ser personas mayores con poca familiaridad tecnológica.
+
+---
+
+
+#### Entrevista 3: Segmento 1 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Andrea Villanueva |
+| **ID**   | E-S1-03 |
+| **Edad** | 28 años |
+| **Distrito** | Barranca, Lima Norte |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f027_upc_edu_pe/IQDRYdPtf-0tS6ZoPBaZn2PuAfc8OFEIlS_v4zy_1CuaIes?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jUoasK |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 9:07 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/interview-Andrea.png" width="400" alt="Logo AgroFlet"> |
+
+**Resumen de la entrevista:**
+
+La entrevistada es una coordinadora logística de 28 años llamada Andrea Villanueva, con 5 años de experiencia gestionando despachos en una cooperativa agraria en Barranca, Lima. Se dedica a la consolidación y envío de productos altamente perecibles como hortalizas (lechuga, brócoli, apio) y papa hacia los mercados mayoristas y distribuidores de Lima Metropolitana.
+
+Su objetivo principal es asegurar la frescura de la carga y el cumplimiento estricto de los horarios de entrega para evitar penalizaciones y mermas económicas. Actualmente, coordina los fletes de manera informal mediante llamadas y WhatsApp con transportistas independientes, lo que le genera constante incertidumbre ante la pérdida de señal en carretera, bloqueos viales y la falta de alertas tempranas sobre demoras.
+
+Para adoptar AgroFlet, exige que la plataforma ofrezca monitoreo en mapa con recálculo dinámico de la hora estimada de llegada (ETA) y un registro formal de incidencias que justifique los retrasos ante sus compradores. Andrea muestra total disposición a usar la herramienta e incluso a pagar una suscripción mensual de S/ 100 a S/ 200, considerando que la visibilidad y el respaldo digital evitarán las costosas pérdidas por merma que hoy asume su cooperativa.
+
+
+---
+
+#### Entrevista 1: Segmento 2 - Compradores Mayoristas y Encargados de Abastecimiento
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | César León Aylas |
+| **ID**   | E-S2-01 |
+| **Edad** | 59 |
+| **Distrito** | Santa Anita, Lima |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQCX7rbTiWDPT6wQ78TC0lEfAY_Xf8fbuq2oQ_0Lde9bb4M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ogx321 |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 9:22 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/Entrevista_Cesar_Segmento2.png" width="400" alt="Entrevista 1 Segmento 2"> |
+
+**Resumen de la entrevista:**
+
+El entrevistado es un comerciante de 59 años llamado César León Aylas, con 28 años de experiencia manejando un negocio de verdulería y abarrotes. Se dedica a la venta de productos agrícolas como papas, zanahorias, camotes y verduras en general, además de comercializar abarrotes básicos (arroz, azúcar, fideos) y bebidas como gaseosas y cervezas.
+
+Su objetivo principal es mantener el flujo constante de su inventario priorizando los mejores precios, la frescura y la variedad, razón por la cual él mismo busca y transporta sus productos agrícolas usando su propio vehículo. Para el resto de los productos, busca minimizar el impacto de los retrasos logísticos (por tráfico o incidencias) apoyándose permanentemente en una reserva de mercadería en su negocio.
+
+Para adoptar una nueva plataforma digital (AgroFlet), exige que la herramienta demuestre una utilidad real en casos de estricta emergencia, puesto que actualmente no percibe un gran valor en las alertas de ubicación o en el rastreo en tiempo real debido a que su inventario de respaldo evita que las demoras le afecten económicamente. Si bien ya utiliza WhatsApp y las aplicaciones de grandes empresas para hacer pedidos, AgroFlet tendría que ofrecerle un valor diferencial significativo en su operación diaria, considerando que sus proveedores actuales ya le reconocen y cambian la mercadería sin problemas cuando esta llega en mal estado.
+
+---
+
+#### Entrevista 2: Segmento 2 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Farit Santoyo |
+| **ID**   | E-S2-02 |
+| **Edad** | 33 |
+| **Distrito** | Surco, Lima |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDhnQSF1QX5RYU2qMGs1dKtASBQGOVNTmPlUM6jGrqBbSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dtZB2H|
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 9:03 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/segmento2-entrevista2.PNG" width="400" alt="Logo AgroFlet"> |
+
+**Resumen de la entrevista:**
+
+En esta entrevista, Farit Alejandro Santoyo Espejo, de 33 años, explica que administra su propio puesto mayorista en el mercado desde hace aproximadamente 15 años, comercializando principalmente papas, cebollas y ajos. Sus herramientas cotidianas de trabajo son el teléfono celular para coordinar envíos por WhatsApp y llamadas, y una laptop donde utiliza hojas de cálculo de Excel para llevar cuentas rápidas de sus productos. Su proceso logístico actual se basa en recibir la confirmación de salida del chofer, estimar la hora de llegada sumando el tiempo de viaje a la hora de despacho y llamar al conductor dos o tres veces durante el trayecto, por lo que reconoce operar prácticamente a ciegas.
+
+Esta falta de visibilidad le genera constantes problemas operativos, ya que tres de cada cinco envíos sufren retrasos por tráfico pesado, fallas mecánicas o bloqueos en las carreteras. Dichas demoras provocan horas muertas pagadas a sus estivadores, cuellos de botella al juntarse varios camiones y la pérdida de clientes madrugadores que terminan comprando en la competencia. En un caso específico, un retraso de 14 horas hizo que un camión de papa amarilla llegara sudado y maltrecho, obligándolo a desechar parte de la carga y vender el resto a pérdida. Para solucionar esto, necesita una plataforma digital que le brinde la ubicación del camión en tiempo real, alertas automáticas de bloqueos y una hora estimada de llegada actualizada cada pocos minutos. Aunque considera que el costo debería ser asumido principalmente por el transportista como un valor agregado, estaría dispuesto a pagar una tarifa pequeña por viaje, señalando que en este negocio el tiempo es dinero y la frescura se pierde rápido.
+
+---
+
+#### Entrevista 3: Segmento 2 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Luciano Mateo Espinoza Vargas |
+| **ID**   | E-S2-03 |
+| **Edad** | 28 años |
+| **Distrito** | Ate, Lima |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQCM8Bs99t0lS5V1qwLWtVOpAVWE7M4UWKmcraAW8xFqBuY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=M42ODc |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 10:41 minutos |
+| **Evidencia fotográfica** | <p><img src="assets/images/Imagensegmento1Luciano-crivas.jpeg" width="400" alt="Logo AgroFlet"> |
+
+**Resumen de la entrevista:**
+
+El entrevistado es Ingeniero Industrial de 26 años, Jefe de Abastecimiento de una distribuidora mayorista familiar en el Mercado de Santa Anita. Es analítico, está enfocado en optimizar procesos y sufre diariamente la incertidumbre logística. Usa su smartphone y Excel para gestionar la recepción de 15-20 camiones semanales de frutas y hortalizas.
+
+Su mayor frustración (pain point) es la imposibilidad de planificar la recepción: la falta de una Hora Estimada de Llegada (ETA) real lo obliga a pagar horas extras a descargadores que esperan en vano, o a recibir carga de madrugada sin personal, lo que ha generado pérdidas económicas directas por fruta malograda al perder ventanas de subasta.
+
+Para adoptar una plataforma como AgroFlet, valora enormemente las alertas de incidencias y el ETA en tiempo real. No está dispuesto a pagar una suscripción mensual fija, pero sí pagaría una tarifa por viaje (2-3 soles) si le evita pérdidas. Además, destaca su poder de negociación: está dispuesto a exigir a sus proveedores el uso de la plataforma como condición para mantener los contratos de compra, actuando como el principal motor de adopción del lado de la demanda.
+
+---
+
+
+### 2.2.3. Análisis de entrevistas
+
+El presente análisis sintetiza la información recopilada a partir de las entrevistas realizadas a los representantes de los segmentos objetivos de AgroFlet.
+
+**Análisis Primer Segmento: Medianos Productores y Acopiadores Agrícolas:** En primer lugar, existe una desconexión y pérdida total de control sobre el cargamento una vez que el vehículo inicia el recorrido. En base a las entrevistas realizadas, los coordinadores y administradores operan bajo una constante incertidumbre logística, pues dependen únicamente de llamadas telefónicas y mensajes de WhatsApp con transportistas independientes. Esta falta de visibilidad en ruta se agrava debido a la pérdida de señal en zonas rurales y carreteras altoandinas, impidiendo conocer a tiempo paradas no programadas, problemas mecánicos o bloqueos viales.
+
+En segundo lugar, se evidencia un impacto financiero directo ocasionado por los retrasos no reportados. La totalidad de los entrevistados del segmento manifestó sufrir pérdidas económicas severas: mercadería perecible que llega malograda o «sudada» por demoras en tránsito, reportando pérdidas de hasta S/ 1,500 por viaje, castigos inmediatos sobre el precio pactado al no alcanzar las ventanas clave de venta matutina, y roces comerciales constantes con los compradores en destino.
+
+En tercer lugar, se identifica una brecha operativa condicionada por la edad y familiaridad tecnológica de los transportistas. Aunque los entrevistados corresponden a un perfil joven (entre 26 y 28 años) y actúan como el sector moderno en sus negocios, señalan que los choferes suelen ser personas mayores con baja afinidad digital. Por ello, exigen que cualquier solución como AgroFlet cuente con una interfaz sumamente simple, que envíe alertas automáticas ante demoras inusuales y que calcule dinámicamente la hora estimada de llegada (ETA) para justificar los retrasos ante los clientes sin complejidades de uso.
+
+En cuarto lugar, respecto a la monetización y viabilidad, existe una disposición unánime a pagar para mitigar el riesgo de merma. Sin embargo, el 66.7% (2 de 3) prefiere esquemas flexibles y económicos, ya sea mediante microtarifas por viaje (S/ 10 - S/ 15) o suscripciones mensuales accesibles de S/ 30 a S/ 50, mientras que el 33.3% restante (en el ámbito de cooperativas agrarias con mayor volumen) está dispuesto a asumir entre S/ 100 y S/ 200 al mes. En síntesis, este segmento necesita una herramienta ágil que convierta la incertidumbre del camino en tranquilidad financiera mediante alertas tempranas y respaldo documental de incidentes.
+
+![Chart 1](assets/images/Img_Segmento1.png)
+
+**Análisis Segundo Segmento: Compradores Mayoristas y Distribuidores:** En primer lugar, se identifica un problema crítico de asimetría informativa y falta de predictibilidad en la recepción de la carga. Los comerciantes y jefes de abastecimiento reconocen que operan prácticamente «a ciegas» al depender de transportistas externos, experimentando que hasta tres de cada cinco despachos sufren demoras por fallas mecánicas o congestión vehicular. La ausencia de una hora estimada de llegada confiable desorganiza la rutina de abastecimiento y deja al comprador sin margen de maniobra operativa.
+
+En segundo lugar, la falta de puntualidad desencadena sobrecostos operativos directos y mermas comerciales para el negocio mayorista. El 66.7% de los entrevistados (2 de 3) señala que los retrasos imprevistos obligan a pagar horas muertas o extras a cuadrillas de estibadores que esperan sin laborar, generan cuellos de botella en muelle y provocan la pérdida de clientes madrugadores que optan por comprar a la competencia. En situaciones extremas de demoras prolongadas (como retrasos de hasta 14 horas), la fruta o tubérculos llegan deteriorados, obligándolos a rematar la carga a pérdida o desecharla. Por otro lado, un 33.3% (1 de 3) mitiga este impacto manteniendo un inventario de reserva en bodega y acuerdos donde los proveedores asumen el costo de la mercadería dañada.
+
+En tercer lugar, se evidencia una fuerte exigencia técnica centrada en el monitoreo dinámico y la gestión proactiva de emergencias. El 66.7% (2 de 3) valora como indispensable contar con un mapa en tiempo real, alertas automatizadas de bloqueos o desvíos y una actualización continua del ETA para coordinar con precisión la recepción. Para este grupo, la plataforma no solo debe informar dónde está el camión, sino prevenir los impactos logísticos que arriesgan la frescura de los alimentos.
+
+En cuarto lugar, en términos de adopción y modelo comercial, se observa un marcado rechazo hacia los pagos de suscripciones mensuales fijas (66.7%, 2 de 3), considerando que el costo del monitoreo debe recaer en el transportista o manejarse como una tarifa mínima por viaje recibido (S/ 2 a S/ 5). Pese a ello, un hallazgo estratégico clave radica en el poder de tracción de los compradores: el 33.3% (1 de 3) está dispuesto a exigir el uso de AgroFlet a sus proveedores como requisito indispensable para mantener sus contratos de compra. Esto demuestra que el segmento mayorista no solo es receptor de valor, sino el catalizador decisivo para forzar la adopción digital en el transporte agrícola desde el lado de la demanda.
+
+![Chart 2](assets/images/Img_segmento2.png)
+
+## 2.3. Needfinding
+Para llevar a cabo el proceso de needfinding en AgroFlet, se realizaron entrevistas en profundidad y sesiones de inmersión operativa con actores representativos de los segmentos objetivo: medianos productores agrícolas, coordinadores de cooperativas de acopio y compradores mayoristas o encargados de abastecimiento de mercados y distribuidoras. Estas conversaciones se enfocaron en identificar sus prácticas cotidianas, flujos de coordinación y principales frustraciones vinculadas al transporte terrestre interprovincial de alimentos agrícolas perecibles en el Perú.
+
+A través de esta exploración se evidenciaron puntos críticos de fricción en la cadena logística, tales como la incertidumbre sobre la posición física de las unidades de carga pesada, la ausencia de alertas tempranas ante contingencias viales (bloqueos, accidentes o fallas mecánicas en rutas críticas como la Carretera Central o la Panamericana) y la total informalidad en la comunicación vía llamadas telefónicas o mensajería instantánea. Asimismo, se constató un impacto económico directo acumulado que supera el 35 % de mermas en alimentos perecibles durante el traslado, así como fricciones comerciales recurrentes ante la dificultad de justificar retrasos frente al cliente en destino. De esta manera, se consolidó la oportunidad para el diseño y desarrollo de AgroFlet: una plataforma web orientada a centralizar el registro de despachos, proveer monitoreo cartográfico en tiempo casi real y transparentar las incidencias en carretera para ambos extremos de la cadena logística.
+
+### 2.3.1. User Personas
+
+**Segmento Objetivo: Medianos Productores Agrícolas y Acopiadores (Despachadores):**
+![User-Persona-1](assets/images/UserPersona-1.png)
+
+<div style="page-break-after: always"></div>
+
+**Segmento Objetivo: Compradores Mayoristas y Encargados de Abastecimiento:**
+![User-Persona-2](assets/images/UserPersona-2.png)
+
+<div style="page-break-after: always"></div>
+
+### 2.3.2. User Task Matrix
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; text-align: center; width: 100%;">
+  
+  <tr style="background-color:#f2f2f2;">
+    <th rowspan="2">Task / Tarea</th>
+    <th colspan="2">Carlos Mendoza (Coordinador Logístico / Despachador)</th>
+    <th colspan="2">Mariana Viteri (Jefa de Abastecimiento Mayorista)</th>
+  </tr>
+
+  <tr style="background-color:#f2f2f2;">
+    <th>Frequency</th>
+    <th>Importance</th>
+    <th>Frequency</th>
+    <th>Importance</th>
+  </tr>
+
+  <tr>
+    <td>Registrar y gestionar unidades vehiculares y conductores</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Low</td>
+  </tr>
+
+  <tr>
+    <td>Crear y programar nueva operación de flete terrestre</td>
+    <td>High</td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Medium</td>
+  </tr>
+
+  <tr>
+    <td>Monitorear ubicación geográfica de la carga en tránsito</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Registrar incidencias viales y mecánicas en carretera</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Medium</td>
+  </tr>
+
+  <tr>
+    <td>Recibir alertas automáticas por demoras o contingencias de ruta</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Verificar la hora estimada de llegada (ETA) para recepción</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Confirmar recepción y marcar entrega formal de la carga</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Liberar disponibilidad de unidades de transporte y conductores</td>
+    <td>High</td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Low</td>
+  </tr>
+
+  <tr>
+    <td>Filtrar y consultar historial de operaciones concluidas</td>
+    <td>Medium</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Auditar tiempos de retraso e incidencias frente a reclamos por merma</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+  <tr>
+    <td>Evaluar desempeño y confiabilidad de transportistas/proveedores</td>
+    <td>Low</td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+
+</table>
+
+<div style="page-break-after: always"></div>
+
+La matriz de tareas de usuario clasifica las actividades operativas de AgroFlet evaluando la frecuencia e importancia para cada segmento objetivo. Esto evidencia una marcada complementariedad funcional: Carlos Mendoza prioriza tareas de gestión de flota, creación de despachos y reporte de contingencias viales, mientras que Mariana Viteri enfoca su actividad en el seguimiento de la hora estimada de llegada (ETA), recepción de alertas tempranas y auditoría de tiempos en el historial. Ambas partes convergen en la alta relevancia del monitoreo cartográfico en tránsito y la confirmación formal de entrega de la carga agrícola.
+
+### 2.3.3. User Journey Mapping
+
+**Segmento Objetivo: Medianos Productores Agrícolas y Acopiadores:**
+![User-JourneyMap-1](assets/images/JourneyMap-1.png)
+
+<div style="page-break-after: always"></div>
+
+**Segmento Objetivo: Compradores Mayoristas y Encargados de Abastecimiento:**
+![User-JourneyMap-2](assets/images/JourneyMap-2.png)
+
+<div style="page-break-after: always"></div>
+
+### 2.3.4. Empathy Mapping
+
+**Segmento Objetivo: Medianos Productores Agrícolas y Acopiadores:**
+![EmpathyMap-1](assets/images/Empathy%20map-1.png)
+
+<div style="page-break-after: always"></div>
+
+**Segmento Objetivo: Compradores Mayoristas y Encargados de Abastecimiento:**
+![EmpathyMap-2](assets/images/Empathy%20map-2.png)
+
+<div style="page-break-after: always"></div>
+
+## 2.4. Big Picture EventStorming
+En la sesión de Big Picture Event Storming, el equipo de AgroFlet exploró de manera colaborativa y visual el ciclo completo del dominio de transporte terrestre y monitoreo logístico de productos agrícolas perecibles. Se modelaron cronológicamente los eventos de dominio significativos, desde el aprovisionamiento de vehículos y choferes en el centro de acopio hasta la entrega en el mercado mayorista y la posterior auditoría de incidencias. Asimismo, se identificaron los comandos ejecutados por cada tipo de actor, las reglas de negocio vinculadas al recálculo dinámico del tiempo estimado de llegada (ETA), las integraciones con servicios satelitales y de mensajería, y los puntos de visibilidad demandados por los compradores. Esta dinámica permitió unificar el entendimiento entre los requerimientos de los usuarios y las capacidades técnicas del backend.
+
+**Primera fase: Eventos**
+![Big picture event storming](assets/images/EventStorming.png)
+
+**Mapa general:**
+https://miro.com/app/board/uXjVHnj8GNg=/?share_link_id=481765922112
+
+<div style="page-break-after: always"></div>
+
+## 2.5. Ubiquitous Language
+
+- **Shipment / Operation (Operación de Transporte / Flete):** Registro centralizado que documenta el traslado de un lote de carga agrícola desde un punto de origen hacia un destino, abarcando fechas, unidad, conductor y estado operativo.
+
+- **Shipper / Dispatcher (Despachador / Acopiador):** Usuario responsable de consolidar la carga agrícola en las zonas de producción, programar el flete en la plataforma y asignar los recursos de transporte.
+
+- **Wholesale Buyer (Comprador Mayorista / Receptor):** Usuario que recibe la mercadería agrícola en almacenes, mercados de abastos o plataformas de retail, requiriendo visibilidad anticipada para coordinar cuadrillas de descarga.
+
+- **Carrier / Driver (Conductor / Transportista):** Operador técnico asignado al volante de una unidad de transporte, registrado formalmente en la plataforma con DNI y categoría de licencia de conducir.
+
+- **Vehicle / Fleet Unit (Unidad de Transporte / Flota):** Camión o vehículo de carga pesada identificado por su placa de rodaje, capacidad en toneladas y tipo de carrocería, registrado para la asignación de fletes.
+
+- **Cargo Type (Tipo de Alimento / Carga Perecible):** Clasificación del producto agrícola transportado (ej. papa, zanahoria, frutas frescas), determinante para la sensibilidad térmica y el tiempo de tolerancia a retrasos.
+
+- **Payload Capacity (Capacidad de Carga):** Límite máximo en toneladas métricas que puede transportar una unidad vehicular según su ficha técnica de registro.
+
+- **Origin (Punto de Origen):** Región geográfica o centro de acopio agrícola donde la unidad de transporte es cargada y desde donde inicia formalmente el despacho.
+
+- **Destination (Punto de Destino):** Mercado mayorista, centro de acopio central o muelle de descarga donde se entrega la carga perecible.
+
+- **Estimated Time of Arrival - ETA (Hora Estimada de Llegada):** Cálculo de fecha y hora proyectada para el arribo de la unidad al destino, sujeto a recálculos dinámicos ante incidencias registradas en carretera.
+
+- **Departure Datetime (Fecha y Hora de Salida):** Marca temporal exacta en la que el despacho inicia su trayecto físico e ingresa al estado en tránsito.
+
+- **In-Transit (En Tránsito):** Estado del flete que indica que la unidad vehicular se encuentra actualmente en desplazamiento sobre la red vial nacional.
+
+- **Delivered (Entregada):** Estado final exitoso de la operación en el que se confirma la descarga de la mercadería, registrando la marca de tiempo de arribo y liberando los recursos asociados.
+
+- **Cancelled (Cancelada):** Estado de terminación anticipada de una operación debido a causas de fuerza mayor debidamente documentadas.
+
+- **Incident (Incidencia en Ruta):** Acontecimiento adverso suscitado durante el trayecto (ej. bloqueo vial, huaico, falla mecánica, accidente o congestión severa) que introduce un tiempo de retraso estimado en la operación.
+
+- **Estimated Delay Hours (Impacto de Retraso):** Cantidad de horas proyectadas que una incidencia suma a la fecha estimada de llegada original de la carga.
+
+- **Shrinkage / Spoilage (Merma de Alimentos):** Pérdida cuantitativa y cualitativa de producto perecible provocada por demoras excesivas o exposición a condiciones desfavorables durante el flete.
+
+- **Cold Chain (Cadena de Frío):** Mantenimiento continuo de temperatura controlada exigido por compradores formales para preservar la inocuidad y vida útil del producto agrícola.
+
+- **Tracking / Telemetry (Monitoreo Satelital / Geolocalización):** Adquisición y reporte periódico de coordenadas geográficas (latitud y longitud) del vehículo en desplazamiento.
+
+- **Interactive Map (Mapa Interactivo):** Interfaz cartográfica que representa visualmente las posiciones estimadas y las rutas activas de las unidades en trayecto.
+
+- **Alert / Notification (Alerta / Notificación):** Mensaje generado automáticamente por el sistema ante eventos críticos (registro de incidencias, variaciones en el ETA o cambios de estado de entrega).
+
+- **Available (Disponible):** Estado operativo de una unidad vehicular o conductor que indica que no cuenta con asignaciones vigentes y puede programarse en un nuevo despacho.
+
+- **Assigned / In Route (Asignado / En Ruta):** Estado operativo que inhabilita a un vehículo o chofer para nuevas operaciones mientras se encuentra vinculado a un viaje en curso.
+
+- **Under Maintenance (En Mantenimiento):** Estado de una unidad vehicular que indica su inoperatividad técnica por reparaciones mecánicas programadas o imprevistas.
+
+- **Waybill / Remission Guide (Guía de Remisión):** Documento formal tributario y de transporte que sustenta el traslado legal de la mercadería agrícola a nivel nacional.
+
+- **Dock / Loading Bay (Andén / Muelle de Carga):** Espacio físico del almacén o mercado de destino destinado al acople de camiones y descarga de alimentos perecibles.
+
+- **Unloading Crew (Cuadrilla de Estiba):** Personal operativo encargado de la descarga y pesaje de sacos o jabas de alimentos perecibles en el punto de destino.
+
+- **Status Timeline (Línea de Tiempo de Estados):** Historial cronológico inmutable que audita cada transición de estado experimentada por la operación desde su creación hasta su entrega.
+
+- **Audit Trail (Pista de Auditoría):** Registro histórico de eventos, usuarios, fechas e incidencias que permite contrastar responsabilidades ante reclamos contractuales por mermas.
+
+- **RESTful API:** Capa de servicios backend de AgroFlet encargada de autenticar usuarios, procesar peticiones HTTP y sincronizar los datos de operaciones, flota e incidencias entre las interfaces.
