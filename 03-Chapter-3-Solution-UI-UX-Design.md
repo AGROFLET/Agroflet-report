@@ -151,7 +151,10 @@ Las Technical Stories (TS) se gestionan como trabajo técnico asociado a las Use
 Finalmente, la gestión y seguimiento del Product Backlog se realiza mediante Jira Software, donde las funcionalidades se organizan mediante una jerarquía de Epics, User Stories y Technical Stories, permitiendo administrar su prioridad, estimación, estado, dependencias y avance durante el desarrollo del proyecto.
 
 <p align="center">
-  <img src="assets/images/Jira-product-backlog.jpeg"Product Backlog" width="800">
+  <a href="https://agroflet.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog" target="_blank">
+    <img src="assets/images/Jira-product-backlog.jpeg" alt="Product Backlog" width="800">
+  </a>
   <br><em>Figura 2: Captura del Product Backlog hecho en Jira</em>
+  <br><a href="https://agroflet.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog" target="_blank">Ver Product Backlog en Jira →</a>
 </p>
 
