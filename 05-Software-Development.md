@@ -928,8 +928,50 @@ La estrategia de ramas permitió reducir los conflictos de integración sobre ar
 
 ### 5.2.2. Sprint 2
 Durante el Sprint 2 el equipo se concentró en la implementación y despliegue del front-end funcional y responsive de AgroFlet, como el desarrollo de Fake Api del proyecto, y la elaboración de la documentación técnica del repositorio.
-#### 5.2.2.1. print Planning 2.
+#### 5.2.2.1. Sprint Planning 2.
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 08/09/2026 |
+| Time | 8:00 PM |
+| Location | Google Meet (reunión virtual) |
+| Prepared By | Alca Morán, César Alejandro |
+| Attendees (to planning meeting) | Alca Morán, César Alejandro<br>Centeno León, Adriano Samir<br>Rivas Méndez, Bernie Aarón<br>Rivas Castillo, Christoper Steven<br>Tello Lima, Jose Alejandro |
+| **Sprint 1 Review Summary** | Durante. |
+| **Sprint 1 Retrospective Summary** | . |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | |
+| **Sprint 1 Velocity** | 24 |
+| **Sum of Story Points** | 24 |
+
+**Nota:** Cuadro resumen que detalla la planificación, las metas establecidas, los resultados obtenidos y las métricas de esfuerzo correspondientes al Sprint 2 de AgroFlet.
+
 #### 5.2.2.2. Aspect Leaders and Collaborators.
+
+| Team Member | GitHub Username | Landing Page (código) | Diseño UI/UX | Documentación | Deployment |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Alca Morán, César Alejandro | `almocesar` | Líder | Colaborador | Colaborador | Colaborador |
+| Centeno León, Adriano Samir | `Adri11-dk` | Colaborador | Colaborador | Líder | Colaborador |
+| Rivas Méndez, Bernie Aarón | `ARivas3008` | Colaborador | Líder | Colaborador | Colaborador |
+| Rivas Castillo, Christoper Steven | `C0DERTOPH` | Colaborador | Colaborador | Colaborador | Colaborador |
+| Tello Lima, Jose Alejandro | `j4ndrow` | Colaborador | Colaborador | Colaborador | Líder |
+
+**Distribución por aspecto técnico del Sprint 2:**
+
+| Aspecto | Líder | Colaboradores |
+| :--- | :--- | :--- |
+| Landing Page UX/UI | Rivas Méndez, Bernie Aarón | Tello Lima, Jose Alejandro / Alca Morán, César Alejandro |
+| HTML Structure & Semántica | Alca Morán, César Alejandro | Centeno León, Adriano Samir / Rivas Castillo, Christoper Steven |
+| CSS & Responsive Design | Rivas Méndez, Bernie Aarón | Alca Morán, César Alejandro / Rivas Castillo, Christoper Steven |
+| JavaScript Interactions | Rivas Castillo, Christoper Steven | Alca Morán, César Alejandro / Centeno León, Adriano Samir |
+| Internationalization (i18n) | Centeno León, Adriano Samir | Rivas Castillo, Christoper Steven / Tello Lima, Jose Alejandro |
+| Documentation (README & Report) | Centeno León, Adriano Samir | Tello Lima, Jose Alejandro / Rivas Méndez, Bernie Aarón |
+| Deployment (GitHub Pages) | Tello Lima, Jose Alejandro | Alca Morán, César Alejandro / Centeno León, Adriano Samir |
+
+**Nota:** Distribución de responsabilidades durante el Sprint 2, indicando el liderazgo y la colaboración en las principales áreas de trabajo. Los usuarios de GitHub consignados deben coincidir con las cuentas registradas como Contributors del repositorio.
+
+
 #### 5.2.2.3. Sprint Backlog 2.
 #### 5.2.2.4. Development Evidence for Sprint Review.
 #### 5.2.2.5. Execution Evidence for Sprint Review.
