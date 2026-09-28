@@ -2,58 +2,72 @@
 
 <br> <img src="assets/images/presentation/UPC_logo_transparente.png" alt="logoupc" width="90"> <br>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<div style="font-family: 'Aptos', sans-serif; text-align: center; line-height: 1.2;">
+  <p style="font-size: 12pt; margin: 0;">Universidad Peruana de Ciencias Aplicadas</p>
+  <p style="font-size: 12pt; margin: 0;">Carrera de Ingeniería de Software</p>
+  <br>
+   <br>
+    
+  <p style="font-size: 14pt; margin: 0;"><b>1ASI030</b></p>
+  <p style="font-size: 14pt; margin: 0;"><b>Aplicaciones Web</b></p>
+  <br>
+  
+  <p style="font-size: 12pt; margin: 0;">NRC</p>
+  <p style="font-size: 14pt; margin: 0;"><b>16127</b></p>
+  <br>
+  
+  <p style="font-size: 16pt; margin: 0;"><b>Informe del Trabajo Final</b></p>
+  <br>
+  
+  <p style="font-size: 12pt; margin: 0;">Docente</p>
+  <p style="font-size: 14pt; margin: 0;"><b>Villafuerte Bazán, Óscar Iván</b></p>
+  <br>
+   <br>
+  <p style="font-size: 12pt; margin: 0;">Equipo</p>
+  <p style="font-size: 14pt; margin: 0;"><b>NexaWeb</b></p>
+  <br>
+  
+  <p style="font-size: 12pt; margin: 0;">Proyecto</p>
+  <p style="font-size: 14pt; margin: 0;"><b>AgroFlet</b></p>
+  <br>
+   <br>
+  <p style="font-size: 12pt; margin: 0;"><b>Integrantes</b></p>
 
-### Facultad de Ingeniería
+  <table style="font-family: 'Aptos', sans-serif; font-size: 11pt; border-collapse: collapse; border: none; margin: 10px auto;">
+    <thead>
+      <tr>
+        <th style="text-align: left; padding: 2px 15px; border: none;">Código</th>
+        <th style="text-align: left; padding: 2px 15px; border: none;">Apellidos y Nombres</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U20241F027</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Alca Morán, César Alejandro</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U20241D920	</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Centeno León, Adriano Samir</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U20241F109	</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Rivas Méndez, Bernie Aarón</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U202323551	</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Rivas Castillo, Christoper Steven</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U202421618	</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Tello Lima, José Alejandro</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
 
-### Carrera de Ingeniería de Software
-
-<br>
-
-### **1ASI0730**
-
-### **Aplicaciones Web**
-
-NRC
-
-### **16127**
-
-<br>
-
-# **Informe del Trabajo Final**
-
-Docente
-
-### **Villafuerte Bazán, Óscar Iván**
-
-<br>
-
-Equipo
-
-### **NexaWeb**
-
-Proyecto
-
-### **AgroFlet**
-
-<br>
-
-## **INTEGRANTES**
-
-| Código | Apellidos y Nombres |
-| :---: | :--- |
-| U20241F027 | Alca Morán, César Alejandro |
-| U20241D920 | Centeno León, Adriano Samir |
-| U20241F109 | Rivas Méndez, Bernie Aarón |
-| U202323551 | Rivas Castillo, Christoper Steven |
-| U202421618 | Tello Lima, Jose Alejandro |
-
-<br>
-
-### **Período 202620**
-
-### **Septiembre 2026**
-
+  <p style="font-size: 12pt; margin: 0;"><b>Período 202620</b></p>
+  <br>
+  <p style="font-size: 12pt; margin: 0;"><b>Octubre 2026</b></p>
 </div>
 
 ## Registro de Versiones del Informe
@@ -222,6 +236,15 @@ Repositorio de GitHub: [Proyecto]([https://github.com/upc-pre-202620-1asi0729-77
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](report/15-chapter5-product-implementation.md#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](report/15-chapter5-product-implementation.md#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](report/15-chapter5-product-implementation.md#5218-team-collaboration-insights-during-sprint)
+        - [5.2.2. Sprint 1](report/15-chapter5-product-implementation.md#521-sprint-2)
+            - [5.2.2.1. Sprint Planning 2](report/15-chapter5-product-implementation.md#5211-sprint-planning-2)
+            - [5.2.2.2. Aspect Leaders and Collaborators](report/15-chapter5-product-implementation.md#5212-aspect-leaders-and-collaborators)
+            - [5.2.2.3. Sprint Backlog 2](report/15-chapter5-product-implementation.md#5213-sprint-backlog-2)
+            - [5.2.2.4. Development Evidence for Sprint Review](report/15-chapter5-product-implementation.md#5214-development-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review](report/15-chapter5-product-implementation.md#5215-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review](report/15-chapter5-product-implementation.md#5216-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review](report/15-chapter5-product-implementation.md#5217-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint](report/15-chapter5-product-implementation.md#5218-team-collaboration-insights-during-sprint)
 - [Conclusiones](report/16-conclusions.md#conclusiones)
     - [Conclusiones y recomendaciones](report/16-conclusions.md#conclusiones-y-recomendaciones)
 
