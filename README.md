@@ -60,44 +60,6 @@
 </div>
 <div style="page-break-after: always;"></div>
 
-## Registro de Versiones del Informe
-
-<div align="center">
-<div style="text-align: center;">
-    <table style="margin: 0 auto; display: inline-table; text-align: left;line-height: 1.5;">
-        <tr>
-            <th>Versión</th>
-            <th>Fecha</th>
-            <th>Autor</th>
-            <th>Descripción de modificación</th>
-        </tr>
-        <tr>
-            <td><strong>AV1</strong></td>
-            <td>16/09/2026</td>
-            <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
-            <td>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification. <br>Capítulo IV: Product Design. <br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint</td>
-        </tr>
-        <tr>
-            <td><strong>TB1</strong></td>
-            <td>Por definir</td>
-            <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><strong>AV2</strong></td>
-            <td>Por definir</td>
-            <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><strong>TB2</strong></td>
-            <td>Por definir</td>
-            <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
-            <td></td>
-        </tr>
-    </table>
-</div>
-</div>
 
 ## Registro de Versiones del Informe
 
