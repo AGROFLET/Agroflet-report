@@ -59,6 +59,7 @@
   <p style="font-size: 12pt; margin: 0;"><b>Octubre 2026</b></p>
 </div>
 <div style="page-break-after: always;"></div>
+
 ## Registro de Versiones del Informe
 
 <div align="center">
