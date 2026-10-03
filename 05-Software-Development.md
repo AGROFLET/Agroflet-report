@@ -928,51 +928,100 @@ La estrategia de ramas permitió reducir los conflictos de integración sobre ar
 
 ### 5.2.2. Sprint 2
 Durante el Sprint 2 el equipo se concentró en la implementación y despliegue del front-end funcional y responsive de AgroFlet, como el desarrollo de Fake Api del proyecto, y la elaboración de la documentación técnica del repositorio.
-#### 5.2.2.1. Sprint Planning 2.
+## 5.2.2.1. Sprint Planning 2
 
 | Sprint # | Sprint 2 |
-| :--- | :--- |
+|---|---|
 | **Sprint Planning Background** | |
-| Date | 08/09/2026 |
+| Date | 2026-09-24 |
 | Time | 8:00 PM |
 | Location | Google Meet (reunión virtual) |
 | Prepared By | Alca Morán, César Alejandro |
-| Attendees (to planning meeting) | Alca Morán, César Alejandro<br>Centeno León, Adriano Samir<br>Rivas Méndez, Bernie Aarón<br>Rivas Castillo, Christoper Steven<br>Tello Lima, Jose Alejandro |
-| **Sprint 1 Review Summary** | Durante. |
-| **Sprint 1 Retrospective Summary** | . |
+| Attendees (to planning meeting) | Alca Morán, César Alejandro / Centeno León, Adriano Samir / Rivas Méndez, Bernie Aarón / Rivas Castillo, Christoper Steven / Tello Lima, Jose Alejandro |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se implementó y desplegó la primera versión funcional y responsive de la Landing Page de AgroFlet (v1.0.0). Se cubrieron las secciones Hero, funcionalidades, planes, testimonios, equipo, videos, footer e internacionalización ES/EN. La tarea T11 (formulario de contacto — UH28) quedó en estado In Process y fue reprogramada para el Sprint 2, dado que la versión inicial expone únicamente los canales de contacto en el footer sin un formulario funcional. El Product Owner valoró positivamente la calidad del diseño responsive y la coherencia visual con los mockups de Figma, señalando como prioridad para la siguiente iteración la puesta en marcha de las vistas principales de la aplicación web con integración a una fake API. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó como acierto principal el uso de ramas feature/* para desarrollar secciones de forma aislada, lo que redujo significativamente los conflictos de integración. Como oportunidad de mejora se acordó: (1) refinar la estimación inicial de Story Points antes de comprometer el Sprint Backlog; (2) mantener coherencia estricta entre las funcionalidades descritas en el Project Report y las efectivamente implementadas; (3) documentar en el Sprint Backlog el estado In Process de tareas reprogramadas para asegurar su continuidad en el siguiente Sprint. |
 | **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | |
-| **Sprint 1 Velocity** | 24 |
-| **Sum of Story Points** | 24 |
+| **Sprint 2 Goal** | Our focus is on delivering a deployed and navigable first version of the AgroFlet web application for dispatchers and buyers, integrated with a fake API that simulates the core business operations. We believe it delivers early hands-on access to the main dispatch, tracking, and fleet management flows to both user segments, enabling the team to validate UX decisions with real interactions. This will be confirmed when a dispatcher can register a vehicle, a driver, create a scheduled operation and view it in the active operations list, and a buyer can access their operations and view shipment details, all from the publicly deployed application URL. |
+| Sprint 2 Velocity | 40 |
+| Sum of Story Points | 40 |
 
-**Nota:** Cuadro resumen que detalla la planificación, las metas establecidas, los resultados obtenidos y las métricas de esfuerzo correspondientes al Sprint 2 de AgroFlet.
+> Nota: Cuadro resumen que detalla la planificación del Sprint 2, el Sprint Goal definido en consenso por el equipo, las métricas de esfuerzo comprometidas y los antecedentes del Sprint anterior.
 
-#### 5.2.2.2. Aspect Leaders and Collaborators.
+---
 
-| Team Member | GitHub Username | Landing Page (código) | Diseño UI/UX | Documentación | Deployment |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Alca Morán, César Alejandro | `almocesar` | Líder | Colaborador | Colaborador | Colaborador |
-| Centeno León, Adriano Samir | `Adri11-dk` | Colaborador | Colaborador | Líder | Colaborador |
-| Rivas Méndez, Bernie Aarón | `ARivas3008` | Colaborador | Líder | Colaborador | Colaborador |
-| Rivas Castillo, Christoper Steven | `C0DERTOPH` | Colaborador | Colaborador | Colaborador | Colaborador |
-| Tello Lima, Jose Alejandro | `j4ndrow` | Colaborador | Colaborador | Colaborador | Líder |
+## 5.2.2.2. Aspect Leaders and Collaborators
+
+En el Sprint 2, el alcance funcional se distribuye entre ocho aspectos principales: la actualización del Landing Page (completar UH28), la configuración del entorno Vue + PrimeVue y el fake API, y las vistas correspondientes a los bounded contexts de IAM (autenticación), Fleet Management, Shipment Tracking, Incidencias e Historial, Información Geográfica, y Notificaciones. La siguiente tabla muestra la distribución de liderazgo y colaboración por aspecto.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page Update | Vue App Setup & Fake API | IAM Views (Login / Register) | Fleet Management Views | Shipment Tracking Views | Incidents & History Views | Geographic Info Views | Notifications Views |
+|---|---|---|---|---|---|---|---|---|---|
+| Alca Morán, César Alejandro | almocesar | L | C | L | C | C | C | C | C |
+| Centeno León, Adriano Samir | Adri11-dk | C | L | C | C | C | C | C | C |
+| Rivas Méndez, Bernie Aarón | ARivas3008 | C | C | C | L | C | C | C | C |
+| Rivas Castillo, Christoper Steven | C0DERTOPH | C | C | C | C | L | C | C | C |
+| Tello Lima, Jose Alejandro | j4ndrow | C | C | C | C | C | L | L | L |
 
 **Distribución por aspecto técnico del Sprint 2:**
 
 | Aspecto | Líder | Colaboradores |
-| :--- | :--- | :--- |
-| Landing Page UX/UI | Rivas Méndez, Bernie Aarón | Tello Lima, Jose Alejandro / Alca Morán, César Alejandro |
-| HTML Structure & Semántica | Alca Morán, César Alejandro | Centeno León, Adriano Samir / Rivas Castillo, Christoper Steven |
-| CSS & Responsive Design | Rivas Méndez, Bernie Aarón | Alca Morán, César Alejandro / Rivas Castillo, Christoper Steven |
-| JavaScript Interactions | Rivas Castillo, Christoper Steven | Alca Morán, César Alejandro / Centeno León, Adriano Samir |
-| Internationalization (i18n) | Centeno León, Adriano Samir | Rivas Castillo, Christoper Steven / Tello Lima, Jose Alejandro |
-| Documentation (README & Report) | Centeno León, Adriano Samir | Tello Lima, Jose Alejandro / Rivas Méndez, Bernie Aarón |
-| Deployment (GitHub Pages) | Tello Lima, Jose Alejandro | Alca Morán, César Alejandro / Centeno León, Adriano Samir |
+|---|---|---|
+| Landing Page Update (UH28 + v1.1.0) | Alca Morán, César Alejandro | Rivas Méndez, Bernie Aarón |
+| Vue App Setup, Router, PrimeVue & Fake API | Centeno León, Adriano Samir | Alca Morán, César Alejandro / Rivas Castillo, Christoper Steven |
+| IAM Views (Login, Register, Password Recovery) | Alca Morán, César Alejandro | Centeno León, Adriano Samir |
+| Fleet Management Views (Vehicles & Drivers) | Rivas Méndez, Bernie Aarón | Rivas Castillo, Christoper Steven / Tello Lima, Jose Alejandro |
+| Shipment Tracking Views (Dashboard, New Op., Detail) | Rivas Castillo, Christoper Steven | Alca Morán, César Alejandro / Centeno León, Adriano Samir |
+| Incidents & History Views | Tello Lima, Jose Alejandro | Rivas Méndez, Bernie Aarón / Rivas Castillo, Christoper Steven |
+| Geographic Info Views (Map & Planned Route) | Tello Lima, Jose Alejandro | Centeno León, Adriano Samir |
+| Notifications Views | Tello Lima, Jose Alejandro | Alca Morán, César Alejandro |
 
-**Nota:** Distribución de responsabilidades durante el Sprint 2, indicando el liderazgo y la colaboración en las principales áreas de trabajo. Los usuarios de GitHub consignados deben coincidir con las cuentas registradas como Contributors del repositorio.
+> Nota: Distribución de responsabilidades durante el Sprint 2, indicando liderazgo y colaboración por cada aspecto del alcance. Los usernames de GitHub coinciden con los registrados como Contributors en el repositorio.
+
+---
+
+## 5.2.2.3. Sprint Backlog 2
+
+El objetivo central del Sprint 2 es entregar la primera versión desplegada de la Frontend Web Application de AgroFlet, integrada con un servidor de fake API que simule los datos de los bounded contexts de Fleet Management, Shipment Tracking, Incidencias, Historial, Notificaciones e IAM. Las User Stories seleccionadas corresponden a las funcionalidades pendientes del Product Backlog que no fueron abordadas en el Sprint 1, priorizando las de mayor valor para el negocio. Adicionalmente se incluye la tarea T11 reprogramada (UH28) como parte del cierre pendiente del Landing Page.
+
+URL del Board en YouTrack/Trello: [https://trello.com/b/agroflet-sprint2] *(incluir captura del board)*
+
+| Sprint # | Sprint 2 |
+|---|---|
+
+| User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (h) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| UH28 | Envío de mensaje de contacto desde el landing page | T12 | Completar formulario de contacto en Landing Page v1.1.0 | Implementar el formulario HTML con campos nombre, correo, asunto y mensaje, validación en tiempo real de campos obligatorios, indicador visual de envío y mensaje de confirmación/error posterior al submit. Actualizar diccionarios ES/EN en assets/i18n/. | 4 | Alca Morán, César Alejandro | Done |
+| — | Configuración del entorno Vue + Fake API | T13 | Scaffolding del proyecto Vue 3 con Vite y PrimeVue | Inicializar el proyecto con `npm create vite@latest agroflet-frontend -- --template vue`, instalar PrimeVue 4, PrimeIcons, Vue Router 4 y Axios. Configurar el archivo `vite.config.js` con proxy hacia el fake API. Establecer estructura de carpetas: `src/views/`, `src/components/`, `src/services/`, `src/router/`, `src/stores/`. | 3 | Centeno León, Adriano Samir | Done |
+| — | Configuración del entorno Vue + Fake API | T14 | Configurar My JSON Server como fake API y base de datos `db.json` | Crear el repositorio `agroflet-fake-api` en la organización GitHub AGROFLET con el archivo `db.json` que contenga las colecciones: `users`, `vehicles`, `drivers`, `operations`, `incidents`, `positions`, `notifications`. Configurar My JSON Server apuntando al repositorio. Documentar los endpoints disponibles en el README. | 3 | Centeno León, Adriano Samir | Done |
+| — | Configuración del entorno Vue + Fake API | T15 | Configurar Vue Router con rutas protegidas y guard de autenticación | Definir rutas para: `/login`, `/register`, `/dashboard`, `/operations`, `/operations/:id`, `/operations/new`, `/vehicles`, `/drivers`, `/history`, `/map/:id`, `/notifications`, `/profile`, `/terms`. Implementar `navigationGuard` que verifique token en `localStorage` y redirija a `/login` en caso de sesión inactiva. | 3 | Centeno León, Adriano Samir | Done |
+| US01 | Registro de cuenta | T16 | Implementar vista `RegisterView.vue` con formulario y llamada al fake API | Desarrollar la vista de registro con campos nombre, correo, contraseña, confirmación de contraseña y rol (despachador/comprador). Aplicar validación reactiva con `vee-validate`. Consumir POST `/users` del fake API mediante Axios. Mostrar toast de éxito con PrimeVue `useToast` y redirigir a `/login`. Implementar mensaje de error ante correo duplicado. Incluir enlace a `/login` y a Términos del Servicio. | 5 | Alca Morán, César Alejandro | Done |
+| US02 | Inicio de sesión | T17 | Implementar vista `LoginView.vue` con autenticación simulada y persistencia de sesión | Desarrollar formulario de inicio de sesión con campos correo y contraseña. Consumir GET `/users?email=&password=` del fake API. Si existe, guardar en `localStorage` el objeto de usuario (sin contraseña) como `agroflet_session`. Mostrar error genérico ante credenciales inválidas sin revelar la existencia de la cuenta. Aplicar diseño con PrimeVue `InputText`, `Password` y `Button`. | 4 | Alca Morán, César Alejandro | Done |
+| US03 | Cierre de sesión | T18 | Implementar función de logout en el componente de navegación `AppNavbar.vue` | Añadir botón de cierre de sesión en el navbar lateral del dashboard. Al ejecutarlo, eliminar `agroflet_session` de `localStorage` y redirigir a `/login`. Verificar que el guard de navegación bloquee el acceso a rutas protegidas tras el cierre. | 2 | Alca Morán, César Alejandro | Done |
+| US04 | Recuperación de contraseña | T19 | Implementar vista `ForgotPasswordView.vue` con flujo de recuperación simulado | Desarrollar formulario con campo correo. Consumir GET `/users?email=` del fake API. Mostrar siempre confirmación genérica ("Si la cuenta existe, recibirás instrucciones") independientemente del resultado, para no revelar la existencia de cuentas. Enlazar desde `LoginView.vue`. | 2 | Alca Morán, César Alejandro | Done |
+| US05 | Registro de vehículo | T20 | Implementar vista `VehicleFormView.vue` y lógica de creación en el fake API | Desarrollar formulario de registro de vehículo con campos placa, marca, modelo, año, tipo, capacidad (kg) y estado. Validar que la capacidad sea positiva y que la placa no esté duplicada (GET `/vehicles?plate=`). Consumir POST `/vehicles` para persistir. Mostrar toast de éxito y redirigir a la lista de vehículos. | 4 | Rivas Méndez, Bernie Aarón | Done |
+| US06 | Consulta y edición de vehículos | T21 | Implementar vista `VehiclesListView.vue` y `VehicleEditView.vue` | Desarrollar lista de vehículos del despachador autenticado (GET `/vehicles?userId=`). Mostrar columnas placa, tipo, capacidad y estado con PrimeVue `DataTable`. Implementar botón de edición que cargue el formulario con datos actuales (GET `/vehicles/:id`, PUT `/vehicles/:id`). Impedir edición del estado a `available` si el vehículo está en `reserved` o `in_route`. | 4 | Rivas Méndez, Bernie Aarón | Done |
+| US07 | Registro de conductor | T22 | Implementar vista `DriverFormView.vue` y lógica de creación en el fake API | Desarrollar formulario con campos nombre, DNI, licencia, categoría, teléfono y estado. Validar unicidad del DNI en el ámbito del despachador (GET `/drivers?dni=&userId=`). Consumir POST `/drivers`. Mostrar confirmación y redirigir a la lista de conductores. | 3 | Rivas Méndez, Bernie Aarón | Done |
+| US08 | Selección de recursos para el despacho | T23 | Implementar paso de selección de recursos en `NewOperationView.vue` (wizard paso 2) | Dentro del wizard de nueva operación, desarrollar el paso 2 de selección de vehículo y conductor disponibles. Consumir GET `/vehicles?userId=&status=available` y GET `/drivers?userId=&status=available`. Mostrar selectores con PrimeVue `Dropdown`. Guardar selección provisional en el estado reactivo del wizard sin realizar POST todavía. | 3 | Rivas Castillo, Christoper Steven | Done |
+| US09 | Registro de operación programada | T24 | Implementar `NewOperationView.vue` (wizard completo) con llamada al fake API | Desarrollar wizard de 3 pasos: (1) datos del envío (origen, destino, tipo de carga, peso, comprador, fecha estimada), (2) selección de recursos (T23), (3) revisión y confirmación. Al confirmar, consumir POST `/operations` con estado `planned` y marcar recursos como `reserved` (PATCH `/vehicles/:id` y PATCH `/drivers/:id`). Verificar concurrencia mostrando error si el recurso fue reservado entre pasos. | 5 | Rivas Castillo, Christoper Steven | Done |
+| US10 | Consulta de operaciones activas | T25 | Implementar `DashboardView.vue` con lista de operaciones activas | Desarrollar el dashboard principal con listado de operaciones activas del usuario autenticado (GET `/operations?userId=` o GET `/operations?buyerId=` según rol). Mostrar estado, carga, destino, llegada prevista y última actualización con PrimeVue `DataTable`. Mostrar mensaje de lista vacía si no existen operaciones autorizadas. El rol comprador no visualiza botón de creación. | 5 | Rivas Castillo, Christoper Steven | Done |
+| US11 | Detalle de operación | T26 | Implementar `OperationDetailView.vue` con datos completos del envío | Desarrollar vista de detalle que muestre: datos del envío, recursos asignados, estado actual, incidencias registradas e historial de estados. Consumir GET `/operations/:id`, GET `/incidents?operationId=` y verificar que el `userId` o `buyerId` coincida con el usuario autenticado. Mostrar error 404 genérico ante acceso no autorizado o recurso inexistente. | 4 | Rivas Castillo, Christoper Steven | Done |
+| US12 | Cierre de operación | T27 | Implementar acciones de entrega y cancelación en `OperationDetailView.vue` | Añadir botones "Registrar entrega" y "Cancelar operación" visibles solo al despachador cuando la operación está en `planned` o `in_transit`. Al confirmar entrega: PATCH `/operations/:id` con `status: delivered`, fecha efectiva y liberar recursos. Al cancelar: solicitar motivo y ejecutar PATCH `/operations/:id` con `status: cancelled` y liberar recursos. Bloquear ambas acciones si la operación está en estado terminal. | 3 | Tello Lima, Jose Alejandro | Done |
+| US13 | Registro de incidencia | T28 | Implementar `IncidentFormView.vue` con lógica de recálculo de ETA | Desarrollar formulario de registro de incidencia para operaciones `in_transit`: tipo, descripción e impacto en horas (no negativo). Consumir POST `/incidents`. Ejecutar PATCH sobre `/operations/:id` recalculando la llegada estimada sumando el impacto. Implementar control de idempotencia basado en clave compuesta `operationId + timestamp` para evitar duplicados ante reenvíos. | 4 | Tello Lima, Jose Alejandro | Done |
+| US14 | Historial de incidencias | T29 | Implementar sección de historial de incidencias en `OperationDetailView.vue` | Añadir sección colapsable de historial de incidencias dentro del detalle de la operación. Consumir GET `/incidents?operationId=`. Mostrar tipo, descripción, impacto e impacto acumulado ordenados por fecha. Mostrar mensaje de lista vacía si no existen incidencias. | 2 | Tello Lima, Jose Alejandro | Done |
+| US15 | Historial con filtros | T30 | Implementar `HistoryView.vue` con filtros por fecha, estado, carga y destino | Desarrollar vista de historial que muestre todas las operaciones pasadas del usuario autenticado (GET `/operations?userId=&status=delivered` y `cancelled`). Implementar filtros mediante PrimeVue `Calendar`, `Dropdown` (estado), `InputText` (carga, destino). Aplicar filtros combinados sobre los resultados localmente. Mostrar error de validación ante rango de fechas invertido. | 3 | Tello Lima, Jose Alejandro | Done |
+| US16 | Búsqueda por código o placa | T31 | Implementar barra de búsqueda en `HistoryView.vue` | Añadir campo de búsqueda libre en la vista de historial que filtre por código de operación o placa del vehículo (GET `/operations?operationCode=` o búsqueda local sobre resultados ya cargados). Mostrar mensaje de resultado vacío ante términos sin coincidencias. | 2 | Tello Lima, Jose Alejandro | Done |
+| US31 | Inicio del traslado | T32 | Implementar acción "Iniciar traslado" en `OperationDetailView.vue` | Añadir botón "Iniciar traslado" visible solo al despachador cuando la operación está en estado `planned`. Al confirmar, ejecutar PATCH `/operations/:id` con `status: in_transit` y `actualDepartureAt: <timestamp>`. Bloquear la acción si el estado es `in_transit`, `delivered` o `cancelled`. | 2 | Rivas Castillo, Christoper Steven | Done |
+| US17 | Posiciones en mapa | T33 | Implementar `MapView.vue` con listado de posiciones reportadas | Desarrollar vista de mapa que muestre las posiciones reportadas de una operación (GET `/positions?operationId=`). Utilizar Leaflet (CDN cargado en `index.html`) con marcadores para cada posición. Identificar cada marcador con fecha, hora y fuente. Mostrar aviso diferenciado para posiciones de demostración. Comunicar ausencia de datos sin inventar posición actual. | 4 | Tello Lima, Jose Alejandro | Done |
+| US32 | Registro de posición reportada | T34 | Implementar `ReportPositionView.vue` para el despachador | Desarrollar formulario de reporte de posición para operaciones `in_transit`: latitud, longitud, fuente (manual/GPS_externo) y fecha/hora (default: ahora). Validar rango de coordenadas (-90/90 lat, -180/180 lon). Consumir POST `/positions`. Rechazar coordenadas fuera de rango y solicitudes sin fuente identificada. | 2 | Tello Lima, Jose Alejandro | Done |
+| US19 | Alertas por incidencia | T35 | Implementar `NotificationsView.vue` y generación de notificaciones por incidencia | Desarrollar vista de notificaciones (GET `/notifications?userId=`). Al registrar una incidencia (T28), generar automáticamente entradas en `/notifications` para el despachador y el comprador asociados. Mostrar tipo, mensaje, operación vinculada y fecha. Implementar control para no duplicar notificaciones ante el mismo evento reprocesado. | 3 | Tello Lima, Jose Alejandro | Done |
+| US20 | Alertas por cambio de estado | T36 | Extender generación de notificaciones a cambios de estado de operación | Al ejecutar transiciones de estado (planned→in_transit, in_transit→delivered, cualquier→cancelled) en las acciones T27 y T32, generar entradas en `/notifications` para el comprador con el nuevo estado. Verificar que el comprador solo reciba notificaciones de sus propias operaciones. | 2 | Tello Lima, Jose Alejandro | Done |
+| US18 | Ruta planificada | T37 | Implementar sección de ruta planificada en `MapView.vue` | Añadir al mapa la visualización de la ruta planificada entre el origen y destino de la operación, representada como una línea Polyline con los datos de origen y destino georreferenciados de la operación (GET `/operations/:id`). Mostrar aviso textual si no están disponibles las coordenadas de destino. | 3 | Tello Lima, Jose Alejandro | Done |
+| — | Deployment Frontend + Fake API | T38 | Configurar y ejecutar el despliegue de la Frontend Web Application en Vercel/Netlify | Crear cuenta y proyecto en Vercel (o Netlify) conectado al repositorio `agroflet-frontend`. Configurar la variable de entorno `VITE_API_BASE_URL` apuntando al endpoint público de My JSON Server. Verificar build de producción (`npm run build`) y publicación correcta. Documentar URL de producción en el README. | 3 | Centeno León, Adriano Samir | Done |
+
+> Nota: Tabla que registra las User Stories y Work Items del Sprint 2. Las tasks T13–T15 y T38 no están asociadas directamente a una User Story pero son necesarias para habilitar el entorno de desarrollo y el despliegue de los demás ítems. US18 y US32 corresponden a Technical Stories de soporte geográfico.
+
+---
 
 
-#### 5.2.2.3. Sprint Backlog 2.
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
 Esta sección presenta la evidencia técnica de los avances de implementación correspondientes al Sprint 2. Durante este Sprint se desarrolló la primera versión de la Frontend Web Application de AgroFlet con Vue + Vite + PrimeVue, integrada con un servidor de fake API basado en json y desplegado en una máquina virtyal. También se cerró la tarea pendiente del Sprint 1 actualizando la Landing Page con el formulario de contacto funcional.
