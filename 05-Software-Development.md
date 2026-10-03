@@ -1027,5 +1027,30 @@ La aplicación web de AgroFlet permite a un despachador registrarse, iniciar ses
 12. **Landing Page** — Formulario de contacto completado con validación y confirmación de envío.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizó el despliegue exitoso del Frontend Web Application y la Landing Page de AgroFlet, asegurando la integración continua y la disponibilidad pública de las interfaces desarrolladas. A continuación, se detallan los pasos ejecutados:
+
+1. Se creó una cuenta en la plataforma de alojamiento Netlify.
+2. Se vinculó la cuenta de Netlify con la organización y el repositorio correspondiente de GitHub del proyecto AgroFlet.
+3. Se importó el repositorio del frontend/landing page desde GitHub hacia Netlify.
+4. Se configuraron los parámetros de entorno, el comando de compilación (`npm run build`) y la carpeta de publicación (`dist`).
+5. Se seleccionó la rama de producción (`main`) como fuente de despliegue continuo (Continuous Deployment).
+6. Se ejecutó el despliegue inicial de la aplicación desde el panel de control de Netlify.
+7. Se habilitó el autodespliegue para actualizar automáticamente las vistas en cada nuevo push o integración de Pull Request a la rama principal.
+8. Se verificó el correcto funcionamiento de las vistas, la responsividad y la navegación mediante la URL pública generada por la plataforma.
+
+<p align="center">
+  <img src="assets/images/Cap5_Deployment_Evidence.png" alt="Evidencia de despliegue en Netlify de AgroFlet" title="Netlify Deployment Evidence" width="700">
+</p>
+
+**URL de la Mock API desplegada:** [https://agroflet-mockapi-production.up.railway.app](https://agroflet-mockapi-production.up.railway.app)
+
+**URL del Frontend Web Application desplegado:** [https://agroflet-app.netlify.app/](https://agroflet-app.netlify.app/)
+
+**URL de la Landing Page desplegada:** [https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/](https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/)
+
+
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
