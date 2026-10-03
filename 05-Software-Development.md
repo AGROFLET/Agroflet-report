@@ -1077,6 +1077,79 @@ La aplicación web de AgroFlet permite a un despachador registrarse, iniciar ses
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Durante el Sprint 2 se configuró el servidor de API basado en JSON a través del puerto (insertar puerto) usando el servicio en la nube que nos brinda la plataforma (insertar plataforma). 
+
+A continuación se detalla la estructura de la API y los endpoints consumidos por la aplicación:
+
+**URL base del Fake API:** `https://my-json-server.typicode.com/AGROFLET/agroflet-fake-api`
+
+**Colecciones disponibles y endpoints principales:**
+
+| Recurso | Endpoint | Verbos soportados | Descripción | Consumido por |
+|---|---|---|---|---|
+| Usuarios | `/users` | GET, POST | Lista y registro de usuarios. Filtros: `?email=&password=` (login simulado), `?email=` (verificación de duplicados). | LoginView, RegisterView, ForgotPasswordView |
+| Vehículos | `/vehicles` | GET, POST, PATCH, PUT | Lista, creación y edición. Filtros: `?userId=`, `?status=available`, `?plate=`. | VehiclesListView, VehicleFormView, VehicleEditView, NewOperationView |
+| Conductores | `/drivers` | GET, POST, PATCH, PUT | Lista, creación y edición. Filtros: `?userId=`, `?status=available`, `?dni=`. | DriversListView, DriverFormView, NewOperationView |
+| Operaciones | `/operations` | GET, POST, PATCH | Lista, creación y actualización de estado. Filtros: `?userId=`, `?buyerId=`, `?status=`, `?operationCode=`. | DashboardView, NewOperationView, OperationDetailView, HistoryView |
+| Incidencias | `/incidents` | GET, POST | Registro y consulta de incidencias. Filtros: `?operationId=`. | IncidentFormView, OperationDetailView |
+| Posiciones | `/positions` | GET, POST | Registro y consulta de posiciones reportadas. Filtros: `?operationId=`. | MapView, ReportPositionView |
+| Notificaciones | `/notifications` | GET, POST | Consulta y generación de alertas. Filtros: `?userId=`. | NotificationsView |
+
+**Ejemplo de request y response — Registro de operación (POST `/operations`):**
+
+Request body:
+```json
+{
+  "userId": "u001",
+  "buyerId": "u003",
+  "cargo": "Papa blanca",
+  "cargoWeight": 5000,
+  "origin": "Huancayo",
+  "destination": "Lima (Mercado Mayorista de Lima)",
+  "originLat": -12.0667,
+  "originLng": -75.2167,
+  "destLat": -12.0464,
+  "destLng": -76.9628,
+  "estimatedArrival": "2026-10-05T08:00:00",
+  "vehicleId": "v002",
+  "driverId": "d001",
+  "status": "planned",
+  "createdAt": "2026-10-02T20:30:00"
+}
+```
+Response (201 Created):
+```json
+{
+  "id": "op009",
+  "operationCode": "AF-2026-009",
+  "userId": "u001",
+  "buyerId": "u003",
+  "cargo": "Papa blanca",
+  "cargoWeight": 5000,
+  "origin": "Huancayo",
+  "destination": "Lima (Mercado Mayorista de Lima)",
+  "estimatedArrival": "2026-10-05T08:00:00",
+  "vehicleId": "v002",
+  "driverId": "d001",
+  "status": "planned",
+  "createdAt": "2026-10-02T20:30:00"
+}
+```
+
+> Nota: My JSON Server no ejecuta lógica de negocio (validaciones, recálculo de ETA, control de idempotencia); dichas reglas se implementan en el lado del cliente (Vue.js) como simulación provisional hasta el Sprint 3, en el que se reemplazará el fake API por el RESTful API en ASP.NET Core con validaciones en el servidor.
+
+**Repositorio del Fake API:**
+- URL: `https://github.com/AGROFLET/agroflet-fake-api`
+- Commits relacionados con la documentación del Sprint 2:
+
+| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
+|---|---|---|---|---|
+| agroflet-fake-api | main | c1d85a3 | feat: initialize db.json with all domain collections | 25/09/2026 |
+| agroflet-fake-api | main | 9f3e2b1 | docs: add API endpoints reference to README | 26/09/2026 |
+| agroflet-fake-api | main | 2a7c081 | feat: add seed data for demo operations and incidents | 27/09/2026 |
+
+---
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 2 se realizó el despliegue exitoso del Frontend Web Application y la Landing Page de AgroFlet, asegurando la integración continua y la disponibilidad pública de las interfaces desarrolladas. A continuación, se detallan los pasos ejecutados:
