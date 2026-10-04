@@ -1152,27 +1152,24 @@ Response (201 Created):
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 2 se realizó el despliegue exitoso del Frontend Web Application y la Landing Page de AgroFlet, asegurando la integración continua y la disponibilidad pública de las interfaces desarrolladas. A continuación, se detallan los pasos ejecutados:
+Durante el Sprint 2 se realizó el despliegue exitoso del Frontend Web Application y la Landing Page de AgroFlet, garantizando la disponibilidad pública y la integración continua de la plataforma. A continuación, se detallan los pasos ejecutados:
 
-1. Se creó una cuenta en la plataforma de alojamiento Netlify.
-2. Se vinculó la cuenta de Netlify con la organización y el repositorio correspondiente de GitHub del proyecto AgroFlet.
-3. Se importó el repositorio del frontend/landing page desde GitHub hacia Netlify.
-4. Se configuraron los parámetros de entorno, el comando de compilación (`npm run build`) y la carpeta de publicación (`dist`).
-5. Se seleccionó la rama de producción (`main`) como fuente de despliegue continuo (Continuous Deployment).
-6. Se ejecutó el despliegue inicial de la aplicación desde el panel de control de Netlify.
-7. Se habilitó el autodespliegue para actualizar automáticamente las vistas en cada nuevo push o integración de Pull Request a la rama principal.
-8. Se verificó el correcto funcionamiento de las vistas, la responsividad y la navegación mediante la URL pública generada por la plataforma.
+1. Se creó y configuró una cuenta en la plataforma de alojamiento en la nube Vercel.
+2. Se vinculó el proyecto de Vercel con la organización y el repositorio correspondiente de GitHub (`agroflet-frontend-application`).
+3. Se importó el repositorio del frontend y se establecieron los ajustes del framework (Vite / Vue.js) con el comando de build predeterminado y el directorio de salida de compilación.
+4. Se configuraron las variables de entorno necesarias para enlazar la aplicación con la API simulada.
+5. Se seleccionó la rama de producción (`main`) para la canalización de despliegue continuo (Continuous Deployment).
+6. Se ejecutó el despliegue inicial hacia el entorno de producción (`Production Deployment`), alcanzando exitosamente el estado `Ready`.
+7. Se habilitó el flujo automatizado para generar nuevos despliegues de producción ante cada actualización o merge en la rama principal.
+8. Se validó la correcta disponibilidad del servicio, la navegación de pantallas y el diseño responsivo a través del dominio público asignado.
 
 <p align="center">
-  <img src="assets/images/Cap5_Deployment_Evidence.png" alt="Evidencia de despliegue en Netlify de AgroFlet" title="Netlify Deployment Evidence" width="700">
+  <img src="assets/images/Cap5_Deployment_Evidence.png" alt="Evidencia de despliegue en Vercel de AgroFlet" title="Vercel Deployment Evidence" width="700">
 </p>
 
-**URL de la Mock API desplegada:** [https://agroflet-mockapi-production.up.railway.app](https://agroflet-mockapi-production.up.railway.app)
+**URL del Frontend Web Application desplegado:** [https://agroflet-frontend-application.vercel.app/](https://agroflet-frontend-application.vercel.app/)
 
-**URL del Frontend Web Application desplegado:** [https://agroflet-app.netlify.app/](https://agroflet-app.netlify.app/)
-
-**URL de la Landing Page desplegada:** [https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/](https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/)
-
+**URL de la Landing Page desplegada:** [PARA EDITAR](https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/)
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
