@@ -1169,7 +1169,7 @@ Durante el Sprint 2 se realizó el despliegue exitoso del Frontend Web Applicati
 
 **URL del Frontend Web Application desplegado:** [https://agroflet-frontend-application.vercel.app/](https://agroflet-frontend-application.vercel.app/)
 
-**URL de la Landing Page desplegada:** [PARA EDITAR](https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/)
+**URL de la Landing Page desplegada:** [https://agroflet.github.io/Agroflet-frontend-application/](https://agroflet.github.io/Agroflet-frontend-application/)
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
