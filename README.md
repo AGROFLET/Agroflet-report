@@ -1,56 +1,65 @@
 <div align="center">
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<br> <img src="assets/images/presentation/UPC_logo_transparente.png" alt="logoupc" width="90"> <br>
 
-### Facultad de Ingeniería
+<div style="font-family: 'Aptos', sans-serif; text-align: center; line-height: 1.5;">
+  <p style="font-size: 12pt; margin: 0;">Universidad Peruana de Ciencias Aplicadas</p>
+  <p style="font-size: 12pt; margin: 0;">Carrera de Ingeniería de Software</p>
+  <br>    
+  <p style="font-size: 14pt; margin: 0;"><b>1ASI030</b></p>
+  <p style="font-size: 14pt; margin: 0;"><b>Aplicaciones Web</b></p>
+  <p style="font-size: 12pt; margin: 0;">NRC</p>
+  <p style="font-size: 14pt; margin: 0;"><b>16127</b></p>
+  <p style="font-size: 16pt; margin: 0;"><b>Informe del Trabajo Final</b></p>
+  <p style="font-size: 12pt; margin: 0;">Docente</p>
+  <p style="font-size: 14pt; margin: 0;"><b>Villafuerte Bazán, Óscar Iván</b></p>
+  <br>
+  <p style="font-size: 12pt; margin: 0;">Equipo</p>
+  <p style="font-size: 14pt; margin: 0;"><b>NexaWeb</b></p>
+  <br>
+  <p style="font-size: 12pt; margin: 0;">Proyecto</p>
+  <p style="font-size: 14pt; margin: 0;"><b>AgroFlet</b></p>
+  <br>
+  <p style="font-size: 12pt; margin: 0;"><b>Integrantes</b></p>
 
-### Carrera de Ingeniería de Software
+  <table style="font-family: 'Aptos', sans-serif; font-size: 11pt; border-collapse: collapse; border: none; margin: 10px auto;">
+    <thead>
+      <tr>
+        <th style="text-align: left; padding: 2px 15px; border: none;">Código</th>
+        <th style="text-align: left; padding: 2px 15px; border: none;">Apellidos y Nombres</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U20241F027</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Alca Morán, César Alejandro</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U20241D920	</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Centeno León, Adriano Samir</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U20241F109	</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Rivas Méndez, Bernie Aarón</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U202323551	</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Rivas Castillo, Christoper Steven</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; padding: 2px 15px; border: none;">U202421618	</td>
+        <td style="text-align: left; padding: 2px 15px; border: none;">Tello Lima, José Alejandro</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
 
-<br>
+  <p style="font-size: 12pt; margin: 0;"><b>Período 202620</b></p>
+  <br>
+  <p style="font-size: 12pt; margin: 0;"><b>Octubre 2026</b></p>
+</div>
+<div style="page-break-after: always;"></div>
 
-### **1ASI0730**
-
-### **Aplicaciones Web**
-
-NRC
-
-### **16127**
-
-<br>
-
-# **Informe del Trabajo Final**
-
-Docente
-
-### **Villafuerte Bazán, Óscar Iván**
-
-<br>
-
-Equipo
-
-### **NexaWeb**
-
-Proyecto
-
-### **AgroFlet**
-
-<br>
-
-## **INTEGRANTES**
-
-| Código | Apellidos y Nombres |
-| :---: | :--- |
-| U20241F027 | Alca Morán, César Alejandro |
-| U20241D920 | Centeno León, Adriano Samir |
-| U20241F109 | Rivas Méndez, Bernie Aarón |
-| U202323551 | Rivas Castillo, Christoper Steven |
-| U202421618 | Tello Lima, Jose Alejandro |
-
-<br>
-
-### **Período 202620**
-
-### **Septiembre 2026**
 
 </div>
 
