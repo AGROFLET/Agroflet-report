@@ -126,7 +126,7 @@ Durante este avance del trabajo, se desarrollaron los siguientes puntos del repo
 - Conclusiones y Anexos
 
 Collaboration Insight (Second repository):
-<br> <img src="assets/images/commits-tb1.PNG" alt="Commit-TB1" width="300"> <br>
+<br> <img src="assets/images//presentation/commits-tb1.PNG" alt="Commit-TB1" width="300"> <br>
 
 ## Commits por integrante
 
