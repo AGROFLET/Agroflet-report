@@ -1089,7 +1089,31 @@ La versión de demostración permite recorrer las funcionalidades según el rol.
 | Alertas de operaciones | `/notifications` | US19–US20 |
 | Cuenta, idioma y condiciones | `/iam/profile`, `/terms` | US21–US23, US33 |
 
-**[INSERTAR: capturas de escritorio y móvil, escenarios de validación y enlace al video de demostración].** El enlace de recuperación de contraseña se demuestra localmente; el proyecto no incorpora envío real de correos.
+
+Vista de Web:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_page1.PNG" alt="Structurizr" title="PullRequest" width="250">
+</p>
+
+Envíos entrantes - comprador:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_1.PNG" alt="Structurizr" title="PullRequest" width="250">
+</p>
+
+Historial - comprador:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_2.PNG" alt="Structurizr" title="PullRequest" width="250">
+</p>
+
+Notificaciones - comprador:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_3.PNG" alt="Structurizr" title="PullRequest" width="250">
+</p>
+
+Configuración - comprador: 
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_4.PNG" alt="Structurizr" title="PullRequest" width="250">
+</p>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
