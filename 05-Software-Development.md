@@ -1038,40 +1038,40 @@ La implementación se organizó mediante `main`, `develop`, ramas `feature/*` y 
 
 Vista del proyecto en github:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_View_Sprint 2.PNG" alt="Structurizr" title="View" width="250">
+  <img src="assets/images/Cap5_Dev_View_Sprint 2.PNG" alt="Structurizr" title="View" width="700">
 </p>
 
 Vista de las ramas trabajadas:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_View_Sprint 2_branches.PNG" alt="Structurizr" title="Branches" width="250">
+  <img src="assets/images/Cap5_Dev_View_Sprint 2_branches.PNG" alt="Structurizr" title="Branches" width="700">
 </p>
 
 Ejemplo html de Sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_Sprint_2_html_example.PNG" alt="Structurizr" title="Example" width="250">
+  <img src="assets/images/Cap5_Dev_Sprint_2_html_example.PNG" alt="Structurizr" title="Example" width="700">
 </p>
 
 Ejemplo vue de Sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_Sprint_2_vue_example.PNG" alt="Structurizr" title="Example" width="250">
+  <img src="assets/images/Cap5_Dev_Sprint_2_vue_example.PNG" alt="Structurizr" title="Example" width="700">
 </p>
 
 Ejemplo de .js de Sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_Sprint_2_js_example.PNG" alt="Structurizr" title="Example" width="250">
+  <img src="assets/images/Cap5_Dev_Sprint_2_js_example.PNG" alt="Structurizr" title="Example" width="700">
 </p>
 
 Ejemplo de .env de Sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_Sprint_2_env_example.PNG" alt="Structurizr" title="Example" width="250">
+  <img src="assets/images/Cap5_Dev_Sprint_2_env_example.PNG" alt="Structurizr" title="Example" width="700">
 </p>
 
 Pull Request sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_1.PNG" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_1.PNG" alt="Structurizr" title="PullRequest" width="700">
 </p>
 <p align="center">
-  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_2.PNG" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_2.PNG" alt="Structurizr" title="PullRequest" width="700">
 </p>
 
 
@@ -1092,27 +1092,27 @@ La versión de demostración permite recorrer las funcionalidades según el rol.
 
 Vista de Web:
 <p align="center">
-  <img src="assets/images/Cap5_Deploy_Sprint 2_page1.PNG" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_page1.PNG" alt="Structurizr" title="View" width="700">
 </p>
 
 Envíos entrantes - comprador:
 <p align="center">
-  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_1.PNG" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_1.PNG" alt="Structurizr" title="Buyer" width="700">
 </p>
 
 Historial - comprador:
 <p align="center">
-  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_2.PNG" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_2.PNG" alt="Structurizr" title="Buyer" width="700">
 </p>
 
 Notificaciones - comprador:
 <p align="center">
-  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_3.PNG" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_3.PNG" alt="Structurizr" title="Buyer" width="700">
 </p>
 
 Configuración - comprador: 
 <p align="center">
-  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_4.PNG" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_4.PNG" alt="Structurizr" title="Buyer" width="700">
 </p>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
