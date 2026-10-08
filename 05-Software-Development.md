@@ -1095,24 +1095,72 @@ Vista de Web:
   <img src="assets/images/Cap5_Deploy_Sprint 2_page1.PNG" alt="Structurizr" title="View" width="700">
 </p>
 
-Envíos entrantes - comprador:
+**Sección comprador:**
+Envíos entrantes:
 <p align="center">
   <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_1.PNG" alt="Structurizr" title="Buyer" width="700">
 </p>
 
-Historial - comprador:
+Historial:
 <p align="center">
   <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_2.PNG" alt="Structurizr" title="Buyer" width="700">
 </p>
 
-Notificaciones - comprador:
+Notificaciones:
 <p align="center">
   <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_3.PNG" alt="Structurizr" title="Buyer" width="700">
 </p>
 
-Configuración - comprador: 
+Configuración: 
 <p align="center">
   <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_4.PNG" alt="Structurizr" title="Buyer" width="700">
+</p>
+
+---
+**Sección despachador:**
+Panel:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_1.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Envíos:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_2.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Registrar envío:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_3.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Vehículos:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_4.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Registrar vehículo:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_4_1.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Conductores:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_5.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Registrar conductor:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_5_1.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Notificaciones:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_6.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Configuración:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_7.PNG" alt="Structurizr" title="Dispatcher" width="700">
 </p>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
