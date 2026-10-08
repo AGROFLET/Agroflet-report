@@ -1038,40 +1038,40 @@ La implementación se organizó mediante `main`, `develop`, ramas `feature/*` y 
 
 Vista del proyecto en github:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_View_Sprint 2.png" alt="Structurizr" title="View" width="250">
+  <img src="assets/images/Cap5_Dev_View_Sprint 2.PNG" alt="Structurizr" title="View" width="250">
 </p>
 
 Vista de las ramas trabajadas:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_View_Sprint 2_branches.png" alt="Structurizr" title="Branches" width="250">
+  <img src="assets/images/Cap5_Dev_View_Sprint 2_branches.PNG" alt="Structurizr" title="Branches" width="250">
 </p>
 
 Ejemplo html de Sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_Sprint_2_html_example.png" alt="Structurizr" title="Example" width="250">
+  <img src="assets/images/Cap5_Dev_Sprint_2_html_example.PNG" alt="Structurizr" title="Example" width="250">
 </p>
 
 Ejemplo vue de Sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_Sprint_2_vue_example.png" alt="Structurizr" title="Example" width="250">
+  <img src="assets/images/Cap5_Dev_Sprint_2_vue_example.PNG" alt="Structurizr" title="Example" width="250">
 </p>
 
 Ejemplo de .js de Sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_Sprint_2_js_example.png" alt="Structurizr" title="Example" width="250">
+  <img src="assets/images/Cap5_Dev_Sprint_2_js_example.PNG" alt="Structurizr" title="Example" width="250">
 </p>
 
 Ejemplo de .env de Sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_Sprint_2_env_example.png" alt="Structurizr" title="Example" width="250">
+  <img src="assets/images/Cap5_Dev_Sprint_2_env_example.PNG" alt="Structurizr" title="Example" width="250">
 </p>
 
 Pull Request sprint 2:
 <p align="center">
-  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_1.png" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_1.PNG" alt="Structurizr" title="PullRequest" width="250">
 </p>
 <p align="center">
-  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_2.png" alt="Structurizr" title="PullRequest" width="250">
+  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_2.PNG" alt="Structurizr" title="PullRequest" width="250">
 </p>
 
 
