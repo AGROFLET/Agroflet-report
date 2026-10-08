@@ -61,8 +61,6 @@
 <div style="page-break-after: always;"></div>
 
 
-</div>
-
 ## Registro de Versiones del Informe
 
 <div align="center">
@@ -82,9 +80,9 @@
         </tr>
         <tr>
             <td><strong>TB1</strong></td>
-            <td>7/10/2026</td>
+            <td>Por definir</td>
             <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
-            <td>5.2.2. Sprint 2<br>5.2.2.1. Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3. Sprint Backlog 2.<br>5.2.2.4. Development Evidence for Sprint Review.<br>5.2.2.5. Execution Evidence for Sprint Review.<br>5.2.2.6. Services Documentation Evidence for Sprint Review.<br>5.2.2.7. Software Deployment Evidence for Sprint Review.<br>5.2.2.8. Team Collaboration Insights during Sprint</td>
+            <td><br>5.2.2. Sprint 2<br>5.2.1.1. Sprint Planning 1.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3. Sprint Backlog 2.<br>5.2.2.4. Development Evidence for Sprint Review.<br>5.2.2.5. Execution Evidence for Sprint Review.<br>5.2.2.6. Services Documentation Evidence for Sprint Review.<br>5.2.2.7. Software Deployment Evidence for Sprint Review.<br>5.2.2.8. Team Collaboration Insights during Sprint</td></td>
         </tr>
         <tr>
             <td><strong>AV2</strong></td>
@@ -99,6 +97,7 @@
             <td></td>
         </tr>
     </table>
+</div>
 </div>
 </div>
 
@@ -127,49 +126,18 @@ Durante este avance del trabajo, se desarrollaron los siguientes puntos del repo
 - Conclusiones y Anexos
 
 Collaboration Insight (Second repository):
-<br> <img src="assets/images/presentation/commits-1-second.jpeg" alt="Second-Commit" width="300"> <br>
+<br> <img src="assets/images/commits-tb1.PNG" alt="Commit-TB1" width="300"> <br>
 
 ## Commits por integrante
 
-- **Alca Morán, César Alejandro (`almocesar-cell`)**: 14 commits
-- **Centeno León, Adriano Samir (`Adri11-dk`)**: 5 commits
+- **Alca Morán, César Alejandro (`USER GITHUB`)**: 14 commits
+- **Centeno León, Adriano Samir (`USER GITHUB`)**: 5 commits
 - **Rivas Méndez, Bernie Aarón (`USER GITHUB`)**: 8 commits
 - **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: 37 commits
 - **Tello Lima, Jose Alejandro (`USER GITHUB`)**: 26 commits
 - **Total de commits en AV1:** 90
 
 La colaboracion del equipo al realizar el primer avance del proyecto fue activa, donde cada quien realizo una parte del reporte.
-
----
-En la presente entrega se realizó la documentación del sprint 2 y el despliegue del FrontEnd debido a la forma en como se organizó en esta entrega ya no se conto con 2 repositorios distintos, por lo cual la visualización de la participación será del repositorio que ponemos en la parte inferior.
-
-## **TB1:**
-Durante esta entrega se realizaron los siguientes puntos del capítulo 5, a la vez de algunas correcciones tanto en carátula como en puntos de los anteriores capítulos los cuales para mantener la congruencia con el avance del proyecto tuvieron que ser modificados levemente.
-
-    - 5.2. Landing Page, Services & Applications Implementation
-        - [5.2.2. Sprint 2
-            - 5.2.2.1. Sprint Planning 2
-            - 5.2.2.2. Aspect Leaders and Collaborators
-            - 5.2.2.3. Sprint Backlog 2
-            - 5.2.2.4. Development Evidence for Sprint Review
-            - 5.2.2.5. Execution Evidence for Sprint Review
-            - 5.2.2.6. Services Documentation Evidence for Sprint Review
-            - 5.2.2.7. Software Deployment Evidence for Sprint Review
-            - 5.2.2.8. Team Collaboration Insights during Sprint
-  
-Collaboration Insight:
-<br> <img src="assets/images/presentation/cambiar" alt="TB1" width="300"> <br>
-
-## Commits por integrante
-
-- **Alca Morán, César Alejandro (`almocesar-cell`)**:  commits
-- **Centeno León, Adriano Samir (`Adri11-dk`)**:  commits
-- **Rivas Méndez, Bernie Aarón (`USER GITHUB`)**:  commits
-- **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: commits
-- **Tello Lima, Jose Alejandro (`USER GITHUB`)**: commits
-- **Total de commits en AV1:** 90
-
-La colaboración durante está entrega fue bastante activa más que todo a la hora de realizar las observaciones y correcciones de los puntos importantes para mantener la coherencia en el proyecto.
 
 ---
 
@@ -260,8 +228,7 @@ Repositorio de GitHub: [Proyecto]([https://github.com/upc-pre-202620-1asi0729-77
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](report/15-chapter5-product-implementation.md#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](report/15-chapter5-product-implementation.md#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](report/15-chapter5-product-implementation.md#5218-team-collaboration-insights-during-sprint)
-          - [5.2. Landing Page, Services & Applications Implementation](report/15-chapter5-product-implementation.md#52-landing-page-services--applications-implementation)
-       - [5.2.2. Sprint 2](report/15-chapter5-product-implementation.md#521-sprint-2)
+        - [5.2.2. Sprint 2](report/15-chapter5-product-implementation.md#521-sprint-2)
             - [5.2.2.1. Sprint Planning 2](report/15-chapter5-product-implementation.md#5211-sprint-planning-2)
             - [5.2.2.2. Aspect Leaders and Collaborators](report/15-chapter5-product-implementation.md#5212-aspect-leaders-and-collaborators)
             - [5.2.2.3. Sprint Backlog 2](report/15-chapter5-product-implementation.md#5213-sprint-backlog-2)
@@ -285,8 +252,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Alca Morán, César Alejandro**<br>AV1: Asumió liderazgo en el desarrollo de las entrevistas a los usuarios objetivo, el análisis de competidores y el proceso de Needfinding, orientando al equipo en la identificación de necesidades, problemáticas y oportunidades relacionadas con AgroFlet.<br>TB1: Desarrollé el apartado de Software Deployment Evidence for Sprint Review, contribuyendo a documentar las evidencias relacionadas con el despliegue realizado durante el sprint. Además, participó en la actualización de las conclusiones, aportando a la consolidación de los resultados obtenidos.<br>AV2:<br>TB2:<br><br>**Centeno León, Adriano Samir**<br>AV1: Lideró la organización y definición de las Epics, User Stories y criterios de aceptación del producto. Asimismo, participó en la elaboración del Impact Mapping y Product Backlog, ayudando a establecer y priorizar los requerimientos principales de AgroFlet.<br>TB1: Desarrolló el punto de Team Collaboration Insights during Sprint y realizó actualizaciones en el anexo. En el frontend, elaboró el bounded de IAM y el i18n, trabajando cada uno en su rama correspondiente.<br>AV2:<br>TB2:<br><br>**Rivas Méndez, Bernie Aarón**<br>AV1: Proporcionó liderazgo técnico durante la etapa de implementación del proyecto, participando en la gestión del repositorio, aplicación del flujo de trabajo con GitFlow, desarrollo correspondiente al Sprint 1 e integración de los avances realizados por el equipo.<br>TB1: Asumí el liderazgo técnico compartido redactando las secciones de Development Evidence, Execution Evidence y Services Documentation Evidence for Sprint Review. Además, colideré la preparación del despliegue gestionando la rama `feature/shared-ui-and-tracking`, guiando la integración continua de los componentes clave de la interfaz.<br>AV2:<br>TB2:<br><br>**Rivas Castillo, Christoper Steven**<br>AV1: Asumió liderazgo en la definición de la problemática, propuesta de valor y segmentos objetivo de AgroFlet. Además, participó activamente en la elaboración de los artefactos de Lean UX, contribuyendo a establecer una visión común del producto y orientar las decisiones iniciales del equipo.<br>TB1:<br>AV2:<br>TB2:<br><br>**Tello Lima, Jose Alejandro**<br>AV1: Lideró actividades relacionadas con la identidad visual de AgroFlet, la arquitectura de información y el diseño de wireframes y mockups, orientando al equipo en la construcción de una experiencia visual coherente con las necesidades identificadas para los usuarios.<br>TB1:Asumí el liderazgo en la organización y estructuración del Sprint Planning 2, definiendo los objetivos del sprint y redactando las minutas de planificación. Además, me encargué de actualizar el cuadro de Aspect Leaders and Collaborators, guiando al equipo en la correcta distribución de responsabilidades y asegurando que cada miembro tuviera un rol claro para esta etapa.<br>AV2:<br>TB2: | Durante el AV1, el equipo evidenció un modelo de liderazgo distribuido, donde cada integrante asumió responsabilidad sobre una parte específica del proyecto. Las actividades abarcaron investigación de usuarios y competidores, definición del producto mediante Lean UX, gestión de requerimientos, diseño de experiencia e interfaz e implementación técnica. Esta distribución permitió integrar diferentes perspectivas y avanzar de manera coordinada en el desarrollo de AgroFlet.<br><br>En el TB1, cada integrante extendió su rol de liderazgo hacia la corrección del AV1 y el desarrollo concreto de la Landing Page y el frontend, consolidando un avance técnico estructurado y alineado con los objetivos del producto.<br><br>*(Por definir para AV2)*<br><br>*(Por definir para TB2)* |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Alca Morán, César Alejandro**<br>AV1: Colaboró con el equipo en la planificación y ejecución de entrevistas, recopilando y organizando información de los usuarios para compartir posteriormente los principales hallazgos. Sus resultados aportaron información necesaria para orientar las decisiones tomadas durante el desarrollo del producto.<br>TB1: Participé mediante la rama feature/shipment-operations, contribuyendo a la implementación de las funcionalidades relacionadas con las operaciones de envío y al avance del desarrollo de la interfaz.<br>AV2:<br>TB2:<br><br>**Centeno León, Adriano Samir**<br>AV1: Participó activamente en la planificación y priorización de Epics y User Stories, colaborando con los demás integrantes para establecer objetivos alcanzables y mantener organizado el Product Backlog según las necesidades identificadas en AgroFlet.<br>TB1: Colaboró en la corrección de los requisitos del AV1 y participó en la planificación del Sprint del TB1, estableciendo metas claras para el desarrollo del frontend y cumpliendo con los entregables definidos en el backlog.<br>AV2:<br>TB2:<br><br>**Rivas Méndez, Bernie Aarón**<br>AV1: Colaboró en la organización de las actividades técnicas del Sprint 1 y en la integración de los cambios realizados mediante GitFlow, coordinándose con sus compañeros para mantener un repositorio organizado y reducir conflictos durante la implementación.<br>TB1: Promoví un entorno colaborativo trabajando en equipo sobre la rama `feature/shared-ui-and-tracking` para el desarrollo de la interfaz compartida y el rastreo. Asimismo, cumplí a tiempo los objetivos del sprint estructurando las evidencias de ejecución y la documentación OpenAPI, garantizando la trazabilidad en el informe.<br>AV2:<br>TB2:<br><br>**Rivas Castillo, Christoper Steven**<br>AV1: Participó en sesiones colaborativas para establecer la problemática, propuesta de valor, segmentos objetivo y artefactos de Lean UX. Contribuyó a alinear al equipo respecto a los objetivos del producto y a mantener una visión compartida sobre las necesidades que AgroFlet debía resolver.<br>TB1:<br>AV2:<br>TB2:<br><br>**Tello Lima, Jose Alejandro**<br>AV1: Trabajó coordinadamente con los integrantes en la definición de la identidad visual, arquitectura de información, wireframes y mockups. Incorporó los requerimientos y hallazgos obtenidos por el equipo para mantener consistencia entre la investigación realizada y la propuesta visual desarrollada.<br>TB1:Promoví la planificación estructurada y el cumplimiento de metas mediante la elaboración y gestión del Sprint Backlog 2. Coordiné de manera inclusiva con el equipo para detallar las User Stories a trabajar, consensuar las estimaciones de puntos ágiles y asignar a los responsables. Esto permitió establecer metas claras, planificar adecuadamente las tareas y asegurar el cumplimiento de los objetivos del sprint.<br>AV2:<br>TB2: | Durante el AV1, el equipo mantuvo una dinámica colaborativa en la que los resultados de cada área fueron utilizados como insumo para las siguientes actividades del proyecto. Los hallazgos obtenidos mediante entrevistas y análisis sirvieron para definir la propuesta de valor y los requerimientos, mientras que estos orientaron posteriormente el diseño y la implementación. Esta coordinación permitió mantener objetivos compartidos y cumplir progresivamente con los entregables establecidos para AgroFlet.<br><br>Durante el TB1, el equipo mantuvo una dinámica colaborativa en la que se integraron las correcciones realizadas en el AV1 con el desarrollo de la Landing Page y el frontend. Esta coordinación permitió mantener una distribución equitativa de las tareas, una comunicación constante entre los integrantes y un avance organizado del proyecto, cumpliendo progresivamente con los entregables establecidos dentro de los plazos definidos.<br><br>*(Por definir para AV2)*<br><br>*(Por definir para TB2)* |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Alca Morán, César Alejandro**<br>AV1: Asumió liderazgo en el desarrollo de las entrevistas a los usuarios objetivo, el análisis de competidores y el proceso de Needfinding, orientando al equipo en la identificación de necesidades, problemáticas y oportunidades relacionadas con AgroFlet.<br>TB1:<br>AV2:<br>TB2:<br><br>**Centeno León, Adriano Samir**<br>AV1: Lideró la organización y definición de las Epics, User Stories y criterios de aceptación del producto. Asimismo, participó en la elaboración del Impact Mapping y Product Backlog, ayudando a establecer y priorizar los requerimientos principales de AgroFlet.<br>TB1:<br>AV2:<br>TB2:<br><br>**Rivas Méndez, Bernie Aarón**<br>AV1: Proporcionó liderazgo técnico durante la etapa de implementación del proyecto, participando en la gestión del repositorio, aplicación del flujo de trabajo con GitFlow, desarrollo correspondiente al Sprint 1 e integración de los avances realizados por el equipo.<br>TB1:<br>AV2:<br>TB2:<br><br>**Rivas Castillo, Christoper Steven**<br>AV1: Asumió liderazgo en la definición de la problemática, propuesta de valor y segmentos objetivo de AgroFlet. Además, participó activamente en la elaboración de los artefactos de Lean UX, contribuyendo a establecer una visión común del producto y orientar las decisiones iniciales del equipo.<br>TB1:<br>AV2:<br>TB2:<br><br>**Tello Lima, Jose Alejandro**<br>AV1: Lideró actividades relacionadas con la identidad visual de AgroFlet, la arquitectura de información y el diseño de wireframes y mockups, orientando al equipo en la construcción de una experiencia visual coherente con las necesidades identificadas para los usuarios.<br>TB1:<br>AV2:<br>TB2: | Durante el AV1, el equipo evidenció un modelo de liderazgo distribuido, donde cada integrante asumió responsabilidad sobre una parte específica del proyecto. Las actividades abarcaron investigación de usuarios y competidores, definición del producto mediante Lean UX, gestión de requerimientos, diseño de experiencia e interfaz e implementación técnica. Esta distribución permitió integrar diferentes perspectivas y avanzar de manera coordinada en el desarrollo de AgroFlet.<br><br>*(Por definir para TB1)*<br><br>*(Por definir para AV2)*<br><br>*(Por definir para TB2)* |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Alca Morán, César Alejandro**<br>AV1: Colaboró con el equipo en la planificación y ejecución de entrevistas, recopilando y organizando información de los usuarios para compartir posteriormente los principales hallazgos. Sus resultados aportaron información necesaria para orientar las decisiones tomadas durante el desarrollo del producto.<br>TB1:<br>AV2:<br>TB2:<br><br>**Centeno León, Adriano Samir**<br>AV1: Participó activamente en la planificación y priorización de Epics y User Stories, colaborando con los demás integrantes para establecer objetivos alcanzables y mantener organizado el Product Backlog según las necesidades identificadas en AgroFlet.<br>TB1:<br>AV2:<br>TB2:<br><br>**Rivas Méndez, Bernie Aarón**<br>AV1: Colaboró en la organización de las actividades técnicas del Sprint 1 y en la integración de los cambios realizados mediante GitFlow, coordinándose con sus compañeros para mantener un repositorio organizado y reducir conflictos durante la implementación.<br>TB1:<br>AV2:<br>TB2:<br><br>**Rivas Castillo, Christoper Steven**<br>AV1: Participó en sesiones colaborativas para establecer la problemática, propuesta de valor, segmentos objetivo y artefactos de Lean UX. Contribuyó a alinear al equipo respecto a los objetivos del producto y a mantener una visión compartida sobre las necesidades que AgroFlet debía resolver.<br>TB1:<br>AV2:<br>TB2:<br><br>**Tello Lima, Jose Alejandro**<br>AV1: Trabajó coordinadamente con los integrantes en la definición de la identidad visual, arquitectura de información, wireframes y mockups. Incorporó los requerimientos y hallazgos obtenidos por el equipo para mantener consistencia entre la investigación realizada y la propuesta visual desarrollada.<br>TB1:<br>AV2:<br>TB2: | Durante el AV1, el equipo mantuvo una dinámica colaborativa en la que los resultados de cada área fueron utilizados como insumo para las siguientes actividades del proyecto. Los hallazgos obtenidos mediante entrevistas y análisis sirvieron para definir la propuesta de valor y los requerimientos, mientras que estos orientaron posteriormente el diseño y la implementación. Esta coordinación permitió mantener objetivos compartidos y cumplir progresivamente con los entregables establecidos para AgroFlet.<br><br>*(Por definir para TB1)*<br><br>*(Por definir para AV2)*<br><br>*(Por definir para TB2)* |
 
 </div>
 
