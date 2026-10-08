@@ -1021,132 +1021,51 @@ URL del Board en YouTrack/Trello: [https://trello.com/b/agroflet-sprint2] *(incl
 
 ---
 
+#### 5.2.2.4. Development Evidence for Sprint Review
 
-#### 5.2.2.4. Development Evidence for Sprint Review.
+La implementación se organizó mediante `main`, `develop`, ramas `feature/*` y `release/v1.0.0`. En `src/` se separaron los bounded contexts `iam`, `fleet`, `shipments`, `tracking` e `incidents`, con capas de dominio, aplicación, infraestructura y presentación.
 
-Esta sección presenta la evidencia técnica de los avances de implementación correspondientes al Sprint 2. Durante este Sprint se desarrolló la primera versión de la Frontend Web Application de AgroFlet con Vue + Vite + PrimeVue, integrada con un servidor de fake API basado en json y desplegado en una máquina virtyal. También se cerró la tarea pendiente del Sprint 1 actualizando la Landing Page con el formulario de contacto funcional.
+| Evidencia de desarrollo | Rama / referencia |
+| :--- | :--- |
+| Base Vue, Vite y cliente HTTP | `feature/project-setup` |
+| Fake API y gestión de flota | `feature/fake-api-and-fleet` |
+| Componentes, vista móvil y mapa | `feature/shared-ui-and-tracking` |
+| Registro, detalle e historial de envíos | `feature/shipment-operations` |
+| Perfil, traducciones y documentación | `feature/i18n-profile-and-docs` |
+| IAM, incidencias y despliegue | `feature/iam-incidents-and-deployment` |
 
-Las principales funcionalidades implementadas incluyen:
+**Repositorio:** [AGROFLET/Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application). **Evidencia visual pendiente de insertar:** capturas de los Pull Requests y de los archivos principales por rama.
 
-- Scaffolding completo del proyecto Vue con Vite, PrimeVue, Vue Router y Axios.
-- Configuración del fake API (My JSON Server) con las colecciones `users`, `vehicles`, `drivers`, `operations`, `incidents`, `positions` y `notifications`.
-- Vue Router con rutas protegidas y guard de autenticación basado en `localStorage`.
-- Vistas de autenticación: `LoginView.vue`, `RegisterView.vue` y `ForgotPasswordView.vue`.
-- Vistas de Fleet Management: `VehiclesListView.vue`, `VehicleFormView.vue`, `VehicleEditView.vue`, `DriversListView.vue`, `DriverFormView.vue`.
-- Vistas de Shipment Tracking: `DashboardView.vue` (lista de operaciones activas), `NewOperationView.vue` (wizard de 3 pasos), `OperationDetailView.vue` (con acciones de inicio, cierre y cancelación), `HistoryView.vue` y barra de búsqueda.
-- Vistas geográficas: `MapView.vue` con marcadores Leaflet de posiciones reportadas y línea Polyline de ruta planificada, `ReportPositionView.vue`.
-- Vista de notificaciones: `NotificationsView.vue` con generación automática ante incidencias y cambios de estado.
-- Formulario de contacto completado en la Landing Page (v1.1.0).
-- Despliegue de la Frontend Web Application en Vercel/Netlify y actualización del Landing Page en GitHub Pages.
+#### 5.2.2.5. Execution Evidence for Sprint Review
 
-**Registro de commits del Sprint 2:**
+La versión de demostración permite recorrer las funcionalidades según el rol. Las siguientes vistas sirven como evidencia de ejecución y deben acompañarse con capturas propias de la versión desplegada.
 
-#### 5.2.2.5. Execution Evidence for Sprint Review.
+| Vista / acción | Ruta o evidencia | User Stories |
+| :--- | :--- | :--- |
+| Registro, acceso y recuperación | `/iam/sign-up`, `/iam/sign-in`, `/iam/password-recovery` | US01–US04, US34 |
+| Panel principal y gestión de envíos | `/dashboard`, `/shipments/new`, `/shipments/:id` | US08–US12, US31 |
+| Vehículos y conductores | `/fleet/vehicles`, `/fleet/drivers` | US05–US07 |
+| Historial y búsqueda | `/shipments` | US15–US16 |
+| Mapa, ruta e incidencias | Detalle de envío, mapa y diálogos | US13–US14, US17–US18, US32 |
+| Alertas de operaciones | `/notifications` | US19–US20 |
+| Cuenta, idioma y condiciones | `/iam/profile`, `/terms` | US21–US23, US33 |
 
-Durante el Sprint 2 se logró implementar y desplegar la primera primera funcional de la Frontend Web Application de AgroFlet, accesible desde la URL pública de producción configurada en Vercel. A continuación se resumen las principales vistas validadas y las capturas de las mismas.
+**[INSERTAR: capturas de escritorio y móvil, escenarios de validación y enlace al video de demostración].** El enlace de recuperación de contraseña se demuestra localmente; el proyecto no incorpora envío real de correos.
 
-Resumen de logros del Sprint:
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-La aplicación web de AgroFlet permite a un despachador registrarse, iniciar sesión y acceder al dashboard de operaciones; registrar vehículos y conductores de su flota; crear una operación programada asignando carga, ruta, comprador y recursos; iniciar el traslado, registrar incidencias con recálculo de ETA, reportar posiciones y cerrar o cancelar la operación. Por su parte, el comprador puede iniciar sesión y consultar sus envíos activos, el detalle de cada operación, las incidencias registradas, la ruta planificada en mapa y las notificaciones de cambios de estado.
+El frontend consume una **Fake API** construida con `json-server`, que simula el futuro RESTful API y está documentada en `docs/fake-api.openapi.yaml`. Las validaciones demostrativas no sustituyen la seguridad de un backend productivo.
 
-**Vistas implementadas y validadas:**
+| Servicio | Ruta base | Uso |
+| :--- | :--- | :--- |
+| IAM | `/api/v1/users`, `/api/v1/password-reset-requests` | Registro, sesión y recuperación |
+| Fleet | `/api/v1/vehicles`, `/api/v1/drivers` | Recursos de transporte |
+| Shipments | `/api/v1/shipments`, `/api/v1/status-changes`, `/api/v1/locations` | Operaciones y estados |
+| Tracking | `/api/v1/positions` | Posiciones reportadas |
+| Incidents | `/api/v1/incidents`, `/api/v1/notifications` | Incidencias y alertas |
 
-1. **Vista de Login (`/login`)** — Formulario de autenticación con validación en tiempo real. Error genérico ante credenciales inválidas. Diseñado con PrimeVue `InputText` y `Button` con los colores de marca de AgroFlet.
+**Fake API publicada:** [https://agroflet-frontend-application.vercel.app/api/v1](https://agroflet-frontend-application.vercel.app/api/v1). **Documentación:** [OpenAPI de la Fake API](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/docs/fake-api.openapi.yaml).
 
-2. **Vista de Registro (`/register`)** — Formulario de creación de cuenta con selector de rol (Despachador / Comprador). Validación de contraseña y confirmación. Toast de éxito con redirección a `/login`.
-
-3. **Vista de Recuperación de contraseña (`/forgot-password`)** — Formulario de correo con respuesta genérica de confirmación.
-
-4. **Dashboard (`/dashboard`)** — Listado de operaciones activas con columnas Estado, Carga, Destino y Llegada estimada. Botón "Nueva operación" visible solo para despachadores. Mensaje de lista vacía cuando no existen operaciones.
-
-5. **Nueva Operación — Wizard (`/operations/new`)** — Paso 1: datos de envío. Paso 2: selección de vehículo y conductor disponibles. Paso 3: revisión y confirmación. Manejo de error ante recurso reservado entre pasos.
-
-6. **Detalle de Operación (`/operations/:id`)** — Estado actual, recursos asignados, incidencias y acciones contextuales: "Iniciar traslado", "Registrar entrega", "Cancelar operación" y "Registrar incidencia". Acciones bloqueadas por estado.
-
-7. **Vehículos (`/vehicles`)** — Lista con `DataTable` de PrimeVue. Botones de edición con restricción de estado.
-
-8. **Conductores (`/drivers`)** — Lista de conductores del despachador. Botón de registro y edición.
-
-9. **Historial (`/history`)** — Operaciones pasadas con filtros por fecha, estado, carga y destino, y barra de búsqueda por código/placa.
-
-10. **Mapa (`/map/:id`)** — Marcadores Leaflet de posiciones reportadas con fecha/fuente. Línea Polyline de ruta planificada entre origen y destino.
-
-11. **Notificaciones (`/notifications`)** — Listado de alertas generadas por incidencias y cambios de estado.
-
-12. **Landing Page** — Formulario de contacto completado con validación y confirmación de envío.
-
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-
-Durante el Sprint 2 se configuró el servidor de API basado en JSON a través del puerto (insertar puerto) usando el servicio en la nube que nos brinda la plataforma (insertar plataforma). 
-
-A continuación se detalla la estructura de la API y los endpoints consumidos por la aplicación:
-
-**URL base del Fake API:** `https://my-json-server.typicode.com/AGROFLET/agroflet-fake-api`
-
-**Colecciones disponibles y endpoints principales:**
-
-| Recurso | Endpoint | Verbos soportados | Descripción | Consumido por |
-|---|---|---|---|---|
-| Usuarios | `/users` | GET, POST | Lista y registro de usuarios. Filtros: `?email=&password=` (login simulado), `?email=` (verificación de duplicados). | LoginView, RegisterView, ForgotPasswordView |
-| Vehículos | `/vehicles` | GET, POST, PATCH, PUT | Lista, creación y edición. Filtros: `?userId=`, `?status=available`, `?plate=`. | VehiclesListView, VehicleFormView, VehicleEditView, NewOperationView |
-| Conductores | `/drivers` | GET, POST, PATCH, PUT | Lista, creación y edición. Filtros: `?userId=`, `?status=available`, `?dni=`. | DriversListView, DriverFormView, NewOperationView |
-| Operaciones | `/operations` | GET, POST, PATCH | Lista, creación y actualización de estado. Filtros: `?userId=`, `?buyerId=`, `?status=`, `?operationCode=`. | DashboardView, NewOperationView, OperationDetailView, HistoryView |
-| Incidencias | `/incidents` | GET, POST | Registro y consulta de incidencias. Filtros: `?operationId=`. | IncidentFormView, OperationDetailView |
-| Posiciones | `/positions` | GET, POST | Registro y consulta de posiciones reportadas. Filtros: `?operationId=`. | MapView, ReportPositionView |
-| Notificaciones | `/notifications` | GET, POST | Consulta y generación de alertas. Filtros: `?userId=`. | NotificationsView |
-
-**Ejemplo de request y response — Registro de operación (POST `/operations`):**
-
-Request body:
-```json
-{
-  "userId": "u001",
-  "buyerId": "u003",
-  "cargo": "Papa blanca",
-  "cargoWeight": 5000,
-  "origin": "Huancayo",
-  "destination": "Lima (Mercado Mayorista de Lima)",
-  "originLat": -12.0667,
-  "originLng": -75.2167,
-  "destLat": -12.0464,
-  "destLng": -76.9628,
-  "estimatedArrival": "2026-10-05T08:00:00",
-  "vehicleId": "v002",
-  "driverId": "d001",
-  "status": "planned",
-  "createdAt": "2026-10-02T20:30:00"
-}
-```
-Response (201 Created):
-```json
-{
-  "id": "op009",
-  "operationCode": "AF-2026-009",
-  "userId": "u001",
-  "buyerId": "u003",
-  "cargo": "Papa blanca",
-  "cargoWeight": 5000,
-  "origin": "Huancayo",
-  "destination": "Lima (Mercado Mayorista de Lima)",
-  "estimatedArrival": "2026-10-05T08:00:00",
-  "vehicleId": "v002",
-  "driverId": "d001",
-  "status": "planned",
-  "createdAt": "2026-10-02T20:30:00"
-}
-```
-
-> Nota: My JSON Server no ejecuta lógica de negocio (validaciones, recálculo de ETA, control de idempotencia); dichas reglas se implementan en el lado del cliente (Vue.js) como simulación provisional hasta el Sprint 3, en el que se reemplazará el fake API por el RESTful API en ASP.NET Core con validaciones en el servidor.
-
-**Repositorio del Fake API:**
-- URL: `https://github.com/AGROFLET/agroflet-fake-api`
-- Commits relacionados con la documentación del Sprint 2:
-
-| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
-|---|---|---|---|---|
-| agroflet-fake-api | main | c1d85a3 | feat: initialize db.json with all domain collections | 25/09/2026 |
-| agroflet-fake-api | main | 9f3e2b1 | docs: add API endpoints reference to README | 26/09/2026 |
-| agroflet-fake-api | main | 2a7c081 | feat: add seed data for demo operations and incidents | 27/09/2026 |
 
 ---
 
