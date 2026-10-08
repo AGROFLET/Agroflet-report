@@ -1171,5 +1171,67 @@ Durante el Sprint 2 se realizó el despliegue exitoso del Frontend Web Applicati
 
 **URL de la Landing Page desplegada:** [https://agroflet.github.io/Agroflet-frontend-application/](https://agroflet.github.io/Agroflet-frontend-application/)
 
-
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2 el equipo distribuyó el desarrollo de la aplicación web frontend (Single-Page Application) en aspectos técnicos y funcionales claramente delimitados: configuración de la arquitectura modular en Vue, diseño de componentes de UI con PrimeVue, gestión de estado reactivo con Pinia, integración con el Fake API Server, renderizado de mapas interactivos con Leaflet, internacionalización y despliegue continuo en la nube.
+
+**Actividades de implementación desarrolladas:**
+
+* **Estructuración arquitectónica y de dominio:** se establecieron los Bounded Contexts del proyecto (`iam`, `fleet`, `shipments`, `tracking` e `incidents`) dentro de la estructura de carpetas de Vue, aplicando el patrón Assembler/Entity para desacoplar el modelo de dominio de los contratos de transferencia de datos de la API.
+* **Desarrollo modular y UI:** la interfaz se construyó mediante componentes reutilizables y vistas adaptadas a cada rol (Despachador para gestión operativa y Comprador Mayorista para consulta y monitoreo), implementando librerías como PrimeVue y vistas clave para la gestión de flota, registro de viajes y dashboards.
+* **Simulación e integración asíncrona (Fake API):** se implementó un servidor simulado mediante `json-server` (`server/db.json` y `routes.json`) para exponer los endpoints RESTful (`/api/v1/*`), permitiendo el consumo HTTP asíncrono vía Axios con interceptores de autenticación JWT y manejo centralizado de errores antes de conectar el backend definitivo.
+* **Trazabilidad geográfica e incidencias:** se integró la biblioteca Leaflet para renderizar capas cartográficas y rutas terrestres, complementada con el recálculo dinámico de la Hora Estimada de Llegada (ETA) al registrar incidencias o desvíos viales.
+* **Gestión de versiones y despliegue continuo:** se mantuvo la metodología GitFlow trabajando sobre ramas de características (`feature/*`) con revisiones mediante Pull Requests hacia `develop`, desplegando la Single-Page Application Vercel.
+
+La separación del código por Bounded Contexts y la utilización de Assemblers permitió que nosotros desarrollaramos funcionalidades en paralelo sin generar conflictos sobre los stores o las rutas del sistema. Como principal aprendizaje del sprint, el equipo reconoció el valor del uso de un Fake API robusto, lo cual evitó cuellos de botella en la integración frontend-backend.
+
+**Analíticas de colaboración en GitHub:**
+
+**1. Evidencia de ramas del repositorio**
+
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Branches2.png" alt="Ramas del repositorio de la Landing Page" title="Git Branches" width="700">
+</p>
+
+**2. Historial de commits por integrante**
+
+*Alca Morán, César Alejandro (`CesarAlcaM`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Cesar2.png" alt="Commits de César Alca" title="Commits - César" width="700">
+</p>
+
+*Centeno León, Adriano Samir (`AdrianoCenteno`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Adriano2.png" alt="Commits de Adriano Centeno" title="Commits - Adriano" width="700">
+</p>
+
+*Rivas Méndez, Bernie Aarón (`BernieRivasM`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Bernie2.png" alt="Commits de Bernie Rivas" title="Commits - Bernie" width="700">
+</p>
+
+*Rivas Castillo, Christoper Steven (`ChristoperRivasC`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Christoper2.png" alt="Commits de Christoper Rivas" title="Commits - Christoper" width="700">
+</p>
+
+*Tello Lima, Jose Alejandro (`JoseTelloL`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Jose2.png" alt="Commits de Jose Tello" title="Commits - Jose" width="700">
+</p>
+
+**3. Colaboradores activos en el repositorio**
+
+*Gráfica de la actividad conjunta del equipo y de la distribución de aportes (adiciones y eliminaciones de código) durante el Sprint 2.*
+
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Contributors2.png" alt="Contributors del repositorio" title="Insights > Contributors" width="700">
+</p>
+
+**4. Histograma de contribuciones en el tiempo**
+
+*Frecuencia de commits realizados durante el Sprint 2, evidenciando un esfuerzo sostenido y coordinado hacia la integración final.*
+
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Histograma2.png" alt="Histograma de contribuciones" title="Insights > Commits" width="700">
+</p>
