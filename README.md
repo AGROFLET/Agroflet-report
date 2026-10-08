@@ -126,20 +126,50 @@ Durante este avance del trabajo, se desarrollaron los siguientes puntos del repo
 - Conclusiones y Anexos
 
 Collaboration Insight (Second repository):
-<br> <img src="assets/images//presentation/commits-tb1.PNG" alt="Commit-TB1" width="300"> <br>
+<br> <img src="assets/images//presentation/commits-1-second.jpeg" alt="Commit-TB1" width="300"> <br>
 
 ## Commits por integrante
 
-- **Alca Morán, César Alejandro (`USER GITHUB`)**: 22 commits
-- **Centeno León, Adriano Samir (`USER GITHUB`)**: 12 commits
-- **Rivas Méndez, Bernie Aarón (`USER GITHUB`)**: 38 commits
-- **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: 55 commits
-- **Tello Lima, Jose Alejandro (`USER GITHUB`)**: 38 commits
-- **Total de commits en AV1:** 165
+- **Alca Morán, César Alejandro (`almocesar-cell`)**: 14 commits
+- **Centeno León, Adriano Samir (`Adri11-dk`)**: 5 commits
+- **Rivas Méndez, Bernie Aarón (`ARivas3008`)**: 8 commits
+- **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: 37 commits
+- **Tello Lima, Jose Alejandro (`j4ndrow`)**: 26 commits
+- **Total de commits en AV1:** 90
 
 La colaboracion del equipo al realizar el primer avance del proyecto fue activa, donde cada quien realizo una parte del reporte.
 
 ---
+
+En la presente entrega se realizó la documentación del sprint 2 y el despliegue del FrontEnd debido a la forma en como se organizó en esta entrega ya no se conto con 2 repositorios distintos, por lo cual la visualización de la participación será del repositorio que ponemos en la parte inferior.
+
+## **TB1:**
+Durante esta entrega se realizaron los siguientes puntos del capítulo 5, a la vez de algunas correcciones tanto en carátula como en puntos de los anteriores capítulos los cuales para mantener la congruencia con el avance del proyecto tuvieron que ser modificados levemente.
+
+    - 5.2. Landing Page, Services & Applications Implementation
+        - [5.2.2. Sprint 2
+            - 5.2.2.1. Sprint Planning 2
+            - 5.2.2.2. Aspect Leaders and Collaborators
+            - 5.2.2.3. Sprint Backlog 2
+            - 5.2.2.4. Development Evidence for Sprint Review
+            - 5.2.2.5. Execution Evidence for Sprint Review
+            - 5.2.2.6. Services Documentation Evidence for Sprint Review
+            - 5.2.2.7. Software Deployment Evidence for Sprint Review
+            - 5.2.2.8. Team Collaboration Insights during Sprint
+  
+Collaboration Insight:
+<br> <img src="assets/images//presentation/commits-tb1.PNG" alt="Commit-TB1" width="300"> <br>
+
+## Commits por integrante
+
+- **Alca Morán, César Alejandro (`almocesar-cell`)**: 22 commits
+- **Centeno León, Adriano Samir (`Adri11-dk`)**: 12 commits
+- **Rivas Méndez, Bernie Aarón (`ARivas3008`)**: 38 commits
+- **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: 55 commits
+- **Tello Lima, Jose Alejandro (`j4ndrow`)**: 38 commits
+- **Total de commits en AV1:** 165
+
+La colaboración durante está entrega fue bastante activa más que todo a la hora de realizar las observaciones y correcciones de los puntos importantes para mantener la coherencia en el proyecto.
 
 Repositorio de GitHub: [Proyecto]([https://github.com/upc-pre-202620-1asi0729-7747-refrio/refrio-report.git](https://github.com/AGROFLET/Agroflet-report.git))
 
