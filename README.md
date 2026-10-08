@@ -131,7 +131,7 @@ Collaboration Insight (Second repository):
 
 ## Commits por integrante
 
-- **Alca Morán, César Alejandro (`USER GITHUB`)**: 14 commits
+- **Alca Morán, César Alejandro (`almocesar-cell`)**: 14 commits
 - **Centeno León, Adriano Samir (`USER GITHUB`)**: 5 commits
 - **Rivas Méndez, Bernie Aarón (`USER GITHUB`)**: 8 commits
 - **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: 37 commits
