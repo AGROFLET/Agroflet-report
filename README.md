@@ -73,9 +73,9 @@ Proyecto
         </tr>
         <tr>
             <td><strong>TB1</strong></td>
-            <td>Por definir</td>
+            <td>7/10/2026</td>
             <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
-            <td></td>
+            <td>5.2.2. Sprint 2<br>5.2.2.1. Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3. Sprint Backlog 2.<br>5.2.2.4. Development Evidence for Sprint Review.<br>5.2.2.5. Execution Evidence for Sprint Review.<br>5.2.2.6. Services Documentation Evidence for Sprint Review.<br>5.2.2.7. Software Deployment Evidence for Sprint Review.<br>5.2.2.8. Team Collaboration Insights during Sprint</td>
         </tr>
         <tr>
             <td><strong>AV2</strong></td>
