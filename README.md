@@ -130,12 +130,12 @@ Collaboration Insight (Second repository):
 
 ## Commits por integrante
 
-- **Alca Morán, César Alejandro (`USER GITHUB`)**: 14 commits
-- **Centeno León, Adriano Samir (`USER GITHUB`)**: 5 commits
-- **Rivas Méndez, Bernie Aarón (`USER GITHUB`)**: 8 commits
-- **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: 37 commits
-- **Tello Lima, Jose Alejandro (`USER GITHUB`)**: 26 commits
-- **Total de commits en AV1:** 90
+- **Alca Morán, César Alejandro (`USER GITHUB`)**: 22 commits
+- **Centeno León, Adriano Samir (`USER GITHUB`)**: 12 commits
+- **Rivas Méndez, Bernie Aarón (`USER GITHUB`)**: 38 commits
+- **Rivas Castillo, Christoper Steven (`CODERT0PH`)**: 55 commits
+- **Tello Lima, Jose Alejandro (`USER GITHUB`)**: 38 commits
+- **Total de commits en AV1:** 165
 
 La colaboracion del equipo al realizar el primer avance del proyecto fue activa, donde cada quien realizo una parte del reporte.
 
