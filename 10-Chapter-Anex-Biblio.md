@@ -1,6 +1,22 @@
 # Anexos
 
-Repositorio de landing page:  https://agroflet.github.io/Agroflet-landing-page/
+### Anexo A. URLs de Despliegue del Producto
+
+| Producto | URL |
+|---|---|
+| Frontend Web Application desplegado | https://agroflet.github.io/Agroflet-frontend-application/ |
+| Landing Page | https://agroflet.github.io/Agroflet-landing-page/ |
+
+<!-- pagebreak -->
+
+### Anexo B. Credenciales de Prueba
+
+| Segmento | Email | Contraseña |
+|---|---|---|
+| Medianos productores | dispatcher@agroflet.pe | Agroflet2026 |
+| Compradores mayoristas | buyer@agroflet.pe | Agroflet2026 |
+
+<!-- pagebreak -->
 
 # Bibliografía
 
