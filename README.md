@@ -122,58 +122,104 @@ Autores contribuyentes:
 La actividad del Project Report se organizó en ramas temáticas por capítulos, desde feature/chapter1 hasta feature/chapter5, además de las ramas feature/chapter6 y feature/chapterAnex. La rama develop reúne los avances del informe. Los commits permiten mantener trazabilidad sobre las modificaciones realizadas en investigación, requisitos, diseño, arquitectura y documentación de implementación.
 Durante TB1, el equipo documentó el Sprint 2, las evidencias de desarrollo y ejecución de la Web Application, los servicios simulados mediante Fake API, los despliegues y la actualización de la Landing Page V2. La distribución de responsabilidades se sustenta en el Participant Performance Report del equipo.
 
-## AV1 — Antecedentes de la entrega
+### AV1 — Informe inicial y Sprint 1
 
-En AV1 se elaboraron la introducción, investigación y análisis de requerimientos, especificación, diseño del producto y documentación del Sprint 1, incluyendo la primera versión de la Landing Page. Se conserva este avance como antecedente de TB1.
+Durante esta fase, el equipo elaboró la primera versión del informe de AgroFlet, incluyendo los siguientes aspectos:
 
-<p align="center">
-  <img src="assets/images/presentation/commits-1-first.jpeg" alt="Historial de colaboración conservado de AV1, primer repositorio" width="500">
-</p>
+- Carátula con información institucional, de la startup y de los integrantes.
+- Registro de Versiones del Informe.
+- Tabla de contenidos y desarrollo del Student Outcome.
+- **Capítulo I:** introducción, presentación de la startup y descripción del producto.
+- **Capítulo II:** avances de Requirements Elicitation & Analysis.
+- **Capítulo III:** especificación de requisitos y artefactos asociados.
+- **Capítulo IV:** avances de Product Design y diseño de la Landing Page.
+- **Capítulo V:** configuración inicial y evidencias de implementación correspondientes al Sprint 1.
+- Primera versión de la Landing Page de AgroFlet.
+- Conclusiones preliminares, bibliografía y anexos.
 
-<p align="center">
-  <img src="assets/images/presentation/commits-1-second.jpeg" alt="Historial de colaboración conservado de AV1, segundo repositorio" width="500">
-</p>
+### Project Report Collaboration Insights AV1
 
-**Registro de commits consignado en AV1:** César 14, Adriano 5, Bernie 8, Christoper 37 y Jose 26; total 90. Estas cifras corresponden al registro histórico de esa entrega, no a un recuento actual de GitHub.
+El siguiente cuadro reproduce los **conteos históricos consignados para AV1 en el README del informe**.
 
-## TB1 — Avances del Sprint 2
+| **Integrante** | **Usuario GitHub** | **Commits registrados para AV1** |
+| --- | --- | ---: |
+| Alca Morán, César Alejandro | almocesar-cell | 14 |
+| Centeno León, Adriano Samir | Adri11-dk | 5 |
+| Rivas Méndez, Bernie Aarón | ARivas3008 | 8 |
+| Rivas Castillo, Christoper Steven | CODERT0PH | 37 |
+| Tello Lima, Jose Alejandro | j4ndrow | 26 |
+| **Total del registro de AV1** | | **90** |
 
-Durante TB1 se implementó y documentó la primera versión de la Web Application con Vue + Vite, organizada por contextos IAM, Fleet, Shipments, Tracking e Incidents, además de elementos compartidos. La aplicación consume una Fake API documentada mediante OpenAPI; esta entrega no presenta esa simulación como el backend definitivo.
+La colaboración durante AV1 se centró en la elaboración de los capítulos iniciales, los artefactos de análisis y diseño y las evidencias del Sprint 1. El trabajo se organizó mediante ramas por capítulo para facilitar la actualización de los contenidos asignados a cada integrante.
 
-La Landing Page V2 incorpora el formulario UH28 después de Videos. Sus datos se guardan localmente en el navegador. El frontend se publica en Vercel y GitHub Pages, mientras que la landing se publica en su propio sitio de GitHub Pages.
+**Evidencias históricas conservadas en el informe:**
 
-El Capítulo V documenta las ocho subsecciones del Sprint 2, desde **5.2.2.1. Sprint Planning 2** hasta **5.2.2.8. Team Collaboration Insights during Sprint**. Las correcciones de **5.2.2.6** y **5.2.2.7** se trabajan en `feature/chapter5`; este README se actualiza en `develop`.
+![Primera captura del registro de colaboración de AV1](assets/images/presentation/commits-1-first.jpeg)
 
-### Participación del equipo en TB1
+*Figura. Primera captura de colaboración conservada para AV1.*
 
-La siguiente distribución se basa en el **Participant Performance Report** proporcionado por el equipo. Los estados y calificaciones reproducen ese registro.
+![Segunda captura del registro de colaboración de AV1](assets/images/presentation/commits-1-second.jpeg)
 
-| Integrante | Usuario GitHub | Responsabilidades en TB1 | Cumplimiento registrado | Calificación registrada |
-| :--- | :--- | :--- | :--- | :---: |
-| Alca Morán, César Alejandro | `almocesar-cell` | Documentación de 5.2.2.7 (Software Deployment Evidence), actualización de conclusiones y participación en el frontend mediante `feature/shipment-operations`. | A tiempo | 20 |
-| Centeno León, Adriano Samir | `Adri11-dk` | Documentación de Team Collaboration Insights, actualización de anexos e implementación del contexto IAM y de la internacionalización en sus respectivas ramas. | A tiempo | 20 |
-| Rivas Méndez, Bernie Aarón | `ARivas3008` | Documentación de Development Evidence, Execution Evidence y Services Documentation Evidence; colaboración en el frontend mediante `feature/shared-ui-and-tracking`. | A tiempo | 20 |
-| Rivas Castillo, Christoper Steven | `CODERT0PH` | Desarrollo de la Web Application; documentación de estructura, componentes y vistas en WebStorm con Vue + Vite; evidencias de desarrollo y ejecución del frontend; video de Product Navigation; despliegue de la Web Application y de la Landing Page V2. | A tiempo | 20 |
-| Tello Lima, Jose Alejandro | `j4ndrow` | Redacción de objetivos y minutas de Sprint Planning 2; actualización de Aspect Leaders and Collaborators; estimación de puntos y asignación de responsables en Sprint Backlog 2. | A tiempo | 20 |
+*Figura. Segunda captura de colaboración conservada para AV1.*
 
-### Evidencia de colaboración
+Los valores anteriores se mantienen como antecedentes de la entrega AV1. No se incluyen cifras de adiciones y eliminaciones porque no se dispone de un registro verificado de esas métricas para este corte.
 
-<p align="center">
-  <img src="assets/images/presentation/commits-tb1.PNG" alt="Captura del historial de colaboración incorporada para TB1" width="700">
-</p>
+---
 
-El registro previo del README para TB1 consigna 22 commits de César, 12 de Adriano, 38 de Bernie, 55 de Christoper y 38 de Jose, para un total de **165**. Se mantiene como un corte histórico de la documentación; no incluye necesariamente los commits posteriores de corrección. La cantidad de commits no sustituye la evaluación de responsabilidades del Participant Performance Report.
+### TB1 — Actualización del informe y Sprint 2
 
-### Repositorios y productos de la entrega
+Durante esta fase, el equipo amplió el Project Report para documentar el desarrollo realizado en el Sprint 2 y la primera versión funcional de la Web Application de AgroFlet.
 
-| Artefacto | Repositorio | Publicación |
-| :--- | :--- | :--- |
-| Project Report | [Agroflet-report](https://github.com/AGROFLET/Agroflet-report) | Informe Markdown en GitHub. |
-| Landing Page V2 | [Agroflet-landing-page](https://github.com/AGROFLET/Agroflet-landing-page) | [Landing Page](https://agroflet.github.io/Agroflet-landing-page/) |
-| Web Application | [Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application) | [Vercel](https://agroflet-frontend-application.vercel.app/) · [GitHub Pages](https://agroflet.github.io/Agroflet-frontend-application/) |
-| Contrato del servicio simulado | [OpenAPI de la Fake API](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/docs/fake-api.openapi.yaml) | Base del mock: `https://agroflet-frontend-application.vercel.app/api/v1`. |
+Los principales aspectos documentados fueron:
 
-**Organización:** [AGROFLET](https://github.com/AGROFLET).
+- Definición de los objetivos del Sprint 2 y registro de la planificación.
+- Actualización del cuadro de responsables y colaboradores.
+- Elaboración del Sprint Backlog 2, con estimaciones y responsables.
+- Desarrollo de la Web Application con **Vue y Vite**.
+- Implementación de funcionalidades relacionadas con IAM, internacionalización, operaciones de envíos y componentes compartidos de interfaz y seguimiento.
+- Documentación de la estructura del código, componentes y vistas del frontend.
+- Incorporación de Development Evidence y Execution Evidence para el Sprint Review.
+- Documentación de los servicios utilizados mediante **Fake API y OpenAPI**.
+- Incorporación de las evidencias de despliegue de la Web Application y la Landing Page V2.
+- Actualización de Team Collaboration Insights, Student Outcome, conclusiones y anexos.
+
+El apartado **5.2.2** reúne la documentación correspondiente al Sprint 2, incluyendo planificación, backlog, desarrollo, ejecución, servicios, despliegue y colaboración.
+
+### Project Report Collaboration Insights TB1
+
+El siguiente cuadro presenta los **conteos históricos consignados en el registro de TB1 del README**, junto con los aportes declarados en el Participant Performance Report.
+
+| **Integrante** | **Usuario GitHub** | **Commits consignados en el registro de TB1** | **Principales aportes documentados** |
+| --- | --- | ---: | --- |
+| Alca Morán, César Alejandro | almocesar-cell | 22 | Desarrollo de Software Deployment Evidence for Sprint Review y actualización de las conclusiones. Participación en el frontend mediante `feature/shipment-operations`. |
+| Centeno León, Adriano Samir | Adri11-dk | 12 | Desarrollo de Team Collaboration Insights during Sprint y actualización de anexos. Implementación de IAM e internacionalización en el frontend. |
+| Rivas Méndez, Bernie Aarón | ARivas3008 | 38 | Desarrollo de Development Evidence, Execution Evidence y Services Documentation Evidence for Sprint Review. Participación en `feature/shared-ui-and-tracking`. |
+| Rivas Castillo, Christoper Steven | CODERT0PH | 55 | Desarrollo de la Web Application, documentación del código, componentes y vistas con Vue y Vite en WebStorm, evidencias de desarrollo y ejecución, video de navegación del producto y despliegues de la aplicación y la Landing Page V2. |
+| Tello Lima, Jose Alejandro | j4ndrow | 38 | Redacción de objetivos del sprint y minutas de planificación, actualización del cuadro de roles y elaboración de estimaciones y responsables del Sprint Backlog 2. |
+| **Total del registro de TB1** | | **165** | |
+
+**Alcance del conteo:** los 165 commits corresponden al registro histórico documentado para TB1. No se presentan como un conteo verificado de commits individuales realizados exclusivamente después de AV1 ni como un historial filtrado para excluir merges. Los totales de AV1 y TB1 representan cortes documentales distintos y no deben sumarse para calcular un total de contribuciones.
+
+La evidencia muestra aportes de los cinco integrantes en documentación, implementación y despliegue. Las responsabilidades abarcan la planificación del sprint, el desarrollo del frontend, la documentación de servicios, las evidencias de ejecución y la actualización del informe.
+
+### Evidencia de colaboración registrada para TB1
+
+![Registro de Top committers conservado para TB1](assets/images/presentation/commits-tb1.PNG)
+
+*Figura. Captura de Top committers conservada en el informe de AgroFlet para TB1. Su alcance debe interpretarse junto con el registro histórico del README; no acredita por sí sola un conteo exclusivo del Sprint 2.*
+
+### Trazabilidad de la documentación y los productos
+
+- **Repositorio del informe:** [Agroflet-report](https://github.com/AGROFLET/Agroflet-report).
+- **Contributors del informe:** [GitHub Contributors](https://github.com/AGROFLET/Agroflet-report/graphs/contributors).
+- **Historial de integración:** [Commits de develop](https://github.com/AGROFLET/Agroflet-report/commits/develop/).
+- **Pull Requests cerrados:** [Pull Requests del informe](https://github.com/AGROFLET/Agroflet-report/pulls?q=is%3Apr+is%3Aclosed).
+- **Repositorio de la Web Application:** [Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application).
+- **Repositorio de la Landing Page:** [Agroflet-landing-page](https://github.com/AGROFLET/Agroflet-landing-page).
+
+Las evidencias del repositorio del informe acreditan la colaboración documental. Las evidencias de los repositorios de la Web Application y la Landing Page permiten consultar los aportes de implementación de cada producto.
+
+El historial de commits, las ramas de trabajo y los Pull Requests permiten relacionar los responsables con los artefactos modificados. Las evidencias complementarias de colaboración durante el Sprint 2 se documentan en **5.2.2.8. Team Collaboration Insights during Sprint**.
 
 ## Contenido
 
