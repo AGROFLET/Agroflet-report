@@ -1239,8 +1239,25 @@ Durante el Sprint 2 (TB1) se publicó la primera versión de la Web Application 
 | Landing Page V2 | [Agroflet-landing-page](https://github.com/AGROFLET/Agroflet-landing-page) | [Landing Page](https://agroflet.github.io/Agroflet-landing-page/) | Workflow `pages.yml`, ejecución exitosa de GitHub Actions y commits del formulario UH28. |
 | Web Application en Vercel | [Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application) | [Web Application](https://agroflet-frontend-application.vercel.app/) | `vercel.json` y captura de Production Deployment con estado Ready. |
 | Web Application en GitHub Pages | [Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application) | [Web Application en Pages](https://agroflet.github.io/Agroflet-frontend-application/) | Workflow `deploy-github-pages.yml` y ejecución exitosa de GitHub Actions. |
-| Fake API | Incluida en el repositorio del frontend | [Base del servicio simulado](https://agroflet-frontend-application.vercel.app/api/v1) | `api/index.js`, `server/routes.json` y contrato OpenAPI. |
+| Fake API | Incluida en el repositorio del frontend | [Fake API (envíos)](https://agroflet-frontend-application.vercel.app/api/v1/shipments) | `api/index.js`, `server/routes.json`, `server/db.json` y contrato OpenAPI. |
 | RESTful API definitivo | Implementación posterior al alcance acreditado de TB1 | Sin despliegue acreditado en esta sección | Se mantiene separado de la Fake API. |
+
+**Recursos de la Fake API**
+
+La Fake API se publica como una Vercel Function con json-server. Todos los recursos usan el prefijo `https://agroflet-frontend-application.vercel.app/api/v1/`.
+
+| Recurso | Endpoint público |
+| :--- | :--- |
+| Usuarios | [/api/v1/users](https://agroflet-frontend-application.vercel.app/api/v1/users) |
+| Solicitudes de recuperación de contraseña | [/api/v1/password-reset-requests](https://agroflet-frontend-application.vercel.app/api/v1/password-reset-requests) |
+| Vehículos | [/api/v1/vehicles](https://agroflet-frontend-application.vercel.app/api/v1/vehicles) |
+| Conductores | [/api/v1/drivers](https://agroflet-frontend-application.vercel.app/api/v1/drivers) |
+| Ubicaciones | [/api/v1/locations](https://agroflet-frontend-application.vercel.app/api/v1/locations) |
+| Envíos | [/api/v1/shipments](https://agroflet-frontend-application.vercel.app/api/v1/shipments) |
+| Cambios de estado | [/api/v1/status-changes](https://agroflet-frontend-application.vercel.app/api/v1/status-changes) |
+| Posiciones GPS | [/api/v1/positions](https://agroflet-frontend-application.vercel.app/api/v1/positions) |
+| Incidencias | [/api/v1/incidents](https://agroflet-frontend-application.vercel.app/api/v1/incidents) |
+| Notificaciones | [/api/v1/notifications](https://agroflet-frontend-application.vercel.app/api/v1/notifications) |
 
 La dirección `https://agroflet.github.io/Agroflet-frontend-application/` corresponde a la **Web Application**, no a la Landing Page. Esta distinción permite identificar y revisar cada producto de la entrega.
 
