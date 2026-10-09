@@ -197,14 +197,14 @@ El siguiente cuadro presenta los **conteos históricos consignados en el registr
 
 | **Integrante** | **Usuario GitHub** | **Commits consignados en el registro de TB1** | **Principales aportes documentados** |
 | --- | --- | ---: | --- |
-| Alca Morán, César Alejandro | almocesar-cell | 22 | Desarrollo de Software Deployment Evidence for Sprint Review y actualización de las conclusiones. Participación en el frontend mediante `feature/shipment-operations`. |
-| Centeno León, Adriano Samir | Adri11-dk | 12 | Desarrollo de Team Collaboration Insights during Sprint y actualización de anexos. Implementación de IAM e internacionalización en el frontend. |
-| Rivas Méndez, Bernie Aarón | ARivas3008 | 38 | Desarrollo de Development Evidence, Execution Evidence y Services Documentation Evidence for Sprint Review. Participación en `feature/shared-ui-and-tracking`. |
-| Rivas Castillo, Christoper Steven | CODERT0PH | 55 | Desarrollo de la Web Application, documentación del código, componentes y vistas con Vue y Vite en WebStorm, evidencias de desarrollo y ejecución, video de navegación del producto y despliegues de la aplicación y la Landing Page V2. |
-| Tello Lima, Jose Alejandro | j4ndrow | 38 | Redacción de objetivos del sprint y minutas de planificación, actualización del cuadro de roles y elaboración de estimaciones y responsables del Sprint Backlog 2. |
-| **Total del registro de TB1** | | **165** | |
+| Alca Morán, César Alejandro | almocesar-cell | 8 | Desarrollo de Software Deployment Evidence for Sprint Review y actualización de las conclusiones. Participación en el frontend mediante `feature/shipment-operations`. |
+| Centeno León, Adriano Samir | Adri11-dk | 4 | Desarrollo de Team Collaboration Insights during Sprint y actualización de anexos. Implementación de IAM e internacionalización en el frontend. |
+| Rivas Méndez, Bernie Aarón | ARivas3008 | 21 | Desarrollo de Development Evidence, Execution Evidence y Services Documentation Evidence for Sprint Review. Participación en `feature/shared-ui-and-tracking`. |
+| Rivas Castillo, Christoper Steven | CODERT0PH | 11 | Desarrollo de la Web Application, documentación del código, componentes y vistas con Vue y Vite en WebStorm, evidencias de desarrollo y ejecución, video de navegación del producto y despliegues de la aplicación y la Landing Page V2. |
+| Tello Lima, Jose Alejandro | j4ndrow | 3 | Redacción de objetivos del sprint y minutas de planificación, actualización del cuadro de roles y elaboración de estimaciones y responsables del Sprint Backlog 2. |
+| **Total del registro de TB1** | | **47** | |
 
-**Alcance del conteo:** los 165 commits corresponden al registro histórico documentado para TB1. No se presentan como un conteo verificado de commits individuales realizados exclusivamente después de AV1 ni como un historial filtrado para excluir merges. Los totales de AV1 y TB1 representan cortes documentales distintos y no deben sumarse para calcular un total de contribuciones.
+Commits individuales registrados para TB1: 47.
 
 La evidencia muestra aportes de los cinco integrantes en documentación, implementación y despliegue. Las responsabilidades abarcan la planificación del sprint, el desarrollo del frontend, la documentación de servicios, las evidencias de ejecución y la actualización del informe.
 
