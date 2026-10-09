@@ -1168,18 +1168,63 @@ Configuración:
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-El frontend consume una **Fake API** construida con `json-server`, que simula el futuro RESTful API y está documentada en `docs/fake-api.openapi.yaml`. Las validaciones demostrativas no sustituyen la seguridad de un backend productivo.
+Durante el Sprint 2 (TB1), la Web Application de AgroFlet consume una **Fake API** basada en `json-server` 0.17. Este servicio permite desarrollar y demostrar los flujos de los segmentos Despachador y Comprador antes de integrar el RESTful API definitivo. A diferencia de un backend productivo, las reglas de negocio y las restricciones de acceso de esta versión se aplican principalmente desde el frontend.
 
-| Servicio | Ruta base | Uso |
+La documentación del servicio simulado se encuentra en el archivo [`docs/fake-api.openapi.yaml`](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/docs/fake-api.openapi.yaml), con **OpenAPI 3.0.3** y versión de contrato **1.0.0**. El documento describe rutas, métodos HTTP, parámetros, cuerpos de solicitud, esquemas, respuestas y ejemplos. Sus operaciones identifican las Technical Stories que emulan; esto documenta el mock utilizado en TB1, no acredita la implementación del futuro backend ASP.NET Core.
+
+**Ubicación y configuración del servicio**
+
+| Entorno | URL base | Configuración verificable |
 | :--- | :--- | :--- |
-| IAM | `/api/v1/users`, `/api/v1/password-reset-requests` | Registro, sesión y recuperación |
-| Fleet | `/api/v1/vehicles`, `/api/v1/drivers` | Recursos de transporte |
-| Shipments | `/api/v1/shipments`, `/api/v1/status-changes`, `/api/v1/locations` | Operaciones y estados |
-| Tracking | `/api/v1/positions` | Posiciones reportadas |
-| Incidents | `/api/v1/incidents`, `/api/v1/notifications` | Incidencias y alertas |
+| Desarrollo integrado con Vite | `/api/v1` en el servidor de `npm run dev` o `npm run preview` | Fake API servida desde Vite. |
+| JSON Server independiente | `http://localhost:3000/api/v1` | `npm run server`; datos de `server/db.json`. |
+| Demostración publicada | [https://agroflet-frontend-application.vercel.app/api/v1](https://agroflet-frontend-application.vercel.app/api/v1) | Vercel Function en `api/index.js`. |
 
-**Fake API publicada:** [https://agroflet-frontend-application.vercel.app/api/v1](https://agroflet-frontend-application.vercel.app/api/v1). **Documentación:** [OpenAPI de la Fake API](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/docs/fake-api.openapi.yaml).
+El archivo [`server/routes.json`](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/server/routes.json) transforma `/api/v1/*` en los recursos de JSON Server. El [README técnico](https://github.com/AGROFLET/Agroflet-frontend-application#fake-api-json-server) explica las diferencias de persistencia entre los modos locales y el despliegue. La función publicada admite almacenamiento compartido mediante Upstash Redis cuando la integración está configurada; sin ella utiliza datos por instancia. El código y la documentación de esa configuración no sustituyen una evidencia del estado de la base de datos en el panel de Vercel.
 
+**Recursos documentados por contexto**
+
+Las rutas de la tabla son relativas a la URL base `/api/v1`. Los métodos corresponden al contrato OpenAPI existente.
+
+| Contexto | Recurso | Métodos documentados | Uso en la Web Application |
+| :--- | :--- | :--- | :--- |
+| IAM | `/users`, `/users/{id}` | GET y POST en colección; GET y PATCH por ID | Registro, consulta de cuentas, sesión demostrativa y actualización de perfil. |
+| IAM | `/password-reset-requests`, `/password-reset-requests/{id}` | GET y POST en colección; PATCH por ID | Solicitudes de recuperación y actualización de su estado. |
+| Fleet | `/vehicles`, `/vehicles/{id}` | GET y POST en colección; GET y PATCH por ID | Registro, consulta y actualización de vehículos y disponibilidad. |
+| Fleet | `/drivers`, `/drivers/{id}` | GET y POST en colección; GET y PATCH por ID | Registro, consulta y actualización de conductores. |
+| Shipments | `/locations` | GET | Catálogo de origen y destino. |
+| Shipments | `/shipments`, `/shipments/{id}` | GET y POST en colección; GET, PATCH y DELETE por ID | Envíos, filtros y actualización de operaciones. El DELETE documentado no equivale al flujo de cancelación del frontend. |
+| Shipments | `/status-changes` | GET y POST | Historial de cambios de estado. |
+| Tracking | `/positions` | GET y POST | Consulta y registro de posiciones reportadas. |
+| Incidents | `/incidents` | GET y POST | Registro y consulta de incidencias. |
+| Incidents | `/notifications`, `/notifications/{id}` | GET y POST en colección; PATCH por ID | Alertas y marcado de notificaciones como leídas. |
+
+El contrato también incluye `POST /contact-messages`. Sin embargo, el formulario UH28 de la Landing Page V2 guarda la demostración en `localStorage`, bajo `agroflet_contacts`; **no consume ese endpoint**. La existencia del recurso en OpenAPI no demuestra una integración de la landing con el servicio.
+
+**Procedimiento reproducible de consulta de la documentación**
+
+1. Abrir el repositorio del frontend y ejecutar `npm install`.
+2. Iniciar la Fake API independiente mediante `npm run server`.
+3. Abrir `docs/fake-api.openapi.yaml` en Swagger Editor o en el editor compatible de WebStorm.
+4. Seleccionar el servidor `http://localhost:3000/api/v1` y consultar un recurso, por ejemplo `GET /locations` o `GET /shipments?dispatcherId=1`.
+5. Contrastar el resultado con los esquemas y respuestas del contrato. Las solicitudes de escritura deben realizarse únicamente con datos de prueba.
+
+Ejemplos de consulta de solo lectura contra el servicio local:
+
+```http
+GET http://localhost:3000/api/v1/locations
+GET http://localhost:3000/api/v1/shipments?dispatcherId=1
+GET http://localhost:3000/api/v1/positions?shipmentId=1
+```
+
+Estos ejemplos indican cómo reproducir la revisión; no se presentan como resultados de pruebas HTTP ejecutadas en esta actualización del informe. La evidencia documental comprobada es el contrato OpenAPI almacenado en GitHub y su correspondencia con la configuración del mock.
+
+**Alcance y limitaciones de TB1**
+
+- La autenticación es emulada sobre la colección `users`. Aunque el cliente envía un encabezado Bearer, JSON Server no valida el token ni aplica autorización productiva.
+- La recuperación de contraseña no cuenta todavía con un servicio de correo. El enlace demostrativo de restablecimiento solo se muestra en desarrollo.
+- Las ubicaciones representan posiciones reportadas o datos marcados como demostrativos; no acreditan telemetría GPS automática.
+- La documentación OpenAPI del mock no se presenta como Swagger de un RESTful API ASP.NET Core ya desplegado.
 
 ---
 
