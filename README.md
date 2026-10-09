@@ -212,9 +212,31 @@ La evidencia muestra aportes de los cinco integrantes en documentación, impleme
 
 ### Evidencia de colaboración registrada para TB1
 
-![Registro de Top committers conservado para TB1](assets/images/presentation/commits-tb1.PNG)
+![Registro de Top committers conservado para TB1](assets/images/IMAGENCOMMIT1.png)
 
 *Figura. Captura de Top committers conservada en el informe de AgroFlet para TB1. Su alcance debe interpretarse junto con el registro histórico del README; no acredita por sí sola un conteo exclusivo del Sprint 2.*
+
+### TB1 — Actualización del informe y Sprint 2
+
+Esta revisión incorpora la documentación de la primera Web Application de **AgroFlet**, desarrollada con Vue y Vite, la actualización de la Landing Page V2 y la configuración de la Fake API utilizada por la aplicación desplegada. Se conserva la evidencia de AV1 y se incorpora el apartado **5.2.2**, con la planificación, los responsables, el Sprint Backlog 2 y las evidencias de desarrollo, ejecución, documentación de servicios y despliegue correspondientes al Sprint 2.
+
+La colaboración documental se sustenta en el registro de aportes por integrante presentado anteriormente y en la siguiente captura de GitHub Contributors aportada por el equipo para el repositorio del informe.
+
+**Repositorio del informe:** [Agroflet-report](https://github.com/AGROFLET/Agroflet-report).
+
+![GitHub Contributors del informe de AgroFlet](assets/images/IMAGENCOMMIT2.png)
+
+*Figura. Captura de GitHub Contributors aportada para el informe de AgroFlet. El intervalo visible comprende del 29 de agosto al 3 de octubre de 2026 e incluye actividad anterior al Sprint 2. Sus cifras acumuladas no sustituyen el conteo específico de TB1.*
+
+| **Usuario GitHub** | **Commits visibles en Contributors del informe** |
+| --- | ---: |
+| CODERT0PH | 98 |
+| ARivas3008 | 48 |
+| j4ndrow | 35 |
+| almocesar-cell | 19 |
+| Adri11-dk | 14 |
+| **Suma de las tarjetas** | **214** |
+
 
 ### Trazabilidad de la documentación y los productos
 
