@@ -67,21 +67,60 @@
 
 ## Registro de Versiones del Informe
 
-| Entrega | Fecha | Autores | Alcance |
-| :--- | :--- | :--- | :--- |
-| AV1 | 16/09/2026 | Equipo NexaWeb | Capítulos I–IV, configuración de software y Sprint 1 del Capítulo V; conclusiones y anexos. |
-| TB1 | 08/10/2026 | Equipo NexaWeb | Actualización del informe para Sprint 2: Planning 2, Aspect Leaders and Collaborators, Backlog 2, evidencias de desarrollo, ejecución, documentación de servicios, despliegue y colaboración; Web Application y Landing Page V2. |
-| AV2 | Por definir | Equipo NexaWeb | Próxima entrega. |
-| TB2 | Por definir | Equipo NexaWeb | Próxima entrega. |
+<div align="center">
+<div style="text-align: center;">
+    <table style="margin: 0 auto; display: inline-table; text-align: left;">
+        <tr>
+            <th>Versión</th>
+            <th>Fecha</th>
+            <th>Autor</th>
+            <th>Descripción de modificación</th>
+        </tr>
+        <tr>
+            <td><strong>AV1</strong></td>
+            <td>16/09/2026</td>
+            <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
+            <td>Capítulo I: Introducción<br>Capítulo II: Requirements Elicitation & Analysis.<br>Capítulo III: Requirements Specification. <br>Capítulo IV: Product Design. <br>Capítulo V: Product Implementation, Validation & Deployment.<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog 1.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint</td>
+        </tr>
+        <tr>
+            <td><strong>TB1</strong></td>
+            <td>08/10/2026</td>
+            <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
+            <td><br>5.2.2. Sprint 2<br>5.2.1.1. Sprint Planning 1.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3. Sprint Backlog 2.<br>5.2.2.4. Development Evidence for Sprint Review.<br>5.2.2.5. Execution Evidence for Sprint Review.<br>5.2.2.6. Services Documentation Evidence for Sprint Review.<br>5.2.2.7. Software Deployment Evidence for Sprint Review.<br>5.2.2.8. Team Collaboration Insights during Sprint</td></td>
+        </tr>
+        <tr>
+            <td><strong>AV2</strong></td>
+            <td>Por definir</td>
+            <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>TB2</strong></td>
+            <td>Por definir</td>
+            <td>- Alca Morán, César Alejandro<br>- Centeno León, Adriano Samir<br>- Rivas Méndez, Bernie Aarón<br>- Rivas Castillo, Christoper Steven<br>- Tello Lima, Jose Alejandro</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+</div>
+</div>
 
-La fecha de TB1 identifica la actualización de este informe; no se utiliza como fecha individual de todos los commits o despliegues.
 
 # Project Report Collaboration Insights
 
-AgroFlet es el producto de la startup **NexaWeb**, desarrollado por el equipo del curso **1ASI0730 — Aplicaciones Web**, NRC **16127**, de la Universidad Peruana de Ciencias Aplicadas.
+Para el desarrollo del Project Report de AgroFlet, el equipo de NexaWeb utiliza el repositorio de documentación dentro de la organización AGROFLET en GitHub. Esta sección presenta la evidencia de colaboración correspondiente a AV1 y TB1, en coherencia con el Registro de Versiones del Informe.
+Repositorio del informe del proyecto: Agroflet-report.
+Commits consignados en el registro de colaboración de TB1: 165, distribuidos entre César (22), Adriano (12), Bernie (38), Christoper (55) y Jose (38). Estas cifras corresponden al corte histórico documentado en el informe; no representan necesariamente commits exclusivos de TB1 ni incluyen las correcciones posteriores.
 
-**Entrega actual:** TB1 — Sprint 2.  
-**Team Leader:** Christoper Steven Rivas Castillo (`CODERT0PH`).
+Autores contribuyentes:
+- Alca Morán, César Alejandro (almocesar-cell).
+- Centeno León, Adriano Samir (Adri11-dk).
+- Rivas Méndez, Bernie Aarón (ARivas3008).
+- Rivas Castillo, Christoper Steven (CODERT0PH).
+- Tello Lima, Jose Alejandro (j4ndrow).
+
+La actividad del Project Report se organizó en ramas temáticas por capítulos, desde feature/chapter1 hasta feature/chapter5, además de las ramas feature/chapter6 y feature/chapterAnex. La rama develop reúne los avances del informe. Los commits permiten mantener trazabilidad sobre las modificaciones realizadas en investigación, requisitos, diseño, arquitectura y documentación de implementación.
+Durante TB1, el equipo documentó el Sprint 2, las evidencias de desarrollo y ejecución de la Web Application, los servicios simulados mediante Fake API, los despliegues y la actualización de la Landing Page V2. La distribución de responsabilidades se sustenta en el Participant Performance Report del equipo.
 
 ## AV1 — Antecedentes de la entrega
 
