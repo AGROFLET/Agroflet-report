@@ -602,17 +602,17 @@ Durante el Sprint 1 el equipo se concentró en la implementación y despliegue d
 
 | User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation (h) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
-| UH24 | Visualización de la propuesta de valor en el landing page | T01 | Estructuración base en HTML5 e implementación del Hero | Creación del esqueleto semántico del documento (`header`, `main`, `section`, `footer`) e implementación de la sección principal con el nombre de la plataforma, el titular de propuesta de valor, contadores estadísticos animados y llamados a la acción diferenciados. | 4 | Alca Morán, César Alejandro | Done |
-| UH25 | Consulta de funcionalidades principales desde el landing page | T02 | Implementación de la sección informativa de funcionalidades | Maquetación de la grilla de tarjetas de la sección "La App", con seis funcionalidades clave, ícono SVG representativo y descripción breve para cada una. | 3 | Rivas Castillo, Christoper Steven | Done |
-| UH26 | Consulta de planes y precios en el landing page | T03 | Maquetación de la sección de planes de suscripción | Implementación de las tarjetas de los planes Básico, Estándar y Profesional, con unidades incluidas, funcionalidades habilitadas, cinta de plan destacado y botón de llamado a la acción por segmento. | 3 | Rivas Méndez, Bernie Aarón | Done |
-| UH27 | Consulta de testimonios de usuarios en el landing page | T04 | Desarrollo del carrusel interactivo de testimonios | Implementación del carrusel con cinco testimonios (nombre, rol y procedencia), navegación circular, indicadores, rotación automática con pausa en interacción y soporte de gestos táctiles y arrastre con mouse. | 4 | Rivas Castillo, Christoper Steven | Done |
-| UH29 | Navegación fluida entre secciones del landing page | T05 | Implementación de navegación responsive y scroll suave | Desarrollo del header fijo con cambio de estado al hacer scroll, resaltado del ítem activo, menú hamburguesa para dispositivos móviles y desplazamiento suave mediante anchors sin recargar la página. | 3 | Alca Morán, César Alejandro | Done |
-| UH30 | Visualización del landing page en múltiples idiomas | T06 | Implementación del sistema de internacionalización ES/EN | Integración de los diccionarios de traducción y del selector de idioma del encabezado, actualización dinámica de todos los nodos marcados con `data-i18n` (incluidos placeholders y mensajes de validación) y persistencia de la preferencia en `localStorage`. | 4 | Centeno León, Adriano Samir | Done |
-| UH24 | Visualización de la propuesta de valor en el landing page | T07 | Configuración del diseño responsive (Mobile-First) | Definición de los design tokens en `:root` y de las media queries en 480 px, 768 px y 1024 px para garantizar la correcta visualización en smartphones, tablets y escritorio. | 3 | Rivas Méndez, Bernie Aarón | Done |
-| UH24 | Visualización de la propuesta de valor en el landing page | T08 | Desarrollo de la sección del equipo y sección de videos | Implementación de las tarjetas de perfil de los cinco integrantes del equipo fundador y de las tarjetas de acceso a los videos institucionales mediante modal con reproducción embebida. | 2 | Tello Lima, Jose Alejandro | Done |
-| UH24 | Visualización de la propuesta de valor en el landing page | T09 | Implementación del footer institucional y documento legal | Desarrollo del pie de página con enlaces de navegación, canales de contacto y accesos legales, e implementación del documento de Términos y Condiciones en `docs/Terms-and-conditions.html`. | 2 | Centeno León, Adriano Samir | Done |
-| UH24 | Visualización de la propuesta de valor en el landing page | T10 | Despliegue de la versión v1.0.0 en GitHub Pages | Configuración del repositorio, creación del archivo `.nojekyll`, habilitación de GitHub Pages desde la rama `main` y validación de la URL pública de producción. | 2 | Tello Lima, Jose Alejandro | Done |
-| UH28 | Envío de mensaje de contacto desde el landing page | T11 | Implementación del formulario de contacto | Desarrollo de un formulario de contacto con validación de campos obligatorios y confirmación de envío. | 3 | Rivas Méndez, Bernie Aarón | In Process |
+| UH24 | Visualización de la propuesta de valor en el landing page | T01 | Estructuración base en HTML5 e implementación del Hero | Creación del esqueleto semántico del documento (`header`, `main`, `section`, `footer`) e implementación de la sección principal con el nombre de la plataforma, el titular de propuesta de valor, contadores estadísticos animados y llamados a la acción diferenciados. | 4 | Alca Morán, César Alejandro | Finalizada |
+| UH25 | Consulta de funcionalidades principales desde el landing page | T02 | Implementación de la sección informativa de funcionalidades | Maquetación de la grilla de tarjetas de la sección "La App", con seis funcionalidades clave, ícono SVG representativo y descripción breve para cada una. | 3 | Rivas Castillo, Christoper Steven | Finalizada |
+| UH26 | Consulta de planes y precios en el landing page | T03 | Maquetación de la sección de planes de suscripción | Implementación de las tarjetas de los planes Básico, Estándar y Profesional, con unidades incluidas, funcionalidades habilitadas, cinta de plan destacado y botón de llamado a la acción por segmento. | 3 | Rivas Méndez, Bernie Aarón | Finalizada |
+| UH27 | Consulta de testimonios de usuarios en el landing page | T04 | Desarrollo del carrusel interactivo de testimonios | Implementación del carrusel con cinco testimonios (nombre, rol y procedencia), navegación circular, indicadores, rotación automática con pausa en interacción y soporte de gestos táctiles y arrastre con mouse. | 4 | Rivas Castillo, Christoper Steven | Finalizada |
+| UH29 | Navegación fluida entre secciones del landing page | T05 | Implementación de navegación responsive y scroll suave | Desarrollo del header fijo con cambio de estado al hacer scroll, resaltado del ítem activo, menú hamburguesa para dispositivos móviles y desplazamiento suave mediante anchors sin recargar la página. | 3 | Alca Morán, César Alejandro | Finalizada |
+| UH30 | Visualización del landing page en múltiples idiomas | T06 | Implementación del sistema de internacionalización ES/EN | Integración de los diccionarios de traducción y del selector de idioma del encabezado, actualización dinámica de todos los nodos marcados con `data-i18n` (incluidos placeholders y mensajes de validación) y persistencia de la preferencia en `localStorage`. | 4 | Centeno León, Adriano Samir | Finalizada |
+| UH24 | Visualización de la propuesta de valor en el landing page | T07 | Configuración del diseño responsive (Mobile-First) | Definición de los design tokens en `:root` y de las media queries en 480 px, 768 px y 1024 px para garantizar la correcta visualización en smartphones, tablets y escritorio. | 3 | Rivas Méndez, Bernie Aarón | Finalizada |
+| UH24 | Visualización de la propuesta de valor en el landing page | T08 | Desarrollo de la sección del equipo y sección de videos | Implementación de las tarjetas de perfil de los cinco integrantes del equipo fundador y de las tarjetas de acceso a los videos institucionales mediante modal con reproducción embebida. | 2 | Tello Lima, Jose Alejandro | Finalizada |
+| UH24 | Visualización de la propuesta de valor en el landing page | T09 | Implementación del footer institucional y documento legal | Desarrollo del pie de página con enlaces de navegación, canales de contacto y accesos legales, e implementación del documento de Términos y Condiciones en `docs/Terms-and-conditions.html`. | 2 | Centeno León, Adriano Samir | Finalizada |
+| UH24 | Visualización de la propuesta de valor en el landing page | T10 | Despliegue de la versión v1.0.0 en GitHub Pages | Configuración del repositorio, creación del archivo `.nojekyll`, habilitación de GitHub Pages desde la rama `main` y validación de la URL pública de producción. | 2 | Tello Lima, Jose Alejandro | Finalizada |
+| UH28 | Envío de mensaje de contacto desde el landing page | T11 | Implementación del formulario de contacto | Desarrollo de un formulario de contacto con validación de campos obligatorios y confirmación de envío. | 3 | Rivas Méndez, Bernie Aarón | Finalizada |
 
 **Nota:** Tabla que vincula las User Stories del EPIC-09 abordadas durante el Sprint 1 con sus respectivas tareas técnicas, el esfuerzo estimado en horas, el responsable asignado y el estado de cada asignación. La tarea T11, asociada a la User Story UH28, se mantiene en estado *In Process* y se reprograma para el Sprint 2, dado que la versión `v1.0.0` de la Landing Page expone los canales de contacto en el footer pero aún no incorpora un formulario de contacto.
 
@@ -976,54 +976,53 @@ A continuación, se presenta la distribución de responsabilidades para el desar
 | `feature/shared-ui-and-tracking` | Bernie Rivas | Componentes compartidos, mapas y posiciones |
 | `feature/shipment-operations` | César Alca | Registro, consulta y ciclo de vida de operaciones |
 
+
 #### 5.2.2.3. Sprint Backlog 2
 
 El Backlog incorpora las **27 User Stories de la aplicación web no trabajadas en el Sprint 1** (US01–US23, US31–US34). La historia **US28**, pendiente del Landing Page, se registra por separado. Los títulos provienen del Capítulo III; las tareas se sintetizan a partir de la implementación documentada en GitHub. Se usa una tarea resumida por historia para facilitar la lectura.
 
 | User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation (h) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | ---: | :--- | :---: |
-| US01 | Registro de cuenta | T01 | Registro de usuarios | Crear formulario por rol y validar campos y correo único. | 5 | Christoper Rivas | Done |
-| US02 | Inicio de sesión | T02 | Autenticación | Implementar acceso, sesión y control de credenciales. | 4 | Christoper Rivas | Done |
-| US03 | Cierre de sesión | T03 | Logout y rutas protegidas | Cerrar sesión y restringir vistas según rol. | 5 | Christoper Rivas | Done |
-| US04 | Recuperación de contraseña | T04 | Recuperación y cambio | Solicitud genérica y restablecimiento mediante token de demostración. | 6 | Christoper Rivas | Done |
-| US05 | Registro de vehículo | T05 | Alta de vehículos | Crear formulario con placa, capacidad y validaciones. | 4 | Jose Tello | Done |
-| US06 | Consulta y edición de vehículos | T06 | Gestión de vehículos | Listar y editar flota; proteger vehículos reservados. | 5 | Jose Tello | Done |
-| US07 | Registro de conductor | T07 | Alta de conductores | Registrar conductores, licencia y DNI no duplicado. | 4 | Jose Tello | Done |
-| US08 | Selección de recursos para el despacho | T08 | Asignación de recursos | Seleccionar vehículo y conductor disponibles. | 2 | Jose Tello | Done |
-| US09 | Registro de operación programada | T09 | Nueva operación | Crear envío y reservar sus recursos, validando capacidad. | 6 | César Alca | Done |
-| US10 | Consulta de operaciones activas | T10 | Dashboard | Mostrar envíos autorizados, estados e indicadores. | 4 | César Alca | Done |
-| US11 | Detalle de operación | T11 | Detalle del envío | Mostrar datos, ruta e historial con acceso por rol. | 4 | César Alca | Done |
-| US12 | Cierre de operación | T12 | Entrega y cancelación | Cambiar estado y liberar recursos; exigir motivo al cancelar. | 4 | César Alca | Done |
-| US13 | Registro de incidencia | T13 | Nueva incidencia | Registrar incidente y recalcular ETA sin duplicaciones. | 5 | Christoper Rivas | Done |
-| US14 | Historial de incidencias | T14 | Lista de incidencias | Consultar eventos e impacto en el traslado. | 2 | Christoper Rivas | Done |
-| US15 | Historial con filtros | T15 | Filtros de operaciones | Filtrar por fecha, estado, carga y destino. | 4 | César Alca | Done |
-| US16 | Búsqueda por código o placa | T16 | Búsqueda de envíos | Localizar operaciones por código o placa. | 2 | César Alca | Done |
-| US17 | Posiciones en mapa | T17 | Seguimiento cartográfico | Mostrar posiciones reportadas y fecha de actualización en Leaflet. | 5 | Bernie Rivas | Done |
-| US18 | Ruta planificada | T18 | Visualización de ruta | Diferenciar la ruta prevista de las posiciones reportadas. | 3 | Bernie Rivas | Done |
-| US19 | Alertas por incidencia | T19 | Notificaciones de incidencia | Avisar a participantes sin duplicar alertas. | 3 | Christoper Rivas | Done |
-| US20 | Alertas por cambio de estado | T20 | Notificaciones de estado | Notificar transiciones y permitir marcar avisos como leídos. | 3 | Christoper Rivas | Done |
-| US21 | Edición de perfil | T21 | Configuración de perfil | Modificar datos permitidos del usuario. | 2 | Adriano Centeno | Done |
-| US22 | Cambio de contraseña | T22 | Seguridad de la cuenta | Validar contraseña actual y cerrar sesión al actualizarla. | 2 | Adriano Centeno | Done |
-| US23 | Idioma de la aplicación | T23 | Internacionalización | Incorporar inglés y español con preferencia persistente. | 2 | Adriano Centeno | Done |
-| US31 | Inicio del traslado | T24 | Inicio de operación | Cambiar `planned` a `in_transit` y registrar salida. | 2 | César Alca | Done |
-| US32 | Registro de posición reportada | T25 | Reporte de ubicación | Registrar coordenadas, fecha y fuente de la posición. | 3 | Bernie Rivas | Done |
-| US33 | Términos del servicio | T26 | Términos y condiciones | Publicar las condiciones del servicio dentro de la aplicación. | 2 | Adriano Centeno | Done |
-| US34 | Acceso por segmento desde landing | T27 | Acceso por rol | Recibir `?segment=dispatcher` o `?segment=buyer` en acceso/registro. | 1 | Christoper Rivas | Done* |
-| US28 | Contacto | T28 | Formulario de contacto del landing | Implementar y comprobar envío efectivo desde la Landing Page. | 3 | Bernie Rivas | To-do |
+| US01 | Registro de cuenta | T01 | Registro de usuarios | Crear formulario por rol y validar campos y correo único. | 5 | Christoper Rivas | Finalizada |
+| US02 | Inicio de sesión | T02 | Autenticación | Implementar acceso, sesión y control de credenciales. | 4 | Christoper Rivas | Finalizada |
+| US03 | Cierre de sesión | T03 | Logout y rutas protegidas | Cerrar sesión y restringir vistas según rol. | 5 | Christoper Rivas | Finalizada |
+| US04 | Recuperación de contraseña | T04 | Recuperación y cambio | Solicitud genérica y restablecimiento mediante token de demostración. | 6 | Christoper Rivas | Finalizada |
+| US05 | Registro de vehículo | T05 | Alta de vehículos | Crear formulario con placa, capacidad y validaciones. | 4 | Jose Tello | Finalizada |
+| US06 | Consulta y edición de vehículos | T06 | Gestión de vehículos | Listar y editar flota; proteger vehículos reservados. | 5 | Jose Tello | Finalizada |
+| US07 | Registro de conductor | T07 | Alta de conductores | Registrar conductores, licencia y DNI no duplicado. | 4 | Jose Tello | Finalizada |
+| US08 | Selección de recursos para el despacho | T08 | Asignación de recursos | Seleccionar vehículo y conductor disponibles. | 2 | Jose Tello | Finalizada |
+| US09 | Registro de operación programada | T09 | Nueva operación | Crear envío y reservar sus recursos, validando capacidad. | 6 | César Alca | Finalizada |
+| US10 | Consulta de operaciones activas | T10 | Dashboard | Mostrar envíos autorizados, estados e indicadores. | 4 | César Alca | Finalizada |
+| US11 | Detalle de operación | T11 | Detalle del envío | Mostrar datos, ruta e historial con acceso por rol. | 4 | César Alca | Finalizada |
+| US12 | Cierre de operación | T12 | Entrega y cancelación | Cambiar estado y liberar recursos; exigir motivo al cancelar. | 4 | César Alca | Finalizada |
+| US13 | Registro de incidencia | T13 | Nueva incidencia | Registrar incidente y recalcular ETA sin duplicaciones. | 5 | Christoper Rivas | Finalizada |
+| US14 | Historial de incidencias | T14 | Lista de incidencias | Consultar eventos e impacto en el traslado. | 2 | Christoper Rivas | Finalizada |
+| US15 | Historial con filtros | T15 | Filtros de operaciones | Filtrar por fecha, estado, carga y destino. | 4 | César Alca | Finalizada |
+| US16 | Búsqueda por código o placa | T16 | Búsqueda de envíos | Localizar operaciones por código o placa. | 2 | César Alca | Finalizada |
+| US17 | Posiciones en mapa | T17 | Seguimiento cartográfico | Mostrar posiciones reportadas y fecha de actualización en Leaflet. | 5 | Bernie Rivas | Finalizada |
+| US18 | Ruta planificada | T18 | Visualización de ruta | Diferenciar la ruta prevista de las posiciones reportadas. | 3 | Bernie Rivas | Finalizada |
+| US19 | Alertas por incidencia | T19 | Notificaciones de incidencia | Avisar a participantes sin duplicar alertas. | 3 | Christoper Rivas | Finalizada |
+| US20 | Alertas por cambio de estado | T20 | Notificaciones de estado | Notificar transiciones y permitir marcar avisos como leídos. | 3 | Christoper Rivas | Finalizada |
+| US21 | Edición de perfil | T21 | Configuración de perfil | Modificar datos permitidos del usuario. | 2 | Adriano Centeno | Finalizada |
+| US22 | Cambio de contraseña | T22 | Seguridad de la cuenta | Validar contraseña actual y cerrar sesión al actualizarla. | 2 | Adriano Centeno | Finalizada |
+| US23 | Idioma de la aplicación | T23 | Internacionalización | Incorporar inglés y español con preferencia persistente. | 2 | Adriano Centeno | Finalizada |
+| US31 | Inicio del traslado | T24 | Inicio de operación | Cambiar `planned` a `in_transit` y registrar salida. | 2 | César Alca | Finalizada |
+| US32 | Registro de posición reportada | T25 | Reporte de ubicación | Registrar coordenadas, fecha y fuente de la posición. | 3 | Bernie Rivas | Finalizada |
+| US33 | Términos del servicio | T26 | Términos y condiciones | Publicar las condiciones del servicio dentro de la aplicación. | 2 | Adriano Centeno | Finalizada |
+| US34 | Acceso por segmento desde landing | T27 | Acceso por rol | Recibir `?segment=dispatcher` o `?segment=buyer` en acceso/registro. | 1 | Christoper Rivas | Finalizada |
+| US28 | Contacto | T28 | Formulario de contacto del landing | Implementar y comprobar envío efectivo desde la Landing Page. | 3 | Bernie Rivas | Finalizada |
 
 **Tareas técnicas complementarias (sin Story Points adicionales):**
 
 | Task Id | Task Title | Assigned To | Status |
 | :--- | :--- | :--- | :---: |
-| TT01 | Configuración inicial y cliente HTTP compartido | Christoper Rivas | Done |
-| TT02 | Fake API con `server/db.json` y rutas `/api/v1` | Jose Tello | Done |
-| TT03 | Layout, diseño responsive y componentes reutilizables | Bernie Rivas | Done |
-| TT04 | Diccionarios y documentación técnica | Adriano Centeno | Done |
-| TT05 | Integración, Vercel y GitHub Actions para Pages | Christoper Rivas | Done |
+| TT01 | Configuración inicial y cliente HTTP compartido | Christoper Rivas | Finalizada |
+| TT02 | Fake API con `server/db.json` y rutas `/api/v1` | Jose Tello | Finalizada |
+| TT03 | Layout, diseño responsive y componentes reutilizables | Bernie Rivas | Finalizada |
+| TT04 | Diccionarios y documentación técnica | Adriano Centeno | Finalizada |
+| TT05 | Integración, Vercel y GitHub Actions para Pages | Christoper Rivas | Finalizada |
 
-**Nota:** Las horas agrupan las tareas detalladas en `docs/sprint-2-report.md`, cuando existen. *Para US34, el acceso por segmento está implementado en la aplicación; la actualización de los botones del Landing Page figura como pendiente de confirmar.* **Los estados Done reflejan implementación documentada en el repositorio, no una aceptación formal de todas las pruebas.**
-
-
+Las 28 historias de usuario y sus respectivas tareas principales figuran Finalizadas. La tarea T28 / US28 (Contacto) fue trasladada desde el Sprint 1 del Landing Page y logró completarse en este ciclo. Adicionalmente, el equipo proporcionó el enlace y la captura del video de navegación de la aplicación web correspondiente al Sprint 2, incorporados en la sección 5.2.2.5; cabe destacar que esta evidencia valida el incremento actual y es distinta de la confirmación de los videos About-the-Product y About-the-Team incrustados en la landing page.
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
