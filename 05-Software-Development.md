@@ -951,6 +951,8 @@ Durante el Sprint 2 se implementó la primera versión de la **Frontend Web Appl
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
+A continuación, se presenta la distribución de responsabilidades para el desarrollo del Sprint 2 de AgroFlet. En este cuadro se detallan los módulos técnicos o aspectos liderados por cada integrante, así como sus áreas de colaboración cruzada, garantizando el cumplimiento de todos los objetivos planificados bajo un enfoque de trabajo colaborativo.
+
 | Team Member | GitHub Username* | Aspecto liderado | Colaboración |
 | :--- | :--- | :--- | :--- |
 | Tello Lima, Jose Alejandro | `j4ndrow` | Fake API y gestión de flotas | Integración de servicios |
@@ -960,6 +962,8 @@ Durante el Sprint 2 se implementó la primera versión de la **Frontend Web Appl
 | Alca Morán, César Alejandro | `almocesar-cell` | Operaciones y gestión de envíos | Integración de vistas |
 
 *Los nombres de usuario se toman de la documentación del repositorio y deben contrastarse con **Insights > Contributors** antes de la entrega.*
+
+**L:** líder del aspecto. **C:** colaborador. **—:** sin participación específica documentada en ese aspecto. La validación documental está asignada a Adriano; la gestión de flotas a Jose; las operaciones y envíos a César. Los accesos, incidencias y la preparación del despliegue registran commits de Christoper, y el seguimiento cartográfico registra commits de Bernie.
 
 **Distribución por ramas:**
 
