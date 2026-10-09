@@ -602,17 +602,17 @@ Durante el Sprint 1 el equipo se concentró en la implementación y despliegue d
 
 | User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation (h) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
-| UH24 | Visualización de la propuesta de valor en el landing page | T01 | Estructuración base en HTML5 e implementación del Hero | Creación del esqueleto semántico del documento (`header`, `main`, `section`, `footer`) e implementación de la sección principal con el nombre de la plataforma, el titular de propuesta de valor, contadores estadísticos animados y llamados a la acción diferenciados. | 4 | Alca Morán, César Alejandro | Done |
-| UH25 | Consulta de funcionalidades principales desde el landing page | T02 | Implementación de la sección informativa de funcionalidades | Maquetación de la grilla de tarjetas de la sección "La App", con seis funcionalidades clave, ícono SVG representativo y descripción breve para cada una. | 3 | Rivas Castillo, Christoper Steven | Done |
-| UH26 | Consulta de planes y precios en el landing page | T03 | Maquetación de la sección de planes de suscripción | Implementación de las tarjetas de los planes Básico, Estándar y Profesional, con unidades incluidas, funcionalidades habilitadas, cinta de plan destacado y botón de llamado a la acción por segmento. | 3 | Rivas Méndez, Bernie Aarón | Done |
-| UH27 | Consulta de testimonios de usuarios en el landing page | T04 | Desarrollo del carrusel interactivo de testimonios | Implementación del carrusel con cinco testimonios (nombre, rol y procedencia), navegación circular, indicadores, rotación automática con pausa en interacción y soporte de gestos táctiles y arrastre con mouse. | 4 | Rivas Castillo, Christoper Steven | Done |
-| UH29 | Navegación fluida entre secciones del landing page | T05 | Implementación de navegación responsive y scroll suave | Desarrollo del header fijo con cambio de estado al hacer scroll, resaltado del ítem activo, menú hamburguesa para dispositivos móviles y desplazamiento suave mediante anchors sin recargar la página. | 3 | Alca Morán, César Alejandro | Done |
-| UH30 | Visualización del landing page en múltiples idiomas | T06 | Implementación del sistema de internacionalización ES/EN | Integración de los diccionarios de traducción y del selector de idioma del encabezado, actualización dinámica de todos los nodos marcados con `data-i18n` (incluidos placeholders y mensajes de validación) y persistencia de la preferencia en `localStorage`. | 4 | Centeno León, Adriano Samir | Done |
-| UH24 | Visualización de la propuesta de valor en el landing page | T07 | Configuración del diseño responsive (Mobile-First) | Definición de los design tokens en `:root` y de las media queries en 480 px, 768 px y 1024 px para garantizar la correcta visualización en smartphones, tablets y escritorio. | 3 | Rivas Méndez, Bernie Aarón | Done |
-| UH24 | Visualización de la propuesta de valor en el landing page | T08 | Desarrollo de la sección del equipo y sección de videos | Implementación de las tarjetas de perfil de los cinco integrantes del equipo fundador y de las tarjetas de acceso a los videos institucionales mediante modal con reproducción embebida. | 2 | Tello Lima, Jose Alejandro | Done |
-| UH24 | Visualización de la propuesta de valor en el landing page | T09 | Implementación del footer institucional y documento legal | Desarrollo del pie de página con enlaces de navegación, canales de contacto y accesos legales, e implementación del documento de Términos y Condiciones en `docs/Terms-and-conditions.html`. | 2 | Centeno León, Adriano Samir | Done |
-| UH24 | Visualización de la propuesta de valor en el landing page | T10 | Despliegue de la versión v1.0.0 en GitHub Pages | Configuración del repositorio, creación del archivo `.nojekyll`, habilitación de GitHub Pages desde la rama `main` y validación de la URL pública de producción. | 2 | Tello Lima, Jose Alejandro | Done |
-| UH28 | Envío de mensaje de contacto desde el landing page | T11 | Implementación del formulario de contacto | Desarrollo de un formulario de contacto con validación de campos obligatorios y confirmación de envío. | 3 | Rivas Méndez, Bernie Aarón | In Process |
+| UH24 | Visualización de la propuesta de valor en el landing page | T01 | Estructuración base en HTML5 e implementación del Hero | Creación del esqueleto semántico del documento (`header`, `main`, `section`, `footer`) e implementación de la sección principal con el nombre de la plataforma, el titular de propuesta de valor, contadores estadísticos animados y llamados a la acción diferenciados. | 4 | Alca Morán, César Alejandro | Finalizada |
+| UH25 | Consulta de funcionalidades principales desde el landing page | T02 | Implementación de la sección informativa de funcionalidades | Maquetación de la grilla de tarjetas de la sección "La App", con seis funcionalidades clave, ícono SVG representativo y descripción breve para cada una. | 3 | Rivas Castillo, Christoper Steven | Finalizada |
+| UH26 | Consulta de planes y precios en el landing page | T03 | Maquetación de la sección de planes de suscripción | Implementación de las tarjetas de los planes Básico, Estándar y Profesional, con unidades incluidas, funcionalidades habilitadas, cinta de plan destacado y botón de llamado a la acción por segmento. | 3 | Rivas Méndez, Bernie Aarón | Finalizada |
+| UH27 | Consulta de testimonios de usuarios en el landing page | T04 | Desarrollo del carrusel interactivo de testimonios | Implementación del carrusel con cinco testimonios (nombre, rol y procedencia), navegación circular, indicadores, rotación automática con pausa en interacción y soporte de gestos táctiles y arrastre con mouse. | 4 | Rivas Castillo, Christoper Steven | Finalizada |
+| UH29 | Navegación fluida entre secciones del landing page | T05 | Implementación de navegación responsive y scroll suave | Desarrollo del header fijo con cambio de estado al hacer scroll, resaltado del ítem activo, menú hamburguesa para dispositivos móviles y desplazamiento suave mediante anchors sin recargar la página. | 3 | Alca Morán, César Alejandro | Finalizada |
+| UH30 | Visualización del landing page en múltiples idiomas | T06 | Implementación del sistema de internacionalización ES/EN | Integración de los diccionarios de traducción y del selector de idioma del encabezado, actualización dinámica de todos los nodos marcados con `data-i18n` (incluidos placeholders y mensajes de validación) y persistencia de la preferencia en `localStorage`. | 4 | Centeno León, Adriano Samir | Finalizada |
+| UH24 | Visualización de la propuesta de valor en el landing page | T07 | Configuración del diseño responsive (Mobile-First) | Definición de los design tokens en `:root` y de las media queries en 480 px, 768 px y 1024 px para garantizar la correcta visualización en smartphones, tablets y escritorio. | 3 | Rivas Méndez, Bernie Aarón | Finalizada |
+| UH24 | Visualización de la propuesta de valor en el landing page | T08 | Desarrollo de la sección del equipo y sección de videos | Implementación de las tarjetas de perfil de los cinco integrantes del equipo fundador y de las tarjetas de acceso a los videos institucionales mediante modal con reproducción embebida. | 2 | Tello Lima, Jose Alejandro | Finalizada |
+| UH24 | Visualización de la propuesta de valor en el landing page | T09 | Implementación del footer institucional y documento legal | Desarrollo del pie de página con enlaces de navegación, canales de contacto y accesos legales, e implementación del documento de Términos y Condiciones en `docs/Terms-and-conditions.html`. | 2 | Centeno León, Adriano Samir | Finalizada |
+| UH24 | Visualización de la propuesta de valor en el landing page | T10 | Despliegue de la versión v1.0.0 en GitHub Pages | Configuración del repositorio, creación del archivo `.nojekyll`, habilitación de GitHub Pages desde la rama `main` y validación de la URL pública de producción. | 2 | Tello Lima, Jose Alejandro | Finalizada |
+| UH28 | Envío de mensaje de contacto desde el landing page | T11 | Implementación del formulario de contacto | Desarrollo de un formulario de contacto con validación de campos obligatorios y confirmación de envío. | 3 | Rivas Méndez, Bernie Aarón | Finalizada |
 
 **Nota:** Tabla que vincula las User Stories del EPIC-09 abordadas durante el Sprint 1 con sus respectivas tareas técnicas, el esfuerzo estimado en horas, el responsable asignado y el estado de cada asignación. La tarea T11, asociada a la User Story UH28, se mantiene en estado *In Process* y se reprograma para el Sprint 2, dado que la versión `v1.0.0` de la Landing Page expone los canales de contacto en el footer pero aún no incorpora un formulario de contacto.
 
@@ -926,3 +926,467 @@ La estrategia de ramas permitió reducir los conflictos de integración sobre ar
 
 ---
 
+### 5.2.2. Sprint 2
+
+Durante el Sprint 2 se implementó la primera versión de la **Frontend Web Application de AgroFlet (v1.0.0)** para despachadores y compradores mayoristas. La aplicación, desarrollada con **Vue 3, Vite, PrimeVue, Pinia y Vue Router**, consume una **Fake API con json-server** y se publicó en Vercel y GitHub Pages. El alcance se basa en las historias del Capítulo III que no se desarrollaron en el Sprint 1.
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 24/09/2026  |
+| Time | 8:00 PM |
+| Location | Google Meet |
+| Prepared By | Alca Morán, César Alejandro |
+| Attendees (to planning meeting) | Alca Morán, César Alejandro<br>Centeno León, Adriano Samir<br>Rivas Méndez, Bernie Aarón<br>Rivas Castillo, Christoper Steven<br>Tello Lima, Jose Alejandro |
+| **Sprint 1 Review Summary** | Se desplegó la Landing Page v1.0.0, con información del producto, planes, testimonios, navegación responsive e idiomas ES/EN. La historia de contacto **US28** quedó pendiente. |
+| **Sprint 1 Retrospective Summary** | Se mantuvo el trabajo paralelo con GitFlow y se priorizó la integración temprana entre vistas, servicios y componentes compartidos. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | *Our focus is on* publicar una aplicación que permita gestionar flotas y envíos, reportar posiciones e incidencias y consultar alertas por rol.<br>*We believe it delivers* mayor visibilidad y coordinación a despachadores y compradores.<br>*This will be confirmed when* se pueda registrar, iniciar y cerrar una operación de demostración, y el comprador asociado consulte su seguimiento desde la aplicación publicada. |
+| **Sprint 2 Velocity** | Por confirmar con el cierre formal del Sprint. |
+| **Sum of Story Points** | **84 SP planificados**: 81 SP de las 27 historias de la aplicación y 3 SP de US28, arrastrada del Sprint 1. **US28 sigue pendiente de verificación.** |
+
+**Nota:** El Product Backlog del Capítulo III usa los identificadores **US**. El Sprint 1 utiliza **UH** para algunas historias del Landing Page; aquí se conservan los **US** originales a fin de asegurar la trazabilidad.
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+A continuación, se presenta la distribución de responsabilidades para el desarrollo del Sprint 2 de AgroFlet. En este cuadro se detallan los módulos técnicos o aspectos liderados por cada integrante, así como sus áreas de colaboración cruzada, garantizando el cumplimiento de todos los objetivos planificados bajo un enfoque de trabajo colaborativo.
+
+| Team Member | GitHub Username* | Aspecto liderado | Colaboración |
+| :--- | :--- | :--- | :--- |
+| Tello Lima, Jose Alejandro | `j4ndrow` | Fake API y gestión de flotas | Integración de servicios |
+| Centeno León, Adriano Samir | `Adri11-dk` | Internacionalización, perfil y documentación | Revisión funcional |
+| Rivas Castillo, Christoper Steven | `CODERT0PH` | Configuración, IAM, incidencias y despliegue | Integración de la aplicación |
+| Rivas Méndez, Bernie Aarón | `ARivas3008` | Interfaz compartida y seguimiento cartográfico | Diseño responsive |
+| Alca Morán, César Alejandro | `almocesar-cell` | Operaciones y gestión de envíos | Integración de vistas |
+
+*Los nombres de usuario se toman de la documentación del repositorio y deben contrastarse con **Insights > Contributors** antes de la entrega.*
+
+**L:** líder del aspecto. **C:** colaborador. **—:** sin participación específica documentada en ese aspecto. La validación documental está asignada a Adriano; la gestión de flotas a Jose; las operaciones y envíos a César. Los accesos, incidencias y la preparación del despliegue registran commits de Christoper, y el seguimiento cartográfico registra commits de Bernie.
+
+**Distribución por ramas:**
+
+| Feature Branch | Responsable | Desarrollo |
+| :--- | :--- | :--- |
+| `feature/project-setup` | Christoper Rivas | Configuración de Vue, Vite y estructura por capas |
+| `feature/fake-api-and-fleet` | Jose Tello | Fake API, vehículos y conductores |
+| `feature/i18n-profile-and-docs` | Adriano Centeno | Idiomas, perfil y documentación |
+| `feature/iam-incidents-and-deployment` | Christoper Rivas | Autenticación, incidencias y despliegue |
+| `feature/shared-ui-and-tracking` | Bernie Rivas | Componentes compartidos, mapas y posiciones |
+| `feature/shipment-operations` | César Alca | Registro, consulta y ciclo de vida de operaciones |
+
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El Backlog incorpora las **27 User Stories de la aplicación web no trabajadas en el Sprint 1** (US01–US23, US31–US34). La historia **US28**, pendiente del Landing Page, se registra por separado. Los títulos provienen del Capítulo III; las tareas se sintetizan a partir de la implementación documentada en GitHub. Se usa una tarea resumida por historia para facilitar la lectura.
+
+| User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation (h) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | ---: | :--- | :---: |
+| US01 | Registro de cuenta | T01 | Registro de usuarios | Crear formulario por rol y validar campos y correo único. | 5 | Christoper Rivas | Finalizada |
+| US02 | Inicio de sesión | T02 | Autenticación | Implementar acceso, sesión y control de credenciales. | 4 | Christoper Rivas | Finalizada |
+| US03 | Cierre de sesión | T03 | Logout y rutas protegidas | Cerrar sesión y restringir vistas según rol. | 5 | Christoper Rivas | Finalizada |
+| US04 | Recuperación de contraseña | T04 | Recuperación y cambio | Solicitud genérica y restablecimiento mediante token de demostración. | 6 | Christoper Rivas | Finalizada |
+| US05 | Registro de vehículo | T05 | Alta de vehículos | Crear formulario con placa, capacidad y validaciones. | 4 | Jose Tello | Finalizada |
+| US06 | Consulta y edición de vehículos | T06 | Gestión de vehículos | Listar y editar flota; proteger vehículos reservados. | 5 | Jose Tello | Finalizada |
+| US07 | Registro de conductor | T07 | Alta de conductores | Registrar conductores, licencia y DNI no duplicado. | 4 | Jose Tello | Finalizada |
+| US08 | Selección de recursos para el despacho | T08 | Asignación de recursos | Seleccionar vehículo y conductor disponibles. | 2 | Jose Tello | Finalizada |
+| US09 | Registro de operación programada | T09 | Nueva operación | Crear envío y reservar sus recursos, validando capacidad. | 6 | César Alca | Finalizada |
+| US10 | Consulta de operaciones activas | T10 | Dashboard | Mostrar envíos autorizados, estados e indicadores. | 4 | César Alca | Finalizada |
+| US11 | Detalle de operación | T11 | Detalle del envío | Mostrar datos, ruta e historial con acceso por rol. | 4 | César Alca | Finalizada |
+| US12 | Cierre de operación | T12 | Entrega y cancelación | Cambiar estado y liberar recursos; exigir motivo al cancelar. | 4 | César Alca | Finalizada |
+| US13 | Registro de incidencia | T13 | Nueva incidencia | Registrar incidente y recalcular ETA sin duplicaciones. | 5 | Christoper Rivas | Finalizada |
+| US14 | Historial de incidencias | T14 | Lista de incidencias | Consultar eventos e impacto en el traslado. | 2 | Christoper Rivas | Finalizada |
+| US15 | Historial con filtros | T15 | Filtros de operaciones | Filtrar por fecha, estado, carga y destino. | 4 | César Alca | Finalizada |
+| US16 | Búsqueda por código o placa | T16 | Búsqueda de envíos | Localizar operaciones por código o placa. | 2 | César Alca | Finalizada |
+| US17 | Posiciones en mapa | T17 | Seguimiento cartográfico | Mostrar posiciones reportadas y fecha de actualización en Leaflet. | 5 | Bernie Rivas | Finalizada |
+| US18 | Ruta planificada | T18 | Visualización de ruta | Diferenciar la ruta prevista de las posiciones reportadas. | 3 | Bernie Rivas | Finalizada |
+| US19 | Alertas por incidencia | T19 | Notificaciones de incidencia | Avisar a participantes sin duplicar alertas. | 3 | Christoper Rivas | Finalizada |
+| US20 | Alertas por cambio de estado | T20 | Notificaciones de estado | Notificar transiciones y permitir marcar avisos como leídos. | 3 | Christoper Rivas | Finalizada |
+| US21 | Edición de perfil | T21 | Configuración de perfil | Modificar datos permitidos del usuario. | 2 | Adriano Centeno | Finalizada |
+| US22 | Cambio de contraseña | T22 | Seguridad de la cuenta | Validar contraseña actual y cerrar sesión al actualizarla. | 2 | Adriano Centeno | Finalizada |
+| US23 | Idioma de la aplicación | T23 | Internacionalización | Incorporar inglés y español con preferencia persistente. | 2 | Adriano Centeno | Finalizada |
+| US31 | Inicio del traslado | T24 | Inicio de operación | Cambiar `planned` a `in_transit` y registrar salida. | 2 | César Alca | Finalizada |
+| US32 | Registro de posición reportada | T25 | Reporte de ubicación | Registrar coordenadas, fecha y fuente de la posición. | 3 | Bernie Rivas | Finalizada |
+| US33 | Términos del servicio | T26 | Términos y condiciones | Publicar las condiciones del servicio dentro de la aplicación. | 2 | Adriano Centeno | Finalizada |
+| US34 | Acceso por segmento desde landing | T27 | Acceso por rol | Recibir `?segment=dispatcher` o `?segment=buyer` en acceso/registro. | 1 | Christoper Rivas | Finalizada |
+| US28 | Contacto | T28 | Formulario de contacto del landing | Implementar y comprobar envío efectivo desde la Landing Page. | 3 | Bernie Rivas | Finalizada |
+
+**Tareas técnicas complementarias (sin Story Points adicionales):**
+
+| Task Id | Task Title | Assigned To | Status |
+| :--- | :--- | :--- | :---: |
+| TT01 | Configuración inicial y cliente HTTP compartido | Christoper Rivas | Finalizada |
+| TT02 | Fake API con `server/db.json` y rutas `/api/v1` | Jose Tello | Finalizada |
+| TT03 | Layout, diseño responsive y componentes reutilizables | Bernie Rivas | Finalizada |
+| TT04 | Diccionarios y documentación técnica | Adriano Centeno | Finalizada |
+| TT05 | Integración, Vercel y GitHub Actions para Pages | Christoper Rivas | Finalizada |
+
+Las 28 historias de usuario y sus respectivas tareas principales figuran Finalizadas. La tarea T28 / US28 (Contacto) fue trasladada desde el Sprint 1 del Landing Page y logró completarse en este ciclo. Adicionalmente, el equipo proporcionó el enlace y la captura del video de navegación de la aplicación web correspondiente al Sprint 2, incorporados en la sección 5.2.2.5; cabe destacar que esta evidencia valida el incremento actual y es distinta de la confirmación de los videos About-the-Product y About-the-Team incrustados en la landing page.
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+La implementación se organizó mediante `main`, `develop`, ramas `feature/*` y `release/v1.0.0`. En `src/` se separaron los bounded contexts `iam`, `fleet`, `shipments`, `tracking` e `incidents`, con capas de dominio, aplicación, infraestructura y presentación.
+
+| Evidencia de desarrollo | Rama / referencia |
+| :--- | :--- |
+| Base Vue, Vite y cliente HTTP | `feature/project-setup` |
+| Fake API y gestión de flota | `feature/fake-api-and-fleet` |
+| Componentes, vista móvil y mapa | `feature/shared-ui-and-tracking` |
+| Registro, detalle e historial de envíos | `feature/shipment-operations` |
+| Perfil, traducciones y documentación | `feature/i18n-profile-and-docs` |
+| IAM, incidencias y despliegue | `feature/iam-incidents-and-deployment` |
+
+**Repositorio:** [AGROFLET/Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application). 
+
+Vista del proyecto en github:
+<p align="center">
+  <img src="assets/images/Cap5_Dev_View_Sprint 2.PNG" alt="Structurizr" title="View" width="700">
+</p>
+
+Vista de las ramas trabajadas:
+<p align="center">
+  <img src="assets/images/Cap5_Dev_View_Sprint 2_branches.PNG" alt="Structurizr" title="Branches" width="700">
+</p>
+
+Ejemplo html de Sprint 2:
+<p align="center">
+  <img src="assets/images/Cap5_Dev_Sprint_2_html_example.PNG" alt="Structurizr" title="Example" width="700">
+</p>
+
+Ejemplo vue de Sprint 2:
+<p align="center">
+  <img src="assets/images/Cap5_Dev_Sprint_2_vue_example.PNG" alt="Structurizr" title="Example" width="700">
+</p>
+
+Ejemplo de .js de Sprint 2:
+<p align="center">
+  <img src="assets/images/Cap5_Dev_Sprint_2_js_example.PNG" alt="Structurizr" title="Example" width="700">
+</p>
+
+Ejemplo de .env de Sprint 2:
+<p align="center">
+  <img src="assets/images/Cap5_Dev_Sprint_2_env_example.PNG" alt="Structurizr" title="Example" width="700">
+</p>
+
+Pull Request sprint 2:
+<p align="center">
+  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_1.PNG" alt="Structurizr" title="PullRequest" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/Cap5_Dev_PullRequest_Sprint_2_2.PNG" alt="Structurizr" title="PullRequest" width="700">
+</p>
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+La versión de demostración permite recorrer las funcionalidades según el rol. Las siguientes vistas sirven como evidencia de ejecución y deben acompañarse con capturas propias de la versión desplegada.
+
+| Vista / acción | Ruta o evidencia | User Stories |
+| :--- | :--- | :--- |
+| Registro, acceso y recuperación | `/iam/sign-up`, `/iam/sign-in`, `/iam/password-recovery` | US01–US04, US34 |
+| Panel principal y gestión de envíos | `/dashboard`, `/shipments/new`, `/shipments/:id` | US08–US12, US31 |
+| Vehículos y conductores | `/fleet/vehicles`, `/fleet/drivers` | US05–US07 |
+| Historial y búsqueda | `/shipments` | US15–US16 |
+| Mapa, ruta e incidencias | Detalle de envío, mapa y diálogos | US13–US14, US17–US18, US32 |
+| Alertas de operaciones | `/notifications` | US19–US20 |
+| Cuenta, idioma y condiciones | `/iam/profile`, `/terms` | US21–US23, US33 |
+
+
+Vista de Web:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_page1.PNG" alt="Structurizr" title="View" width="700">
+</p>
+
+**Sección comprador:**
+Envíos entrantes:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_1.PNG" alt="Structurizr" title="Buyer" width="700">
+</p>
+
+Historial:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_2.PNG" alt="Structurizr" title="Buyer" width="700">
+</p>
+
+Notificaciones:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_3.PNG" alt="Structurizr" title="Buyer" width="700">
+</p>
+
+Configuración: 
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_buyer_view_4.PNG" alt="Structurizr" title="Buyer" width="700">
+</p>
+
+---
+**Sección despachador:**
+Panel:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_1.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Envíos:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_2.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Registrar envío:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_3.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Vehículos:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_4.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Registrar vehículo:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_4_1.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Conductores:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_5.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Registrar conductor:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_5_1.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Notificaciones:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_6.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+Configuración:
+<p align="center">
+  <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_7.PNG" alt="Structurizr" title="Dispatcher" width="700">
+</p>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 (TB1), la Web Application de AgroFlet consume una **Fake API** basada en `json-server` 0.17. Este servicio permite desarrollar y demostrar los flujos de los segmentos Despachador y Comprador antes de integrar el RESTful API definitivo. A diferencia de un backend productivo, las reglas de negocio y las restricciones de acceso de esta versión se aplican principalmente desde el frontend.
+
+La documentación del servicio simulado se encuentra en el archivo [`docs/fake-api.openapi.yaml`](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/docs/fake-api.openapi.yaml), con **OpenAPI 3.0.3** y versión de contrato **1.0.0**. El documento describe rutas, métodos HTTP, parámetros, cuerpos de solicitud, esquemas, respuestas y ejemplos. Sus operaciones identifican las Technical Stories que emulan; esto documenta el mock utilizado en TB1, no acredita la implementación del futuro backend ASP.NET Core.
+
+**Ubicación y configuración del servicio**
+
+| Entorno | URL base | Configuración verificable |
+| :--- | :--- | :--- |
+| Desarrollo integrado con Vite | `/api/v1` en el servidor de `npm run dev` o `npm run preview` | Fake API servida desde Vite. |
+| JSON Server independiente | `http://localhost:3000/api/v1` | `npm run server`; datos de `server/db.json`. |
+| Demostración publicada | [https://agroflet-frontend-application.vercel.app/api/v1](https://agroflet-frontend-application.vercel.app/api/v1) | Vercel Function en `api/index.js`. |
+
+El archivo [`server/routes.json`](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/server/routes.json) transforma `/api/v1/*` en los recursos de JSON Server. El [README técnico](https://github.com/AGROFLET/Agroflet-frontend-application#fake-api-json-server) explica las diferencias de persistencia entre los modos locales y el despliegue. La función publicada admite almacenamiento compartido mediante Upstash Redis cuando la integración está configurada; sin ella utiliza datos por instancia. El código y la documentación de esa configuración no sustituyen una evidencia del estado de la base de datos en el panel de Vercel.
+
+**Recursos documentados por contexto**
+
+Las rutas de la tabla son relativas a la URL base `/api/v1`. Los métodos corresponden al contrato OpenAPI existente.
+
+| Contexto | Recurso | Métodos documentados | Uso en la Web Application |
+| :--- | :--- | :--- | :--- |
+| IAM | `/users`, `/users/{id}` | GET y POST en colección; GET y PATCH por ID | Registro, consulta de cuentas, sesión demostrativa y actualización de perfil. |
+| IAM | `/password-reset-requests`, `/password-reset-requests/{id}` | GET y POST en colección; PATCH por ID | Solicitudes de recuperación y actualización de su estado. |
+| Fleet | `/vehicles`, `/vehicles/{id}` | GET y POST en colección; GET y PATCH por ID | Registro, consulta y actualización de vehículos y disponibilidad. |
+| Fleet | `/drivers`, `/drivers/{id}` | GET y POST en colección; GET y PATCH por ID | Registro, consulta y actualización de conductores. |
+| Shipments | `/locations` | GET | Catálogo de origen y destino. |
+| Shipments | `/shipments`, `/shipments/{id}` | GET y POST en colección; GET, PATCH y DELETE por ID | Envíos, filtros y actualización de operaciones. El DELETE documentado no equivale al flujo de cancelación del frontend. |
+| Shipments | `/status-changes` | GET y POST | Historial de cambios de estado. |
+| Tracking | `/positions` | GET y POST | Consulta y registro de posiciones reportadas. |
+| Incidents | `/incidents` | GET y POST | Registro y consulta de incidencias. |
+| Incidents | `/notifications`, `/notifications/{id}` | GET y POST en colección; PATCH por ID | Alertas y marcado de notificaciones como leídas. |
+
+El contrato también incluye `POST /contact-messages`. Sin embargo, el formulario UH28 de la Landing Page V2 guarda la demostración en `localStorage`, bajo `agroflet_contacts`; **no consume ese endpoint**. La existencia del recurso en OpenAPI no demuestra una integración de la landing con el servicio.
+
+**Procedimiento reproducible de consulta de la documentación**
+
+1. Abrir el repositorio del frontend y ejecutar `npm install`.
+2. Iniciar la Fake API independiente mediante `npm run server`.
+3. Abrir `docs/fake-api.openapi.yaml` en Swagger Editor o en el editor compatible de WebStorm.
+4. Seleccionar el servidor `http://localhost:3000/api/v1` y consultar un recurso, por ejemplo `GET /locations` o `GET /shipments?dispatcherId=1`.
+5. Contrastar el resultado con los esquemas y respuestas del contrato. Las solicitudes de escritura deben realizarse únicamente con datos de prueba.
+
+Ejemplos de consulta de solo lectura contra el servicio local:
+
+```http
+GET http://localhost:3000/api/v1/locations
+GET http://localhost:3000/api/v1/shipments?dispatcherId=1
+GET http://localhost:3000/api/v1/positions?shipmentId=1
+```
+
+Estos ejemplos indican cómo reproducir la revisión; no se presentan como resultados de pruebas HTTP ejecutadas en esta actualización del informe. La evidencia documental comprobada es el contrato OpenAPI almacenado en GitHub y su correspondencia con la configuración del mock.
+
+**Alcance y limitaciones de TB1**
+
+- La autenticación es emulada sobre la colección `users`. Aunque el cliente envía un encabezado Bearer, JSON Server no valida el token ni aplica autorización productiva.
+- La recuperación de contraseña no cuenta todavía con un servicio de correo. El enlace demostrativo de restablecimiento solo se muestra en desarrollo.
+- Las ubicaciones representan posiciones reportadas o datos marcados como demostrativos; no acreditan telemetría GPS automática.
+- La documentación OpenAPI del mock no se presenta como Swagger de un RESTful API ASP.NET Core ya desplegado.
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 (TB1) se publicó la primera versión de la Web Application de AgroFlet y se actualizó la Landing Page V2. La Web Application se encuentra disponible en Vercel y GitHub Pages; la Fake API utilizada por ambas publicaciones del frontend se aloja en Vercel. La landing constituye un producto separado, desarrollado con HTML, CSS y JavaScript.
+
+**Productos y direcciones de publicación**
+
+| Producto | Repositorio | URL pública | Evidencia disponible |
+| :--- | :--- | :--- | :--- |
+| Landing Page V2 | [Agroflet-landing-page](https://github.com/AGROFLET/Agroflet-landing-page) | [Landing Page](https://agroflet.github.io/Agroflet-landing-page/) | Workflow `pages.yml`, ejecución exitosa de GitHub Actions y commits del formulario UH28. |
+| Web Application en Vercel | [Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application) | [Web Application](https://agroflet-frontend-application.vercel.app/) | `vercel.json` y captura de Production Deployment con estado Ready. |
+| Web Application en GitHub Pages | [Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application) | [Web Application en Pages](https://agroflet.github.io/Agroflet-frontend-application/) | Workflow `deploy-github-pages.yml` y ejecución exitosa de GitHub Actions. |
+| Fake API | Incluida en el repositorio del frontend | [Fake API (envíos)](https://agroflet-frontend-application.vercel.app/api/v1/shipments) | `api/index.js`, `server/routes.json`, `server/db.json` y contrato OpenAPI. |
+| RESTful API definitivo | Implementación posterior al alcance acreditado de TB1 | Sin despliegue acreditado en esta sección | Se mantiene separado de la Fake API. |
+
+**Recursos de la Fake API**
+
+La Fake API se publica como una Vercel Function con json-server. Todos los recursos usan el prefijo `https://agroflet-frontend-application.vercel.app/api/v1/`.
+
+| Recurso | Endpoint público |
+| :--- | :--- |
+| Usuarios | [/api/v1/users](https://agroflet-frontend-application.vercel.app/api/v1/users) |
+| Solicitudes de recuperación de contraseña | [/api/v1/password-reset-requests](https://agroflet-frontend-application.vercel.app/api/v1/password-reset-requests) |
+| Vehículos | [/api/v1/vehicles](https://agroflet-frontend-application.vercel.app/api/v1/vehicles) |
+| Conductores | [/api/v1/drivers](https://agroflet-frontend-application.vercel.app/api/v1/drivers) |
+| Ubicaciones | [/api/v1/locations](https://agroflet-frontend-application.vercel.app/api/v1/locations) |
+| Envíos | [/api/v1/shipments](https://agroflet-frontend-application.vercel.app/api/v1/shipments) |
+| Cambios de estado | [/api/v1/status-changes](https://agroflet-frontend-application.vercel.app/api/v1/status-changes) |
+| Posiciones GPS | [/api/v1/positions](https://agroflet-frontend-application.vercel.app/api/v1/positions) |
+| Incidencias | [/api/v1/incidents](https://agroflet-frontend-application.vercel.app/api/v1/incidents) |
+| Notificaciones | [/api/v1/notifications](https://agroflet-frontend-application.vercel.app/api/v1/notifications) |
+
+La dirección `https://agroflet.github.io/Agroflet-frontend-application/` corresponde a la **Web Application**, no a la Landing Page. Esta distinción permite identificar y revisar cada producto de la entrega.
+
+**1. Configuración y evidencia de Vercel**
+
+El archivo [`vercel.json`](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/vercel.json) establece la configuración reproducible del frontend:
+
+```text
+Framework: Vite / Vue
+Build command: npm run build
+Output directory: dist
+API rewrite: /api/v1/:path* -> /api
+SPA rewrite: /(.*) -> /index.html
+Production API base: /api/v1
+```
+
+La primera reescritura dirige las solicitudes del mock a la Vercel Function. La segunda permite que las rutas internas de Vue Router sean atendidas por la SPA. El despliegue incluye los archivos JSON del directorio `server/` necesarios para inicializar los datos demostrativos.
+
+<p align="center">
+  <img src="assets/images/Cap5_Deployment_Evidence.png" alt="Production Deployment de AgroFlet en Vercel con estado Ready y origen vercel deploy" width="700">
+</p>
+
+*Figura. El panel muestra el dominio agroflet-frontend-application.vercel.app, el estado Ready y la fuente «vercel deploy». También aparece la opción «Connect Git». La captura acredita una publicación por CLI; no acredita que el proyecto estuviera conectado a GitHub ni que cada push a main generara un despliegue automático de Vercel.*
+
+El procedimiento reproducible documentado en el repositorio es:
+
+```bash
+npm install
+npm run build
+vercel login
+vercel link
+vercel --prod
+```
+
+La conexión Git de Vercel puede configurarse posteriormente para automatizar publicaciones. En esta sección se diferencia esa posibilidad del método acreditado por la captura. La evidencia Ready no se utiliza para afirmar que todos los endpoints fueron probados.
+
+**2. Publicación de la Web Application en GitHub Pages**
+
+El workflow [`deploy-github-pages.yml`](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/.github/workflows/deploy-github-pages.yml) se ejecuta ante un push a `main` o mediante `workflow_dispatch`. Sus pasos son:
+
+1. Obtener el código y configurar Node.js 22.
+2. Instalar dependencias con `npm ci`.
+3. Compilar con `npm run build -- --base "/Agroflet-frontend-application/"`.
+4. Configurar `VITE_AGROFLET_PLATFORM_API_URL` hacia la Fake API pública de Vercel, salvo que una variable del repositorio la reemplace.
+5. Copiar `dist/index.html` a `dist/404.html` para permitir que las rutas internas abran la SPA.
+6. Publicar `dist/` mediante las acciones oficiales de GitHub Pages.
+
+GitHub Pages solo sirve contenido estático: la aplicación publicada allí consume el servicio simulado en Vercel. Las rutas internas atendidas mediante `404.html` pueden devolver un estado HTTP 404 aunque Vue Router muestre la pantalla; es una limitación de ese mecanismo de publicación.
+
+**Evidencia de ejecución:** [Deploy to GitHub Pages — run 37274392426](https://github.com/AGROFLET/Agroflet-frontend-application/actions/runs/37274392426), asociado al commit [9576c15](https://github.com/AGROFLET/Agroflet-frontend-application/commit/9576c150b6098f9e41741793138f363d0be44473). La consulta del historial de GitHub Actions realizada para esta corrección confirmó estado `completed` y conclusión `success`.
+
+**3. Actualización y despliegue de la Landing Page V2**
+
+La landing conserva sus secciones de presentación, planes, testimonios, solución, equipo y videos. En TB1 se incorporó el formulario UH28 después de Videos, con validaciones, textos ES/EN y guardado demostrativo en el navegador. El formulario utiliza el azul de las secciones alternadas del sitio.
+
+El workflow [`pages.yml`](https://github.com/AGROFLET/Agroflet-landing-page/blob/main/.github/workflows/pages.yml) revisa los archivos estáticos y la sintaxis JavaScript, prepara `index.html`, `assets/`, `docs/` y `.nojekyll`, y publica el artefacto en GitHub Pages. No requiere compilar la landing con Vite.
+
+| Cambio de la Landing V2 | Evidencia trazable |
+| :--- | :--- |
+| Incorporación de UH28 después de Videos | [Pull Request #3, integrado](https://github.com/AGROFLET/Agroflet-landing-page/pull/3) |
+| Adaptación al fondo azul existente | [Commit 57ce8f6](https://github.com/AGROFLET/Agroflet-landing-page/commit/57ce8f64dc7b85182205a85d157b8cb0ccab3ef6) |
+| Actualización del enlace de estilos para renovar la caché | [Commit a98634a](https://github.com/AGROFLET/Agroflet-landing-page/commit/a98634ad38250b15129f87bd6af06076bbdc6f7b) |
+| Publicación de la actualización | [Deploy AgroFlet to GitHub Pages — run 37855277906](https://github.com/AGROFLET/Agroflet-landing-page/actions/runs/37855277906), estado `completed`, conclusión `success` |
+
+Las evidencias anteriores permiten revisar por separado la configuración, el resultado del despliegue y los cambios del producto. Los flujos de la aplicación se documentan en 5.2.2.5; el alcance del servicio simulado y sus limitaciones se describen en 5.2.2.6. La publicación de una interfaz o de un mock no se atribuye al backend definitivo.
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2 el equipo distribuyó el desarrollo de la aplicación web frontend (Single-Page Application) en aspectos técnicos y funcionales claramente delimitados: configuración de la arquitectura modular en Vue, diseño de componentes de UI con PrimeVue, gestión de estado reactivo con Pinia, integración con el Fake API Server, renderizado de mapas interactivos con Leaflet, internacionalización y despliegue continuo en la nube.
+
+**Actividades de implementación desarrolladas:**
+
+* **Estructuración arquitectónica y de dominio:** se establecieron los Bounded Contexts del proyecto (`iam`, `fleet`, `shipments`, `tracking` e `incidents`) dentro de la estructura de carpetas de Vue, aplicando el patrón Assembler/Entity para desacoplar el modelo de dominio de los contratos de transferencia de datos de la API.
+* **Desarrollo modular y UI:** la interfaz se construyó mediante componentes reutilizables y vistas adaptadas a cada rol (Despachador para gestión operativa y Comprador Mayorista para consulta y monitoreo), implementando librerías como PrimeVue y vistas clave para la gestión de flota, registro de viajes y dashboards.
+* **Simulación e integración asíncrona (Fake API):** se implementó un servidor simulado mediante `json-server` (`server/db.json` y `routes.json`) para exponer los endpoints RESTful (`/api/v1/*`), permitiendo el consumo HTTP asíncrono vía Axios con interceptores de autenticación JWT y manejo centralizado de errores antes de conectar el backend definitivo.
+* **Trazabilidad geográfica e incidencias:** se integró la biblioteca Leaflet para renderizar capas cartográficas y rutas terrestres, complementada con el recálculo dinámico de la Hora Estimada de Llegada (ETA) al registrar incidencias o desvíos viales.
+* **Gestión de versiones y despliegue continuo:** se mantuvo la metodología GitFlow trabajando sobre ramas de características (`feature/*`) con revisiones mediante Pull Requests hacia `develop`, desplegando la Single-Page Application Vercel.
+
+La separación del código por Bounded Contexts y la utilización de Assemblers permitió que nosotros desarrollaramos funcionalidades en paralelo sin generar conflictos sobre los stores o las rutas del sistema. Como principal aprendizaje del sprint, el equipo reconoció el valor del uso de un Fake API robusto, lo cual evitó cuellos de botella en la integración frontend-backend.
+
+**Analíticas de colaboración en GitHub:**
+
+**1. Evidencia de ramas del repositorio**
+
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Branches2.png" alt="Ramas del repositorio de la Landing Page" title="Git Branches" width="700">
+</p>
+
+**2. Historial de commits por integrante**
+
+*Alca Morán, César Alejandro (`CesarAlcaM`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Cesar2.png" alt="Commits de César Alca" title="Commits - César" width="700">
+</p>
+
+*Centeno León, Adriano Samir (`AdrianoCenteno`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Adriano2.png" alt="Commits de Adriano Centeno" title="Commits - Adriano" width="700">
+</p>
+
+*Rivas Méndez, Bernie Aarón (`BernieRivasM`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Bernie2.png" alt="Commits de Bernie Rivas" title="Commits - Bernie" width="700">
+</p>
+
+*Rivas Castillo, Christoper Steven (`ChristoperRivasC`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Christoper2.png" alt="Commits de Christoper Rivas" title="Commits - Christoper" width="700">
+</p>
+
+*Tello Lima, Jose Alejandro (`JoseTelloL`)*
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Commits_Jose2.png" alt="Commits de Jose Tello" title="Commits - Jose" width="700">
+</p>
+
+**3. Colaboradores activos en el repositorio**
+
+*Gráfica de la actividad conjunta del equipo y de la distribución de aportes (adiciones y eliminaciones de código) durante el Sprint 2.*
+
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Contributors2.png" alt="Contributors del repositorio" title="Insights > Contributors" width="700">
+</p>
+
+**4. Histograma de contribuciones en el tiempo**
+
+*Frecuencia de commits realizados durante el Sprint 2, evidenciando un esfuerzo sostenido y coordinado hacia la integración final.*
+
+<p align="center">
+  <img src="assets/images/Cap5_Collab_Histograma2.png" alt="Histograma de contribuciones" title="Insights > Commits" width="700">
+</p>
