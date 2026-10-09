@@ -1230,24 +1230,84 @@ Estos ejemplos indican cómo reproducir la revisión; no se presentan como resul
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 2 se realizó el despliegue exitoso del Frontend Web Application y la Landing Page de AgroFlet, garantizando la disponibilidad pública y la integración continua de la plataforma. A continuación, se detallan los pasos ejecutados:
+Durante el Sprint 2 (TB1) se publicó la primera versión de la Web Application de AgroFlet y se actualizó la Landing Page V2. La Web Application se encuentra disponible en Vercel y GitHub Pages; la Fake API utilizada por ambas publicaciones del frontend se aloja en Vercel. La landing constituye un producto separado, desarrollado con HTML, CSS y JavaScript.
 
-1. Se creó y configuró una cuenta en la plataforma de alojamiento en la nube Vercel.
-2. Se vinculó el proyecto de Vercel con la organización y el repositorio correspondiente de GitHub (`agroflet-frontend-application`).
-3. Se importó el repositorio del frontend y se establecieron los ajustes del framework (Vite / Vue.js) con el comando de build predeterminado y el directorio de salida de compilación.
-4. Se configuraron las variables de entorno necesarias para enlazar la aplicación con la API simulada.
-5. Se seleccionó la rama de producción (`main`) para la canalización de despliegue continuo (Continuous Deployment).
-6. Se ejecutó el despliegue inicial hacia el entorno de producción (`Production Deployment`), alcanzando exitosamente el estado `Ready`.
-7. Se habilitó el flujo automatizado para generar nuevos despliegues de producción ante cada actualización o merge en la rama principal.
-8. Se validó la correcta disponibilidad del servicio, la navegación de pantallas y el diseño responsivo a través del dominio público asignado.
+**Productos y direcciones de publicación**
+
+| Producto | Repositorio | URL pública | Evidencia disponible |
+| :--- | :--- | :--- | :--- |
+| Landing Page V2 | [Agroflet-landing-page](https://github.com/AGROFLET/Agroflet-landing-page) | [Landing Page](https://agroflet.github.io/Agroflet-landing-page/) | Workflow `pages.yml`, ejecución exitosa de GitHub Actions y commits del formulario UH28. |
+| Web Application en Vercel | [Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application) | [Web Application](https://agroflet-frontend-application.vercel.app/) | `vercel.json` y captura de Production Deployment con estado Ready. |
+| Web Application en GitHub Pages | [Agroflet-frontend-application](https://github.com/AGROFLET/Agroflet-frontend-application) | [Web Application en Pages](https://agroflet.github.io/Agroflet-frontend-application/) | Workflow `deploy-github-pages.yml` y ejecución exitosa de GitHub Actions. |
+| Fake API | Incluida en el repositorio del frontend | [Base del servicio simulado](https://agroflet-frontend-application.vercel.app/api/v1) | `api/index.js`, `server/routes.json` y contrato OpenAPI. |
+| RESTful API definitivo | Implementación posterior al alcance acreditado de TB1 | Sin despliegue acreditado en esta sección | Se mantiene separado de la Fake API. |
+
+La dirección `https://agroflet.github.io/Agroflet-frontend-application/` corresponde a la **Web Application**, no a la Landing Page. Esta distinción permite identificar y revisar cada producto de la entrega.
+
+**1. Configuración y evidencia de Vercel**
+
+El archivo [`vercel.json`](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/vercel.json) establece la configuración reproducible del frontend:
+
+```text
+Framework: Vite / Vue
+Build command: npm run build
+Output directory: dist
+API rewrite: /api/v1/:path* -> /api
+SPA rewrite: /(.*) -> /index.html
+Production API base: /api/v1
+```
+
+La primera reescritura dirige las solicitudes del mock a la Vercel Function. La segunda permite que las rutas internas de Vue Router sean atendidas por la SPA. El despliegue incluye los archivos JSON del directorio `server/` necesarios para inicializar los datos demostrativos.
 
 <p align="center">
-  <img src="assets/images/Cap5_Deployment_Evidence.png" alt="Evidencia de despliegue en Vercel de AgroFlet" title="Vercel Deployment Evidence" width="700">
+  <img src="assets/images/Cap5_Deployment_Evidence.png" alt="Production Deployment de AgroFlet en Vercel con estado Ready y origen vercel deploy" width="700">
 </p>
 
-**URL del Frontend Web Application desplegado:** [https://agroflet-frontend-application.vercel.app/](https://agroflet-frontend-application.vercel.app/)
+*Figura. El panel muestra el dominio agroflet-frontend-application.vercel.app, el estado Ready y la fuente «vercel deploy». También aparece la opción «Connect Git». La captura acredita una publicación por CLI; no acredita que el proyecto estuviera conectado a GitHub ni que cada push a main generara un despliegue automático de Vercel.*
 
-**URL de la Landing Page desplegada:** [https://agroflet.github.io/Agroflet-frontend-application/](https://agroflet.github.io/Agroflet-frontend-application/)
+El procedimiento reproducible documentado en el repositorio es:
+
+```bash
+npm install
+npm run build
+vercel login
+vercel link
+vercel --prod
+```
+
+La conexión Git de Vercel puede configurarse posteriormente para automatizar publicaciones. En esta sección se diferencia esa posibilidad del método acreditado por la captura. La evidencia Ready no se utiliza para afirmar que todos los endpoints fueron probados.
+
+**2. Publicación de la Web Application en GitHub Pages**
+
+El workflow [`deploy-github-pages.yml`](https://github.com/AGROFLET/Agroflet-frontend-application/blob/main/.github/workflows/deploy-github-pages.yml) se ejecuta ante un push a `main` o mediante `workflow_dispatch`. Sus pasos son:
+
+1. Obtener el código y configurar Node.js 22.
+2. Instalar dependencias con `npm ci`.
+3. Compilar con `npm run build -- --base "/Agroflet-frontend-application/"`.
+4. Configurar `VITE_AGROFLET_PLATFORM_API_URL` hacia la Fake API pública de Vercel, salvo que una variable del repositorio la reemplace.
+5. Copiar `dist/index.html` a `dist/404.html` para permitir que las rutas internas abran la SPA.
+6. Publicar `dist/` mediante las acciones oficiales de GitHub Pages.
+
+GitHub Pages solo sirve contenido estático: la aplicación publicada allí consume el servicio simulado en Vercel. Las rutas internas atendidas mediante `404.html` pueden devolver un estado HTTP 404 aunque Vue Router muestre la pantalla; es una limitación de ese mecanismo de publicación.
+
+**Evidencia de ejecución:** [Deploy to GitHub Pages — run 37274392426](https://github.com/AGROFLET/Agroflet-frontend-application/actions/runs/37274392426), asociado al commit [9576c15](https://github.com/AGROFLET/Agroflet-frontend-application/commit/9576c150b6098f9e41741793138f363d0be44473). La consulta del historial de GitHub Actions realizada para esta corrección confirmó estado `completed` y conclusión `success`.
+
+**3. Actualización y despliegue de la Landing Page V2**
+
+La landing conserva sus secciones de presentación, planes, testimonios, solución, equipo y videos. En TB1 se incorporó el formulario UH28 después de Videos, con validaciones, textos ES/EN y guardado demostrativo en el navegador. El formulario utiliza el azul de las secciones alternadas del sitio.
+
+El workflow [`pages.yml`](https://github.com/AGROFLET/Agroflet-landing-page/blob/main/.github/workflows/pages.yml) revisa los archivos estáticos y la sintaxis JavaScript, prepara `index.html`, `assets/`, `docs/` y `.nojekyll`, y publica el artefacto en GitHub Pages. No requiere compilar la landing con Vite.
+
+| Cambio de la Landing V2 | Evidencia trazable |
+| :--- | :--- |
+| Incorporación de UH28 después de Videos | [Pull Request #3, integrado](https://github.com/AGROFLET/Agroflet-landing-page/pull/3) |
+| Adaptación al fondo azul existente | [Commit 57ce8f6](https://github.com/AGROFLET/Agroflet-landing-page/commit/57ce8f64dc7b85182205a85d157b8cb0ccab3ef6) |
+| Actualización del enlace de estilos para renovar la caché | [Commit a98634a](https://github.com/AGROFLET/Agroflet-landing-page/commit/a98634ad38250b15129f87bd6af06076bbdc6f7b) |
+| Publicación de la actualización | [Deploy AgroFlet to GitHub Pages — run 37855277906](https://github.com/AGROFLET/Agroflet-landing-page/actions/runs/37855277906), estado `completed`, conclusión `success` |
+
+Las evidencias anteriores permiten revisar por separado la configuración, el resultado del despliegue y los cambios del producto. Los flujos de la aplicación se documentan en 5.2.2.5; el alcance del servicio simulado y sus limitaciones se describen en 5.2.2.6. La publicación de una interfaz o de un mock no se atribuye al backend definitivo.
+
+---
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
