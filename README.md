@@ -122,6 +122,8 @@ Autores contribuyentes:
 La actividad del Project Report se organizó en ramas temáticas por capítulos, desde feature/chapter1 hasta feature/chapter5, además de las ramas feature/chapter6 y feature/chapterAnex. La rama develop reúne los avances del informe. Los commits permiten mantener trazabilidad sobre las modificaciones realizadas en investigación, requisitos, diseño, arquitectura y documentación de implementación.
 Durante TB1, el equipo documentó el Sprint 2, las evidencias de desarrollo y ejecución de la Web Application, los servicios simulados mediante Fake API, los despliegues y la actualización de la Landing Page V2. La distribución de responsabilidades se sustenta en el Participant Performance Report del equipo.
 
+---
+
 ### AV1 — Informe inicial y Sprint 1
 
 Durante esta fase, el equipo elaboró la primera versión del informe de AgroFlet, incluyendo los siguientes aspectos:
@@ -136,6 +138,8 @@ Durante esta fase, el equipo elaboró la primera versión del informe de AgroFle
 - **Capítulo V:** configuración inicial y evidencias de implementación correspondientes al Sprint 1.
 - Primera versión de la Landing Page de AgroFlet.
 - Conclusiones preliminares, bibliografía y anexos.
+
+---
 
 ### Project Report Collaboration Insights AV1
 
@@ -185,6 +189,8 @@ Los principales aspectos documentados fueron:
 
 El apartado **5.2.2** reúne la documentación correspondiente al Sprint 2, incluyendo planificación, backlog, desarrollo, ejecución, servicios, despliegue y colaboración.
 
+---
+
 ### Project Report Collaboration Insights TB1
 
 El siguiente cuadro presenta los **conteos históricos consignados en el registro de TB1 del README**, junto con los aportes declarados en el Participant Performance Report.
@@ -201,6 +207,8 @@ El siguiente cuadro presenta los **conteos históricos consignados en el registr
 **Alcance del conteo:** los 165 commits corresponden al registro histórico documentado para TB1. No se presentan como un conteo verificado de commits individuales realizados exclusivamente después de AV1 ni como un historial filtrado para excluir merges. Los totales de AV1 y TB1 representan cortes documentales distintos y no deben sumarse para calcular un total de contribuciones.
 
 La evidencia muestra aportes de los cinco integrantes en documentación, implementación y despliegue. Las responsabilidades abarcan la planificación del sprint, el desarrollo del frontend, la documentación de servicios, las evidencias de ejecución y la actualización del informe.
+
+---
 
 ### Evidencia de colaboración registrada para TB1
 
@@ -220,6 +228,8 @@ La evidencia muestra aportes de los cinco integrantes en documentación, impleme
 Las evidencias del repositorio del informe acreditan la colaboración documental. Las evidencias de los repositorios de la Web Application y la Landing Page permiten consultar los aportes de implementación de cada producto.
 
 El historial de commits, las ramas de trabajo y los Pull Requests permiten relacionar los responsables con los artefactos modificados. Las evidencias complementarias de colaboración durante el Sprint 2 se documentan en **5.2.2.8. Team Collaboration Insights during Sprint**.
+
+---
 
 ## Contenido
 
