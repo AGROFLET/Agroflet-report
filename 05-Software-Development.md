@@ -205,7 +205,9 @@ https://pages.github.com/
 
 **Proveedor de hosting en la nube para ASP.NET Core:**
 
-Para el despliegue del RESTful API se utilizará un proveedor de hosting en la nube compatible con ASP.NET Core y MySQL. El proveedor definitivo se determinará en función de los requerimientos de disponibilidad y costo del proyecto.
+Como **propuesta concreta de infraestructura para el Sprint 3 (AV2)**, se plantea **Microsoft Azure App Service** para publicar el RESTful API con ASP.NET Core y **Azure Database for MySQL – Flexible Server** como servicio de persistencia. La alternativa responde a cinco criterios: compatibilidad con el runtime .NET, facilidad de publicación desde GitHub Actions, gestión de configuración y secretos mediante variables de entorno, disponibilidad de HTTPS y diagnósticos de la aplicación, y administración de una base de datos MySQL sin mantener manualmente un servidor de bases de datos. El equipo debe contrastar el costo del plan, la región y los límites de recursos antes de aprovisionarla.
+
+**Distinción entre diseño y operación:** esta es una **selección técnica propuesta y justificada para evaluación del equipo**, no una afirmación de que el backend ya esté publicado en Azure. Al cierre de TB1, la aplicación se demostraba con una Fake API en Vercel; su contrato OpenAPI no sustituye al servicio definitivo. Para acreditar la implementación en AV2 se requerirán el repositorio ASP.NET Core, un servicio desplegado accesible por HTTPS, una conexión MySQL probada, pruebas de endpoints y capturas del portal de hosting y Swagger/OpenAPI.
 
 <p align="center">
   <img src="assets/images/Cap5_Logo_CloudHosting.png" alt="Cloud Hosting" title="Cloud Hosting Provider" width="250">
@@ -535,17 +537,26 @@ En esta sección se detalla el proceso de configuración y despliegue definido p
   <img src="assets/images/Cap5_Deploy_Workflow.png" alt="Workflow de despliegue ejecutado" title="GitHub Actions - pages build and deployment" width="700">
 </p>
 
-**2. Frontend Web Application**
+**2. Frontend Web Application — configuración y despliegue acreditados en TB1**
 
-* **Tecnología:** Vue.js + PrimeVue.
-* **Proceso previsto:** integración de ramas `feature/*` hacia `develop` mediante Pull Requests; al fusionar en `main` se ejecuta el proceso de construcción (`npm install` y `npm run build`), se inyectan las variables de entorno de producción (URL base del API) y se publica el directorio `dist/` resultante.
-* **Estado actual:** pendiente de implementación. Planificado para los siguientes Sprints.
+* **Tecnología:** Vue 3, Vite y PrimeVue; generación de artefactos estáticos mediante `npm ci` y `npm run build`.
+* **Proveedor principal:** Vercel, configurado por `vercel.json` con `framework: vite`, `buildCommand: npm run build`, `outputDirectory: dist` y una función `api/index.js` que sirve el servicio simulado.
+* **Publicación complementaria:** GitHub Pages con el workflow `.github/workflows/deploy-github-pages.yml`, que compila la aplicación con el `base` correspondiente al repositorio y publica el contenido de `dist/`.
+* **Parámetro de API:** `VITE_AGROFLET_PLATFORM_API_URL`. El archivo `.env.production` utiliza `/api/v1` para la publicación en Vercel; el workflow de Pages configura por defecto `https://agroflet-frontend-application.vercel.app/api/v1`. Este destino **corresponde a la Fake API**, no al futuro backend.
+* **Direcciones de consulta:** [Vercel](https://agroflet-frontend-application.vercel.app/) y [GitHub Pages](https://agroflet.github.io/Agroflet-frontend-application/). La evidencia de publicaciones, workflows y artefactos se desarrolla en la sección 5.2.2.7.
+* **Estado al cierre de TB1:** frontend publicado en los dos proveedores; integración del backend definitivo **no acreditada**. No debe conservarse el estado genérico «pendiente de implementación» para un frontend cuyo despliegue sí está documentado.
 
-**3. Web Services (RESTful API)**
+**3. Web Services (RESTful API) — diseño de despliegue para AV2**
 
-* **Tecnología:** ASP.NET Core, C# y Entity Framework Core sobre MySQL.
-* **Proceso previsto:** los Pull Requests hacia `develop` deben aprobar las pruebas unitarias y de integración; tras la fusión en `main`, el proyecto se compila con `dotnet publish -c Release` y el artefacto se despliega en el proveedor de nube seleccionado, configurando de forma segura la cadena de conexión y las claves de los tokens JWT. La documentación de endpoints queda expuesta mediante Swagger/OpenAPI.
-* **Estado actual:** pendiente de implementación. Planificado para los siguientes Sprints.
+* **Stack de destino:** ASP.NET Core, C#, Entity Framework Core y MySQL, diferenciado de la Fake API de `json-server` usada en TB1.
+* **Proveedor propuesto:** Azure App Service para el servicio .NET y Azure Database for MySQL – Flexible Server para los datos. Se propone esta combinación por la compatibilidad del stack, la administración del runtime, la integración con GitHub y la posibilidad de almacenar la configuración sensible fuera del repositorio. La selección exige revisión de presupuesto y aprobación del equipo; no se presenta como un despliegue ya realizado.
+* **Flujo de publicación previsto:** integración de Pull Requests revisados en `develop`, validación de pruebas, compilación con `dotnet publish -c Release`, publicación del artefacto mediante un workflow autenticado, configuración de `ConnectionStrings__DefaultConnection` y opciones de autenticación mediante parámetros protegidos, aplicación controlada de migraciones de Entity Framework Core y prueba de comunicación con MySQL.
+* **Pruebas de aceptación para AV2:** (1) endpoint de salud accesible por HTTPS; (2) documentación OpenAPI/Swagger del backend real; (3) al menos un escenario de creación, lectura y actualización persistente en MySQL; (4) validación de autenticación y autorización cuando corresponda; (5) consumo del servicio por la Web Application publicada; (6) capturas del proveedor, ejecución de CI/CD y pruebas HTTP reproducibles.
+* **Estado verificable:** la documentación de TB1 acredita el **servicio simulado** y el despliegue del frontend, **no** una aplicación ASP.NET Core productiva. La verificación de estos requisitos queda expresamente como trabajo de AV2 y no como resultado obtenido.
+
+**4. Control de calidad de los artefactos de despliegue**
+
+La retroalimentación de TB1 identificó dos puntos diferentes: la descripción genérica del hosting de C# y una insignia de licencia visible en las capturas de la aplicación. La primera se atiende documentalmente con la alternativa y criterios técnicos anteriores. Para la segunda, el frontend declara `VITE_PRIME_UI_LICENSE_KEY` sin valor en `.env.production`; además, el workflow de Pages admite la variable de repositorio `PRIME_UI_LICENSE_KEY`. Antes de obtener las capturas de AV2, el equipo debe **regularizar y configurar una licencia válida**, confirmar el comportamiento del build desplegado y repetir las capturas de cada flujo. No se considera una corrección suficiente ocultar el indicador con CSS sin resolver primero el estado de licencia.
 
 ---
 
@@ -944,10 +955,10 @@ Durante el Sprint 2 se implementó la primera versión de la **Frontend Web Appl
 | **Sprint 1 Retrospective Summary** | Se mantuvo el trabajo paralelo con GitFlow y se priorizó la integración temprana entre vistas, servicios y componentes compartidos. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 2 Goal** | *Our focus is on* publicar una aplicación que permita gestionar flotas y envíos, reportar posiciones e incidencias y consultar alertas por rol.<br>*We believe it delivers* mayor visibilidad y coordinación a despachadores y compradores.<br>*This will be confirmed when* se pueda registrar, iniciar y cerrar una operación de demostración, y el comprador asociado consulte su seguimiento desde la aplicación publicada. |
-| **Sprint 2 Velocity** | Por confirmar con el cierre formal del Sprint. |
-| **Sum of Story Points** | **84 SP planificados**: 81 SP de las 27 historias de la aplicación y 3 SP de US28, arrastrada del Sprint 1. **US28 sigue pendiente de verificación.** |
+| **Sprint 2 Velocity** | **84 Story Points registrados como completados** al cierre documental de TB1: 81 SP de las 27 historias de la Web Application y 3 SP de US28 (Contacto), recuperada del Sprint 1. |
+| **Sum of Story Points** | **84 SP comprometidos / 84 SP marcados como finalizados (100 % del alcance declarado)**. El total procede de los valores del Product Backlog (Capítulo III) y los estados de las 28 tareas principales del Sprint Backlog 2 (sección 5.2.2.3). |
 
-**Nota:** El Product Backlog del Capítulo III usa los identificadores **US**. El Sprint 1 utiliza **UH** para algunas historias del Landing Page; aquí se conservan los **US** originales a fin de asegurar la trazabilidad.
+**Nota de trazabilidad:** El Product Backlog del Capítulo III usa identificadores **US** y el Sprint 1 utiliza **UH** para algunas historias del Landing Page; aquí se conservan los **US** originales. La velocidad de **84 SP** representa el esfuerzo **declarado como completado** en el backlog del Sprint 2, no una medición independiente de calidad ni evidencia de que ya se haya desplegado el backend en ASP.NET Core. La verificación funcional de la Fake API y del frontend se documenta en las secciones 5.2.2.5 a 5.2.2.7.
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
@@ -1165,6 +1176,20 @@ Configuración:
 <p align="center">
   <img src="assets/images/Cap5_Deploy_Sprint 2_dispatcher_view_7.PNG" alt="Structurizr" title="Dispatcher" width="700">
 </p>
+
+**Revisión de calidad de las evidencias de ejecución — observaciones de TB1**
+
+El profesor identificó una insignia flotante roja con el texto `Invalid PrimeUI License` en las capturas de **Login, Espacio del Comprador, Panel del Despachador, Vehículos, Conductores, Notificaciones y Configuración**. Estas imágenes se conservan como **evidencia histórica de TB1** y no se presentan como capturas corregidas. La señalización visual debe resolverse en el producto y verificarse en su URL pública antes de obtener evidencias nuevas.
+
+| Hallazgo | Causa o punto de verificación | Acción requerida para AV2 | Evidencia de cierre |
+| :--- | :--- | :--- | :--- |
+| Insignia `Invalid PrimeUI License` | El archivo `.env.production` incluye `VITE_PRIME_UI_LICENSE_KEY=` sin valor; GitHub Actions permite configurar `PRIME_UI_LICENSE_KEY`. | Verificar el tipo de licencia aplicable, obtener y configurar una clave válida en los entornos de publicación, generar una nueva compilación y comprobar que el aviso ya no aparezca. | Captura del despliegue y capturas nuevas de todas las vistas observadas. |
+| Capturas con elemento visual ajeno a la interfaz | Material gráfico de TB1 no corregido. | Registrar las nuevas capturas únicamente después de verificar las pantallas desplegadas y su aspecto responsive. | Conjunto de imágenes renovadas y fechadas en el informe AV2. |
+| Nombre del archivo de presentación duplicado | Se entregó una extensión repetida (`.pptx.pptx`). | Guardar la presentación de la siguiente entrega con una sola extensión `.pptx` y generar su versión `.pdf` con el mismo nombre base. | Nombres de los archivos adjuntados en la actividad AV2. |
+
+No se debe atribuir a esta modificación documental la eliminación efectiva del aviso ni la sustitución física de las capturas: ambas dependen de la actualización de la configuración y de nueva evidencia del producto.
+
+---
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -1390,3 +1415,17 @@ La separación del código por Bounded Contexts y la utilización de Assemblers 
 <p align="center">
   <img src="assets/images/Cap5_Collab_Histograma2.png" alt="Histograma de contribuciones" title="Insights > Commits" width="700">
 </p>
+
+
+---
+
+**Acciones de mejora continua derivadas de la evaluación de TB1 (seguimiento para AV2)**
+
+| Criterio observado | Corrección documental incorporada | Verificación que aún requiere evidencia externa |
+| :--- | :--- | :--- |
+| Sprint Backlog: `Sprint 2 Velocity` sin consolidar | Se explicita una velocidad documentada de **84 SP**, correspondiente a 28 User Stories finalizadas según el backlog. | Confirmar el cierre del Sprint Board y conservar evidencia de su estado. |
+| Software Deployment Configuration: hosting de C# sin concreción | Se establece una **alternativa técnica propuesta** (Azure App Service + Azure Database for MySQL), con criterios de selección, configuración y pruebas de aceptación. | Obtener aprobación del equipo, desplegar realmente el API y registrar URL, capturas y pruebas de su funcionamiento. |
+| Calidad visual de las capturas | Se identifica la variable de licencia PrimeUI y se enumeran las siete vistas afectadas. | Regularizar la licencia, configurar los entornos, recompilar, comprobar y reemplazar las capturas de AV2. |
+| Nomenclatura de la presentación | Se incorpora la regla de una sola extensión para PowerPoint y un PDF equivalente. | Verificar el nombre real al adjuntar la presentación, por ejemplo `upc-pre-202620-1asi0730-<NRC>-agroflet-keynote-av2.pptx`. |
+
+Estas medidas responden a la retroalimentación del docente sin alterar las evidencias históricas del Sprint 2 ni atribuir avances de implementación no verificados.
