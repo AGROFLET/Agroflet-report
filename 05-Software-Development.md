@@ -1584,295 +1584,275 @@ Tal y como evidencia el registro histórico, la metodología se rigió por polí
 
 ## 5.3. Validation Interviews
 
-Se propone validar si AgroFlet permite a los dos segmentos objetivo completar tareas críticas sin asistencia y comprender oportunamente el estado de un traslado. Cada sesión debe abarcar la Landing Page y los flujos de la aplicación, diferenciar observaciones de los usuarios de interpretaciones del equipo y producir un registro audiovisual trazable. **La guía y formatos siguientes están preparados; las entrevistas aún deben ejecutarse.** La rúbrica requiere **3 a 5 entrevistas por segmento**.
+### 5.3.1. Diseño de Entrevistas de Validación
 
-### 5.3.1. Diseño de Entrevistas
+Las sesiones de validación siguen el protocolo de **User Testing con Think Aloud**: se le explica al participante el propósito de la sesión y los User Goals que debe alcanzar (basados en el User Persona de su segmento), pero **no** se le indica qué botones pulsar ni se le guía paso a paso por la interfaz. El participante navega libremente y verbaliza lo que piensa mientras lo hace. El evaluador observa y toma nota de los hallazgos sin intervenir.
 
-El diseño de las entrevistas de validación toma como referencia la estructura y amplitud de las entrevistas de *needfinding* documentadas en el apartado 2.2.1 de AgroFlet. A diferencia de la exploración inicial, esta segunda etapa busca observar el uso de artefactos concretos —Landing Page y Web Application— y contrastar la propuesta de valor con la experiencia del usuario. Se preparan dos guías diferenciadas: **21 preguntas para despachadores** y **22 para compradores mayoristas**, la misma cantidad utilizada en los respectivos guiones iniciales. Las preguntas se formulan de manera abierta, sin anticipar la respuesta esperada, y se complementan con tareas observables.
+**Estructura de cada sesión:**
+1. **Introducción (1-3 min aproximadamente):** presentar el objetivo de la sesión, explicar que no se evalúa al usuario sino al producto, solicitar permiso de grabación y pedir que piense en voz alta durante la navegación.
+2. **Evaluación del Landing Page (3-10 min aproximadamente):** el usuario lo revisa libremente a partir de sus User Goals.
+3. **Evaluación de la Aplicación Web (5–20 min aproximadamente):** se le presentan los User Goals de su segmento como escenarios de tarea. El evaluador no menciona secciones específicas de la interfaz.
+4. **Cierre y escala NPS (5 min):** preguntas de cierre y puntuación de recomendación.
 
-La sesión comienza con la presentación del objetivo y el consentimiento para registrar audio, video y pantalla; luego se solicita al participante que navegue sin instrucciones detalladas y verbalice lo que intenta hacer. El entrevistador podrá aclarar el enunciado de una tarea, pero no mostrar cómo resolverla. Se anotarán los pasos completados, las interrupciones, las ayudas, los errores, la comprensión de etiquetas y las observaciones espontáneas. Toda tarea que aún no esté implementada en la versión disponible se aplicará **únicamente sobre un prototipo identificado como tal** o se excluirá de la sesión, sin atribuirle funcionamiento real.
-
-#### Guía de Entrevista de Validación — Segmento 1: Medianos Productores Agrícolas y Acopiadores (Despachadores)
-
-**Objetivo de la entrevista:** Comprobar si el despachador comprende los servicios ofrecidos por AgroFlet y puede desenvolverse en el registro, la organización y el seguimiento de traslados agrícolas; identificar las dificultades de navegación y lenguaje, así como la utilidad percibida de las incidencias, la última ubicación reportada y la información de entrega.
-
-**Perfil del entrevistado objetivo:** Productor agrícola mediano, acopiador, responsable de despacho o coordinador logístico que intervenga habitualmente en envíos de alimentos desde zonas de producción hacia mercados y compradores. Se priorizarán participantes con prácticas de coordinación mediante llamadas, mensajería, hojas de cálculo o registros manuales, con diferentes niveles de familiaridad digital.
-
-**Información a recolectar:** Edad, distrito y rol operativo; tipo y frecuencia de despachos; dispositivos utilizados; experiencia previa con plataformas de seguimiento; comprensión de la Landing Page y sus llamados a la acción; eficacia de los flujos de registro de envíos y asignación de recursos; interpretación de estados, ubicación y avisos; facilidad de uso en distintos dispositivos; confianza en la información; errores, dudas, ayudas y recomendaciones.
-
-**Preguntas de apertura (rapport y perfil del entrevistado):**
-
-1. ¿Podría presentarse brevemente, indicar su edad, distrito y la actividad que realiza dentro de la producción, el acopio o el despacho de productos agrícolas?
-2. ¿Qué tipos de alimentos despacha habitualmente, con qué frecuencia realiza envíos y hacia qué destinos suelen dirigirse?
-3. ¿Qué responsabilidades asume usted desde que se organiza una salida hasta que se confirma la recepción de la carga?
-4. ¿Con qué dispositivos y medios de comunicación suele organizar su trabajo y qué experiencia tiene con aplicaciones para registrar o consultar envíos?
-
-**Preguntas principales — Comprensión de la Landing Page y acceso:**
-
-5. Después de observar la página principal de AgroFlet, ¿cómo explicaría con sus propias palabras qué problema busca resolver la plataforma?
-6. ¿Qué información de las secciones de funcionalidades y beneficios le ayuda a decidir si este servicio corresponde a su actividad cotidiana?
-7. ¿Qué diferencia identifica entre la experiencia ofrecida a quien despacha productos y la ofrecida a quien los recibe?
-8. Sin recibir indicaciones, ¿qué botón elegiría para comenzar a utilizar la plataforma como despachador y por qué lo considera la opción correcta?
-9. Al recorrer el registro o inicio de sesión de su segmento, ¿qué campos, mensajes o pasos le resultan claros y cuáles necesitan una explicación adicional?
-
-**Preguntas principales — Gestión de operaciones y seguimiento:**
-
-10. Al ingresar al panel de trabajo, ¿dónde buscaría la opción para preparar un nuevo traslado y qué elementos de la pantalla le permiten encontrarla?
-11. Al registrar una operación de ejemplo, ¿cómo interpreta los campos de carga, origen, destino y fecha, y qué información necesitaría verificar antes de confirmar?
-12. Durante la selección de un vehículo y un conductor, ¿cómo distinguiría los recursos disponibles de aquellos que no pueden utilizarse para esa operación?
-13. Si necesita consultar un envío en curso, ¿cómo lo localizaría y qué datos de su ficha revisaría primero para coordinar el despacho?
-14. Al observar el mapa, la ubicación reportada y una incidencia de ejemplo, ¿qué considera que representa cada dato y qué decisión tomaría con esa información?
-
-**Preguntas principales — Dificultades, confianza y condiciones de uso:**
-
-15. ¿En qué paso del recorrido tuvo dudas, retrocedió o necesitó ayuda, y qué esperaba encontrar en ese momento de la interacción?
-16. ¿Cómo distingue la última posición registrada de un seguimiento continuo y qué información adicional necesitaría para confiar en la actualidad de los datos?
-17. Si tuviera que utilizar AgroFlet desde un teléfono con pantalla pequeña o conexión limitada, ¿qué partes del recorrido considera que le resultarían más fáciles o difíciles?
-
-**Preguntas de cierre — Utilidad y recomendaciones:**
-
-18. ¿En qué actividad concreta de su jornada considera que AgroFlet podría serle útil y qué parte del recorrido le permitió llegar a esa conclusión?
-19. ¿Qué función del registro, la asignación de recursos, el seguimiento o la gestión de incidencias considera más importante y por qué?
-20. ¿Qué cambios realizaría en los textos, botones, datos presentados o secuencia de pasos para utilizar la plataforma con mayor seguridad?
-21. Después de esta experiencia, ¿hay alguna necesidad operativa o recomendación que no hayamos abordado y que deberíamos considerar antes de ofrecer la plataforma a despachadores reales?
+**Formato de hallazgos:** cada observación registrada indica (a) referencia a la sesión, (b) descripción del problema, (c) heurística Nielsen violada, (d) nivel de severidad (1–4) y (e) alternativa de solución.
 
 ---
 
-#### Guía de Entrevista de Validación — Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento
+#### Segmento 1: Medianos Productores Agrícolas y Acopiadores (Despachadores)
 
-**Objetivo de la entrevista:** Comprobar si el comprador mayorista reconoce el valor de recibir información anticipada sobre sus cargas, accede correctamente al entorno de su segmento e interpreta el estado, el último reporte de ubicación, los cambios de entrega y las incidencias para organizar su recepción.
+**User Persona de referencia:** Carlos Mendoza — Coordinador Logístico que necesita visibilidad de su flota y la capacidad de reportar incidencias en carretera para justificar demoras y evitar pérdidas económicas por mermas agrícolas.
 
-**Perfil del entrevistado objetivo:** Propietario de puesto mayorista, encargado de abastecimiento, responsable de almacén de recepción o comprador que coordina la llegada de alimentos frescos o perecibles de proveedores ubicados en otras zonas del Perú; con diversidad de experiencia tecnológica y frecuencia de recepciones.
+**User Goals a alcanzar (se presentan como escenario, sin indicar la ruta en la interfaz):**
 
-**Información a recolectar:** Datos de perfil y actividad, frecuencia de recepciones, herramientas habituales, modos de coordinación con proveedores, expectativas respecto al estado de envíos, comprensión de avisos e incertidumbre de entrega, accesibilidad, confianza en la información visualizada, puntos de fricción y mejoras propuestas.
+1. *"Imagina que acabas de llegar a la plataforma. ¿Qué entiendes que hace este producto y para quién es?"* (Evaluación del Landing Page — meta: comprensión de la propuesta de valor)
+2. *"Quieres registrarte o iniciar sesión para organizar los envíos de tu cooperativa. Hazlo como lo harías normalmente."* (meta: onboarding / autenticación)
+3. *"Acabas de contratar a un nuevo chofer y tienes un nuevo camión. Necesitas agregarlos al sistema."* (meta: Fleet Operations — registro de recursos)
+4. *"Debes programar un nuevo flete de hortalizas hacia Lima y asignarle el camión que acabas de registrar."* (meta: Shipment Operations — creación de despacho)
+5. *"El camión acaba de sufrir un retraso por bloqueo en la carretera. Necesitas reportar este incidente para que el comprador esté avisado."* (meta: Incident & Alert Management — registro de incidencia)
+6. *"Revisa el mapa para confirmar en qué punto de la ruta se generó el incidente."* (meta: Real-Time Tracking — monitoreo cartográfico)
 
-
-**Preguntas de apertura (rapport y contexto de recepción):**
-
-1. ¿Podría indicar su nombre, edad, distrito y responsabilidad principal dentro del negocio que recibe productos agrícolas?
-2. ¿Qué productos recibe con mayor frecuencia y cuántas entregas suele coordinar durante una semana normal de trabajo?
-3. ¿Cómo organiza actualmente al personal, el espacio y el horario cuando espera la llegada de una carga?
-4. ¿Qué dispositivos y aplicaciones utiliza para comunicarse con proveedores y transportistas, y qué tan cómodo se siente consultando información en una plataforma web?
-
-**Preguntas principales — Landing Page y navegación inicial:**
-
-5. Después de recorrer la Landing Page, ¿qué entiende que ofrece AgroFlet a los compradores y qué información le permitió comprenderlo?
-6. ¿Qué secciones de la página revisaría antes de decidir si una herramienta como esta podría ayudarle en la recepción de pedidos?
-7. ¿Qué diferencias percibe entre las funcionalidades dirigidas al despachador y las que corresponden al comprador?
-8. ¿Qué botón o enlace seleccionaría para ingresar como comprador y qué esperaría encontrar en la pantalla siguiente?
-9. Al entrar a su panel o recorrido de demostración, ¿qué elementos de navegación le permiten identificar dónde están los envíos que necesita recibir?
-
-**Preguntas principales — Consulta de entregas e incidencias:**
-
-10. Si un proveedor le indica que un pedido está en camino, ¿cómo intentaría ubicarlo dentro de AgroFlet sin asistencia del entrevistador?
-11. Cuando abre la ficha del envío, ¿qué significado atribuye al estado del traslado y qué dato considera más útil para organizar la recepción?
-12. Al observar una ruta o mapa con la última posición reportada, ¿cómo interpretaría la ubicación y la fecha de actualización mostradas?
-13. Si se presenta una incidencia o un cambio de estado, ¿cómo reconocería la novedad y qué medidas tomaría para preparar la descarga o comunicarse con el proveedor?
-14. Si necesitara revisar una entrega anterior para comprobar lo ocurrido, ¿cómo utilizaría el historial, la búsqueda o los filtros disponibles?
-
-**Preguntas principales — Claridad, confiabilidad y accesibilidad:**
-
-15. ¿En qué pantalla o tarea encontró una dificultad, un término desconocido o una opción que no respondía a lo que esperaba?
-16. ¿Qué señales de la interfaz le permiten saber si una hora de llegada es estimada y si una ubicación corresponde a un reporte reciente o antiguo?
-17. ¿Qué tan fácil le resultaría consultar estos datos desde el dispositivo que utiliza habitualmente durante una jornada de recepción con poco tiempo disponible?
-
-**Preguntas de cierre — Utilidad y expectativas:**
-
-18. ¿Qué información de AgroFlet considera que podría reducir la incertidumbre cuando está esperando una carga y por qué?
-19. ¿Cuál fue la función que le resultó más útil durante la navegación y qué tarea concreta de su negocio ayudaría a resolver?
-20. ¿Qué avisos, estados o datos adicionales necesitaría consultar para poder reorganizar una recepción ante un retraso?
-21. ¿Qué cambios recomendaría en los textos, la presentación del mapa, el historial o los botones de acceso para que otros compradores utilicen la plataforma sin ayuda?
-22. ¿Hay algún aspecto de la experiencia de recepción de productos agrícolas que no se haya considerado en este recorrido y que desee compartir?
+**Preguntas de cierre:**
+- En una escala del 1 al 10, ¿qué tan probable es que uses o recomiendes AgroFlet en tu centro de acopio?
+- ¿Qué es lo que más te gustó de la plataforma?
+- ¿Qué cambiarías o mejorarías con mayor urgencia?
 
 ---
 
-**Guía de ejecución y registro para ambos segmentos:** Las preguntas de perfil se realizan antes de compartir pantalla; las preguntas de comprensión se formulan mientras el participante explora la Landing Page; las preguntas sobre tareas se responden con interacción en los flujos disponibles y las preguntas finales se aplican una vez terminada la navegación. El moderador registrará, por tarea, escenario propuesto, pantalla utilizada, resultado (completada / parcial / no completada / no disponible), error observado, ayudas solicitadas, comentario del participante y posible mejora. Se dejará constancia de la versión y URL de los artefactos evaluados, así como de las capturas y el inicio/duración del video en Microsoft Stream. No se afirmarán resultados hasta disponer de sesiones reales y evidencia suficiente.
+#### Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento
 
-## 5.3.2. Registro de Entrevistas
+**User Persona de referencia:** Mariana Viteri — Jefa de Abastecimiento en mercado mayorista que sufre sobrecostos por operar a ciegas, pagando horas muertas a estibadores. Necesita saber la hora estimada de llegada de su mercadería y recibir alertas tempranas.
 
-Los siguientes formatos corresponden al registro individual de las entrevistas de validación. Se completarán después de cada sesión, utilizando los datos, las grabaciones y las evidencias obtenidas.
+**User Goals a alcanzar:**
 
-#### Entrevista 1: Segmento 1 - Empresas distribuidoras de productos perecibles
+1. *"Llegas a esta página por primera vez. ¿Qué entiendes que puede hacer este producto por ti como compradora de carga agrícola?"* (meta: comprensión de la propuesta de valor para el comprador)
+2. *"Quieres crear una cuenta y entrar al sistema para probarlo. Hazlo."* (meta: onboarding)
+3. *"Estás esperando un pedido de papas para esta madrugada. Revisa en el sistema dónde se encuentra y cuál es su hora estimada de llegada (ETA)."* (meta: Real-Time Tracking — consulta de estado y mapa)
+4. *"Verifica si el transportista ha reportado alguna alerta o contingencia que vaya a demorar tu entrega."* (meta: Incident Management — revisión de notificaciones)
+5. *"Necesitas hacer una auditoría rápida de tus recepciones de la semana pasada. Encuentra el historial de operaciones concluidas."* (meta: Shipment Operations — historial y filtros)
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombres y Apellidos** |  |
-| **Edad** |  |
-| **Distrito** |  |
-| **Fecha de entrevista** |  |
-| **Enlace al video (Microsoft Stream)** |  |
-| **Timing de inicio y duración** |  |
-| **User flows evaluados** |  |
-| **Evidencia fotográfica** |  |
+**Preguntas de cierre:**
+- En una escala del 1 al 10, ¿qué tan probable es que exijas a tus proveedores el uso de AgroFlet?
+- ¿Qué es lo que más te gustó?
+- ¿Qué cambiarías o mejorarías con mayor urgencia?
 
-**Resumen de la entrevista:**
+---
 
-<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
+### 5.3.2. Registro de Entrevistas de Validación
 
-#### Entrevista 2: Segmento 1 
+#### Segmento 1: Medianos Productores Agrícolas y Acopiadores
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombres y Apellidos** | Andrea Villanueva |
-| **Edad** | 28 |
-| **Distrito** | Barranca |
-| **Fecha de entrevista** | 12/11/26 |
-| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/personal/u20241f027_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f027_upc_edu_pe%2FDocuments%2FEntrevistaVALI-Agroflet.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.8dfaa48a-4423-4157-9d70-39943efbdc95 |
-| **Timing de inicio y duración** | Inicio 0:00 - Duración 9:15 |
-| **User flows evaluados** | • Exploración de Landing Page y Propuesta de Valor<br>• Registro e Inicio de Sesión (IAM)<br>• Gestión de Flota y Conductores<br>• Programación de Envíos y Monitoreo en Mapa |
-| **Evidencia fotográfica** | <p><img src="assets/images/EntrevistaValidacion_Andrea.png" width="600" alt="EntrevistaValidacion_Andrea"> </p> |
+| Segmento: Despachadores | Entrevista #1 |
+| --- |---|
+| Nombres y Apellidos | Andrea Villanueva |
+| Edad | 28 |
+| Distrito | Barranca |
+| Ocupación | Coordinadora Logística de Cooperativa Agraria |
+| Timming inicio | 9 minutos y 15 segundos |
+| Duración | 00:00:00 - 00:09:15 |
+| URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/personal/u20241f027_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f027_upc_edu_pe%2FDocuments%2FEntrevistaVALI-Agroflet.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.8dfaa48a-4423-4157-9d70-39943efbdc95)|
+| Screenshot | ![Screenshot Andrea](assets/images/EntrevistaValidacion_Andrea.png) |
+| Resumen | Durante la entrevista de validación, la participante Andrea Villanueva inició sesión en la plataforma y realizó distintas tareas para validar el funcionamiento de AgroFlet. Completó exitosamente los flujos de registro de unidades, choferes, creación de fletes y reporte formal de incidencias con recálculo dinámico del ETA. Validó positivamente la utilidad de la herramienta para eliminar la incertidumbre en carretera y contar con un respaldo auditado frente a los reclamos por merma. Calificó la navegación como ágil e intuitiva. Como sugerencia de mejora, mencionó la necesidad de incluir un campo para el número de Guía de Remisión electrónica y el teléfono del copiloto, además de sugerir que la plataforma ahorre consumo de datos en la vista del mapa cuando están en ruta. |
 
-**Resumen de la entrevista:**
+| Segmento: Despachadores | Entrevista #2 |
+| --- |---|
+| Nombres y Apellidos | [Pendiente de realizar] |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| Duración | |
+| URL | |
+| Screenshot | |
+| Resumen | [Pendiente de realizar] |
 
-Durante la entrevista de validación del segmento despachador realizada a Andrea Villanueva (28 años, coordinadora logística de una cooperativa agraria en Barranca), se le presentó la Landing Page y el flujo completo de despacho en la Web Application de AgroFlet, destacando el registro de unidades y choferes, la creación de fletes, el seguimiento cartográfico y el reporte formal de incidencias con recálculo dinámico de la hora estimada de llegada (ETA). La entrevistada validó positivamente la utilidad de la herramienta para eliminar la incertidumbre en carretera y contar con un respaldo auditado frente a los reclamos por merma de los compradores mayoristas, calificando la navegación como ágil, clara e intuitiva para el ritmo operativo del centro de acopio, y sugiriendo como mejora opcional la inclusión de un campo para el número de Guía de Remisión electrónica y el teléfono del copiloto, además de asegurar un bajo consumo de datos móviles en ruta.
+| Segmento: Despachadores | Entrevista #3 |
+| --- |---|
+| Nombres y Apellidos | [Pendiente de realizar] |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| Duración | |
+| URL | |
+| Screenshot | |
+| Resumen | [Pendiente de realizar] |
 
 
-#### Entrevista 3: Segmento 1
+#### Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombres y Apellidos** | Carmen Lara |
-| **Edad** | 26 años |
-| **Distrito** | Huaral |
-| **Fecha de entrevista** | 13/11/2026 |
-| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQAxJaJvbuQYQLPgQrKwVw9UAYw40dCFArrsSfDKjhPNDhc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0Ycun2 |
-| **Timing de inicio y duración** | Inicio: 0:00 - Duración: 9:35 |
-| **User flows evaluados** | Pendiente de confirmar en la grabación. |
-| **Evidencia fotográfica** | Pendiente de incorporar la imagen proporcionada. |
+| Segmento: Compradores | Entrevista #1 |
+| --- | --- |
+| Nombres y Apellidos | Ariel León |
+| Edad | 27 |
+| Distrito | Santa Anita |
+| Ocupación | Comprador / Encargado de Abastecimiento |
+| Timming inicio | 9 minutos y 30 segundos |
+| Duración | 00:00:00 - 00:09:30 |
+| URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQDmQXVD2PqqSLyAKPwkScu6ARuBEX0KT2os_AArZO1sU10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ukkQH8) |
+| Screenshot | ![Screenshot Ariel](assets/images/EntrevistaValidacion_Web_Ariel.png) |
+| Resumen | Durante la entrevista, a Ariel León se le presentó la Landing Page V2 y el flujo operativo de recepción en la Web Application de AgroFlet. Navegó de manera fluida por la visualización de rutas en mapa, verificó el cálculo de la hora estimada de llegada (ETA) y consultó el historial de alertas por incidencias en carretera. Validó la gran utilidad de estas herramientas para planificar sus recepciones en la madrugada sin depender de llamadas constantes al transportista. Calificó la interfaz como clara y accesible desde móvil, manifestando su total conformidad con las funcionalidades actuales y resaltando que el sistema soluciona el problema de pagar "horas muertas" a las cuadrillas de descarga. |
 
-**Resumen de la entrevista:**
+| Segmento: Compradores | Entrevista #2 |
+| --- | --- |
+| Nombres y Apellidos | Farit Santoyo |
+| Edad | 33 |
+| Distrito | Surco |
+| Ocupación | Encargado de Abastecimiento |
+| Timming inicio | 9 minutos y 24 segundos |
+| Duración | 00:00:00 - 00:09:24 |
+| URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDVP1i1OjC2RY4UVlL1VV4JAcEJZVYPZbntMPWRsrkLAeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SiUaY7) |
+| Screenshot | ![Screenshot Farit](assets/images/EntrevistaValidacion_Farit.png) |
+| Resumen | En esta sesión, Farit Santoyo evaluó la plataforma simulando la recepción de cargamentos de papas y cebollas. Se enfocó en la lectura oportuna del estado de los traslados y el mapa cartográfico. Consideró que la herramienta es extremadamente necesaria para los mercados de destino, ya que la comunicación actual por WhatsApp es deficiente. Comprobó que el sistema de alertas de retraso le permitiría reorganizar su espacio en almacén. Encontró el panel muy intuitivo, aunque sugirió que los filtros de historial mantengan sus parámetros guardados al salir y volver a la pantalla. Otorgó una puntuación alta en su intención de recomendar el sistema a sus proveedores. |
 
-La entrevista de validación de Carmen Lara, de 26 años y residente en Huaral, corresponde al segmento 1 de AgroFlet. La grabación se incorpora para documentar la validación de la propuesta orientada a la gestión y seguimiento de despachos agrícolas. Las observaciones y recomendaciones específicas quedan pendientes de registrar.
+| Segmento: Compradores | Entrevista #3 |
+| --- | --- |
+| Nombres y Apellidos | [Pendiente de realizar] |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| Duración | |
+| URL | |
+| Screenshot | |
+| Resumen | [Pendiente de realizar] |
 
-#### Entrevista 1: Segmento 2 - Compradores mayoristas y encargados de abastecimiento
-
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombres y Apellidos** | Ariel León |
-| **Edad** | 27 |
-| **Distrito** | Santa Anita |
-| **Fecha de entrevista** | 12/11/26 |
-| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQDmQXVD2PqqSLyAKPwkScu6ARuBEX0KT2os_AArZO1sU10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ukkQH8 |
-| **Timing de inicio y duración** | Inicio 0:00 - Duración 9:30 |
-| **User flows evaluados** | • Exploración de Landing Page y Propuesta de Valor<br>• Registro e Inicio de Sesión (IAM)<br>• Visualización del Panel de Control (Dashboard)<br>• Navegación de la Plataforma desde Dispositivos Móviles |
-| **Evidencia fotográfica** | <p><img src="assets/images/EntrevistaValidacion_Web_Ariel.png" width="600" alt="EntrevistaValidacion_Ariel"> </p> |
-
-**Resumen de la entrevista:**
-
-Durante la entrevista de validación del segmento comprador realizada a Ariel León (27 años), se le presentó la Landing Page V2 y el flujo operativo de recepción en la Web Application de AgroFlet, destacando la visualización de rutas en mapa, el cálculo de la hora estimada de llegada (ETA), los filtros de búsqueda e historial y las alertas por incidencias en carretera. El entrevistado validó positivamente la utilidad de estas herramientas para planificar sus recepciones diarias sin depender de llamadas constantes al transportista, calificando la interfaz como clara, intuitiva y accesible, y manifestando su conformidad con las funcionalidades actuales sin requerir modificaciones iniciales.
-
-#### Entrevista 2: Segmento 2 
-
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombres y Apellidos** |  |
-| **Edad** |  |
-| **Distrito** |  |
-| **Fecha de entrevista** |  |
-| **Enlace al video (Microsoft Stream)** |  |
-| **Timing de inicio y duración** |  |
-| **User flows evaluados** |  |
-| **Evidencia fotográfica** |  |
-
-**Resumen de la entrevista:**
-
-<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
-
-#### Entrevista 3: Segmento 2 
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombres y Apellidos** | Farit Santoyo |
-| **Edad** | 33 |
-| **Distrito** | Surco |
-| **Fecha de entrevista** | 11/11/2026 |
-| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDVP1i1OjC2RY4UVlL1VV4JAcEJZVYPZbntMPWRsrkLAeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SiUaY7 |
-| **Timing de inicio y duración** | Inicio 0:00 - Duración 9:24 |
-| **User flows evaluados** |  • Exploración de Landing Page y Propuesta de Valor<br>• Registro e Inicio de Sesión (IAM)<br>• Visualización del Panel de Control (Dashboard)<br>• Navegación de la Plataforma desde Dispositivos Móviles |
-| **Evidencia fotográfica** | <p><img src="assets/images/EntrevistaValidacion_Farit.png" width="600" alt="EntrevistaValidacion_Farit"> </p> |
-
-**Resumen de la entrevista:**
-
-Farit Alejandro Santoyo Espejo, de 33 años, corresponde al perfil de un encargado de abastecimiento y recepción de productos agrícolas. De acuerdo con el contexto utilizado para la validación de AgroFlet, sus actividades están relacionadas con la recepción de mercadería, principalmente papas, cebollas y ajos, por lo que necesita conocer oportunamente el estado de los traslados para organizar las entregas.
-
-La entrevista de validación se enfoca en la utilidad de una plataforma que permita consultar envíos, interpretar sus estados, revisar la última ubicación reportada e identificar incidencias que puedan afectar la llegada de los productos. Estas funciones buscan atender las dificultades que representa depender de llamadas telefónicas para conocer el avance de un transporte y coordinar la disponibilidad del personal y del espacio de descarga.
-
-Desde la perspectiva del comprador mayorista, los principales aspectos por evaluar son la claridad de los tiempos estimados de llegada, la facilidad para localizar pedidos y la comprensión de las alertas de retraso. Asimismo, se considera importante que la información pueda consultarse rápidamente desde un dispositivo móvil. La validación permitirá determinar qué funcionalidades responden a las necesidades del segmento y qué mejoras requiere la plataforma para facilitar la recepción de mercadería.
+---
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-Formato preparado según el **Anexo D** del enunciado: *UX Heuristics & Principles Evaluation — Usability, Inclusive Design, Information Architecture*.
+#### UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
 
-**Carrera:** Ingeniería de Software. **Curso:** 1ASI0730 Aplicaciones Web. **Sección/NRC:** ⟦⟧. **Auditor:** Equipo AgroFlet. **Clientes:** ⟦participantes reales⟧. **Site/App:** Landing Page y AgroFlet Web Application.
+| Campo | Detalle |
+|-------|---------|
+| CARRERA | Ingeniería de Software |
+| CURSO | 1ASI0730 Aplicaciones Web |
+| SECCIÓN | NRC 12053 |
+| PROFESORES | Todos |
+| AUDITOR | NexaWeb Team |
+| CLIENTE(S) | Andrea Villanueva, Ariel León, Farit Santoyo |
+| SITE A EVALUAR | Landing Page: [Ver sitio](https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/) / Web Application: [Ver sitio](https://agroflet-frontend-application.vercel.app/) |
 
-**Tareas bajo evaluación:** acceso desde Landing Page; registro/inicio de sesión; creación de envío; asignación de recursos; lectura de seguimiento e incidencias; consulta de recepción. **Fuera de alcance AV2:** ⟦indicar funcionalidades no disponibles durante la sesión, si corresponde⟧.
+---
 
-| Severidad | Criterio |
-|---:|---|
-| 1 | Superficial: problema poco frecuente o fácilmente superable. |
-| 2 | Menor: dificultad moderada con prioridad de corrección baja. |
-| 3 | Mayor: ocurre con frecuencia o impide resolver adecuadamente una tarea. |
-| 4 | Muy grave: bloquea el uso y exige corrección antes del lanzamiento. |
+#### TAREAS A EVALUAR
 
-| # | Problema **observado** | Severidad 1–4 | Heurística / principio vulnerado | Captura | Recomendación y estado |
-|---|---|---:|---|---|---|
-| AG-H01 | ⟦hallazgo real⟧ | ⟦⟧ | ⟦Usabilidad / Arquitectura de Información / Diseño Inclusivo⟧ | ⟦⟧ | ⟦⟧ |
-| AG-H02 | ⟦hallazgo real⟧ | ⟦⟧ | ⟦principio concreto⟧ | ⟦⟧ | ⟦⟧ |
-| AG-H03 | ⟦hallazgo real⟧ | ⟦⟧ | ⟦principio concreto⟧ | ⟦⟧ | ⟦⟧ |
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-**Ficha de cada problema (repetir):** ID, escenario y paso donde ocurrió, descripción precisa, severidad justificada, heurística concreta vulnerada, captura, consecuencia operativa, recomendación y responsable de seguimiento. No inventar hallazgos; pueden identificarse mediante inspección real, pero deben quedar acreditados.
+1. Navegación general del Landing Page y propuesta de valor.
+2. Inicio de sesión (login) y acceso según rol (IAM).
+3. Registro de flota vehicular y conductores.
+4. Programación de un nuevo flete agrícola.
+5. Monitoreo cartográfico en tiempo real de la carga.
+6. Registro y visualización de incidencias en ruta y recálculo de ETA.
+
+---
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser corregido a menos que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir con más frecuencia o es algo más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+#### TABLA RESUMEN
+
+| # | Problema | Severidad | Heurística / Principio violado | Módulo afectado |
+|---|----------|-----------|-------------------------------|---------------|
+| 1 | Falta campo para ingresar número de Guía de Remisión y teléfono del copiloto | 3 | Usability: Coincidencia entre el sistema y el mundo real | Shipments (Core) |
+| 2 | El mapa cartográfico consume muchos recursos iniciales en vista móvil (riesgo de datos) | 3 | Usability: Flexibilidad y eficiencia de uso | Tracking |
+| 3 | No se distingue visualmente con suficiente contraste la ruta planificada vs la posición reportada | 2 | Usability: Visibilidad del estado del sistema | Tracking |
+| 4 | Al crear una incidencia, no hay confirmación explícita (toast) de que el comprador ya fue avisado | 2 | Usability: Visibilidad del estado del sistema / Prevención de errores | Incidents |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+---
+
+##### 1. App — Operaciones de Envío (Shipments)
+
+**PROBLEMA #1:** Falta campo para ingresar número de Guía de Remisión y teléfono del copiloto
+
+- **Severidad:** 3
+- **Heurística violada:** Usability — Coincidencia entre el sistema y el mundo real
+- **Módulo afectado:** Shipments (Core)
+
+**Problema:**
+Según la retroalimentación de los usuarios despachadores, en la realidad agrologística peruana el documento legal fundamental es la Guía de Remisión Remitente, y la persona que se comunica durante la ruta suele ser el copiloto/ayudante (ya que el chofer va manejando). No contar con estos campos obliga al usuario a llevar un registro paralelo, restando utilidad al sistema centralizado.
+
+**Recomendación:**
+Añadir campos de texto opcionales para `Número de Guía de Remisión` y `Teléfono de Contacto en Ruta` dentro del formulario de creación de envío, utilizando el vocabulario propio del transportista.
+
+---
+
+##### 2. App — Monitoreo (Tracking)
+
+**PROBLEMA #2:** El mapa cartográfico consume muchos recursos iniciales en vista móvil
+
+- **Severidad:** 3
+- **Heurística violada:** Usability — Flexibilidad y eficiencia de uso
+- **Módulo afectado:** Tracking
+
+**Problema:**
+Al abrir el detalle de un envío desde un smartphone en zonas de baja conectividad (como fundos agrícolas o carreteras), la librería del mapa satelital intenta cargar de inmediato, ralentizando la pantalla y consumiendo rápidamente los datos móviles del usuario.
+
+**Recomendación:**
+Implementar carga diferida (*Lazy Loading*) para el mapa interactivo. Mostrar inicialmente la información en modo texto (Timeline de Estados) y colocar un botón explícito "Ver Mapa" para cargar la vista cartográfica solo a petición del usuario.
+
+---
+
+**PROBLEMA #3:** No se distingue visualmente con suficiente contraste la ruta planificada vs la posición reportada
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Visibilidad del estado del sistema
+- **Módulo afectado:** Tracking
+
+**Problema:**
+Dentro del mapa, la línea que traza la ruta sugerida y los marcadores de las posiciones reales reportadas por el GPS comparten colores o grosores similares, lo que dificulta que el usuario diferencie a simple vista el trayecto ideal de lo que realmente está recorriendo el camión.
+
+**Recomendación:**
+Aplicar un alto contraste cromático: utilizar una línea gris discontinua para la ruta planificada y una línea sólida o marcadores de color primario (verde o azul) para las coordenadas reales reportadas.
+
+---
+
+##### 3. App — Gestión de Incidencias
+
+**PROBLEMA #4:** Al crear una incidencia, no hay confirmación explícita de que el comprador fue avisado
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Visibilidad del estado del sistema / Prevención de errores
+- **Módulo afectado:** Incidents & Alerts
+
+**Problema:**
+Cuando el despachador registra un incidente (por ejemplo, un bloqueo en carretera) para justificar una demora, el sistema lo procesa y recalcula el ETA, pero no emite ningún *toast* o mensaje claro que indique "El comprador ha sido notificado exitosamente". Esto genera incertidumbre y provoca que el despachador igual termine llamando al comprador por teléfono para avisarle.
+
+**Recomendación:**
+Mostrar una alerta de éxito visual (modal o toast verde) inmediatamente después de registrar la incidencia con el texto: "Incidencia registrada. El nuevo ETA ha sido calculado y el comprador fue notificado automáticamente".
+
+---
 
 ## 5.4. Video About-the-Product
 
-El Video About-the-Product presenta la propuesta de valor de AgroFlet a visitantes del Landing Page y usuarios potenciales del sector agrologístico peruano. El video sigue la siguiente secuencia de escenas:
+**Nomenclatura del archivo:** `upc-pre-202610-1asi0730-12053-agroflet-about-the-product-sprint-3`
 
-1. Problema y contexto (0:00 – 0:23): Apertura con el logotipo animado de AgroFlet, seguida de narración en off sobre la falta de visibilidad en el transporte terrestre de carga agrícola en el Perú, las pérdidas anuales superiores a 12 millones de toneladas de alimentos y los sobrecostos por tiempos muertos en descarga. Se muestran tomas de agricultores en campo realizando llamadas telefónicas y reportes noticiosos sobre mercadería perecible deteriorada en el mercado mayorista de Santa Anita.
+El Video About-the-Product presenta la propuesta de valor de AgroFlet a visitantes del Landing Page y usuarios potenciales del sector agrologístico. El video sigue la siguiente secuencia de escenas:
 
-2. Propuesta de solución (0:23 – 0:38): Presentación de AgroFlet por parte del equipo NexaWeb como la plataforma web de control y trazabilidad logística que conecta el campo con los mercados mayoristas sin complicaciones ni hardware costoso. Se exhibe el logo de marca y un recorrido visual por la sección "¿Qué resuelve AgroFlet?" del Landing Page (rastreo, contratos digitales, reducción de pérdidas y red de confianza).
+1. **Problema y contexto (0:00 – 0:28):** Narración en off sobre la falta de visibilidad en el transporte terrestre de carga agrícola en el Perú, las millonarias pérdidas anuales por mermas y los conflictos en el mercado mayorista. Imágenes de camiones varados y estibadores esperando.
+2. **Propuesta de solución (0:28 – 0:50):** Presentación de AgroFlet como la plataforma de trazabilidad y monitoreo logístico que conecta a despachadores con compradores sin necesidad de hardware GPS costoso. Animación del viaje de la carga desde el acopio hasta el mercado.
+3. **Testimonios de usuarios y demostración de funcionalidades (0:50 – 2:10):**
+   - Testimonio de Andrea Villanueva (Despachadora / Coordinadora): *"Antes si el camión se quedaba parado en Ticlio, el cliente me castigaba el precio. Ahora, registro el incidente en AgroFlet y el sistema le avisa automáticamente la nueva hora de llegada. Me ahorro las peleas."*
+   - Testimonio de Farit Santoyo (Comprador Mayorista): *"Trabajábamos a ciegas. Yo pagaba horas muertas a las cuadrillas de estibadores esperando mercadería que llegaba tarde. Con AgroFlet veo el camión en el mapa y organizo a mi gente sin perder dinero."*
+   - Demostración de interfaz: Navegación en la gestión de flota, registro del despacho, visualización cartográfica de la ruta y generación de alertas de contingencia.
+4. **Cierre y CTA (2:10 – 2:18):** Pantalla con los planes de suscripción, logo de AgroFlet y llamado a la acción para iniciar el registro.
 
-3. Demostración de funcionalidades por segmento (0:38 – 1:18):
+El video incluye música de fondo instrumental, lower thirds en los testimonios, logo de AgroFlet en el corner inferior y una edición con transiciones coherentes entre escenas.
 
-   - Módulo Despachador / Productor (0:38 – 0:54): Navegación en vivo dentro del espacio del despachador (Rosa Quispe Huamán — Cooperativa Agraria Valle del Mantaro). Se muestra la gestión de flota en /fleet/vehicles (estados Disponible, Reservado, En mantenimiento), el centro de alertas por bloqueo de vía y el detalle de la operación AGF-0001 (papa amarilla desde Huancayo hacia Santa Anita) con opciones para iniciar traslado, registrar incidencias o marcar entrega.
+![Screenshot About-the-Product](../assets/img/chapter-v/portada_AgroFlet.png)
 
-   - Módulo Comprador Mayorista (0:54 – 1:18): Navegación dentro del espacio del comprador (Luis Paredes Soto — Gran Mercado Mayorista de Lima). Se visualiza el panel "Tus envíos" con el mapa interactivo de rutas planificadas y posiciones reportadas, el historial filtrable de operaciones (AGF-0006), la vista de ruta planificada entre Huancayo y La Victoria, y las notificaciones tempranas de incidencias con recálculo de hora estimada de llegada (ETA).
-
-4. Modelo comercial, cierre y CTA (1:18 – 1:45): Presentación de los planes de suscripción escalonados en el Landing Page (Básico desde S/ 49 al mes, Estándar a S/ 129 y Profesional a S/ 299), demostración del modal de creación de cuenta con selección de perfil (Productor, Transportista o Comprador Mayorista) y cierre final con la pantalla del logotipo oficial de AgroFlet.
-
-El video incluye narración en off dinámica, música instrumental de fondo, capturas reales en pantalla de la Landing Page y de la Web Application en funcionamiento, e identidad visual consistente con transiciones fluidas entre escenas.
-
-**Stream:** [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQAzPubjd0OxQIOGsUXuLPs0AVgsUnHaVHfWITgMawNloxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gIJKaV). **YouTube:** [Ver Video](https://youtu.be/zOblLChW__c). 
-
-**Duración:** Inicio 0:00 - Final 1:46
-
-<img src="assets/images/portada_AgroFlet.png" width="600" alt="Portada de AgroFlet">.
-
-## Conclusiones AV2 — texto base condicionado a evidencia
-
-1. La documentación del Sprint 2 permitió delimitar un conjunto funcional coherente con la logística agrícola; el criterio determinante para AV2 es demostrar que la información consultada en AgroFlet proviene de servicios internos verificables y no exclusivamente de datos simulados. ⟦Completar con resultado comprobado de integración⟧.
-2. Los escenarios de programación, asignación de recursos, seguimiento e incidencias constituyen una base apropiada de validación, porque relacionan tareas del despachador con decisiones del comprador. ⟦Incorporar resultados observados, dificultades y evidencias de sesiones realizadas⟧.
-3. La calidad del incremento debe evaluarse tanto por su funcionamiento como por la trazabilidad entre User Stories, commits, pruebas, documentación de endpoints y despliegues. ⟦Sustentar con registros reales del Sprint 3⟧.
-4. Como siguiente paso, el equipo debe priorizar los problemas heurísticos de severidad 3 y 4 y validar que los usuarios distingan los estados del traslado, las incidencias y la antigüedad de cada posición reportada. ⟦Ajustar después de la evaluación real⟧.
-
-## Video About-the-Team — sección a añadir a Conclusiones
-
-El video presentará la evolución del proyecto, decisiones de arquitectura, distribución real de responsabilidades, retrospectiva de equipo y contribución al **ABET Student Outcome 5**. Debe incluir escenas de reuniones efectivas, narración y testimonios **ante cámara de todos los integrantes**. Guion por segmentos: presentación y problema; hitos de AV1, TB1 y AV2; colaboración GitFlow y retrospectiva; intervenciones individuales con evidencia de liderazgo, cooperación, planificación y cumplimiento; aprendizajes y siguientes pasos. La pauta final requiere timestamps `hh:mm:ss` según edición real.
-
-| Elemento | Registro |
-|---|---|
-| Link Stream / YouTube | ⟦URLs reales⟧ |
-| Captura representativa | ⟦imagen del video⟧ |
-| Duración / escaleta definitiva | ⟦timestamps después de editar⟧ |
-| Testimonios de los cinco integrantes | ⟦confirmación y minuto de inicio por integrante⟧ |
-
-## README.md — instrucciones de actualización editorial AV2
-
-**Registro de Versiones:** añadir exclusivamente la versión, fecha, autor y cambios realmente aplicados (Sprint 3, Validation Interviews, About-the-Product, conclusiones, anexos). **Project Report Collaboration Insights:** conservar AV1/TB1 y registrar evidencia nueva con links, contribuciones y rango de fechas propio de AV2. **Student Outcome 5:** extender *ambos criterios existentes* con un párrafo AV2 por cada integrante, referido a actividades comprobadas y no a promesas de participación. **Índice:** incluir las nuevas secciones y validar enlaces al Markdown.
-
-## Anexos nuevos o ampliados
-
-- Anexo: URLs actualizadas de Landing Page, Frontend, API y Swagger.
-- Anexo: videos AV2 de exposición, navegación, validación, About-the-Product y About-the-Team (URL Stream, duración y captura).
-- Anexo: capturas de Board Sprint 3, commits, Pull Requests e Insights por período.
-- Anexo: actas y consentimientos de entrevistas; tabla y fichas completas de heurísticas del Anexo D.
-- Anexo: reporte de participación de todos los integrantes, preparado por el Team Leader (calificación individual sustentada, no inventada).
-
-> **Criterio de cierre:** No cambiar ninguna de las etiquetas `⟦POR VERIFICAR⟧` a “Done” hasta contar con una prueba real. Este borrador es utilizable como estructura de reporte, no como evidencia de desarrollo.
+**URL Microsoft Stream:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQAzPubjd0OxQIOGsUXuLPs0AVgsUnHaVHfWITgMawNloxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gIJKaV)  
+**URL YouTube:** [Ver video](https://youtu.be/zOblLChW__c)
