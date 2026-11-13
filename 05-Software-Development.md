@@ -1727,21 +1727,22 @@ Los siguientes formatos corresponden al registro individual de las entrevistas d
 Durante la entrevista de validación del segmento despachador realizada a Andrea Villanueva (28 años, coordinadora logística de una cooperativa agraria en Barranca), se le presentó la Landing Page y el flujo completo de despacho en la Web Application de AgroFlet, destacando el registro de unidades y choferes, la creación de fletes, el seguimiento cartográfico y el reporte formal de incidencias con recálculo dinámico de la hora estimada de llegada (ETA). La entrevistada validó positivamente la utilidad de la herramienta para eliminar la incertidumbre en carretera y contar con un respaldo auditado frente a los reclamos por merma de los compradores mayoristas, calificando la navegación como ágil, clara e intuitiva para el ritmo operativo del centro de acopio, y sugiriendo como mejora opcional la inclusión de un campo para el número de Guía de Remisión electrónica y el teléfono del copiloto, además de asegurar un bajo consumo de datos móviles en ruta.
 
 
-#### Entrevista 3: Segmento 1 
+#### Entrevista 3: Segmento 1
+
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** |  |
-| **Edad** |  |
-| **Distrito** |  |
-| **Fecha de entrevista** |  |
-| **Enlace al video (Microsoft Stream)** |  |
-| **Timing de inicio y duración** |  |
-| **User flows evaluados** |  |
-| **Evidencia fotográfica** |  |
+| **Nombres y Apellidos** | Carmen Lara |
+| **Edad** | 26 años |
+| **Distrito** | Huaral |
+| **Fecha de entrevista** | 13/11/2026 |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQAxJaJvbuQYQLPgQrKwVw9UAYw40dCFArrsSfDKjhPNDhc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0Ycun2 |
+| **Timing de inicio y duración** | Inicio: 0:00 - Duración: 9:35 |
+| **User flows evaluados** | Pendiente de confirmar en la grabación. |
+| **Evidencia fotográfica** | Pendiente de incorporar la imagen proporcionada. |
 
 **Resumen de la entrevista:**
 
-<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
+La entrevista de validación de Carmen Lara, de 26 años y residente en Huaral, corresponde al segmento 1 de AgroFlet. La grabación se incorpora para documentar la validación de la propuesta orientada a la gestión y seguimiento de despachos agrícolas. Las observaciones y recomendaciones específicas quedan pendientes de registrar.
 
 #### Entrevista 1: Segmento 2 - Compradores mayoristas y encargados de abastecimiento
 
