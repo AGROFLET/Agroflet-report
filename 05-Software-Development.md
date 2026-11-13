@@ -1940,11 +1940,11 @@ Los siguientes formatos corresponden al registro individual de las entrevistas d
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQDmQXVD2PqqSLyAKPwkScu6ARuBEX0KT2os_AArZO1sU10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ukkQH8 |
 | **Timing de inicio y duración** | Inicio 0:00 - Duración 9:30 |
 | **User flows evaluados** | • Exploración de Landing Page y Propuesta de Valor<br>• Registro e Inicio de Sesión (IAM)<br>• Visualización del Panel de Control (Dashboard)<br>• Navegación de la Plataforma desde Dispositivos Móviles |
-| **Evidencia fotográfica** | <p><img src="assets/images/EntrevistaValidacion_Web_Ariel.png" width="600" alt="EntrevistaValidacion_Farit"> </p> |
+| **Evidencia fotográfica** | <p><img src="assets/images/EntrevistaValidacion_Web_Ariel.png" width="600" alt="EntrevistaValidacion_Ariel"> </p> |
 
 **Resumen de la entrevista:**
 
-<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
+Durante la entrevista de validación del segmento comprador realizada a Ariel León (27 años), se le presentó la Landing Page V2 y el flujo operativo de recepción en la Web Application de AgroFlet, destacando la visualización de rutas en mapa, el cálculo de la hora estimada de llegada (ETA), los filtros de búsqueda e historial y las alertas por incidencias en carretera. El entrevistado validó positivamente la utilidad de estas herramientas para planificar sus recepciones diarias sin depender de llamadas constantes al transportista, calificando la interfaz como clara, intuitiva y accesible, y manifestando su conformidad con las funcionalidades actuales sin requerir modificaciones iniciales.
 
 #### Entrevista 2: Segmento 2 
 
