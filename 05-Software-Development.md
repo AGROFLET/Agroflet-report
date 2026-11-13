@@ -2028,18 +2028,27 @@ Formato preparado según el **Anexo D** del enunciado: *UX Heuristics & Principl
 
 ## 5.4. Video About-the-Product
 
-El primer video About-the-Product de AgroFlet presentará el problema de coordinación en transportes agrícolas y mostrará cómo los flujos de despachador y comprador permiten consultar una operación desde la programación hasta la entrega. Debe ser comprensible sin conocimiento técnico y mostrar únicamente funciones realmente disponibles. El enunciado exige **1 a 3 minutos**, publicación en Stream y YouTube e inserción en la Landing Page, con al menos una opinión real de usuario por segmento objetivo.
+El Video About-the-Product presenta la propuesta de valor de AgroFlet a visitantes del Landing Page y usuarios potenciales del sector agrologístico peruano. El video sigue la siguiente secuencia de escenas:
 
-| Tiempo propuesto | Secuencia y mensaje | Evidencia visual |
-|---|---|---|
-| 00:00–00:20 | Contexto: incertidumbre sobre envíos, demoras y comunicación entre despacho y recepción | Tomas propias o gráficos con atribución |
-| 00:20–00:45 | Propuesta: AgroFlet organiza operación, vehículos y participantes | Landing Page / interfaz real |
-| 00:45–01:20 | Demostración del despachador: operación, recursos, incidencia | Grabación de aplicación publicada |
-| 01:20–01:45 | Demostración del comprador: seguimiento, estado y novedades | Grabación de aplicación publicada |
-| 01:45–02:10 | Testimonios de dos usuarios reales (uno por segmento) | Clips con consentimiento, grabados en validación |
-| 02:10–02:25 | Cierre y llamado a la acción | Marca y CTA al producto |
+1. Problema y contexto (0:00 – 0:23): Apertura con el logotipo animado de AgroFlet, seguida de narración en off sobre la falta de visibilidad en el transporte terrestre de carga agrícola en el Perú, las pérdidas anuales superiores a 12 millones de toneladas de alimentos y los sobrecostos por tiempos muertos en descarga. Se muestran tomas de agricultores en campo realizando llamadas telefónicas y reportes noticiosos sobre mercadería perecible deteriorada en el mercado mayorista de Santa Anita.
 
-**Stream:** ⟦URL y acceso⟧. **YouTube:** ⟦URL⟧. **Duración final:** ⟦hh:mm:ss⟧. **Captura:** ⟦imagen⟧. **Validación audiovisual:** ⟦confirmar enlace insertado en Landing Page⟧.
+2. Propuesta de solución (0:23 – 0:38): Presentación de AgroFlet por parte del equipo NexaWeb como la plataforma web de control y trazabilidad logística que conecta el campo con los mercados mayoristas sin complicaciones ni hardware costoso. Se exhibe el logo de marca y un recorrido visual por la sección "¿Qué resuelve AgroFlet?" del Landing Page (rastreo, contratos digitales, reducción de pérdidas y red de confianza).
+
+3. Demostración de funcionalidades por segmento (0:38 – 1:18):
+
+   - Módulo Despachador / Productor (0:38 – 0:54): Navegación en vivo dentro del espacio del despachador (Rosa Quispe Huamán — Cooperativa Agraria Valle del Mantaro). Se muestra la gestión de flota en /fleet/vehicles (estados Disponible, Reservado, En mantenimiento), el centro de alertas por bloqueo de vía y el detalle de la operación AGF-0001 (papa amarilla desde Huancayo hacia Santa Anita) con opciones para iniciar traslado, registrar incidencias o marcar entrega.
+
+   - Módulo Comprador Mayorista (0:54 – 1:18): Navegación dentro del espacio del comprador (Luis Paredes Soto — Gran Mercado Mayorista de Lima). Se visualiza el panel "Tus envíos" con el mapa interactivo de rutas planificadas y posiciones reportadas, el historial filtrable de operaciones (AGF-0006), la vista de ruta planificada entre Huancayo y La Victoria, y las notificaciones tempranas de incidencias con recálculo de hora estimada de llegada (ETA).
+
+4. Modelo comercial, cierre y CTA (1:18 – 1:45): Presentación de los planes de suscripción escalonados en el Landing Page (Básico desde S/ 49 al mes, Estándar a S/ 129 y Profesional a S/ 299), demostración del modal de creación de cuenta con selección de perfil (Productor, Transportista o Comprador Mayorista) y cierre final con la pantalla del logotipo oficial de AgroFlet.
+
+El video incluye narración en off dinámica, música instrumental de fondo, capturas reales en pantalla de la Landing Page y de la Web Application en funcionamiento, e identidad visual consistente con transiciones fluidas entre escenas.
+
+**Stream:** [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQAzPubjd0OxQIOGsUXuLPs0AVgsUnHaVHfWITgMawNloxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gIJKaV). **YouTube:** [Ver Video](https://youtu.be/zOblLChW__c). 
+
+**Duración:** Inicio 0:00 - Final 1:46
+
+<img src="assets/images/portada_AgroFlet.png" width="600" alt="Portada de AgroFlet">.
 
 ## Conclusiones AV2 — texto base condicionado a evidencia
 
