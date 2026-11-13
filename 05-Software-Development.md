@@ -1787,14 +1787,6 @@ La sesión comienza con la presentación del objetivo y el consentimiento para r
 
 **Información a recolectar:** Edad, distrito y rol operativo; tipo y frecuencia de despachos; dispositivos utilizados; experiencia previa con plataformas de seguimiento; comprensión de la Landing Page y sus llamados a la acción; eficacia de los flujos de registro de envíos y asignación de recursos; interpretación de estados, ubicación y avisos; facilidad de uso en distintos dispositivos; confianza en la información; errores, dudas, ayudas y recomendaciones.
 
-**User flows y elementos que se validarán:**
-
-- **UF-AG-S1-01 — Landing Page y acceso:** Landing Page → propuesta de valor / funcionalidades → CTA del despachador → registro o inicio de sesión → panel del rol.
-- **UF-AG-S1-02 — Preparación de transporte:** panel del despachador → gestión de vehículo y conductor → selección de recursos disponibles.
-- **UF-AG-S1-03 — Registro y consulta de operación:** operaciones → nueva operación → datos de carga, origen y destino → asignación de recursos → confirmación → detalle del envío.
-- **UF-AG-S1-04 — Seguimiento e incidencias:** operación en curso → última ubicación reportada / ruta → aviso o historial de incidencias → interpretación del impacto sobre la entrega.
-- **UF-AG-S1-05 — Consulta histórica:** listado o historial → filtros / búsqueda → detalle de operación anterior.
-
 **Preguntas de apertura (rapport y perfil del entrevistado):**
 
 1. ¿Podría presentarse brevemente, indicar su edad, distrito y la actividad que realiza dentro de la producción, el acopio o el despacho de productos agrícolas?
@@ -1841,13 +1833,6 @@ La sesión comienza con la presentación del objetivo y el consentimiento para r
 
 **Información a recolectar:** Datos de perfil y actividad, frecuencia de recepciones, herramientas habituales, modos de coordinación con proveedores, expectativas respecto al estado de envíos, comprensión de avisos e incertidumbre de entrega, accesibilidad, confianza en la información visualizada, puntos de fricción y mejoras propuestas.
 
-**User flows y elementos que se validarán:**
-
-- **UF-AG-S2-01 — Descubrimiento del servicio:** Landing Page → beneficios y funcionalidades → CTA del comprador → acceso según rol.
-- **UF-AG-S2-02 — Consulta de envíos por recibir:** panel del comprador → listado de operaciones autorizadas → búsqueda de un envío → detalle y estado.
-- **UF-AG-S2-03 — Interpretación del seguimiento:** ficha del envío → ubicación reportada / ruta prevista → fecha de actualización y llegada estimada, cuando esté disponible.
-- **UF-AG-S2-04 — Gestión de novedades:** detalle → historial de estados o incidencias → interpretación de cambios → reorganización hipotética de recepción.
-- **UF-AG-S2-05 — Consulta histórica:** historial de operaciones → filtros / búsqueda → revisión de una entrega anterior.
 
 **Preguntas de apertura (rapport y contexto de recepción):**
 
@@ -1890,18 +1875,113 @@ La sesión comienza con la presentación del objetivo y el consentimiento para r
 
 **Guía de ejecución y registro para ambos segmentos:** Las preguntas de perfil se realizan antes de compartir pantalla; las preguntas de comprensión se formulan mientras el participante explora la Landing Page; las preguntas sobre tareas se responden con interacción en los flujos disponibles y las preguntas finales se aplican una vez terminada la navegación. El moderador registrará, por tarea, escenario propuesto, pantalla utilizada, resultado (completada / parcial / no completada / no disponible), error observado, ayudas solicitadas, comentario del participante y posible mejora. Se dejará constancia de la versión y URL de los artefactos evaluados, así como de las capturas y el inicio/duración del video en Microsoft Stream. No se afirmarán resultados hasta disponer de sesiones reales y evidencia suficiente.
 
-### 5.3.2. Registro de Entrevistas
+## 5.3.2. Registro de Entrevistas
 
-| Sesión | Segmento | Participante | Edad / distrito | Fecha | Evidencia de video Stream y timing | Resultado y observaciones |
-|---|---|---|---|---|---|---|
-| AG-VAL-A01 | Despachador | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦URL, captura, hh:mm:ss, duración⟧ | ⟦resumen específico⟧ |
-| AG-VAL-A02 | Despachador | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦URL, captura, hh:mm:ss, duración⟧ | ⟦resumen específico⟧ |
-| AG-VAL-A03 | Despachador | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦URL, captura, hh:mm:ss, duración⟧ | ⟦resumen específico⟧ |
-| AG-VAL-B01 | Comprador | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦URL, captura, hh:mm:ss, duración⟧ | ⟦resumen específico⟧ |
-| AG-VAL-B02 | Comprador | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦URL, captura, hh:mm:ss, duración⟧ | ⟦resumen específico⟧ |
-| AG-VAL-B03 | Comprador | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦URL, captura, hh:mm:ss, duración⟧ | ⟦resumen específico⟧ |
+Los siguientes formatos corresponden al registro individual de las entrevistas de validación. Se completarán después de cada sesión, utilizando los datos, las grabaciones y las evidencias obtenidas.
 
-**Redacción requerida por entrevista:** presentación y contexto de actividad; tareas; comentarios observables; errores y ayudas; percepción sobre oportunidad y confiabilidad de información; cambios sugeridos. Solo después de las seis sesiones mínimas se elaborará una síntesis de patrones, sin inferir porcentajes o resultados no recogidos.
+#### Entrevista 1: Segmento 1 - Empresas distribuidoras de productos perecibles
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** |  |
+| **Edad** |  |
+| **Distrito** |  |
+| **Fecha de entrevista** |  |
+| **Enlace al video (Microsoft Stream)** |  |
+| **Timing de inicio y duración** |  |
+| **User flows evaluados** |  |
+| **Evidencia fotográfica** |  |
+
+**Resumen de la entrevista:**
+
+<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
+
+#### Entrevista 2: Segmento 1 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** |  |
+| **Edad** |  |
+| **Distrito** |  |
+| **Fecha de entrevista** |  |
+| **Enlace al video (Microsoft Stream)** |  |
+| **Timing de inicio y duración** |  |
+| **User flows evaluados** |  |
+| **Evidencia fotográfica** |  |
+
+**Resumen de la entrevista:**
+
+<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
+
+#### Entrevista 3: Segmento 1 
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** |  |
+| **Edad** |  |
+| **Distrito** |  |
+| **Fecha de entrevista** |  |
+| **Enlace al video (Microsoft Stream)** |  |
+| **Timing de inicio y duración** |  |
+| **User flows evaluados** |  |
+| **Evidencia fotográfica** |  |
+
+**Resumen de la entrevista:**
+
+<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
+
+#### Entrevista 1: Segmento 2 - Compradores mayoristas y encargados de abastecimiento
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** |  |
+| **Edad** |  |
+| **Distrito** |  |
+| **Fecha de entrevista** |  |
+| **Enlace al video (Microsoft Stream)** |  |
+| **Timing de inicio y duración** |  |
+| **User flows evaluados** |  |
+| **Evidencia fotográfica** |  |
+
+**Resumen de la entrevista:**
+
+<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
+
+#### Entrevista 2: Segmento 2 
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** |  |
+| **Edad** |  |
+| **Distrito** |  |
+| **Fecha de entrevista** |  |
+| **Enlace al video (Microsoft Stream)** |  |
+| **Timing de inicio y duración** |  |
+| **User flows evaluados** |  |
+| **Evidencia fotográfica** |  |
+
+**Resumen de la entrevista:**
+
+<!-- Completar solo después de la sesión: perfil y rol; recorrido por Landing Page y Web Application; funciones probadas; opiniones; problemas de usabilidad; recomendaciones; evidencias. -->
+
+#### Entrevista 3: Segmento 2 
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Farit Santoyo |
+| **Edad** | 33 |
+| **Distrito** | Surco |
+| **Fecha de entrevista** | 11/11/2026 |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDVP1i1OjC2RY4UVlL1VV4JAcEJZVYPZbntMPWRsrkLAeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SiUaY7 |
+| **Timing de inicio y duración** | Inicio 0:00 - Duración 9:24 |
+| **User flows evaluados** |  • Exploración de Landing Page y Propuesta de Valor<br>• Registro e Inicio de Sesión (IAM)<br>• Visualización del Panel de Control (Dashboard)<br>• Consulta de Inventario y Disponibilidad de Productos<br>• Registro y Consulta de Lotes<br>• Consulta de Fechas de Vencimiento<br>• Monitoreo de Alertas de Vencimiento y Bajo Stock<br>• Navegación de la Plataforma desde Dispositivos Móviles |
+| **Evidencia fotográfica** | <p><img src="../assets/EntrevistaValidacion_Farit.png" width="600" alt="EntrevistaValidacion_Farit"> </p> |
+
+**Resumen de la entrevista:**
+
+Farit Alejandro Santoyo Espejo, de 33 años, corresponde al perfil de un encargado de abastecimiento y recepción de productos agrícolas. De acuerdo con el contexto utilizado para la validación de AgroFlet, sus actividades están relacionadas con la recepción de mercadería, principalmente papas, cebollas y ajos, por lo que necesita conocer oportunamente el estado de los traslados para organizar las entregas.
+
+La entrevista de validación se enfoca en la utilidad de una plataforma que permita consultar envíos, interpretar sus estados, revisar la última ubicación reportada e identificar incidencias que puedan afectar la llegada de los productos. Estas funciones buscan atender las dificultades que representa depender de llamadas telefónicas para conocer el avance de un transporte y coordinar la disponibilidad del personal y del espacio de descarga.
+
+Desde la perspectiva del comprador mayorista, los principales aspectos por evaluar son la claridad de los tiempos estimados de llegada, la facilidad para localizar pedidos y la comprensión de las alertas de retraso. Asimismo, se considera importante que la información pueda consultarse rápidamente desde un dispositivo móvil. La validación permitirá determinar qué funcionalidades responden a las necesidades del segmento y qué mejoras requiere la plataforma para facilitar la recepción de mercadería.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
