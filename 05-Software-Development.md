@@ -1440,19 +1440,21 @@ Alcance y criterio de lectura: la presencia de código y controladores permite r
 5.2.3.1. Sprint Planning 3
 El Sprint Planning 3 organiza la transición desde el prototipo frontend con Fake API hacia el desarrollo de Web Services reales. Se priorizaron los contratos asociados a autenticación, operaciones de transporte, recursos de flota, incidencias, posiciones y notificaciones, además de infraestructura transversal. La selección considera las dependencias entre bounded contexts: una operación de transporte requiere usuarios, conductor y vehículo; los incidentes y posiciones deben quedar asociados a un envío autorizado; y las notificaciones se originan a partir de eventos del dominio.
 
-Sprint #	Sprint 3
-Sprint Planning Background	AV2 — RESTful API de AgroFlet
-Date	Por confirmar con el acta del equipo. Fecha de revisión del repositorio: 13/11/2026; no equivale a fecha de reunión.
-Time	Por confirmar.
-Location	Por confirmar (no se encontró constancia de una reunión específica).
-Prepared By	Equipo AgroFlet; responsable de la minuta por confirmar.
-Attendees (to planning meeting)	Alca Morán, César Alejandro; Centeno León, Adriano Samir; Rivas Méndez, Bernie Aarón; Rivas Castillo, Christoper Steven; Tello Lima, Jose Alejandro. La asistencia efectiva está pendiente de corroboración.
-Sprint 2 Review Summary	Según la sección 5.2.2 del informe, se documentó la primera Web Application en Vue 3/Vite y una Fake API, con funcionalidades de flota, operaciones, seguimiento, incidencias, cuentas y contacto. Las 28 tareas principales del Sprint 2 figuran como finalizadas. Esta declaración no acredita integración con un backend real.
-Sprint 2 Retrospective Summary	Como oportunidad de mejora identificada a partir del incremento anterior, es necesario separar las simulaciones del frontend de las responsabilidades del servidor: autorización, persistencia, transacciones, integridad, idempotencia y pruebas de contratos. Se mantiene la organización modular mediante GitFlow, evitando atribuir a cada importación reconstruida una secuencia histórica de desarrollo que no demuestra.
-Sprint Goal & Technical Stories	
-Sprint 3 Goal	Our focus is on ofrecer una API que permita a despachadores administrar sus recursos y operaciones, informar posiciones e incidencias y compartir estados confiables con compradores autorizados. We believe it delivers trazabilidad y coordinación logística, reduciendo la dependencia de datos simulados. This will be confirmed when los contratos TS01–TS27 estén disponibles en OpenAPI/Scalar, las pruebas automatizadas del incremento terminen sin fallos y se demuestre un flujo autenticado de registro → despacho → inicio → reporte de posición/incidencia → consulta por comprador; el despliegue público se acreditará solo si existe evidencia adicional.
-Sprint 3 Velocity	80 SP propuestos para las 27 Technical Stories. Estimación pendiente de aprobación; no debe describirse como velocidad histórica observada.
-Sum of Story Points	80 SP propuestos; las tareas técnicas transversales no añaden SP para evitar doble contabilización.
+| Sprint # | Sprint 3 |
+| --- | --- |
+| Sprint Planning Background | AV2 — RESTful API de AgroFlet |
+| Date | Por confirmar con el acta del equipo. Fecha de revisión del repositorio: 13/11/2026; no equivale a fecha de reunión. |
+| Time | Por confirmar. |
+| Location | Por confirmar (no se encontró constancia de una reunión específica). |
+| Prepared By | Equipo AgroFlet; responsable de la minuta por confirmar. |
+| Attendees (to planning meeting) | Alca Morán, César Alejandro; Centeno León, Adriano Samir; Rivas Méndez, Bernie Aarón; Rivas Castillo, Christoper Steven; Tello Lima, Jose Alejandro. La asistencia efectiva está pendiente de corroboración. |
+| Sprint 2 Review Summary | Según la sección 5.2.2 del informe, se documentó la primera Web Application en Vue 3/Vite y una Fake API, con funcionalidades de flota, operaciones, seguimiento, incidencias, cuentas y contacto. Las 28 tareas principales del Sprint 2 figuran como finalizadas. Esta declaración no acredita integración con un backend real. |
+| Sprint 2 Retrospective Summary | Como oportunidad de mejora identificada a partir del incremento anterior, es necesario separar las simulaciones del frontend de las responsabilidades del servidor: autorización, persistencia, transacciones, integridad, idempotencia y pruebas de contratos. Se mantiene la organización modular mediante GitFlow, evitando atribuir a cada importación reconstruida una secuencia histórica de desarrollo que no demuestra. |
+| Sprint Goal & Technical Stories |  |
+| Sprint 3 Goal | Our focus is on ofrecer una API que permita a despachadores administrar sus recursos y operaciones, informar posiciones e incidencias y compartir estados confiables con compradores autorizados. We believe it delivers trazabilidad y coordinación logística, reduciendo la dependencia de datos simulados. This will be confirmed when los contratos TS01–TS27 estén disponibles en OpenAPI/Scalar, las pruebas automatizadas del incremento terminen sin fallos y se demuestre un flujo autenticado de registro → despacho → inicio → reporte de posición/incidencia → consulta por comprador; el despliegue público se acreditará solo si existe evidencia adicional. |
+| Sprint 3 Velocity | 80 SP propuestos para las 27 Technical Stories. Estimación pendiente de aprobación; no debe describirse como velocidad histórica observada. |
+| Sum of Story Points | 80 SP propuestos; las tareas técnicas transversales no añaden SP para evitar doble contabilización. |
+
 Criterios de cumplimiento del Sprint Goal. Se consideran cuatro niveles de evidencia distintos: (1) código fuente y rutas presentes; (2) compilación y pruebas automatizadas con resultados reproducibles; (3) ejecución manual documentada mediante capturas y respuestas HTTP; y (4) integración y despliegue en un entorno accesible. El repositorio actualmente respalda principalmente los niveles 1 y, mediante su registro de validación, parte del nivel 2. Los niveles 3 y 4 requieren evidencia específica de la entrega.
 
 Estimación propuesta por contexto: IAM 22 SP; Fleet 16 SP; Shipments 21 SP; Tracking/Incidents/Notifications 19 SP; Contact 2 SP. Total: 80 SP. Se excluye el endpoint complementario de ruta planificada como historia nueva porque US18 ya está definida, pero no existe una TS28 en el catálogo actual.
@@ -1462,12 +1464,14 @@ Para mantener la trazabilidad entre módulos implementados y responsabilidades, 
 
 L: Aspect Leader; C: Collaborator propuesto; —: sin tarea asignada directamente en esta matriz.
 
-Team Member	GitHub Username	IAM	Fleet	Shipments	Tracking & Incidents	Quality, API Docs & Deployment
-Rivas Méndez, Bernie Aarón	ARivas3008	L	—	—	—	C
-Centeno León, Adriano Samir	Adri11-dk	—	L	C	—	C
-Alca Morán, César Alejandro	almocesar-cell	—	C	L	C	C
-Tello Lima, Jose Alejandro	j4ndrow	—	—	C	L	C
-Rivas Castillo, Christoper Steven	CODERT0PH	C	C	C	C	L
+| Team Member | GitHub Username | IAM | Fleet | Shipments | Tracking & Incidents | Quality, API Docs & Deployment |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rivas Méndez, Bernie Aarón | ARivas3008 | L | — | — | — | C |
+| Centeno León, Adriano Samir | Adri11-dk | — | L | C | — | C |
+| Alca Morán, César Alejandro | almocesar-cell | — | C | L | C | C |
+| Tello Lima, Jose Alejandro | j4ndrow | — | — | C | L | C |
+| Rivas Castillo, Christoper Steven | CODERT0PH | C | C | C | C | L |
+
 La implementación por contextos comprende IAM (cuentas, JWT, recuperación y perfil), Fleet (vehículos y conductores), Shipments (registro, estado, consulta y filtros), Tracking & Incidents (posiciones, incidencias y notificaciones) y Quality & Deployment (composición, pruebas, OpenAPI, documentación y preparación de infraestructura). El módulo Contact está incluido entre los componentes compartidos integrados por Christoper.
 
 Evidencias de liderazgo documentado: IAM — Bernie, Fleet — Adriano, Shipments — César, Tracking/Incidents — José e infraestructura y pruebas — Christoper.
@@ -1477,90 +1481,100 @@ El Sprint Backlog 3 agrupa las 27 Technical Stories que no se utilizaron en las 
 
 Sprint Board: PENDIENTE — agregar enlace público del Sprint 3 en Jira/Trello/YouTrack y captura real del tablero. No se ha verificado una URL de tablero específica del Sprint 3; no corresponde reemplazarla por una captura inventada.
 
-User Story Id	User Story Title	Work Item / Task Id	Work Item / Task Title	Description	Estimation (h)	SP propuestos	Assigned To	Status
-TS01	POST /api/v1/auth/register	T01	Registro de usuarios en API	Implementar alta con userType dispatcher/buyer, correo único, validación de campos y respuesta sin contraseña ni hash; soporta US01.	5	3	Bernie Rivas	Done
-TS02	POST /api/v1/auth/login	T02	Autenticación JWT	Comprobar credenciales, emitir accessToken y expiresIn, devolver perfil mínimo y rechazar accesos incorrectos; soporta US02.	5	3	Bernie Rivas	Done
-TS03	GET /api/v1/shipments	T03	Consulta paginada de envíos	Publicar colección con data, totalRecords, currentPage, pageSize, totalPages y aislamiento por participante; soporta US10.	5	3	César Alca	Done
-TS04	POST /api/v1/shipments	T04	Creación transaccional de despachos	Validar carga, comprador, ruta, conductor, vehículo y capacidad; crear envío planned y reservar recursos de forma atómica; soporta US09.	8	5	César Alca	Done
-TS05	GET /api/v1/shipments/{id}	T05	Detalle autorizado de envío	Recuperar el envío y sus proyecciones permitidas, sin revelar datos privados del conductor al comprador; soporta US11.	5	3	César Alca	Done
-TS06	PATCH /api/v1/shipments/{id}/status	T06	Ciclo de vida y control de concurrencia	Validar transiciones, expectedVersion, motivo de cancelación, historial y liberación de recursos; soporta US12 y US31.	8	5	César Alca	Done
-TS07	POST /api/v1/shipments/{id}/incidents	T07	Registro idempotente de incidencias	Registrar tipo, descripción, demora y clave de idempotencia; actualizar ETA una sola vez y rechazar operaciones incompatibles; soporta US13.	8	5	José Tello	Done
-TS08	GET /api/v1/shipments/{id}/incidents	T08	Historial de incidencias	Listar eventos por fecha descendente, incluso cuando no haya datos, respetando el ámbito del usuario; soporta US14.	4	2	José Tello	Done
-TS09	GET /api/v1/vehicles	T09	Consulta de flota autorizada	Exponer vehículos, disponibilidad y proyecciones por ámbito de autorización para preparar despachos; soporta US05 y US08.	4	2	Adriano Centeno	Done
-TS10	POST /api/v1/vehicles	T10	Registro de vehículos	Persistir placa, marca, modelo, año, capacidad, carrocería y estado available, validando duplicados; soporta US05.	5	3	Adriano Centeno	Done
-TS11	GET /api/v1/drivers	T11	Consulta de conductores	Recuperar conductores y disponibilidad; restringir datos personales según rol y relación con la operación; soporta US07 y US08.	4	2	Adriano Centeno	Done
-TS12	POST /api/v1/drivers	T12	Registro de conductores	Crear conductor con identidad, licencia y contacto; impedir duplicados dentro del ámbito correspondiente; soporta US07.	5	3	Adriano Centeno	Done
-TS13	GET /api/v1/shipments con filtros	T13	Filtros y búsqueda del historial	Implementar filtros de carga, estado, destino, fechas y término de búsqueda sin saltarse autorización ni paginación; soporta US15 y US16.	5	3	César Alca	Done
-TS14	GET /api/v1/shipments/active/locations	T14	Últimas posiciones autorizadas	Proyectar latitud, longitud, fecha, fuente y isStale para operaciones activas; indicar explícitamente ausencia de posición; soporta US17.	5	3	José Tello	Done
-TS15	GET /api/v1/notifications	T15	Consulta de avisos	Publicar notificaciones del usuario con filtro isRead, aislando los destinatarios; soporta US19 y US20.	4	2	José Tello	Done
-TS16	PATCH /api/v1/notifications/{id}/read	T16	Confirmación de lectura	Marcar un aviso como leído preservando readAt ante reintentos e impedir cambios de avisos ajenos; soporta US19 y US20.	4	2	José Tello	Done
-TS17	GET /api/v1/users/profile	T17	Consulta de perfil propio	Recuperar datos de la identidad del JWT y su idioma preferido, rechazando solicitudes sin sesión; soporta US21 y US23.	4	2	Bernie Rivas	Done
-TS18	PUT /api/v1/users/profile	T18	Actualización de perfil	Permitir cambios en datos editables e idioma es/en, impidiendo alterar el rol o los datos de otra cuenta; soporta US21 y US23.	5	3	Bernie Rivas	Done
-TS19	PATCH /api/v1/vehicles/{id}/status	T19	Estado operativo del vehículo	Permitir alternancia available/under_maintenance y bloquear cambios si el vehículo está reservado o en ruta; soporta US06.	5	3	Adriano Centeno	Done
-TS20	GET /api/v1/shipments/{id}/status-history	T20	Historial de estados de operación	Exponer transición anterior/nueva, fecha y actor sin revelar operaciones ajenas; soporta US11.	4	2	César Alca	Done
-TS21	POST /api/v1/auth/logout	T21	Revocación de sesión	Invalidar el JWT actual por su jti y comprobar que ya no autoriza nuevas operaciones; soporta US03.	4	2	Bernie Rivas	Done
-TS22	POST /api/v1/auth/password-reset-requests	T22	Solicitud segura de recuperación	Responder de forma genérica, generar token temporal y aplicar rate limiting sin revelar cuentas existentes; soporta US04.	5	3	Bernie Rivas	Done
-TS23	POST /api/v1/auth/password-resets	T23	Restablecimiento mediante token	Validar vigencia y uso único del token, actualizar contraseña, invalidar sesiones y rechazar tokens usados; soporta US04.	5	3	Bernie Rivas	Done
-TS24	PUT /api/v1/users/password	T24	Cambio de contraseña autenticado	Exigir contraseña actual, validar nueva credencial y revocar sesiones anteriores; soporta US22.	5	3	Bernie Rivas	Done
-TS25	PUT /api/v1/vehicles/{id}	T25	Edición segura de vehículo	Actualizar únicamente datos editables, conservar propietario y reserva, y rechazar cambios incompatibles con cargas asignadas; soporta US06.	5	3	Adriano Centeno	Done
-TS26	POST /api/v1/shipments/{id}/positions	T26	Registro idempotente de posición	Validar coordenadas, reportedAt, fuente y eventId; impedir duplicaciones y reportes en envíos cerrados; soporta US32.	8	5	José Tello	Done
-TS27	POST /api/v1/contact-messages	T27	Recepción persistente de consultas	Registrar nombre, email y mensaje del visitante, aplicar validación/rate limiting y evitar publicar los mensajes; soporta US28.	4	2	Christoper Rivas	Done
+| User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation (h) | SP propuestos | Assigned To | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TS01 | POST /api/v1/auth/register | T01 | Registro de usuarios en API | Implementar alta con userType dispatcher/buyer, correo único, validación de campos y respuesta sin contraseña ni hash; soporta US01. | 5 | 3 | Bernie Rivas | Done |
+| TS02 | POST /api/v1/auth/login | T02 | Autenticación JWT | Comprobar credenciales, emitir accessToken y expiresIn, devolver perfil mínimo y rechazar accesos incorrectos; soporta US02. | 5 | 3 | Bernie Rivas | Done |
+| TS03 | GET /api/v1/shipments | T03 | Consulta paginada de envíos | Publicar colección con data, totalRecords, currentPage, pageSize, totalPages y aislamiento por participante; soporta US10. | 5 | 3 | César Alca | Done |
+| TS04 | POST /api/v1/shipments | T04 | Creación transaccional de despachos | Validar carga, comprador, ruta, conductor, vehículo y capacidad; crear envío planned y reservar recursos de forma atómica; soporta US09. | 8 | 5 | César Alca | Done |
+| TS05 | GET /api/v1/shipments/{id} | T05 | Detalle autorizado de envío | Recuperar el envío y sus proyecciones permitidas, sin revelar datos privados del conductor al comprador; soporta US11. | 5 | 3 | César Alca | Done |
+| TS06 | PATCH /api/v1/shipments/{id}/status | T06 | Ciclo de vida y control de concurrencia | Validar transiciones, expectedVersion, motivo de cancelación, historial y liberación de recursos; soporta US12 y US31. | 8 | 5 | César Alca | Done |
+| TS07 | POST /api/v1/shipments/{id}/incidents | T07 | Registro idempotente de incidencias | Registrar tipo, descripción, demora y clave de idempotencia; actualizar ETA una sola vez y rechazar operaciones incompatibles; soporta US13. | 8 | 5 | José Tello | Done |
+| TS08 | GET /api/v1/shipments/{id}/incidents | T08 | Historial de incidencias | Listar eventos por fecha descendente, incluso cuando no haya datos, respetando el ámbito del usuario; soporta US14. | 4 | 2 | José Tello | Done |
+| TS09 | GET /api/v1/vehicles | T09 | Consulta de flota autorizada | Exponer vehículos, disponibilidad y proyecciones por ámbito de autorización para preparar despachos; soporta US05 y US08. | 4 | 2 | Adriano Centeno | Done |
+| TS10 | POST /api/v1/vehicles | T10 | Registro de vehículos | Persistir placa, marca, modelo, año, capacidad, carrocería y estado available, validando duplicados; soporta US05. | 5 | 3 | Adriano Centeno | Done |
+| TS11 | GET /api/v1/drivers | T11 | Consulta de conductores | Recuperar conductores y disponibilidad; restringir datos personales según rol y relación con la operación; soporta US07 y US08. | 4 | 2 | Adriano Centeno | Done |
+| TS12 | POST /api/v1/drivers | T12 | Registro de conductores | Crear conductor con identidad, licencia y contacto; impedir duplicados dentro del ámbito correspondiente; soporta US07. | 5 | 3 | Adriano Centeno | Done |
+| TS13 | GET /api/v1/shipments con filtros | T13 | Filtros y búsqueda del historial | Implementar filtros de carga, estado, destino, fechas y término de búsqueda sin saltarse autorización ni paginación; soporta US15 y US16. | 5 | 3 | César Alca | Done |
+| TS14 | GET /api/v1/shipments/active/locations | T14 | Últimas posiciones autorizadas | Proyectar latitud, longitud, fecha, fuente y isStale para operaciones activas; indicar explícitamente ausencia de posición; soporta US17. | 5 | 3 | José Tello | Done |
+| TS15 | GET /api/v1/notifications | T15 | Consulta de avisos | Publicar notificaciones del usuario con filtro isRead, aislando los destinatarios; soporta US19 y US20. | 4 | 2 | José Tello | Done |
+| TS16 | PATCH /api/v1/notifications/{id}/read | T16 | Confirmación de lectura | Marcar un aviso como leído preservando readAt ante reintentos e impedir cambios de avisos ajenos; soporta US19 y US20. | 4 | 2 | José Tello | Done |
+| TS17 | GET /api/v1/users/profile | T17 | Consulta de perfil propio | Recuperar datos de la identidad del JWT y su idioma preferido, rechazando solicitudes sin sesión; soporta US21 y US23. | 4 | 2 | Bernie Rivas | Done |
+| TS18 | PUT /api/v1/users/profile | T18 | Actualización de perfil | Permitir cambios en datos editables e idioma es/en, impidiendo alterar el rol o los datos de otra cuenta; soporta US21 y US23. | 5 | 3 | Bernie Rivas | Done |
+| TS19 | PATCH /api/v1/vehicles/{id}/status | T19 | Estado operativo del vehículo | Permitir alternancia available/under_maintenance y bloquear cambios si el vehículo está reservado o en ruta; soporta US06. | 5 | 3 | Adriano Centeno | Done |
+| TS20 | GET /api/v1/shipments/{id}/status-history | T20 | Historial de estados de operación | Exponer transición anterior/nueva, fecha y actor sin revelar operaciones ajenas; soporta US11. | 4 | 2 | César Alca | Done |
+| TS21 | POST /api/v1/auth/logout | T21 | Revocación de sesión | Invalidar el JWT actual por su jti y comprobar que ya no autoriza nuevas operaciones; soporta US03. | 4 | 2 | Bernie Rivas | Done |
+| TS22 | POST /api/v1/auth/password-reset-requests | T22 | Solicitud segura de recuperación | Responder de forma genérica, generar token temporal y aplicar rate limiting sin revelar cuentas existentes; soporta US04. | 5 | 3 | Bernie Rivas | Done |
+| TS23 | POST /api/v1/auth/password-resets | T23 | Restablecimiento mediante token | Validar vigencia y uso único del token, actualizar contraseña, invalidar sesiones y rechazar tokens usados; soporta US04. | 5 | 3 | Bernie Rivas | Done |
+| TS24 | PUT /api/v1/users/password | T24 | Cambio de contraseña autenticado | Exigir contraseña actual, validar nueva credencial y revocar sesiones anteriores; soporta US22. | 5 | 3 | Bernie Rivas | Done |
+| TS25 | PUT /api/v1/vehicles/{id} | T25 | Edición segura de vehículo | Actualizar únicamente datos editables, conservar propietario y reserva, y rechazar cambios incompatibles con cargas asignadas; soporta US06. | 5 | 3 | Adriano Centeno | Done |
+| TS26 | POST /api/v1/shipments/{id}/positions | T26 | Registro idempotente de posición | Validar coordenadas, reportedAt, fuente y eventId; impedir duplicaciones y reportes en envíos cerrados; soporta US32. | 8 | 5 | José Tello | Done |
+| TS27 | POST /api/v1/contact-messages | T27 | Recepción persistente de consultas | Registrar nombre, email y mensaje del visitante, aplicar validación/rate limiting y evitar publicar los mensajes; soporta US28. | 4 | 2 | Christoper Rivas | Done |
+
 Nota de estados: Done expresa que el contrato y su lógica asociada están presentes en main según la inspección de código, controladores y documentación técnica. No equivale a que todas las TS hayan superado manualmente cada escenario Gherkin, a que el frontend esté conectado ni a que exista despliegue público. Las pruebas y verificaciones pendientes se detallan en los work items transversales.
 
 Resumen de estimaciones por responsable (propuesta): Bernie, 8 TS / 38 h / 22 SP; Adriano, 6 TS / 28 h / 16 SP; César, 6 TS / 35 h / 21 SP; José, 6 TS / 33 h / 19 SP; Christoper, 1 TS / 4 h / 2 SP. Total: 27 TS / 138 horas estimadas / 80 SP propuestos. Las horas son estimaciones, no horas de trabajo comprobadas.
 
 Work items técnicos complementarios (sin Story Points adicionales):
 
-Task Id	Task Title	Description	Estimation (h)	Assigned To	Status
-TT01	Estructura DDD y configuración del servidor	Componer los contextos Iam, Fleet, Shipments, Tracking, Incidents, Contact y Shared, con controladores, servicios, repositorios y DI.	7	Christoper Rivas	Done
-TT02	Persistencia y migraciones compatibles	Configurar EF Core/MySQL, Unit of Work y cadena de migraciones InitialCreate → AlignAv2Contracts, conservando datos existentes.	8	César Alca	Done
-TT03	Pruebas automatizadas reproducibles	Ejecutar dotnet test, archivar resultados y capturas del estado real de compilación y las pruebas en un ambiente de la entrega.	8	Christoper Rivas	To-Review
-TT04	OpenAPI y Scalar	Publicar el esquema /openapi/v1.json, la interfaz /scalar/v1 y las rutas de comprobación de salud del backend.	4	Christoper Rivas	Done
-TT05	Validación externa de Mapbox	Verificar con un token propio la consulta de ruta planificada de US18 y documentar respuesta real, errores y límites; no suponer GPS continuo.	5	José Tello	To-Do
-TT06	Configuración de despliegue Render	Preparar Dockerfile, render.yaml, variables de entorno, MySQL remoto y healthCheckPath; obtener evidencia de servicio público solo tras publicarlo.	6	Christoper Rivas	In-Process
-TT07	Integración del frontend con la API real	Sustituir los contratos de Fake API, utilizar JWT, paginación y control de versiones; realizar flujo extremo a extremo en una URL verificable.	10	Christoper Rivas / César Alca	To-Do
-TT08	Evidencias de demostración y servicio	Obtener capturas de pruebas HTTP, Scalar, respuestas, commits, ramas, PRs y video de ejecución sin exponer credenciales.	5	Equipo AgroFlet	To-Do
-TT09	Registro del Sprint Board 3	Agregar enlace público, captura del tablero, responsables y estados reales en la herramienta de gestión utilizada por el grupo.	2	Equipo AgroFlet	To-Do
-TT10	Revisión de seguridad e integración	Revisar aislamiento por rol, errores, idempotencia, SMTP real si se configura y recuperación de contraseña en entorno no local.	6	Bernie Rivas / Christoper Rivas	To-Review
+| Task Id | Task Title | Description | Estimation (h) | Assigned To | Status |
+| --- | --- | --- | --- | --- | --- |
+| TT01 | Estructura DDD y configuración del servidor | Componer los contextos Iam, Fleet, Shipments, Tracking, Incidents, Contact y Shared, con controladores, servicios, repositorios y DI. | 7 | Christoper Rivas | Done |
+| TT02 | Persistencia y migraciones compatibles | Configurar EF Core/MySQL, Unit of Work y cadena de migraciones InitialCreate → AlignAv2Contracts, conservando datos existentes. | 8 | César Alca | Done |
+| TT03 | Pruebas automatizadas reproducibles | Ejecutar dotnet test, archivar resultados y capturas del estado real de compilación y las pruebas en un ambiente de la entrega. | 8 | Christoper Rivas | To-Review |
+| TT04 | OpenAPI y Scalar | Publicar el esquema /openapi/v1.json, la interfaz /scalar/v1 y las rutas de comprobación de salud del backend. | 4 | Christoper Rivas | Done |
+| TT05 | Validación externa de Mapbox | Verificar con un token propio la consulta de ruta planificada de US18 y documentar respuesta real, errores y límites; no suponer GPS continuo. | 5 | José Tello | To-Do |
+| TT06 | Configuración de despliegue Render | Preparar Dockerfile, render.yaml, variables de entorno, MySQL remoto y healthCheckPath; obtener evidencia de servicio público solo tras publicarlo. | 6 | Christoper Rivas | In-Process |
+| TT07 | Integración del frontend con la API real | Sustituir los contratos de Fake API, utilizar JWT, paginación y control de versiones; realizar flujo extremo a extremo en una URL verificable. | 10 | Christoper Rivas / César Alca | To-Do |
+| TT08 | Evidencias de demostración y servicio | Obtener capturas de pruebas HTTP, Scalar, respuestas, commits, ramas, PRs y video de ejecución sin exponer credenciales. | 5 | Equipo AgroFlet | To-Do |
+| TT09 | Registro del Sprint Board 3 | Agregar enlace público, captura del tablero, responsables y estados reales en la herramienta de gestión utilizada por el grupo. | 2 | Equipo AgroFlet | To-Do |
+| TT10 | Revisión de seguridad e integración | Revisar aislamiento por rol, errores, idempotencia, SMTP real si se configura y recuperación de contraseña en entorno no local. | 6 | Bernie Rivas / Christoper Rivas | To-Review |
+
 Las tareas TT05 y TT07 no se declaran finalizadas: el repositorio especifica que la llamada autenticada real a Mapbox no fue probada y que el frontend existente no fue modificado ni integrado con este backend. De manera similar, el Blueprint de Render constituye preparación técnica, no una prueba de publicación exitosa.
 
 5.2.3.4. Development Evidence for Sprint Review
 Se revisó el repositorio AGROFLET/Agroflet-backend-application, incluidas sus ramas main, develop, feature/iam, feature/fleet, feature/shipments, feature/tracking-incidents y feature/quality-deploy. El backend presenta contextos delimitados y una estructura por capas Domain, Application, Infrastructure e Interfaces; en la composición común aparecen persistencia relacional, autorización JWT, eventos internos, protección contra solicitudes abusivas, pruebas y documentación OpenAPI.
 
-Repository	Branch o ámbito	Commit Id	Commit Message	Commit Message Body / alcance verificado	Committed on (UTC)
-AGROFLET/Agroflet-backend-application	feature/iam	32e4e4f	feat(iam): import team implementation	Importación reconstruida del módulo IAM con autoría atribuida a Bernie; contiene servicios de autenticación, tokens, perfiles y recuperación. El mensaje aclara que no se afirma una nueva implementación en ese commit.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/fleet	532a1f9	feat(fleet): import team implementation	Importación reconstruida de vehículos, conductores, comandos, consultas, repositorios y eventos, atribuida a Adriano.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/shipments	65e604d	feat(shipments): import team implementation	Importación reconstruida de operaciones, historial, validación y migraciones, atribuida a César.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/tracking-incidents	e99a839	feat(tracking-incidents): import team implementation	Importación reconstruida de Tracking e Incidents, atribuida a José; incluye posiciones, incidentes y notificaciones.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/quality-deploy / integración	d4164ab	build(quality): import shared platform, tests, documentation and deployment	Importación de la composición Shared, Contact, pruebas y configuración transversal; autoría de Christoper.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/quality-deploy	f0a4a78	build(deploy): add free Render blueprint for remote MySQL demo	Añade instrucciones y render.yaml para preparar un servicio de demostración; no certifica servicio publicado.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/iam	5d795c2	docs(iam): explain API contracts and module validation	Documentación de contratos, autorización y pruebas manuales propuestas por Bernie.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/fleet	139745c	docs(fleet): explain API contracts and module validation	Documentación técnica de vehículos y conductores por Adriano.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/shipments	7653db5	docs(shipments): explain API contracts and module validation	Documentación de operaciones, paginación, estados y persistencia por César.	13/11/2026
-AGROFLET/Agroflet-backend-application	feature/tracking-incidents	4be24fc	docs(tracking-incidents): explain API contracts and module validation	Documentación de tracking, incidentes, idempotencia y límites por José.	13/11/2026
+| Repository | Branch o ámbito | Commit Id | Commit Message | Commit Message Body / alcance verificado | Committed on (UTC) |
+| --- | --- | --- | --- | --- | --- |
+| AGROFLET/Agroflet-backend-application | feature/iam | 32e4e4f | feat(iam): import team implementation | Importación reconstruida del módulo IAM con autoría atribuida a Bernie; contiene servicios de autenticación, tokens, perfiles y recuperación. El mensaje aclara que no se afirma una nueva implementación en ese commit. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/fleet | 532a1f9 | feat(fleet): import team implementation | Importación reconstruida de vehículos, conductores, comandos, consultas, repositorios y eventos, atribuida a Adriano. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/shipments | 65e604d | feat(shipments): import team implementation | Importación reconstruida de operaciones, historial, validación y migraciones, atribuida a César. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/tracking-incidents | e99a839 | feat(tracking-incidents): import team implementation | Importación reconstruida de Tracking e Incidents, atribuida a José; incluye posiciones, incidentes y notificaciones. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/quality-deploy / integración | d4164ab | build(quality): import shared platform, tests, documentation and deployment | Importación de la composición Shared, Contact, pruebas y configuración transversal; autoría de Christoper. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/quality-deploy | f0a4a78 | build(deploy): add free Render blueprint for remote MySQL demo | Añade instrucciones y render.yaml para preparar un servicio de demostración; no certifica servicio publicado. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/iam | 5d795c2 | docs(iam): explain API contracts and module validation | Documentación de contratos, autorización y pruebas manuales propuestas por Bernie. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/fleet | 139745c | docs(fleet): explain API contracts and module validation | Documentación técnica de vehículos y conductores por Adriano. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/shipments | 7653db5 | docs(shipments): explain API contracts and module validation | Documentación de operaciones, paginación, estados y persistencia por César. | 13/11/2026 |
+| AGROFLET/Agroflet-backend-application | feature/tracking-incidents | 4be24fc | docs(tracking-incidents): explain API contracts and module validation | Documentación de tracking, incidentes, idempotencia y límites por José. | 13/11/2026 |
+
 Pull requests y flujo de integración: PR #1 — Import AgroFlet backend and package it for Render, integrado a develop; PR #2 — Release AgroFlet backend with Scalar, integrado de develop hacia main; y PR #3 — Document Render and Scalar evidence, integrado a develop. También existen commits posteriores de integración y documentación de módulos.
 
 Precisión sobre la colaboración: los mensajes de los cuatro commits de importación indican expresamente que se reconstruyó un historial desde una implementación preexistente y con la autoría que proporcionó el equipo. Es válido usarlos para localizar el código y su atribución documental, pero no para sostener que cada funcionalidad fue programada desde cero el 13/11/2026, ni que la frecuencia de esos commits representa el ritmo histórico original de colaboración. Para satisfacer la rúbrica, se deben sumar capturas verídicas de Insights > Contributors, Network, ramas y PRs, y explicar las contribuciones efectivamente comprobables.
 
 Archivos técnicos representativos:
 
-Área	Archivos del repositorio para mostrar en la revisión	Evidencia que aportan
-Autenticación	Iam/Interfaces/Rest/AuthenticationController.cs, Iam/README.md	Registro, acceso, cierre, contraseñas y JWT.
-Flota	Fleet/Interfaces/Rest/VehiclesController.cs, Fleet/Interfaces/Rest/DriversController.cs	Altas, consultas y actualizaciones de vehículos y conductores.
-Operaciones	Shipments/Interfaces/Rest/ShipmentsController.cs, ShipmentActivityController.cs	Despachos, transiciones, historial, incidencias y posiciones asociadas.
-Tracking e incidencias	Tracking/README.md, Incidents/Interfaces/Rest/NotificationsController.cs	Últimas posiciones, idempotencia y avisos internos.
-Infraestructura y calidad	Program.cs, Agroflet.Platform.Tests/	Servicios, autorización, OpenAPI, base de datos y pruebas.
+| Área | Archivos del repositorio para mostrar en la revisión | Evidencia que aportan |
+| --- | --- | --- |
+| Autenticación | Iam/Interfaces/Rest/AuthenticationController.cs, Iam/README.md | Registro, acceso, cierre, contraseñas y JWT. |
+| Flota | Fleet/Interfaces/Rest/VehiclesController.cs, Fleet/Interfaces/Rest/DriversController.cs | Altas, consultas y actualizaciones de vehículos y conductores. |
+| Operaciones | Shipments/Interfaces/Rest/ShipmentsController.cs, ShipmentActivityController.cs | Despachos, transiciones, historial, incidencias y posiciones asociadas. |
+| Tracking e incidencias | Tracking/README.md, Incidents/Interfaces/Rest/NotificationsController.cs | Últimas posiciones, idempotencia y avisos internos. |
+| Infraestructura y calidad | Program.cs, Agroflet.Platform.Tests/ | Servicios, autorización, OpenAPI, base de datos y pruebas. |
+
 5.2.3.5. Execution Evidence for Sprint Review
 El proyecto dispone de una solución .NET identificada como agroflet_backend1.sln y de controladores que implementan las rutas de las TS01–TS27. La evidencia registrada en docs/VALIDACION.md describe ejecuciones locales, pero debe distinguirse de una comprobación independiente realizada durante esta revisión del repositorio.
 
-Comprobación	Resultado consignado en la documentación	Alcance y limitación
-Compilación local	Se consigna compilación sin errores; la revisión del 12/11/2026 señala una advertencia NuGet NU1900 por consulta de vulnerabilidades no completada.	Resultado declarado por el proyecto; no se ejecutó la compilación en esta revisión.
-Pruebas con SQLite	Se registran 19 aprobadas, 0 fallidas y 0 omitidas el 11/11/2026.	Suite de pruebas de backend, no aceptación de la experiencia web.
-Pruebas con MySQL	Se registran 19 aprobadas el 11/11/2026; luego, el 12/11/2026, 20 aprobadas en una base aislada, incluida compatibilidad de migraciones.	No se debe atribuir el resultado a la base personal del equipo; los artefactos TRX mencionados deben adjuntarse y corroborarse.
-Arranque HTTP local	El documento registra /health/ready y /scalar/v1 con HTTP 200 y una especificación OpenAPI de 42 rutas en el ambiente ensayado.	Las 42 rutas no equivalen a 42 Technical Stories; incluyen endpoints adicionales y alias.
-Seguridad y negocio	Se reportan pruebas de JWT, revocación, autorización, reservas, concurrencia, incidencias idempotentes, posiciones, paginación y contacto.	No equivale a una batería de pruebas E2E con el frontend desplegado.
-Servicios externos	Mapbox con token real y envío SMTP externo no verificados, según la documentación.	No presentar como funcionalidades externamente validadas.
-Integración de productos	Se declara que el frontend anterior sigue empleando Fake API y que no fue conectado a este servidor.	Pendiente el flujo de aceptación completo.
+| Comprobación | Resultado consignado en la documentación | Alcance y limitación |
+| --- | --- | --- |
+| Compilación local | Se consigna compilación sin errores; la revisión del 12/11/2026 señala una advertencia NuGet NU1900 por consulta de vulnerabilidades no completada. | Resultado declarado por el proyecto; no se ejecutó la compilación en esta revisión. |
+| Pruebas con SQLite | Se registran 19 aprobadas, 0 fallidas y 0 omitidas el 11/11/2026. | Suite de pruebas de backend, no aceptación de la experiencia web. |
+| Pruebas con MySQL | Se registran 19 aprobadas el 11/11/2026; luego, el 12/11/2026, 20 aprobadas en una base aislada, incluida compatibilidad de migraciones. | No se debe atribuir el resultado a la base personal del equipo; los artefactos TRX mencionados deben adjuntarse y corroborarse. |
+| Arranque HTTP local | El documento registra /health/ready y /scalar/v1 con HTTP 200 y una especificación OpenAPI de 42 rutas en el ambiente ensayado. | Las 42 rutas no equivalen a 42 Technical Stories; incluyen endpoints adicionales y alias. |
+| Seguridad y negocio | Se reportan pruebas de JWT, revocación, autorización, reservas, concurrencia, incidencias idempotentes, posiciones, paginación y contacto. | No equivale a una batería de pruebas E2E con el frontend desplegado. |
+| Servicios externos | Mapbox con token real y envío SMTP externo no verificados, según la documentación. | No presentar como funcionalidades externamente validadas. |
+| Integración de productos | Se declara que el frontend anterior sigue empleando Fake API y que no fue conectado a este servidor. | Pendiente el flujo de aceptación completo. |
+
 Evidencias visuales por adjuntar antes de la entrega (colocar capturas originales, no recreaciones):
 
 Figura 5.2.3.5-1. Vista de la solución agroflet_backend1.sln abierta en Rider o Visual Studio, mostrando los bounded contexts.
@@ -1585,34 +1599,36 @@ El backend utiliza OpenAPI para describir sus contratos y la interfaz de Scalar 
 
 Las rutas de esta tabla proceden de las historias TS01–TS27 del Capítulo III y de los controladores presentes en el repositorio. Los códigos de respuesta indicados son los contratos esperados de las historias, no una certificación manual de cada caso contra el despliegue.
 
-TS	HTTP y endpoint	Request / parámetros relevantes	Respuesta y escenarios previstos
-TS01	POST /api/v1/auth/register	firstName, lastName, email, password, userType	201 con usuario y rol; 409 correo duplicado; 400 entrada inválida.
-TS02	POST /api/v1/auth/login	Email, password	200 con JWT y vencimiento; 401 credenciales inválidas.
-TS03	GET /api/v1/shipments	page, pageSize, Bearer JWT	200 con data, totalRecords, currentPage, pageSize, totalPages; 401 sin sesión y 400 paginación inválida.
-TS04	POST /api/v1/shipments	Carga, comprador, vehículo, conductor, origen, destino, fechas	201 operación planned; conflictos de reservas y capacidad generan rechazo.
-TS05	GET /api/v1/shipments/{id}	ID de operación y JWT	200 detalle permitido; 404 inexistente o no autorizado.
-TS06	PATCH /api/v1/shipments/{id}/status	status, expectedVersion; motivo de cancelación cuando corresponda	200 cambio válido e historial; 409 transición/versión conflictiva.
-TS07	POST /api/v1/shipments/{id}/incidents	Tipo, descripción, demora, fecha y clave de idempotencia	201 incidencia y ETA revisada; reintento idéntico no duplica.
-TS08	GET /api/v1/shipments/{id}/incidents	ID de operación	200 lista descendente; 404 sin acceso.
-TS09	GET /api/v1/vehicles	JWT y filtros de consulta	200 colección autorizada; los compradores solo reciben las proyecciones permitidas por sus relaciones.
-TS10	POST /api/v1/vehicles	Placa, marca, modelo, año, capacidad y tipo de carrocería	201 recurso creado; 409 duplicado; 400 datos inválidos.
-TS11	GET /api/v1/drivers	JWT y filtros	200 conductores autorizados; se restringe información sensible según rol.
-TS12	POST /api/v1/drivers	Identidad, licencia y contacto	201 creado; 409 identidad duplicada; 400 formato inválido.
-TS13	GET /api/v1/shipments	cargoType, status, destination, startDate, endDate, search	200 colección filtrada; 400 fechas incompatibles.
-TS14	GET /api/v1/shipments/active/locations	JWT de participante	200 con última posición, fuente y isStale; posición ausente expresada con null.
-TS15	GET /api/v1/notifications	Filtro isRead y JWT	200 avisos del destinatario; 401 sin sesión.
-TS16	PATCH /api/v1/notifications/{id}/read	ID de notificación	200 con isRead y readAt; 404 para aviso ajeno o inexistente.
-TS17	GET /api/v1/users/profile	Bearer JWT	200 perfil propio e idioma preferido; 401 sin sesión.
-TS18	PUT /api/v1/users/profile	Campos de contacto, nombre, empresa e idioma	200 perfil editado; no permite cambiar rol.
-TS19	PATCH /api/v1/vehicles/{id}/status	status	200 estado administrable; 409 si está reservado.
-TS20	GET /api/v1/shipments/{id}/status-history	ID de operación	200 eventos de transición; 404 para operación ajena.
-TS21	POST /api/v1/auth/logout	JWT de sesión	204; la sesión revocada deja de autorizar futuras solicitudes.
-TS22	POST /api/v1/auth/password-reset-requests	Email	202 genérico; token temporal y controles de abuso. El envío SMTP externo requiere configuración/validación adicional.
-TS23	POST /api/v1/auth/password-resets	Token y contraseña nueva	204 si es válido; 400 token inválido/usado/vencido.
-TS24	PUT /api/v1/users/password	Contraseña actual y nueva	204 válida; 400 validación fallida.
-TS25	PUT /api/v1/vehicles/{id}	Campos editables del vehículo	200 cambios guardados; 404 ajeno; 409 incompatibilidad con reserva.
-TS26	POST /api/v1/shipments/{id}/positions	Latitud, longitud, reportedAt, source, eventId	201 posición; 400 coordenadas inválidas; conflicto ante reuso incorrecto de clave.
-TS27	POST /api/v1/contact-messages	name, email, message	201 consulta persistida; 400 inválida; rechazo controlado si no puede aceptarse.
+| TS | HTTP y endpoint | Request / parámetros relevantes | Respuesta y escenarios previstos |
+| --- | --- | --- | --- |
+| TS01 | POST /api/v1/auth/register | firstName, lastName, email, password, userType | 201 con usuario y rol; 409 correo duplicado; 400 entrada inválida. |
+| TS02 | POST /api/v1/auth/login | Email, password | 200 con JWT y vencimiento; 401 credenciales inválidas. |
+| TS03 | GET /api/v1/shipments | page, pageSize, Bearer JWT | 200 con data, totalRecords, currentPage, pageSize, totalPages; 401 sin sesión y 400 paginación inválida. |
+| TS04 | POST /api/v1/shipments | Carga, comprador, vehículo, conductor, origen, destino, fechas | 201 operación planned; conflictos de reservas y capacidad generan rechazo. |
+| TS05 | GET /api/v1/shipments/{id} | ID de operación y JWT | 200 detalle permitido; 404 inexistente o no autorizado. |
+| TS06 | PATCH /api/v1/shipments/{id}/status | status, expectedVersion; motivo de cancelación cuando corresponda | 200 cambio válido e historial; 409 transición/versión conflictiva. |
+| TS07 | POST /api/v1/shipments/{id}/incidents | Tipo, descripción, demora, fecha y clave de idempotencia | 201 incidencia y ETA revisada; reintento idéntico no duplica. |
+| TS08 | GET /api/v1/shipments/{id}/incidents | ID de operación | 200 lista descendente; 404 sin acceso. |
+| TS09 | GET /api/v1/vehicles | JWT y filtros de consulta | 200 colección autorizada; los compradores solo reciben las proyecciones permitidas por sus relaciones. |
+| TS10 | POST /api/v1/vehicles | Placa, marca, modelo, año, capacidad y tipo de carrocería | 201 recurso creado; 409 duplicado; 400 datos inválidos. |
+| TS11 | GET /api/v1/drivers | JWT y filtros | 200 conductores autorizados; se restringe información sensible según rol. |
+| TS12 | POST /api/v1/drivers | Identidad, licencia y contacto | 201 creado; 409 identidad duplicada; 400 formato inválido. |
+| TS13 | GET /api/v1/shipments | cargoType, status, destination, startDate, endDate, search | 200 colección filtrada; 400 fechas incompatibles. |
+| TS14 | GET /api/v1/shipments/active/locations | JWT de participante | 200 con última posición, fuente y isStale; posición ausente expresada con null. |
+| TS15 | GET /api/v1/notifications | Filtro isRead y JWT | 200 avisos del destinatario; 401 sin sesión. |
+| TS16 | PATCH /api/v1/notifications/{id}/read | ID de notificación | 200 con isRead y readAt; 404 para aviso ajeno o inexistente. |
+| TS17 | GET /api/v1/users/profile | Bearer JWT | 200 perfil propio e idioma preferido; 401 sin sesión. |
+| TS18 | PUT /api/v1/users/profile | Campos de contacto, nombre, empresa e idioma | 200 perfil editado; no permite cambiar rol. |
+| TS19 | PATCH /api/v1/vehicles/{id}/status | status | 200 estado administrable; 409 si está reservado. |
+| TS20 | GET /api/v1/shipments/{id}/status-history | ID de operación | 200 eventos de transición; 404 para operación ajena. |
+| TS21 | POST /api/v1/auth/logout | JWT de sesión | 204; la sesión revocada deja de autorizar futuras solicitudes. |
+| TS22 | POST /api/v1/auth/password-reset-requests | Email | 202 genérico; token temporal y controles de abuso. El envío SMTP externo requiere configuración/validación adicional. |
+| TS23 | POST /api/v1/auth/password-resets | Token y contraseña nueva | 204 si es válido; 400 token inválido/usado/vencido. |
+| TS24 | PUT /api/v1/users/password | Contraseña actual y nueva | 204 válida; 400 validación fallida. |
+| TS25 | PUT /api/v1/vehicles/{id} | Campos editables del vehículo | 200 cambios guardados; 404 ajeno; 409 incompatibilidad con reserva. |
+| TS26 | POST /api/v1/shipments/{id}/positions | Latitud, longitud, reportedAt, source, eventId | 201 posición; 400 coordenadas inválidas; conflicto ante reuso incorrecto de clave. |
+| TS27 | POST /api/v1/contact-messages | name, email, message | 201 consulta persistida; 400 inválida; rechazo controlado si no puede aceptarse. |
+
 Contrato complementario de US18: GET /api/v1/shipments/{id}/planned-route, implementado mediante un adaptador de Mapbox Directions v5. Se documenta como funcionalidad adicional del servidor asociada a una US previa, no como una nueva TS existente en el Product Backlog. El endpoint intenta consultar geometría GeoJSON, distancia y duración; no hay prueba documentada de una llamada autenticada a Mapbox con un token real y no debe confundirse la ruta calculada con seguimiento GPS en directo.
 
 Consideraciones de contrato y seguridad: las operaciones que modifican datos requieren autenticación o autorización según su naturaleza; las respuestas y cuerpos de las peticiones completas deben verificarse en el esquema OpenAPI del commit entregado. La API administra transacciones del lado servidor. Por eso no debe documentarse como implementado un DELETE físico compensatorio de envíos: la cancelación de operaciones se representa mediante PATCH y conserva su historial.
@@ -1626,24 +1642,28 @@ El repositorio contiene un Dockerfile, un archivo render.yaml y la guía docs/DE
 
 Estado del despliegue: preparado en código; publicación pública no acreditada. Ni la presencia de un Blueprint ni la existencia de un PR prueban que Render esté disponible. La documentación del proyecto señala expresamente que no se verificó el despliegue remoto. En consecuencia, esta sección no inventa un dominio público, un estado Live ni una respuesta HTTP remota.
 
-Artefacto / actividad	Evidencia presente	Estado de revisión
-Contenerización	Dockerfile y .dockerignore en el repositorio.	Preparación documentada.
-Infraestructura como configuración	render.yaml con servicio Docker, plan free, rama y health check.	Preparación documentada.
-Base de datos	Migraciones de EF Core y guía de conexión MySQL aislada.	Preparación local documentada; proveedor remoto por verificar.
-Secretos	Variables Jwt__Key, ConnectionStrings__DefaultConnection y configuración de entorno.	No colocar contraseñas/tokens en el informe.
-Salud y OpenAPI	/health/ready, /scalar/v1 y /openapi/v1.json disponibles en la configuración local.	Ejecución local declarada; entorno público por verificar.
-Integración frontend	El frontend del Sprint 2 todavía usa Fake API, según el documento de compatibilidad.	No finalizada; no afirmar sincronización en producción.
+| Artefacto / actividad | Evidencia presente | Estado de revisión |
+| --- | --- | --- |
+| Contenerización | Dockerfile y .dockerignore en el repositorio. | Preparación documentada. |
+| Infraestructura como configuración | render.yaml con servicio Docker, plan free, rama y health check. | Preparación documentada. |
+| Base de datos | Migraciones de EF Core y guía de conexión MySQL aislada. | Preparación local documentada; proveedor remoto por verificar. |
+| Secretos | Variables Jwt__Key, ConnectionStrings__DefaultConnection y configuración de entorno. | No colocar contraseñas/tokens en el informe. |
+| Salud y OpenAPI | /health/ready, /scalar/v1 y /openapi/v1.json disponibles en la configuración local. | Ejecución local declarada; entorno público por verificar. |
+| Integración frontend | El frontend del Sprint 2 todavía usa Fake API, según el documento de compatibilidad. | No finalizada; no afirmar sincronización en producción. |
+
 Evidencias que deben añadirse si se publica el backend: URL real de Render; captura Live con rama y SHA; captura de MySQL remoto con secretos ocultos; HTTP 200 de /health/ready; Scalar bajo el dominio público; prueba de un endpoint protegido; y video donde se muestre la integración con la aplicación web. El archivo docs/COMPATIBILIDAD-FRONTEND.md enumera cambios necesarios para abandonar la Fake API, por lo que la compatibilidad de estructuras no debe confundirse con integración ya ejecutada.
 
 5.2.3.8. Team Collaboration Insights during Sprint
 Para la tercera entrega, el repositorio de backend contiene commits identificables para cinco integrantes del equipo, módulos organizados por responsabilidades, una secuencia de integración a develop y main, y documentación asociada a cada contexto. Esto permite identificar el trabajo atribuido y las rutas de colaboración, con la precaución de que parte del historial fue reconstruido.
 
-Integrante	Evidencia verificable en GitHub	Aporte documentado	Aspecto por reforzar en el informe
-Bernie Aarón Rivas Méndez	Commits 32e4e4f y 5d795c2	Importación atribuida de IAM y documentación sobre registro, login, revocación, perfiles y recuperación.	Sustentar pruebas y participación efectiva además de la autoría registrada.
-Adriano Samir Centeno León	Commits 532a1f9 y 139745c	Importación atribuida de Fleet y documentación de vehículos, conductores, permisos y estados.	Vincular capturas de su módulo con la matriz LACX.
-César Alejandro Alca Morán	Commits 65e604d y 7653db5	Importación atribuida de Shipments y migraciones, además de documentación de estado, historial y validaciones.	Evidenciar transacciones y creación/cancelación del envío con datos de prueba.
-José Alejandro Tello Lima	Commits e99a839 y 4be24fc	Importación atribuida de Tracking/Incidents y documentación de posiciones, incidencia y notificaciones.	Demostrar casos de idempotencia y asociación con el envío.
-Christoper Steven Rivas Castillo	Commits d4164ab y f0a4a78, PRs #1–#3	Composición del proyecto, pruebas, Contact, infraestructura compartida, OpenAPI y preparación del despliegue.	Aportar resultados reproducibles y prueba real del servicio publicado, si corresponde.
+| Integrante | Evidencia verificable en GitHub | Aporte documentado | Aspecto por reforzar en el informe |
+| --- | --- | --- | --- |
+| Bernie Aarón Rivas Méndez | Commits 32e4e4f y 5d795c2 | Importación atribuida de IAM y documentación sobre registro, login, revocación, perfiles y recuperación. | Sustentar pruebas y participación efectiva además de la autoría registrada. |
+| Adriano Samir Centeno León | Commits 532a1f9 y 139745c | Importación atribuida de Fleet y documentación de vehículos, conductores, permisos y estados. | Vincular capturas de su módulo con la matriz LACX. |
+| César Alejandro Alca Morán | Commits 65e604d y 7653db5 | Importación atribuida de Shipments y migraciones, además de documentación de estado, historial y validaciones. | Evidenciar transacciones y creación/cancelación del envío con datos de prueba. |
+| José Alejandro Tello Lima | Commits e99a839 y 4be24fc | Importación atribuida de Tracking/Incidents y documentación de posiciones, incidencia y notificaciones. | Demostrar casos de idempotencia y asociación con el envío. |
+| Christoper Steven Rivas Castillo | Commits d4164ab y f0a4a78, PRs #1–#3 | Composición del proyecto, pruebas, Contact, infraestructura compartida, OpenAPI y preparación del despliegue. | Aportar resultados reproducibles y prueba real del servicio publicado, si corresponde. |
+
 Se identifican las ramas main, develop, feature/backend-inicial, feature/iam, feature/fleet, feature/shipments, feature/tracking-incidents y feature/quality-deploy. Para la figura de colaboración, adjuntar capturas auténticas del historial de commits y PRs; no reemplazar el cuadro anterior por una imagen sin explicación. Debe relacionarse la colaboración de esta sección con el registro de versiones del informe y la sección Project Report Collaboration Insights del README.md.
 
 Limitación de la evidencia: los commits de importación indican que reconstruyen una base de código y distribuyen autoría a módulos que ya existían. No equivalen a una prueba cronológica de programación independiente, y no deben emplearse para inventar fechas de trabajo, horas efectivas, reuniones, validaciones ni porcentajes de participación. Para una evaluación justa, la evidencia debe complementarse con demostraciones, PRs, revisiones y testimonios auténticos de los integrantes.
