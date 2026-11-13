@@ -1973,7 +1973,7 @@ Los siguientes formatos corresponden al registro individual de las entrevistas d
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDVP1i1OjC2RY4UVlL1VV4JAcEJZVYPZbntMPWRsrkLAeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SiUaY7 |
 | **Timing de inicio y duración** | Inicio 0:00 - Duración 9:24 |
 | **User flows evaluados** |  • Exploración de Landing Page y Propuesta de Valor<br>• Registro e Inicio de Sesión (IAM)<br>• Visualización del Panel de Control (Dashboard)<br>• Consulta de Inventario y Disponibilidad de Productos<br>• Registro y Consulta de Lotes<br>• Consulta de Fechas de Vencimiento<br>• Monitoreo de Alertas de Vencimiento y Bajo Stock<br>• Navegación de la Plataforma desde Dispositivos Móviles |
-| **Evidencia fotográfica** | <p><img src="../assets/images/EntrevistaValidacion_Farit.png" width="600" alt="EntrevistaValidacion_Farit"> </p> |
+| **Evidencia fotográfica** | <p><img src="assets/images/EntrevistaValidation_Farit.png" width="600" alt="EntrevistaValidacion_Farit"> </p> |
 
 **Resumen de la entrevista:**
 
