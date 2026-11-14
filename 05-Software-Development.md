@@ -1666,18 +1666,6 @@ Las sesiones de validación siguen el protocolo de **User Testing con Think Alou
 | Screenshot | ![Screenshot Carmen](assets/images/EntrevistaValidacion_Carmen.png) |
 | Resumen |Carmen  explicó que AgroFlet podría ayudarla a organizar los despachos y consultar el estado de los envíos sin depender de llamadas y mensajes constantes. Consideró útiles el registro de operaciones, la asignación de vehículos y conductores, y el seguimiento de la carga, especialmente cuando debe coordinar varios despachos en un mismo día. También señaló que el registro de incidencias permitiría informar al comprador cuando ocurra una demora. |
 
-| Segmento: Despachadores | Entrevista #3 |
-| --- |---|
-| Nombres y Apellidos | [Pendiente de realizar] |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Timming inicio | |
-| Duración | |
-| URL | |
-| Screenshot | |
-| Resumen | [Pendiente de realizar] |
-
 
 #### Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento
 
@@ -1704,18 +1692,6 @@ Las sesiones de validación siguen el protocolo de **User Testing con Think Alou
 | URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDVP1i1OjC2RY4UVlL1VV4JAcEJZVYPZbntMPWRsrkLAeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SiUaY7) |
 | Screenshot | ![Screenshot Farit](assets/images/EntrevistaValidacion_Farit.png) |
 | Resumen | En esta sesión, Farit Santoyo evaluó la plataforma simulando la recepción de cargamentos de papas y cebollas. Se enfocó en la lectura oportuna del estado de los traslados y el mapa cartográfico. Consideró que la herramienta es extremadamente necesaria para los mercados de destino, ya que la comunicación actual por WhatsApp es deficiente. Comprobó que el sistema de alertas de retraso le permitiría reorganizar su espacio en almacén. Encontró el panel muy intuitivo, aunque sugirió que los filtros de historial mantengan sus parámetros guardados al salir y volver a la pantalla. Otorgó una puntuación alta en su intención de recomendar el sistema a sus proveedores. |
-
-| Segmento: Compradores | Entrevista #3 |
-| --- | --- |
-| Nombres y Apellidos | [Pendiente de realizar] |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Timming inicio | |
-| Duración | |
-| URL | |
-| Screenshot | |
-| Resumen | [Pendiente de realizar] |
 
 ---
 
