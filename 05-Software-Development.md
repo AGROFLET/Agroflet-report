@@ -1832,3 +1832,14 @@ El video incluye narración en off dinámica, música instrumental de fondo, cap
 
 **URL Microsoft Stream:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQAzPubjd0OxQIOGsUXuLPs0AVgsUnHaVHfWITgMawNloxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gIJKaV)  
 **URL YouTube:** [Ver video](https://youtu.be/zOblLChW__c)
+
+**Acciones de mejora continua derivadas de la evaluación de TB1 (seguimiento para AV2)**
+
+| Criterio observado | Corrección documental incorporada | Verificación que aún requiere evidencia externa |
+| :--- | :--- | :--- |
+| Sprint Backlog: `Sprint 2 Velocity` sin consolidar | Se explicita una velocidad documentada de **84 SP**, correspondiente a 28 User Stories finalizadas según el backlog. | Confirmar el cierre del Sprint Board y conservar evidencia de su estado. |
+| Software Deployment Configuration: hosting de C# sin concreción | Se establece una **alternativa técnica propuesta** (Azure App Service + Azure Database for MySQL), con criterios de selección, configuración y pruebas de aceptación. | Obtener aprobación del equipo, desplegar realmente el API y registrar URL, capturas y pruebas de su funcionamiento. |
+| Calidad visual de las capturas | Se identifica la variable de licencia PrimeUI y se enumeran las siete vistas afectadas. | Regularizar la licencia, configurar los entornos, recompilar, comprobar y reemplazar las capturas de AV2. |
+| Nomenclatura de la presentación | Se incorpora la regla de una sola extensión para PowerPoint y un PDF equivalente. | Verificar el nombre real al adjuntar la presentación, por ejemplo `upc-pre-202620-1asi0730-<NRC>-agroflet-keynote-av2.pptx`. |
+
+Estas medidas responden a la retroalimentación del docente sin alterar las evidencias históricas del Sprint 2 ni atribuir avances de implementación no verificados.

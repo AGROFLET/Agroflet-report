@@ -283,6 +283,13 @@ La siguiente captura complementa el registro histórico de AV2 mediante GitHub C
 
 ![GitHub Contributors del informe de AgroFlet](assets/images/IMAGENCOMMIT3.png)
 
+**Colaboración específica en el informe:** en el repositorio `Agroflet-report` se puede comprobar la [PR #16](https://github.com/AGROFLET/Agroflet-report/pull/16), integrada el 11/11/2026, asociada a correcciones del Sprint 2 y de la documentación realizadas por Bernie. Los commits de los cinco integrantes sobre el **backend** no equivalen a cinco contribuciones ya publicadas sobre el **informe**. La incorporación del presente texto al README y de las secciones del Sprint 3 deberá acompañarse de commits verificables de quienes realmente efectúen la edición.
+
+**Precisiones de trazabilidad:** los commits `feat(...): import team implementation` indican expresamente que se reconstruyó el historial de importación con atribuciones de autoría indicadas por el equipo. Permiten localizar módulos y contribuciones atribuidas, pero no demuestran que el código se escribiera por primera vez el 13/11/2026. No se asigna un conteo de commits exclusivo de AV2 sin un corte verificable del repositorio del informe.
+
+**Evidencias visuales por incorporar al reporte:** capturas de `Insights > Contributors`, ramas y pull requests del informe; vistas correspondientes del repositorio backend; y captura del Sprint Board. Todas deben mostrar la fecha o intervalo de actividad. No se insertan imágenes ni métricas ficticias.
+
+<!-- AV2: insertar aquí capturas reales de colaboración del repositorio Agroflet-report y del backend, con sus pies de figura y fecha de consulta. -->
 ---
 
 ### Trazabilidad de la documentación y los productos
