@@ -1560,16 +1560,13 @@ La documentación automática basada en OpenAPI 3.1.1 se encuentra alojada y dis
 Durante el Sprint 3, se materializó la migración hacia servicios propios desplegando exitosamente el Backend API de AgroFlet en la plataforma Cloud Render, operando en conjunto con una base de datos MySQL remota. A continuación, se centralizan los enlaces de los productos desplegados para el AV2:
 
 **URL del Backend (API RESTful desplegada en Render):** 
-[http://agroflet-backend-application.onrender.com](http://agroflet-backend-application.onrender.com)
-
-**URL de la Documentación API (Scalar):** 
-[http://agroflet-backend-application.onrender.com/scalar/v1](http://agroflet-backend-application.onrender.com) (Ruta por defecto del marco documental)
+[https://agroflet-backend-application.onrender.com/scalar/v1#description/introduction](https://agroflet-backend-application.onrender.com/scalar/v1#description/introduction)
 
 **URL del Frontend Web Application (Vercel):** 
-[https://agroflet-frontend-application.vercel.app/](https://agroflet-frontend-application.vercel.app/)
+[https://agroflet-frontend-application.vercel.app/iam/sign-in?redirect=/dashboard?utm_source](https://agroflet-frontend-application.vercel.app/iam/sign-in?redirect=/dashboard?utm_source)
 
 **URL del Landing Page (GitHub Pages):** 
-[https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/](https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/)
+[https://agroflet.github.io/Agroflet-landing-page/](https://agroflet.github.io/Agroflet-landing-page/)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
