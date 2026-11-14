@@ -1841,19 +1841,23 @@ Mostrar una alerta de éxito visual (modal o toast verde) inmediatamente despué
 
 **Nomenclatura del archivo:** `upc-pre-202610-1asi0730-12053-agroflet-about-the-product-sprint-3`
 
-El Video About-the-Product presenta la propuesta de valor de AgroFlet a visitantes del Landing Page y usuarios potenciales del sector agrologístico. El video sigue la siguiente secuencia de escenas:
+El Video About-the-Product presenta la propuesta de valor de AgroFlet a visitantes del Landing Page y usuarios potenciales del sector agrologístico peruano. El video sigue la siguiente secuencia de escenas:
 
-1. **Problema y contexto (0:00 – 0:28):** Narración en off sobre la falta de visibilidad en el transporte terrestre de carga agrícola en el Perú, las millonarias pérdidas anuales por mermas y los conflictos en el mercado mayorista. Imágenes de camiones varados y estibadores esperando.
-2. **Propuesta de solución (0:28 – 0:50):** Presentación de AgroFlet como la plataforma de trazabilidad y monitoreo logístico que conecta a despachadores con compradores sin necesidad de hardware GPS costoso. Animación del viaje de la carga desde el acopio hasta el mercado.
-3. **Testimonios de usuarios y demostración de funcionalidades (0:50 – 2:10):**
-   - Testimonio de Andrea Villanueva (Despachadora / Coordinadora): *"Antes si el camión se quedaba parado en Ticlio, el cliente me castigaba el precio. Ahora, registro el incidente en AgroFlet y el sistema le avisa automáticamente la nueva hora de llegada. Me ahorro las peleas."*
-   - Testimonio de Farit Santoyo (Comprador Mayorista): *"Trabajábamos a ciegas. Yo pagaba horas muertas a las cuadrillas de estibadores esperando mercadería que llegaba tarde. Con AgroFlet veo el camión en el mapa y organizo a mi gente sin perder dinero."*
-   - Demostración de interfaz: Navegación en la gestión de flota, registro del despacho, visualización cartográfica de la ruta y generación de alertas de contingencia.
-4. **Cierre y CTA (2:10 – 2:18):** Pantalla con los planes de suscripción, logo de AgroFlet y llamado a la acción para iniciar el registro.
+1. Problema y contexto (0:00 – 0:23): Apertura con el logotipo animado de AgroFlet, seguida de narración en off sobre la falta de visibilidad en el transporte terrestre de carga agrícola en el Perú, las pérdidas anuales superiores a 12 millones de toneladas de alimentos y los sobrecostos por tiempos muertos en descarga. Se muestran tomas de agricultores en campo realizando llamadas telefónicas y reportes noticiosos sobre mercadería perecible deteriorada en el mercado mayorista de Santa Anita.
 
-El video incluye música de fondo instrumental, lower thirds en los testimonios, logo de AgroFlet en el corner inferior y una edición con transiciones coherentes entre escenas.
+2. Propuesta de solución (0:23 – 0:38): Presentación de AgroFlet por parte del equipo NexaWeb como la plataforma web de control y trazabilidad logística que conecta el campo con los mercados mayoristas sin complicaciones ni hardware costoso. Se exhibe el logo de marca y un recorrido visual por la sección "¿Qué resuelve AgroFlet?" del Landing Page (rastreo, contratos digitales, reducción de pérdidas y red de confianza).
 
-![Screenshot About-the-Product](../assets/img/chapter-v/portada_AgroFlet.png)
+3. Demostración de funcionalidades por segmento (0:38 – 1:18):
+
+    - Módulo Despachador / Productor (0:38 – 0:54): Navegación en vivo dentro del espacio del despachador (Rosa Quispe Huamán — Cooperativa Agraria Valle del Mantaro). Se muestra la gestión de flota en /fleet/vehicles (estados Disponible, Reservado, En mantenimiento), el centro de alertas por bloqueo de vía y el detalle de la operación AGF-0001 (papa amarilla desde Huancayo hacia Santa Anita) con opciones para iniciar traslado, registrar incidencias o marcar entrega.
+
+    - Módulo Comprador Mayorista (0:54 – 1:18): Navegación dentro del espacio del comprador (Luis Paredes Soto — Gran Mercado Mayorista de Lima). Se visualiza el panel "Tus envíos" con el mapa interactivo de rutas planificadas y posiciones reportadas, el historial filtrable de operaciones (AGF-0006), la vista de ruta planificada entre Huancayo y La Victoria, y las notificaciones tempranas de incidencias con recálculo de hora estimada de llegada (ETA).
+
+4. Modelo comercial, cierre y CTA (1:18 – 1:45): Presentación de los planes de suscripción escalonados en el Landing Page (Básico desde S/ 49 al mes, Estándar a S/ 129 y Profesional a S/ 299), demostración del modal de creación de cuenta con selección de perfil (Productor, Transportista o Comprador Mayorista) y cierre final con la pantalla del logotipo oficial de AgroFlet.
+
+El video incluye narración en off dinámica, música instrumental de fondo, capturas reales en pantalla de la Landing Page y de la Web Application en funcionamiento, e identidad visual consistente con transiciones fluidas entre escenas.
+
+![Screenshot About-the-Product](assets/images/portada_AgroFlet.png)
 
 **URL Microsoft Stream:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQAzPubjd0OxQIOGsUXuLPs0AVgsUnHaVHfWITgMawNloxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gIJKaV)  
 **URL YouTube:** [Ver video](https://youtu.be/zOblLChW__c)
