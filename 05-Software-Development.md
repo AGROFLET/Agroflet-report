@@ -1419,6 +1419,420 @@ La separación del código por Bounded Contexts y la utilización de Assemblers 
 
 ---
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+El Sprint 3 está dedicado a la implementación de la primera versión de los Web Services (Backend) del sistema AgroFlet en ASP.NET Core 8, cubriendo los bounded contexts de Identity & Access Management (IAM), Fleet Operations, Shipments (Core), Tracking & Incidents y la configuración transversal. Adicionalmente, se inician las Validation Interviews con los segmentos objetivo (Despachadores y Compradores Mayoristas) y se consolida el despliegue en la nube.
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | `2026-10-12` |
+| **Time** | `8:00 pm` |
+| **Location** | Reunión virtual por Discord / Microsoft Teams |
+| **Prepared By** | `Rivas Castillo, Christoper Steven` |
+| **Attendees** | Alca Morán, César Alejandro / Centeno León, Adriano Samir / Rivas Méndez, Bernie Aarón / Rivas Castillo, Christoper Steven / Tello Lima, Jose Alejandro |
+| **Sprint 2 Review Summary** | Se completó el desarrollo y despliegue del Frontend Web Application de AgroFlet en Vue 3 con Vite, integrado inicialmente con una Fake API (json-server). Se implementaron las vistas para los despachadores (gestión de flota, envíos, alertas) y compradores mayoristas (trazabilidad y ETA). La Landing Page fue desplegada exitosamente. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó la necesidad estricta de reemplazar la Fake API por un backend real que asegure la persistencia relacional en MySQL, la autorización mediante JWT y el cumplimiento de las reglas de negocio logísticas. Se acordó organizar el desarrollo bajo la arquitectura Domain-Driven Design (DDD) modelada en los Sprints anteriores. |
+| **Sprint 3 Goal** | Nuestro enfoque está en brindar a los usuarios de AgroFlet una API robusta y desplegada en la nube que permita a los despachadores administrar recursos y despachos, y a los compradores consultar información verídica y autorizada. Confirmaremos este logro cuando los contratos de la API estén disponibles en Scalar/OpenAPI, integrados a una base de datos MySQL, con pruebas superadas y accesibles mediante un despliegue público en Render. |
+| **Sprint 3 Velocity** | 80 Story Points (Estimación inicial del catálogo de Technical Stories) |
+| **Sum of Story Points** | 80 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para este Sprint 3 enfocado en el desarrollo del Backend (Web Services), el despliegue en la nube y la documentación técnica, la distribución de liderazgo (**L**) y colaboración (**C**) según los repositorios es la siguiente:
+
+| Team Member (Last Name, First Name) | GitHub Username | Bounded Context asignado | Database & Migrations | DevOps & Deployment | Sprint Documentation |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| Alca Morán, César Alejandro | almocesar-cell | **L** (Shipments) | C | C | C |
+| Centeno León, Adriano Samir | Adri11-dk | **L** (Fleet) | C | C | C |
+| Rivas Méndez, Bernie Aarón | ARivas3008 | **L** (IAM) | C | C | C |
+| Rivas Castillo, Christoper | CODERT0PH | **L** (Shared / Contact) | C | **L** | C |
+| Tello Lima, Jose Alejandro | j4ndrow | **L** (Tracking & Incidents) | C | C | C |
+
+> **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal de este Sprint es contar con la primera versión de los Web Services desplegados que soporten las operaciones principales de la cadena agrologística. (Se muestra un extracto representativo de las 27 Technical Stories abordadas).
+
+| **Sprint 3** | **User Story** | | **Work-Item / Task** | | | | |
+| :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| | **ID** | **Título** | **ID** | **Título** | **Descripción** | **Estimación (h)** | **Asignado a** | **Status** |
+| | TS01/02 | Autenticación y Cuentas | T01 | Implementar Bounded Context IAM | Desarrollar endpoints JWT, sign-up, sign-in, y gestión de perfiles de usuario. | 10 | Rivas, Bernie | Done |
+| | US05/07 | Registro de Flota | T02 | Implementar Bounded Context Fleet | Desarrollar endpoints para vehículos, licencias, conductores y estados operativos. | 9 | Centeno, Adriano | Done |
+| | US09/10 | Operaciones de Flete | T03 | Implementar Bounded Context Shipments | Desarrollar endpoints transaccionales para creación, actualización de estados y consulta de fletes. | 13 | Alca, César | Done |
+| | US13/17 | Seguimiento y Alertas | T04 | Implementar Bounded Context Tracking & Incidents | Desarrollar endpoints idempotentes para reporte de incidencias, notificaciones y geolocalización. | 12 | Tello, Jose | Done |
+| | US28 | Formulario Contacto | T05 | Implementar módulo de contacto | Configurar persistencia para la recepción de mensajes desde la Landing Page. | 4 | Rivas, Christoper | Done |
+| | - | Documentación API | T06 | Configurar Scalar y OpenAPI | Integrar la documentación de la API para su exposición mediante la interfaz gráfica de Scalar. | 4 | Rivas, Christoper | Done |
+| | - | Despliegue Cloud | T07 | Configurar y desplegar en Render | Configurar Dockerfile, `render.yaml`, variables de entorno y conexión remota a MySQL. | 6 | Rivas, Christoper | Done |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo estructuró el Backend API en .NET utilizando ramas modulares (`feature/`) en GitFlow, integrándolas progresivamente a `develop` y `main`. El repositorio principal `Agroflet-backend-application` concentró la colaboración concurrente.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Agroflet-backend-application | `main` | `d4164ab` | build(quality): import shared platform, tests, documentation and deployment | Importación de Shared Kernel, configuración, pruebas y despliegue. | 2026-11-13 |
+| Agroflet-backend-application | `main` | `32e4e4f` | feat(iam): import team implementation | Implementación del módulo IAM (autenticación JWT, cuentas). | 2026-11-13 |
+| Agroflet-backend-application | `main` | `532a1f9` | feat(fleet): import team implementation | Implementación del módulo Fleet (vehículos y conductores). | 2026-11-13 |
+| Agroflet-backend-application | `main` | `65e604d` | feat(shipments): import team implementation | Implementación del módulo Shipments (operaciones y despachos). | 2026-11-13 |
+| Agroflet-backend-application | `main` | `e99a839` | feat(tracking-incidents): import team implementation | Implementación del módulo Tracking & Incidents. | 2026-11-13 |
+| Agroflet-backend-application | `main` | `5d795c2` | docs(iam): explain API contracts and module validation | Documentación técnica de contratos IAM. | 2026-11-13 |
+| Agroflet-backend-application | `main` | `139745c` | docs(fleet): explain API contracts and module validation | Documentación técnica de contratos Fleet. | 2026-11-13 |
+| Agroflet-backend-application | `main` | `7653db5` | docs(shipments): explain API contracts and module validation | Documentación técnica de contratos Shipments. | 2026-11-13 |
+| Agroflet-backend-application | `main` | `4be24fc` | docs(tracking-incidents): explain API contracts and module validation | Documentación técnica de Tracking & Incidents. | 2026-11-13 |
+| Agroflet-backend-application | `main` | `94848e7` | Prepare Render deployment: honor PORT and document MySQL hosting | Ajustes finales para despliegue en Render y puerto dinámico. | 2026-11-13 |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+La ejecución del backend API de AgroFlet expone correctamente sus servicios mediante la interfaz interactiva Scalar. La aplicación está asegurada con tokens JWT (Bearer Auth) y responde a comprobaciones de estado de salud (Health Checks) para verificar que el servicio está vivo y listo para recibir tráfico. 
+
+El servidor procesa peticiones en tiempo real y gestiona persistencia con bases de datos MySQL, confirmando la superación de la fase de datos simulados (Mock).
+
+<p align="center">
+  <img src="assets/images/Scalar_API_Reference1.png" width="700" alt="Scalar Reference URL">
+</p>
+<p align="center"><em>Nota. Documentación centralizada en Scalar mostrando la URL del servidor en Render.</em></p>
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+La documentación automática basada en OpenAPI 3.1.1 se encuentra alojada y disponible públicamente. A continuación, se detallan los endpoints implementados para cada módulo del sistema, verificables en la evidencia de la interfaz de Scalar:
+
+**Health / Monitoreo del Servidor**
+
+| Endpoint | Método HTTP | Acción |
+| :--- | :---: | :--- |
+| `/health/live` | GET | Verifica que el proceso del servicio esté activo. |
+| `/health/ready` | GET | Verifica que el servicio esté listo para procesar peticiones. |
+
+**Identity & Access Management (IAM)**
+
+| Endpoint | Método HTTP | Acción |
+| :--- | :---: | :--- |
+| `/api/v1/auth/register` | POST | Registra un nuevo usuario en la plataforma. |
+| `/api/v1/auth/login` | POST | Autentica al usuario y devuelve el token JWT. |
+| `/api/v1/auth/logout` | POST | Invalida el token JWT actual. |
+| `/api/v1/users/profile` | GET / PUT | Obtiene o actualiza el perfil propio del usuario. |
+| `/api/v1/auth/password-reset-requests` | POST | Solicita el restablecimiento de contraseña. |
+| `/api/v1/users/{id}` | GET / PATCH | Gestión administrativa de usuarios. |
+
+**Fleet Operations**[cite: 18]
+
+| Endpoint | Método HTTP | Acción |
+| :--- | :---: | :--- |
+| `/api/v1/vehicles` | GET / POST | Consulta o registra unidades de transporte de carga. |
+| `/api/v1/vehicles/{id}` | GET / PUT | Obtiene o edita el detalle de un vehículo. |
+| `/api/v1/vehicles/{id}/status` | PATCH | Alterna el estado operativo (Ej. mantenimiento/disponible). |
+| `/api/v1/drivers` | GET / POST | Consulta o registra conductores. |
+| `/api/v1/drivers/{id}` | GET / PATCH | Detalle y actualización de conductor. |
+
+**Shipments (Core Operativo)**[cite: 16]
+
+| Endpoint | Método HTTP | Acción |
+| :--- | :---: | :--- |
+| `/api/v1/shipments` | GET / POST | Consulta historial o crea un nuevo despacho agrícola. |
+| `/api/v1/shipments/{id}` | GET / PATCH | Consulta o edita un envío en curso. |
+| `/api/v1/shipments/{id}/status` | PATCH | Transiciona el estado del flete (planned, in_transit, delivered). |
+| `/api/v1/locations` | GET | Consulta ubicaciones. |
+
+**Shipment Activity, Tracking & Incidents**
+
+| Endpoint | Método HTTP | Acción |
+| :--- | :---: | :--- |
+| `/api/v1/shipments/{id}/positions` | GET / POST | Ingesta y consulta de coordenadas de posición. |
+| `/api/v1/shipments/active/locations` | GET | Consulta las últimas ubicaciones de los fletes activos]. |
+| `/api/v1/shipments/{id}/planned-route` | GET | Obtiene la ruta cartográfica planificada. |
+| `/api/v1/incidents` | GET / POST | Registro de incidencias viales de forma independiente. |
+| `/api/v1/shipments/{id}/incidents` | GET / POST | Asocia o consulta contingencias vinculadas a un flete específico. |
+| `/api/v1/notifications` | GET | Bandeja de alertas y avisos generados. |
+| `/api/v1/notifications/{id}/read` | PATCH | Confirma lectura de una alerta. |
+
+**Contact**
+
+| Endpoint | Método HTTP | Acción |
+| :--- | :---: | :--- |
+| `/api/v1/contact-messages` | POST | Recibe consultas desde el formulario de la Landing Page. |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3, se materializó la migración hacia servicios propios desplegando exitosamente el Backend API de AgroFlet en la plataforma Cloud Render, operando en conjunto con una base de datos MySQL remota. A continuación, se centralizan los enlaces de los productos desplegados para el AV2:
+
+**URL del Backend (API RESTful desplegada en Render):** 
+[https://agroflet-backend-application.onrender.com/scalar/v1#description/introduction](https://agroflet-backend-application.onrender.com/scalar/v1#description/introduction)
+
+**URL del Frontend Web Application (Vercel):** 
+[https://agroflet-frontend-application.vercel.app/iam/sign-in?redirect=/dashboard?utm_source](https://agroflet-frontend-application.vercel.app/iam/sign-in?redirect=/dashboard?utm_source)
+
+**URL del Landing Page (GitHub Pages):** 
+[https://agroflet.github.io/Agroflet-landing-page/](https://agroflet.github.io/Agroflet-landing-page/)
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+La gestión del ciclo de vida del software se realizó en el repositorio GitHub `Agroflet-backend-application`. Durante el periodo comprendido entre octubre y mediados de noviembre de 2026, el equipo orquestó el código integrando los diferentes contextos delimitados. 
+
+Tal y como evidencia el registro histórico, la metodología se rigió por políticas de integración cruzada, donde cada "Feature" (`iam`, `fleet`, `shipments`, `tracking-incidents`, `quality-deploy`) desarrollada por un miembro era auditada e incorporada mediante *Merges* sistemáticos hacia las ramas de consolidación (`develop` / `main`). 
+
+<p align="center">
+  <img src="assets/images/Github_Commits_Agroflet1.png" width="700" alt="GitHub Commits Sprint 3">
+</p>
+<p align="center"><em>Nota. Registro de commits e integraciones (Merges) realizadas el 13 de noviembre de 2026 para consolidar el paso a producción en Render.</em></p>
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas de Validación
+
+Las sesiones de validación siguen el protocolo de **User Testing con Think Aloud**: se le explica al participante el propósito de la sesión y los User Goals que debe alcanzar (basados en el User Persona de su segmento), pero **no** se le indica qué botones pulsar ni se le guía paso a paso por la interfaz. El participante navega libremente y verbaliza lo que piensa mientras lo hace. El evaluador observa y toma nota de los hallazgos sin intervenir.
+
+**Estructura de cada sesión:**
+1. **Introducción (1-3 min aproximadamente):** presentar el objetivo de la sesión, explicar que no se evalúa al usuario sino al producto, solicitar permiso de grabación y pedir que piense en voz alta durante la navegación.
+2. **Evaluación del Landing Page (3-10 min aproximadamente):** el usuario lo revisa libremente a partir de sus User Goals.
+3. **Evaluación de la Aplicación Web (5–20 min aproximadamente):** se le presentan los User Goals de su segmento como escenarios de tarea. El evaluador no menciona secciones específicas de la interfaz.
+4. **Cierre y escala NPS (5 min):** preguntas de cierre y puntuación de recomendación.
+
+**Formato de hallazgos:** cada observación registrada indica (a) referencia a la sesión, (b) descripción del problema, (c) heurística Nielsen violada, (d) nivel de severidad (1–4) y (e) alternativa de solución.
+
+---
+
+#### Segmento 1: Medianos Productores Agrícolas y Acopiadores (Despachadores)
+
+**User Persona de referencia:** Carlos Mendoza — Coordinador Logístico que necesita visibilidad de su flota y la capacidad de reportar incidencias en carretera para justificar demoras y evitar pérdidas económicas por mermas agrícolas.
+
+**User Goals a alcanzar (se presentan como escenario, sin indicar la ruta en la interfaz):**
+
+1. *"Imagina que acabas de llegar a la plataforma. ¿Qué entiendes que hace este producto y para quién es?"* (Evaluación del Landing Page — meta: comprensión de la propuesta de valor)
+2. *"Quieres registrarte o iniciar sesión para organizar los envíos de tu cooperativa. Hazlo como lo harías normalmente."* (meta: onboarding / autenticación)
+3. *"Acabas de contratar a un nuevo chofer y tienes un nuevo camión. Necesitas agregarlos al sistema."* (meta: Fleet Operations — registro de recursos)
+4. *"Debes programar un nuevo flete de hortalizas hacia Lima y asignarle el camión que acabas de registrar."* (meta: Shipment Operations — creación de despacho)
+5. *"El camión acaba de sufrir un retraso por bloqueo en la carretera. Necesitas reportar este incidente para que el comprador esté avisado."* (meta: Incident & Alert Management — registro de incidencia)
+6. *"Revisa el mapa para confirmar en qué punto de la ruta se generó el incidente."* (meta: Real-Time Tracking — monitoreo cartográfico)
+
+**Preguntas de cierre:**
+- En una escala del 1 al 10, ¿qué tan probable es que uses o recomiendes AgroFlet en tu centro de acopio?
+- ¿Qué es lo que más te gustó de la plataforma?
+- ¿Qué cambiarías o mejorarías con mayor urgencia?
+
+---
+
+#### Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento
+
+**User Persona de referencia:** Mariana Viteri — Jefa de Abastecimiento en mercado mayorista que sufre sobrecostos por operar a ciegas, pagando horas muertas a estibadores. Necesita saber la hora estimada de llegada de su mercadería y recibir alertas tempranas.
+
+**User Goals a alcanzar:**
+
+1. *"Llegas a esta página por primera vez. ¿Qué entiendes que puede hacer este producto por ti como compradora de carga agrícola?"* (meta: comprensión de la propuesta de valor para el comprador)
+2. *"Quieres crear una cuenta y entrar al sistema para probarlo. Hazlo."* (meta: onboarding)
+3. *"Estás esperando un pedido de papas para esta madrugada. Revisa en el sistema dónde se encuentra y cuál es su hora estimada de llegada (ETA)."* (meta: Real-Time Tracking — consulta de estado y mapa)
+4. *"Verifica si el transportista ha reportado alguna alerta o contingencia que vaya a demorar tu entrega."* (meta: Incident Management — revisión de notificaciones)
+5. *"Necesitas hacer una auditoría rápida de tus recepciones de la semana pasada. Encuentra el historial de operaciones concluidas."* (meta: Shipment Operations — historial y filtros)
+
+**Preguntas de cierre:**
+- En una escala del 1 al 10, ¿qué tan probable es que exijas a tus proveedores el uso de AgroFlet?
+- ¿Qué es lo que más te gustó?
+- ¿Qué cambiarías o mejorarías con mayor urgencia?
+
+---
+
+### 5.3.2. Registro de Entrevistas de Validación
+
+#### Segmento 1: Medianos Productores Agrícolas y Acopiadores
+
+| Segmento: Despachadores | Entrevista #1 |
+| --- |---|
+| Nombres y Apellidos | Andrea Villanueva |
+| Edad | 28 |
+| Distrito | Barranca |
+| Ocupación | Coordinadora Logística de Cooperativa Agraria |
+| Timming inicio | 9 minutos y 15 segundos |
+| Duración | 00:00:00 - 00:09:15 |
+| URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/personal/u20241f027_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f027_upc_edu_pe%2FDocuments%2FEntrevistaVALI-Agroflet.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.8dfaa48a-4423-4157-9d70-39943efbdc95)|
+| Screenshot | ![Screenshot Andrea](assets/images/EntrevistaValidacion_Andrea.png) |
+| Resumen | Durante la entrevista de validación, la participante Andrea Villanueva inició sesión en la plataforma y realizó distintas tareas para validar el funcionamiento de AgroFlet. Completó exitosamente los flujos de registro de unidades, choferes, creación de fletes y reporte formal de incidencias con recálculo dinámico del ETA. Validó positivamente la utilidad de la herramienta para eliminar la incertidumbre en carretera y contar con un respaldo auditado frente a los reclamos por merma. Calificó la navegación como ágil e intuitiva. Como sugerencia de mejora, mencionó la necesidad de incluir un campo para el número de Guía de Remisión electrónica y el teléfono del copiloto, además de sugerir que la plataforma ahorre consumo de datos en la vista del mapa cuando están en ruta. |
+
+| Segmento: Despachadores | Entrevista #2 |
+| --- |---|
+| Nombres y Apellidos | Carmen Lara |
+| Edad | 26 años |
+| Distrito | Huaral |
+| Ocupación | Por confirmar |
+| Fecha de entrevista | 13/11/2026 |
+| Timming inicio | 00:00:00 |
+| Duración | 00:09:35 |
+| URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQAxJaJvbuQYQLPgQrKwVw9UAYw40dCFArrsSfDKjhPNDhc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0Ycun2) |
+| Screenshot | ![Screenshot Carmen](assets/images/EntrevistaValidacion_Carmen.png) |
+| Resumen |Carmen  explicó que AgroFlet podría ayudarla a organizar los despachos y consultar el estado de los envíos sin depender de llamadas y mensajes constantes. Consideró útiles el registro de operaciones, la asignación de vehículos y conductores, y el seguimiento de la carga, especialmente cuando debe coordinar varios despachos en un mismo día. También señaló que el registro de incidencias permitiría informar al comprador cuando ocurra una demora. |
+
+
+#### Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento
+
+| Segmento: Compradores | Entrevista #1 |
+| --- | --- |
+| Nombres y Apellidos | Ariel León |
+| Edad | 27 |
+| Distrito | Santa Anita |
+| Ocupación | Comprador / Encargado de Abastecimiento |
+| Timming inicio | 9 minutos y 30 segundos |
+| Duración | 00:00:00 - 00:09:30 |
+| URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQDmQXVD2PqqSLyAKPwkScu6ARuBEX0KT2os_AArZO1sU10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ukkQH8) |
+| Screenshot | ![Screenshot Ariel](assets/images/EntrevistaValidacion_Web_Ariel.png) |
+| Resumen | Durante la entrevista, a Ariel León se le presentó la Landing Page V2 y el flujo operativo de recepción en la Web Application de AgroFlet. Navegó de manera fluida por la visualización de rutas en mapa, verificó el cálculo de la hora estimada de llegada (ETA) y consultó el historial de alertas por incidencias en carretera. Validó la gran utilidad de estas herramientas para planificar sus recepciones en la madrugada sin depender de llamadas constantes al transportista. Calificó la interfaz como clara y accesible desde móvil, manifestando su total conformidad con las funcionalidades actuales y resaltando que el sistema soluciona el problema de pagar "horas muertas" a las cuadrillas de descarga. |
+
+| Segmento: Compradores | Entrevista #2 |
+| --- | --- |
+| Nombres y Apellidos | Farit Santoyo |
+| Edad | 33 |
+| Distrito | Surco |
+| Ocupación | Encargado de Abastecimiento |
+| Timming inicio | 9 minutos y 24 segundos |
+| Duración | 00:00:00 - 00:09:24 |
+| URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f109_upc_edu_pe/IQDVP1i1OjC2RY4UVlL1VV4JAcEJZVYPZbntMPWRsrkLAeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SiUaY7) |
+| Screenshot | ![Screenshot Farit](assets/images/EntrevistaValidacion_Farit.png) |
+| Resumen | En esta sesión, Farit Santoyo evaluó la plataforma simulando la recepción de cargamentos de papas y cebollas. Se enfocó en la lectura oportuna del estado de los traslados y el mapa cartográfico. Consideró que la herramienta es extremadamente necesaria para los mercados de destino, ya que la comunicación actual por WhatsApp es deficiente. Comprobó que el sistema de alertas de retraso le permitiría reorganizar su espacio en almacén. Encontró el panel muy intuitivo, aunque sugirió que los filtros de historial mantengan sus parámetros guardados al salir y volver a la pantalla. Otorgó una puntuación alta en su intención de recomendar el sistema a sus proveedores. |
+
+---
+
+### 5.3.3. Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
+
+| Campo | Detalle |
+|-------|---------|
+| CARRERA | Ingeniería de Software |
+| CURSO | 1ASI0730 Aplicaciones Web |
+| SECCIÓN | NRC 12053 |
+| PROFESORES | Todos |
+| AUDITOR | NexaWeb Team |
+| CLIENTE(S) | Andrea Villanueva, Ariel León, Farit Santoyo |
+| SITE A EVALUAR | Landing Page: [Ver sitio](https://upc-pre-202610-1asi0730-agroflet.github.io/agroflet-website/) / Web Application: [Ver sitio](https://agroflet-frontend-application.vercel.app/) |
+
+---
+
+#### TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Navegación general del Landing Page y propuesta de valor.
+2. Inicio de sesión (login) y acceso según rol (IAM).
+3. Registro de flota vehicular y conductores.
+4. Programación de un nuevo flete agrícola.
+5. Monitoreo cartográfico en tiempo real de la carga.
+6. Registro y visualización de incidencias en ruta y recálculo de ETA.
+
+---
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser corregido a menos que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir con más frecuencia o es algo más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+#### TABLA RESUMEN
+
+| # | Problema | Severidad | Heurística / Principio violado | Módulo afectado |
+|---|----------|-----------|-------------------------------|---------------|
+| 1 | Falta campo para ingresar número de Guía de Remisión y teléfono del copiloto | 3 | Usability: Coincidencia entre el sistema y el mundo real | Shipments (Core) |
+| 2 | El mapa cartográfico consume muchos recursos iniciales en vista móvil (riesgo de datos) | 3 | Usability: Flexibilidad y eficiencia de uso | Tracking |
+| 3 | No se distingue visualmente con suficiente contraste la ruta planificada vs la posición reportada | 2 | Usability: Visibilidad del estado del sistema | Tracking |
+| 4 | Al crear una incidencia, no hay confirmación explícita (toast) de que el comprador ya fue avisado | 2 | Usability: Visibilidad del estado del sistema / Prevención de errores | Incidents |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+---
+
+##### 1. App — Operaciones de Envío (Shipments)
+
+**PROBLEMA #1:** Falta campo para ingresar número de Guía de Remisión y teléfono del copiloto
+
+- **Severidad:** 3
+- **Heurística violada:** Usability — Coincidencia entre el sistema y el mundo real
+- **Módulo afectado:** Shipments (Core)
+
+**Problema:**
+Según la retroalimentación de los usuarios despachadores, en la realidad agrologística peruana el documento legal fundamental es la Guía de Remisión Remitente, y la persona que se comunica durante la ruta suele ser el copiloto/ayudante (ya que el chofer va manejando). No contar con estos campos obliga al usuario a llevar un registro paralelo, restando utilidad al sistema centralizado.
+
+**Recomendación:**
+Añadir campos de texto opcionales para `Número de Guía de Remisión` y `Teléfono de Contacto en Ruta` dentro del formulario de creación de envío, utilizando el vocabulario propio del transportista.
+
+---
+
+##### 2. App — Monitoreo (Tracking)
+
+**PROBLEMA #2:** El mapa cartográfico consume muchos recursos iniciales en vista móvil
+
+- **Severidad:** 3
+- **Heurística violada:** Usability — Flexibilidad y eficiencia de uso
+- **Módulo afectado:** Tracking
+
+**Problema:**
+Al abrir el detalle de un envío desde un smartphone en zonas de baja conectividad (como fundos agrícolas o carreteras), la librería del mapa satelital intenta cargar de inmediato, ralentizando la pantalla y consumiendo rápidamente los datos móviles del usuario.
+
+**Recomendación:**
+Implementar carga diferida (*Lazy Loading*) para el mapa interactivo. Mostrar inicialmente la información en modo texto (Timeline de Estados) y colocar un botón explícito "Ver Mapa" para cargar la vista cartográfica solo a petición del usuario.
+
+---
+
+**PROBLEMA #3:** No se distingue visualmente con suficiente contraste la ruta planificada vs la posición reportada
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Visibilidad del estado del sistema
+- **Módulo afectado:** Tracking
+
+**Problema:**
+Dentro del mapa, la línea que traza la ruta sugerida y los marcadores de las posiciones reales reportadas por el GPS comparten colores o grosores similares, lo que dificulta que el usuario diferencie a simple vista el trayecto ideal de lo que realmente está recorriendo el camión.
+
+**Recomendación:**
+Aplicar un alto contraste cromático: utilizar una línea gris discontinua para la ruta planificada y una línea sólida o marcadores de color primario (verde o azul) para las coordenadas reales reportadas.
+
+---
+
+##### 3. App — Gestión de Incidencias
+
+**PROBLEMA #4:** Al crear una incidencia, no hay confirmación explícita de que el comprador fue avisado
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Visibilidad del estado del sistema / Prevención de errores
+- **Módulo afectado:** Incidents & Alerts
+
+**Problema:**
+Cuando el despachador registra un incidente (por ejemplo, un bloqueo en carretera) para justificar una demora, el sistema lo procesa y recalcula el ETA, pero no emite ningún *toast* o mensaje claro que indique "El comprador ha sido notificado exitosamente". Esto genera incertidumbre y provoca que el despachador igual termine llamando al comprador por teléfono para avisarle.
+
+**Recomendación:**
+Mostrar una alerta de éxito visual (modal o toast verde) inmediatamente después de registrar la incidencia con el texto: "Incidencia registrada. El nuevo ETA ha sido calculado y el comprador fue notificado automáticamente".
+
+---
+
+## 5.4. Video About-the-Product
+
+El Video About-the-Product presenta la propuesta de valor de AgroFlet a visitantes del Landing Page y usuarios potenciales del sector agrologístico peruano. El video sigue la siguiente secuencia de escenas:
+
+1. Problema y contexto (0:00 – 0:23): Apertura con el logotipo animado de AgroFlet, seguida de narración en off sobre la falta de visibilidad en el transporte terrestre de carga agrícola en el Perú, las pérdidas anuales superiores a 12 millones de toneladas de alimentos y los sobrecostos por tiempos muertos en descarga. Se muestran tomas de agricultores en campo realizando llamadas telefónicas y reportes noticiosos sobre mercadería perecible deteriorada en el mercado mayorista de Santa Anita.
+
+2. Propuesta de solución (0:23 – 0:38): Presentación de AgroFlet por parte del equipo NexaWeb como la plataforma web de control y trazabilidad logística que conecta el campo con los mercados mayoristas sin complicaciones ni hardware costoso. Se exhibe el logo de marca y un recorrido visual por la sección "¿Qué resuelve AgroFlet?" del Landing Page (rastreo, contratos digitales, reducción de pérdidas y red de confianza).
+
+3. Demostración de funcionalidades por segmento (0:38 – 1:18):
+
+    - Módulo Despachador / Productor (0:38 – 0:54): Navegación en vivo dentro del espacio del despachador (Rosa Quispe Huamán — Cooperativa Agraria Valle del Mantaro). Se muestra la gestión de flota en /fleet/vehicles (estados Disponible, Reservado, En mantenimiento), el centro de alertas por bloqueo de vía y el detalle de la operación AGF-0001 (papa amarilla desde Huancayo hacia Santa Anita) con opciones para iniciar traslado, registrar incidencias o marcar entrega.
+
+    - Módulo Comprador Mayorista (0:54 – 1:18): Navegación dentro del espacio del comprador (Luis Paredes Soto — Gran Mercado Mayorista de Lima). Se visualiza el panel "Tus envíos" con el mapa interactivo de rutas planificadas y posiciones reportadas, el historial filtrable de operaciones (AGF-0006), la vista de ruta planificada entre Huancayo y La Victoria, y las notificaciones tempranas de incidencias con recálculo de hora estimada de llegada (ETA).
+
+4. Modelo comercial, cierre y CTA (1:18 – 1:45): Presentación de los planes de suscripción escalonados en el Landing Page (Básico desde S/ 49 al mes, Estándar a S/ 129 y Profesional a S/ 299), demostración del modal de creación de cuenta con selección de perfil (Productor, Transportista o Comprador Mayorista) y cierre final con la pantalla del logotipo oficial de AgroFlet.
+
+El video incluye narración en off dinámica, música instrumental de fondo, capturas reales en pantalla de la Landing Page y de la Web Application en funcionamiento, e identidad visual consistente con transiciones fluidas entre escenas.
+
+![Screenshot About-the-Product](assets/images/portada_AgroFlet.png)
+
+**URL Microsoft Stream:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d920_upc_edu_pe/IQAzPubjd0OxQIOGsUXuLPs0AVgsUnHaVHfWITgMawNloxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gIJKaV)  
+**URL YouTube:** [Ver video](https://youtu.be/zOblLChW__c)
+
 **Acciones de mejora continua derivadas de la evaluación de TB1 (seguimiento para AV2)**
 
 | Criterio observado | Corrección documental incorporada | Verificación que aún requiere evidencia externa |
