@@ -1815,8 +1815,6 @@ Mostrar una alerta de éxito visual (modal o toast verde) inmediatamente despué
 
 ## 5.4. Video About-the-Product
 
-**Nomenclatura del archivo:** `upc-pre-202610-1asi0730-12053-agroflet-about-the-product-sprint-3`
-
 El Video About-the-Product presenta la propuesta de valor de AgroFlet a visitantes del Landing Page y usuarios potenciales del sector agrologístico peruano. El video sigue la siguiente secuencia de escenas:
 
 1. Problema y contexto (0:00 – 0:23): Apertura con el logotipo animado de AgroFlet, seguida de narración en off sobre la falta de visibilidad en el transporte terrestre de carga agrícola en el Perú, las pérdidas anuales superiores a 12 millones de toneladas de alimentos y los sobrecostos por tiempos muertos en descarga. Se muestran tomas de agricultores en campo realizando llamadas telefónicas y reportes noticiosos sobre mercadería perecible deteriorada en el mercado mayorista de Santa Anita.
