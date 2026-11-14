@@ -1655,15 +1655,16 @@ Las sesiones de validación siguen el protocolo de **User Testing con Think Alou
 
 | Segmento: Despachadores | Entrevista #2 |
 | --- |---|
-| Nombres y Apellidos | [Pendiente de realizar] |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Timming inicio | |
-| Duración | |
-| URL | |
-| Screenshot | |
-| Resumen | [Pendiente de realizar] |
+| Nombres y Apellidos | Carmen Lara |
+| Edad | 26 años |
+| Distrito | Huaral |
+| Ocupación | Por confirmar |
+| Fecha de entrevista | 13/11/2026 |
+| Timming inicio | 00:00:00 |
+| Duración | 00:09:35 |
+| URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQAxJaJvbuQYQLPgQrKwVw9UAYw40dCFArrsSfDKjhPNDhc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ%3D%3D&e=0Ycun2) |
+| Screenshot | ![Screenshot Carmen](assets/images/EntrevistaValidacion_Carmen.png) |
+| Resumen | Carmen Lara participó en una entrevista de validación de AgroFlet para el segmento de despachadores. La grabación está disponible en el enlace de esta tabla. |
 
 | Segmento: Despachadores | Entrevista #3 |
 | --- |---|
