@@ -1664,7 +1664,7 @@ Las sesiones de validación siguen el protocolo de **User Testing con Think Alou
 | Duración | 00:09:35 |
 | URL | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421618_upc_edu_pe/IQAxJaJvbuQYQLPgQrKwVw9UAYw40dCFArrsSfDKjhPNDhc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0Ycun2) |
 | Screenshot | ![Screenshot Carmen](assets/images/EntrevistaValidacion_Carmen.png) |
-| Resumen | Carmen Lara participó en una entrevista de validación de AgroFlet para el segmento de despachadores. La grabación está disponible en el enlace de esta tabla. |
+| Resumen |Carmen  explicó que AgroFlet podría ayudarla a organizar los despachos y consultar el estado de los envíos sin depender de llamadas y mensajes constantes. Consideró útiles el registro de operaciones, la asignación de vehículos y conductores, y el seguimiento de la carga, especialmente cuando debe coordinar varios despachos en un mismo día. También señaló que el registro de incidencias permitiría informar al comprador cuando ocurra una demora. |
 
 | Segmento: Despachadores | Entrevista #3 |
 | --- |---|
