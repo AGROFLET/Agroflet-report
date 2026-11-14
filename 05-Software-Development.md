@@ -1492,9 +1492,19 @@ La ejecución del backend API de AgroFlet expone correctamente sus servicios med
 El servidor procesa peticiones en tiempo real y gestiona persistencia con bases de datos MySQL, confirmando la superación de la fase de datos simulados (Mock).
 
 <p align="center">
-  <img src="assets/images/Scalar_API_Reference1.png" width="700" alt="Scalar Reference URL">
+  <img src="./assets/images/RENDER2.png" width="700" alt="Backend de AgroFlet en estado Live">
 </p>
-<p align="center"><em>Nota. Documentación centralizada en Scalar mostrando la URL del servidor en Render.</em></p>
+<p align="center"><em>Nota. Servicio de AgroFlet desplegado mediante Docker en Render, vinculado a la rama main y con estado Live.</em></p>
+
+<p align="center">
+  <img src="./assets/images/RENDER3.png" width="700" alt="Registros de ejecución del backend">
+</p>
+<p align="center"><em>Nota. Registros del despliegue exitoso y arranque del backend en el entorno Production, escuchando en el puerto 10000.</em></p>
+
+<p align="center">
+  <img src="./assets/images/ESCALARRRR.png" width="700" alt="Documentación de AgroFlet Platform API en Scalar">
+</p>
+<p align="center"><em>Nota. Documentación interactiva en Scalar que muestra la dirección del servidor en Render, la autenticación Bearer JWT y los endpoints de seguimiento, envíos y Health Checks.</em></p>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1574,11 +1584,35 @@ La gestión del ciclo de vida del software se realizó en el repositorio GitHub 
 
 Tal y como evidencia el registro histórico, la metodología se rigió por políticas de integración cruzada, donde cada "Feature" (`iam`, `fleet`, `shipments`, `tracking-incidents`, `quality-deploy`) desarrollada por un miembro era auditada e incorporada mediante *Merges* sistemáticos hacia las ramas de consolidación (`develop` / `main`). 
 
-<p align="center">
-  <img src="assets/images/Github_Commits_Agroflet1.png" width="700" alt="GitHub Commits Sprint 3">
-</p>
-<p align="center"><em>Nota. Registro de commits e integraciones (Merges) realizadas el 13 de noviembre de 2026 para consolidar el paso a producción en Render.</em></p>
+**Christoper Steven Rivas Castillo**
 
+![Contribuciones de Christoper Rivas](assets/images/COMMITS1.png)
+
+*Nota. El perfil CODERT0PH registra 111 commits, 2953 líneas añadidas y 1990 líneas eliminadas en el periodo mostrado.*
+
+**Bernie Aarón Rivas Méndez**
+
+![Contribuciones de Bernie Rivas](assets/images/COMMITS2.png)
+
+*Nota. El perfil ARivas3008 registra 74 commits, 1784 líneas añadidas y 674 líneas eliminadas en el periodo mostrado.*
+
+**Jose Alejandro Tello Lima**
+
+![Contribuciones de Jose Tello](assets/images/COMMITS3.png)
+
+*Nota. El perfil j4ndrow registra 39 commits, 1606 líneas añadidas y 656 líneas eliminadas en el periodo mostrado.*
+
+**César Alejandro Alca Morán**
+
+![Contribuciones de César Alca](assets/images/COMMITS4.png)
+
+*Nota. El perfil almocesar-cell registra 27 commits, 399 líneas añadidas y 48 líneas eliminadas en el periodo mostrado.*
+
+**Adriano Samir Centeno León**
+
+![Contribuciones de Adriano Centeno](assets/images/COMMITS5.png)
+
+*Nota. El perfil Adri11-dk registra 17 commits, 240 líneas añadidas y 96 líneas eliminadas en el periodo mostrado.*
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas de Validación
